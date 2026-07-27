@@ -1,0 +1,595 @@
+Abstract
+
+2 The Bestiary of Invisible Zoo. It stands as the embodiment of the interplay between human
+
+imagination and artificial intelligence.
+
+History and Prior Art
+
+In a technical context, this thesis is inspired by the recent trend in
+
+image editing methods that address the potential and challenges of
+
+finding semantic parameters inside latent vector spaces. Well-known
+
+GauGan[5] and DALL-E[6]. Artbreeder is a website built with StyleGAN
+
+and BigGAN[7] and it allows user to combine and manipulate images
+
+of landscapes, anime figures, portraits and many more kinds to
+
+produce different variations. GauGAN is a deep learning model
+
+which understands human doodles and turns them into realistic
+
+landscapes. It can be a powerful tool for people to fast prototype
+
+and make changes to their ideas. DALL·E is an image-generating
+
+model which creates images from text captions expressed in natural
+
+language. It demonstrates the ability to understand and render
+
+concepts of space, time, and even logic. The connection between
+
+semantics and the corresponding visual representations used in
+
+DALL-E is acquired from another model called CLIP[8]. CLIP is a
+
+zero-shot model which is trained on tremendously large datasets
+
+on images and their captions. It has the ability to identity the
+
+relationship between any given caption to an image and learn the
+
+connection between textual and visual representations of objects.
+
+CLIP is extremely powerful because it can learn semantics from
+
+natural language and also determine the related visual concept,
+
+which unlocks the opportunities for text-based image manipulation.
+
+Among these examples, I identified my opportunities by the fact
+
+that people often lack the direct control of the outcomes in an easily
+
+understandable way as what they usually do in a human creative
+
+process, and a good, intuitive interface for human creators to use is
+
+generally missing.
+
+3 GauGAN interface
+
+Other than GANs, Recent research on image synthesis has also found
+
+another interesting place called diffusion model, and there have been
+
+an increasing number of popular applications built with diffusion
+
+models such as DALL-E 2[9] and Disco Diffusion[10]. Although many
+
+people have argued that diffusion model outperforms GANs and
+
+is the new future of image synthesis, this thesis still focuses on the
+
+research and application of GAN because of the richness of existing
+
+literature and easy access to the code resources for implementation.
+
+On the other hand, in a creative context, this thesis draws inspiration
+
+from literature, such as the Chinese classics Shan Hai Jing[11] and
+
+the Book of Imaginary Being[12] by Jorge Luis Borges, and artists
+
+such as Luigi Serafini. Shan Hai Jing is a collection of Chinese
+
+mythological beasts and landscapes as well as a cultural account
+
+of the Chinese ancient world. It was treated as an invaluable legacy
+
+that embodies the fantastical and magnificent imagination of the
+
+Chinese ancestors. As I was born and raised in China, the mythical
+
+stories from Shan Hai Jing was an indispensable part of my early
+
+childhood and planted the seed of fantasy deep in my mind. Later on
+
+in my life, I was also intrigued by the mythologies and literature from
+
+all over the world across different cultures. In the Book of Imaginary
+
+Being, Jorge Luis Borges complied the stories of 116 strange
+
+creatures conceived through time and space by human imagination
+
+with twenty illustrations created by Peter Sís. Luigi Serafini’s Codex
+
+Seraphinianus[13] is another masterpiece in this category, one of the
+
+strangest but also most beautiful encyclopedias ever existed. The
+
+author created a window for us to look into a bizarre imaginary world
+
+in 300 pages of descriptions written in an imaginary language. As
+
+an artist and a designer, Serafini provides us with a speculative and
+
+provocative vision of a reality for inexplicable forms of life. Through the
+
+constructions of imaginary worlds and otherness, humans express
+
+themselves and perceive the world creatively. I see that there exists
+
+an analogy or similarity between the potentials of infinite human
+
+imagination and the high-dimensionality space of machine learning,
+
+and I want to draw the connection with a meaningful representation.
+
+According to my research, although there have been many attempts
+
+to use AI for image synthesis, they are rarely combined with
+
+compelling storytelling and world-building.
+
+4 Examples of human imagination in mythologies and literature: Shan Hai Jing from China, Codex
+
+Seraphinianus by Luigi Serafini
+
+Given the insights, this thesis is motivated by the opportunity to
+
+leverage the benefits of interacting with high dimensional latent
+
+spaces in deep learning and seamlessly integrate them into human
+
+imagination and human creative process. It hopes to catalyze new
+
+discussions around human-like communication between human and
+
+machine intelligence within the current landscape of generative deep
+
+learning through the construction of a playful scenario for creative
+
+engagement. I also feel motivated to speculate and ask the following
+
+questions about machine-augmented creativity: What is the role
+
+of human creators while they work with AI? Where is the boundary
+
+between what is created by the machine and what is created by the
+
+human? Another interesting point to make is that mythologies never
+
+have authors. We are unable to verify the origin of the myths. We just
+
+inherit them. They existed long before we were born and even before
+
+the world we live in was born. Such ambiguity of human evidence
+
+opens up more possibilities for artistic exploration and speculation
+
+on authorship and originality: Is it possible that our mythologies are
+
+created by non-human creative agencies? If machines are able to
+
+generate mythologies that are indistinguishable from human-written
+
+stories, will they pass on to become the new cultural legacy for future
+
+humanity?
+
+Method/Approach
+
+The approach of this thesis is to explore the high dimensional latent
+
+space of Deep Learning and metaphorize them as a realm between
+
+“reality” and “imagination” [14] with a poetic articulation of GANs in
+
+order to interpret the representations in the GAN latent space with
+
+meaningful rhetorics. It consists of two parts: an interactive human-
+
+AI co-creative process, the Generator, and a mythical world-building
+
+process, the Bestiary.
+
+In the Generator, people will interact with a generative system to
+
+provide feedback and goals on their ideal outcomes. The Bestiary is
+
+the embodiment of the interplay between human imagination and
+
+artificial intelligence: it will document the collaborative outcomes of
+
+human-AI co-creation.
+
+Process/Iterative work
+
+To build the Generator, I investigated a few existing GAN-based image
+
+editing methods and decided to choose StyleGAN2 ada because
+
+of the following reasons: first, styleGan2 is able to generate highly
+
+realistic images in a variety of domains and allows manipulations
+
+on the generated images using the latent spaces of the models;
+
+secondly, a recent work called StyleCLIP successfully combined the
+
+generative ability of StyleGAN with CLIP’s image-text embedding.
+
+This thesis will build upon the power of StyleCLIP to enable intuitive
+
+and user-customized text-based image manipulation. To build the
+
+Generator, I first trained a StyleGAN2 model using a customized
+
+dataset. The dataset consists of 3896 images of animal side views
+
+and body portraits, which I scraped from Flickr using an authorized
+
+API. Then I trained the customized StyleGAN2 model with StyleCLIP’s
+
+global CLIP directions and implemented a GUI developed by
+
+my colleague Titus Ebbecke that allows people to control the
+
+appearance of the generated beasts.
+
+To build the Bestiary, there are three majors steps included in this
+
+process: first, the Bestiary will take an image of the generated beast
+
+sent from the Generator as input and apply a mythical style to it;
+
+secondly, the Bestiary will generate a short anecdotal description of
+
+the beast based on the image information; thirdly, the image and the
+
+story will be added to a digital collection of mythology and together
+
+they will create a profile for the beast. After conducting investigations
+
+on several style transfer models, I decided to use the method called
+
+Fast Style Transfer for Arbitrary Styles, based on the model code
+
+and publication from Ghiasi et. al. [15]. The model allows fast artistic
+
+style transfer that works on almost any arbitrary painting style. I also
+
+incorporated the GPT-3 API in the Bestiary for text generation and
+
+mythical world-building.  All the code for building Invisible Zoo was
+
+written using Python and Flask in Google Colaboratory.
+
+5  A grid view of the unreal animals generated by StyleGAN 2 ADA using a customized dataset.
+
+6 Diagram on the implementation of Invisible Zoo.
+
+Through the process and iteration, I identified a few challenges in
+
+different phases of the development. First, because training a GAN
+
+requires tremendously large amounts of computational power, I ran
+
+the training instances using GPUs (2 Nvidia A100) through a virtual
+
+machine on the Google Cloud Platform. Due to the high cost of
+
+powerful GPUs and our limited budgets, the model only got to train for
+
+20 hours and therefore the performance is not ideal. Secondly, there
+
+have been many back-and-forth thoughts on the image stylization
+
+methods and aesthetics. The style I want to create is mythical and
+
+nonphotorealistic, either like an old painting or a pen sketch. I tried
+
+two distinctive approaches: fast style transfer using deep neural
+
+networks and sketch image processing using OpenCV. The style
+
+transfer approach generates images that look more similar to an old
+
+bestiary with more interesting and granular details of the beast. But
+
+the con is that it does not have a consistent performance: it works
+
+perfectly with images that have a clear background and fewer details
+
+but not with the opposite. The OpenCV approach creates images that
+
+are cleaner and more contemporary rather than mythical. But the pro
+
+is that it produces more consistent results across the image dataset.
+
+After several versions of iterations and discussion with different
+
+people, I decide to move on with the fast style transfer because it
+
+aligns more closely with the theme of myth and imagination. The last
+
+and the greatest challenge of this thesis is on the questions of how
+
+to engineer every part of the process together. The final system of
+
+Invisible Zoo should connect the Generator and the Bestiary and, at
+
+the same time, allows continuous inference for the image generation,
+
+which again requires powerful GPUs. The solution I used is to have
+
+both the Generator GUI and the Bestiary interface in Google Colab
+
+and render the two front-end websites using Flask-ngrok.
+
+The final design of Invisible Zoo is an interactive installation that
+
+allows people to create imaginary beasts and mythical stories. The
+
+installation comprises two parts, the Generator and the Bestiary,
+
+which are displayed through a TV monitor and an iPad respectively.
+
+The Generator is an interactive web-based system built with a pre-
+
+trained customized StyleGAN2 model on animal datasets. It allows
+
+people to manipulate the outcome of a generated beast by manually
+
+specifying a prompt that they want to achieve. On the left part of the
+
+TV monitor screen, people will see a knob, a slider, and a text entry
+
+box, vertically aligned with each other. The audience can enter a target
+
+prompt for each slider and then control how much of the image will
+
+be changed with respect to the prompt via moving the slider. People
+
+can also adjust how drastic the change will be, or the intensity of
+
+the change, by moving the knob on the top. On the right part of the
+
+monitor, the image of the generated beast will be displayed in real-
+
+time in response to any changes made. For example, if people want
+
+to have more elements of cat for their beast, they can type “cat” in the
+
+text entry box and adjust the slider and knob according to what they
+
+observe in the real-time image synthesis.
+
+7 The system interface of the Generator.
+
+8 The system interface of the Bestiary.
+
+After composing their ideal beast, the audience moves on to the
+
+Bestiary. The Bestiary serves as the most comprehensive collection
+
+of the beasts living in the Invisible Zoo. All of them are created by
+
+curious human beings together with artificial intelligence. On the iPad
+
+screen, people will see a digital mythology book with an image and
+
+a short paragraph of anecdote for each beast. They can flip through
+
+the book to unlock the whole collection. Once the audience clicks
+
+the “archive” button on the iPad screen, the Bestiary system will first
+
+apply a mythical style to the image that is currently displayed on the
+
+TV monitor. And then, according to the information that the audience
+
+provides through the prompt, the system will generate a short story
+
+with an embedded GPT-3 API. By these means, the audience is ready
+
+to archive the beast to the digital myth book so they can no longer be
+
+invisible.
+
+Discussion
+
+During the final critique presentation, I saw many people were excited
+
+about trying Invisible Zoo and wanted to contribute to the Bestiary
+
+with their personalized mythical beasts. Because the project as
+
+implemented is limited by relatively constrained access to GPU
+
+compute power and constrained time for software development,
+
+the whole interactive pipeline remains a simplified proof-of-concept
+
+version of a larger project. Right now the generative model is not
+
+robust enough to have consistently good performance across any
+
+text prompt. Additionally, both systems are hosted on Google Colab
+
+and the communication between the systems is through Google
+
+Drive, so at this moment, the process of achieving the animal from the
+
+Generator to the Bestiary is not optimized and is very inefficient. While
+
+the current implementation of Invisible Zoo does not actually support
+
+collective inputs on a large scale, it surely has the potential to face a
+
+larger public audience.
+
+There are also interesting discussions around the theme of
+
+mythology. I feel encouraged by the fact that people get excited and
+
+enjoy seeing the unexpected and playful absurdity that deviates
+
+slightly from their common perception and walks on the fine line of
+
+their epistemological boundaries. In this case, it is the animals that
+
+look familiar yet are not realistic. Additionally, there has been much
+
+feedback on how personal the audience felt about the story created
+
+in this context. Some stated that the Bestiary invoked many valuable
+
+memories that they had with their parents and how the power of myth
+
+and narratives can reflect and trace the history and value of a family
+
+and a culture.
+
+Future Work and Envisionments
+
+As a designer and an HCI researcher, I am passionate about
+
+designing novel interactions and curating digital experiences to
+
+better support and extend human creativity. I will continue to work on
+
+Invisible Zoo and the immediate next step is to solve the engineering
+
+issues and make it a public platform. I will also try to get more access
+
+to GPUs and continue to improve the robustness of my StyleGAN
+
+model. I want Invisible Zoo to be collective speculation on the
+
+nature of machine-augmented human imagination and raise some
+
+important questions that deserve more attention and consideration:
+
+Can AI make people more creative? Is it possible that machines will
+
+become the subject of creative work while designers or artists only
+
+provide feedback and action to them? Is it possible that artificial
+
+intelligence, with its potential in creative practice, will ultimately shift
+
+our understanding and definition of creativity?
+
+Conclusion
+
+In Invisible Zoo, people can create imaginary beasts and their
+
+mythical stories with the assistance of an AI co-creator. As a designer
+
+and HCI researcher, I investigated on the interplay between human
+
+imagination and machine intelligence and proposed an attempt to
+
+go beyond the traditional creative process in the context of human-
+
+AI co-creation. By mediating the conversation between humans and
+
+artificial intelligence, this thesis aims to translate and communicate
+
+insights from human imagination and high-dimensional deep
+
+learning networks and challenge the epistemological boundaries
+
+of both sides. Through the construction of a playful scenario, where
+
+humans make conversations with machines, Invisible Zoo stands as
+
+a reflection of the ambiguity, autonomy, authorship, and originality in
+
+9 The final setup of Invisible Zoo: the Generator and the Bestiary, displayed through a TV monitor
+
+and an iPad respectively.
+
+Reference
+
+1. Davis, N.M., Hsiao, C., Popova, Y., & Magerko, B. (2015). An Enactive
+
+Model of Creativity for Computational Collaboration and Co-creation.
+
+Creativity in the Digital Age.
+
+2. Karras, T., Aittala, M., Hellsten, J., Laine, S., Lehtinen, J., & Aila, T. (2020).
+
+Training Generative Adversarial Networks with Limited Data. ArXiv,
+
+abs/2006.06676.
+
+3. Brown, T.B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P.,
+
+Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-
+
+Voss, A., Krueger, G., Henighan, T.J., Child, R., Ramesh, A., Ziegler, D.M.,
+
+Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray, S.,
+
+Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever, I.,
+
+& Amodei, D. (2020). Language Models are Few-Shot Learners. ArXiv,
+
+abs/2005.14165.
+
+4. https://www.artbreeder.com/
+
+5. Park, T., Liu, M., Wang, T., & Zhu, J. (2019). Semantic Image Synthesis
+
+With Spatially-Adaptive Normalization. 2019 IEEE/CVF Conference on
+
+Computer Vision and Pattern Recognition (CVPR), 2332-2341.
+
+6. Ramesh, A., Pavlov, M., Goh, G., Gray, S., Voss, C., Radford, A., Chen,
+
+M., & Sutskever, I. (2021). Zero-Shot Text-to-Image Generation. ArXiv,
+
+abs/2102.12092.
+
+7. Brock, A., Donahue, J., & Simonyan, K. (2019). Large Scale
+
+GAN Training for High Fidelity Natural Image Synthesis. ArXiv,
+
+abs/1809.11096.
+
+8. Radford, A., Kim, J.W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S.,
+
+Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., & Sutskever, I.
+
+(2021). Learning Transferable Visual Models From Natural Language
+
+Supervision. ICML.
+
+9. Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., & Chen, M. (2022).
+
+Hierarchical Text-Conditional Image Generation with CLIP Latents.
+
+ArXiv, abs/2204.06125..
+
+10. https://github.com/alembics/disco-diffusion
+
+11. https://en.wikipedia.org/wiki/Classic_of_Mountains_and_Seas
+
+12. https://en.wikipedia.org/wiki/Book_of_Imaginary_Beings
+
+13. https://en.wikipedia.org/wiki/Codex_Seraphinianus
+
+14. Grba, D. (2022). Deep Else: A Critical Framework for AI Art.
+
+15. Ghiasi, G., Lee, H., Kudlur, M., Dumoulin, V., & Shlens, J. (2017).
+
+Exploring the structure of a real-time, arbitrary neural artistic
+
+stylization network. ArXiv, abs/1705.06830.

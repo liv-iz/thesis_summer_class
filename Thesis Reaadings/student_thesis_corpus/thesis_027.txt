@@ -1,0 +1,559 @@
+Abstract
+
+through Digital Synthesis. By innovatively introducing three technical modules (IMM, LEM, RM), this project improves the
+
+1 DxPOS augmented
+
+reality application for
+
+people to composite
+
+photos in 3D art
+
+anytime anywhere all
+
+at once
+
+If recent technological advances in 3D compositing
+
+and image processing are brought to bear, then
+
+existing practices surrounding fashion photography
+
+can become radically more accessible, and can put
+
+high-quality image production methods in the hands
+
+of everyday people.
+
+DxPOS innovatively improves existing techniques
+
+for combining 3D scanning and imaging which is
+
+expensive, difficult, tedious to use by transferring
+
+2D images as material texture to 3D scenes. The
+
+whole process has three modules: IMM(Image
+
+Matting Module), LEM(Light Estimation Module)
+
+and RM(Rendering Module). First, after the user
+
+uploads the image, the input image obtains
+
+the foreground image through IMM; Secondly,
+
+through the illumination estimation of the input
+
+image environment, the illumination parameters
+
+in the scene are obtained through LEM; Then
+
+use the foreground image information to replace
+
+the material, and add a light source to the input
+
+3D scene to simulate the original light source in
+
+the Input Image to increase the authenticity of
+
+the image. The original light source in the scene
+
+remains unchanged, and finally a high-quality
+
+rendered image is obtained through RM.
+
+The total pipeline proposed here is ambitious, and
+
+the project leaves certain technically-challenging
+
+aspects, such as light estimation and real-time
+
+rendering to future work.
+
+This project will contribute to the fashion and
+
+commercial photography industry and set off a new
+
+trend in social community and entertainment where
+
+ordinary people will all have access to generating
+
+avant-grade CG photos which is only for celebrities
+
+before.
+
+In the future, according to the development
+
+direction of DxPOS, I also hope to build a digital
+
+community dedicated to 3D artists, integrating a
+
+complete set of application processes including
+
+digital design resources, user scene synthesis, and
+
+enterprise cooperation.
+
+2 Virtual KOL
+
+Digital Fashion
+
+Digital Photography
+
+Metaverse Fashion Show
+
+History/Prior Art
+
+media has been helping people express fashion identities for a long time.
+
+between unedited and altered, genuine and counterfeit, tangible and conceptual, fact and fiction, fake and deep fake.
+
+has resulted in a more democratic and inclusive fashion landscape.
+
+films and video games. It is becoming a reality that people can purchase and wear in their everyday lives.
+
+With the technology revolution and the boost of artistic aesthetics, the fashion industry has gradually become a second
+
+language for individual expression for hundreds of years. We had the first physical space to share fashion aesthetics
+
+when Charles Frederick Worth founded the world’s first fashion house in 1858. Then in 1911, Edward Steichen shot
+
+the world’s first fashion lookbook, and fashion began to spread through images. Before entering the digital era, paper
+
+Today, more than 100 years later, we have entered the Metaverse where technology creates alternate realities and
+
+identities, a world of digital clones. In this world, digital fashion sprouted, and fashion has gradually been presented
+
+The digital era has created a new landscape for fashion. Social media has become the new catwalk, and everyone can
+
+be a fashion icon. With the rise of Instagram and other visual-centric social media platforms, fashion has become more
+
+accessible than ever before. Brands and individual influencers can reach a global audience with just a few clicks. This
+
+In this era, digital fashion has been around for a while, but it has only become mainstream in recent years. Designers
+
+have been using 3D software to create garments for the runway since the early 2000s. In 2006, Louis Vuitton
+
+collaborated with Second Life, the popular online game, to create a virtual version of its clothing and accessories. In
+
+2010, Balmain released a line of digital clothing that could be purchased and downloaded for avatars to wear in Second
+
+Life. Digital fashion has also been featured in mainstream films and television. In the 2013 film The Great Gatsby,
+
+production designer Catherine Martin created a line of virtual clothing for the film’s characters to wear. The line was
+
+inspired by real-life fashion from the 1920s and was made to look as realistic as possible onscreen. Digital fashion is not
+
+just for movie characters or avatars anymore. In 2017, fashion designer H&M released a line of clothing that could be
+
+purchased and downloaded for the popular video game, Minecraft. The line was created in collaboration with Swedish
+
+game developer Mojang and featured clothing for both men and women. Digital fashion is also being used in the real
+
+world. In 2018, Burberry released a line of clothing that could be purchased and downloaded for use in the popular
+
+augmented reality game, Pokémon Go. The line was designed to be worn by avatars in the game and featured clothing
+
+such as t-shirts, sweatshirts, and jackets. Digital fashion is no longer just a concept or something that is only seen in
+
+3 2022 Balenciaga Clones
+
+Show
+
+The 3D scanning technology, which is based on
+
+the traditional photogrammetry method, uses the
+
+new technology of photogrammetry to obtain the
+
+developed photogrammetry 3D scanning software
+
+to complete the 3D reconstruction of the human
+
+body. A realistic 3D human model can be used
+
+to generate a variety of 3D fashion images by a
+
+new 3D reconstruction method. The 3D scanning
+
+technology can be used to obtain the image of
+
+the human body in a variety of poses, and the
+
+generated 3D fashion images can be used to
+
+explore the fashion identity in a digital world.
+
+For example, digital artist and fashion photographer
+
+Frederik Heyman uses 3D scanning technology to
+
+scan human models into 3D files and put them into
+
+digital scenes for rendering. The empowerment of
+
+digital technology provides Heyman’s photographic
+
+work with a unique form of visual artistic expression.
+
+He said: “I use 3D scanning technology to freeze
+
+a moment in time and create digital installations
+
+from the relics of the past. It is not only preserving
+
+the past but also recycling the present and trying
+
+to shape the future. These photos, Whether it’s
+
+based on reality or fiction, they tell us how people
+
+want to remember things, and how they want to
+
+be remembered. They reveal the desire to conquer
+
+time, space, and physical existence.” This is the
+
+magic of incorporating digital art into photography.
+
+As a pioneer in breaking through two-dimensional
+
+photography, Heyman has produced a lot of
+
+creative output and cooperated with various
+
+brands, but due to the expensive equipment and
+
+cumbersome process required for body scanning,
+
+although these technologies have been gradually
+
+applied to the fashion industry and have made
+
+some innovative contributions to the presentation
+
+of fashion images, technical barriers have resulted
+
+in this application not being available to the public
+
+openly, digital photography is still limited to
+
+traditional fashion paper media such as magazines
+
+and image communication of luxury brands.
+
+On the other hand, 2D image processing
+
+technologies have been mature enough in the
+
+market. For example, the development of the Virtual
+
+Try-on (VTON) field has provided very fast and real
+
+image processing effects. Compared with AR, VTON
+
+is based on real images instead of 3D models.
+
+Through machine learning, it is faster to fit clothing
+
+5 Define Beauty: Virtual
+
+Using the principle of
+
+Embalming,
+
+close-range photogram­
+
+Isabelle Huppert is memori­
+
+metry, the camera array
+
+alised by Frederik Heyman
+
+can instantly capture
+
+in their ultimate fantasies.
+
+all-round information of
+
+https://www.frederikhey­
+
+Isabelle Huppert to make
+
+man.com/VirtualEmbalming
+
+a 3D model.
+
+people.
+
+6 Comparison between the
+
+process of Heyman’s
+
+work and DxPOS
+
+Method/Approach
+
+to the target user and make the appearance look super realistic.
+
+Like other image processing technologies, VTON is based on real
+
+images. There is no need to build 3D models, so it is more efficient
+
+and easier to implement.
+
+If recent technological advances in 3D compositing and image
+
+processing are brought to bear, then-existing practices surrounding
+
+fashion photography can become radically more accessible and can
+
+put high-quality image production methods in the hands of everyday
+
+This would allow for a much more democratized fashion industry,
+
+where anyone with a camera and a computer can create stunning
+
+fashion photography without the need for expensive equipment or
+
+professional studios. In the past, fashion photography has been the
+
+domain of professional photographers with expensive equipment
+
+and access to high-end studios. However, 3D compositing and
+
+image processing can make it possible for everyday people to
+
+create stunning fashion photography using nothing more than a
+
+camera and a computer.
+
+This democratization of fashion photography has the potential to
+
+radically transform the fashion industry, making it more accessible
+
+and inclusive. It also has the potential to allow people to express
+
+themselves creatively in new and innovative ways.
+
+fashion photos.
+
+and Vray.
+
+quality rendered image is obtained through RM.
+
+The total pipeline proposed here is ambitious,
+
+and the project leaves certain technically-
+
+challenging aspects, such as real-time rendering
+
+to future work. Our goal is to show the potential
+
+of learning-based methods for solving the
+
+problem of visual-spatial reasoning.
+
+Compared with the process of Frederik Heyman’s work, my project DxPOS innovatively improves existing techniques
+
+for combining 3D scanning and fashion photography which is expensive, difficult, and tedious to use by transferring
+
+2D images as material texture to 3D scenes. By innovatively introducing three technical modules (IMM, LEM, RM), this
+
+project improves the technical barriers of digital photography and provides an effective way for all people to compose
+
+The three modules in the whole process are IMM(Image Matting Module), LEM(Light Estimation Module), and
+
+RM(Rendering Module). The image matting module is a method of image segmentation, which is to accurately extract
+
+the foreground and background of a given image. It is the first step of the whole process. The module is based on
+
+the color, gradient, and structure information in the image to obtain the foreground and background. Light Estimation
+
+Module is a module that uses the color and gradient information in the image to estimate the lighting parameters of
+
+the environment. The lighting parameters include the color temperature, the ambient light intensity, and the direction
+
+of the dominant light. It computes the lighting parameters of the environment from the image captured by the camera
+
+and uses the computed lighting parameters to produce an enhanced image. The RM module renders a realistic image
+
+by using existing 3D software in the market like Cinema 4D, Maya, Blender, and rendering engines like Octane, Redshift,
+
+To experience the whole Dxpos procedure. First, users need to upload their images, the input image obtains the
+
+foreground image through IMM; Secondly, through the illumination estimation of the input image environment, the
+
+illumination parameters in the scene are obtained through LEM; Then use the foreground image information to replace
+
+the material, and add a light source to the input 3D scene to simulate the original light source in the Input Image to
+
+increase the authenticity of the image. The original light source in the scene remains unchanged, and finally, a high-
+
+8/9 Technology roadmap of
+
+DxPOS demo effect
+
+DxPOS including IMM, LEM,
+
+RM modules
+
+Process/ Iterative work
+
+In order to test the feasibility of the above modules, the
+
+primary task of this project is to introduce new automation
+
+functions through python scripts on the modeling software,
+
+realize automatic rendering of input images, and realize the
+
+operation of the RM module. The project selected Cinema
+
+4D as the experimental platform and the Octane R engine
+
+for rendering. Both applications have mature markets and
+
+are widely used by designers and photographers in the field
+
+of fashion virtual photography. After loading the written
+
+python script into cinema 4D, the program performs well.
+
+The processed input images dataset can be automatically
+
+synthesized and stored in another file locally.
+
+The next goal is to implement the first IMM module. This
+
+module is mainly based on image segmentation technology,
+
+which has mature API available in the market. This project
+
+selects the removebg function of Kaleido Company. By
+
+calling the API tool provided by the company, it can quickly
+
+realize the precise cutting of portrait and background.
+
+The LEM module is a technical difficulty of the project and
+
+requires subsequent data training, which is not the focus
+
+of this design. However, the overall technical route has
+
+been proven feasible, so DxPOS will focus on the product
+
+experience under this premise.
+
+In order to better implement this technology into
+
+applications, DxPOS is designed as an AR application. So
+
+that people can shoot fashion synthesized photos anytime
+
+anywhere all at once.
+
+At the beginning, the project hopes to load the 3D scene into AR as a whole, and realize the real interaction between
+
+people and the 3D scene through the AR Depth Core. The test shows that although the basic functions can be achieved,
+
+the effect is not satisfactory. The transition between people and the edges of the scene is very unnatural, and there
+
+are also problems with loading multiple large 3D scenes into the application. Later, in order to solve this problem and
+
+optimize the user experience, the project introduced the concept of Portal. This form has been widely used in the
+
+market in recent years. For example, in Apple's press conference, the Portal was used to allow users to enter a new
+
+world through AR to experience Apple company culture. DxPOS adopts the same solution, Portal can deepen the user's
+
+impression of the concept of virtual studio and experience the interaction between virtual and reality, thus highlighting
+
+the difference between 3D scenes and ordinary real studio scenes.
+
+user walks around, the scenery in the virtual space will follow the changes, just like in an exhibition hall.
+
+create a virtual portal. The user experience includes several parts.
+
+complex procedure of the 3D scene, the user can view the composite image in the background or in the mailbox.
+
+In order to better manage different scene categories, I designed a page with the concept of showroom for the
+
+application interface of DxPOS. In this page, each showroom represents a theme and includes all related 3D scenes
+
+under the theme. After selecting a showroom, you can enter a specific portal. The user needs to walk in the physical
+
+space to enter the portal, and this experience also deepens the feeling of alternating between virtual and reality. After
+
+entering the portal, a new world will appear. In this world, 3D scenes are displayed in the form of images and videos. This
+
+way reduces the complexity and difficulty of building the entire project, so Unity can accommodate a large number of
+
+3D scenes which solves the previous problem. In the new world, users can interact with the physical space. When the
+
+The Final DxPOS AR application is built with Unity and Cinema 4D and uses AR core and AR Foundation SDK in Unity to
+
+After logging into the DxPOS application, users can choose to enter different exhibition rooms, each room has a specific
+
+theme to display different 3D scenes. After selecting the showroom, DxPOS will open a portal to the user, which is not
+
+affected by time and place and can appear in the physical environment anytime, anywhere. Users need to walk into
+
+the portal, and they will enter a virtual world, in which users can browse, watch 3D scenes, and choose their favorite
+
+scenes to composite. Click the composite button to jump to the photo page, where users can upload or take photos on
+
+the spot, and the photos are then sent to the cloud server for processing. After waiting 5-30 minutes according to the
+
+11 Unity project building DxPOS AR App Interface design 10
+
+Discussion
+
+In the metaverse, people always seem to like to discuss digital products such as digital clothing, virtual people, etc., but
+
+ignore the energy contained in 3D art as an architectural unit that carries elements of the metaverse world. At the same
+
+time, people always pay more attention to the innovation of digital assets and 3D technology under web3, including
+
+AR and VR, but ignore the progress in application and practice of our proud image processing technology. We may
+
+be confused by the concept of metaverse and enter a false world full of illusions. We should pay more attention to
+
+the underlying design logic and create a sustainable ecosphere for the 3D world for the stakeholders including users,
+
+creators, artists, application software, etc.
+
+In the future, the DxPOS system can be used for other purposes in the photography business. For example, it can be
+
+mixed and matched with other projection technologies for CG blockbuster and green screen synthesis. DxPOS is also
+
+working on a new content production with a team of artists, which is still in the concept stage.
+
+Furthermore, according to the development direction of DxPOS, I also hope to build a digital community dedicated to 3D
+
+artists, integrating a complete set of application processes including digital design resources, user scene synthesis, and
+
+enterprise cooperation. On this platform, 3D artists will be encouraged to upload their 3D work, and users will have the
+
+opportunity to composite themselves into these great works.
+
+Conclusion
+
+I really learned a lot in this graduation project, and through independent study, I carried out a complete project
+
+combining technology and design. At the same time, this project will lead me to further explore in the field of digital
+
+fashion, which guides my career orientation to a certain extent. I feel proud of my project DxPOS. This project will
+
+contribute to the fashion and commercial photography industry and set off a new trend in social community and
+
+entertainment where ordinary people will all have access to generating avant-grade CG photos which is only for
+
+celebrities before. This will break down the barriers to the application of 3D art, linking art to everyone in an easy and
+
+entertaining way, this is my macro vision on 2D and 3D interaction, and I think this is one of the contributions of the so-
+
+called metaverse and XR era should truly make.

@@ -1,0 +1,163 @@
+Abstract
+
+This thesis examines AI infrastructure sustainability as a problem of how environmental impact gets translated into product experiences. I ask how corporate sustainability nar­ ratives around AI become believable, and how design can surface the greenwashing mechanisms inside “responsible AI” interfaces.
+
+I present AIter, a speculative corporate program set in 2050, built as a connected system: a website plus three physical devices. The Scanner outputs a binary Eco Score to perform selective disclosure. The Slider panel lets users “balance” water, electricity, and minerals, shifting structural respon­ sibility into personal settings. The Printer turns AI use into credits and daily certificates, commoditizing virtue.
+
+Through critique-based evaluation and walkthrough testing, AIter shows how polished interfaces and tangible objects can make sustainability claims feel official while leaving infrastructure unchanged. The thesis contributes a design lens on greenwashing in AI: scores, sliders, and rewards as environmental governance-by-UX, and a provocation for more accountable approaches to ai infrastructure sustain­ ability.
+
+Thesis.indd   4 Thesis.indd   4 2025/12/18   21:59 2025/12/18   21:59
+
+AIter: Materializing AI
+
+Sustainability Greenwashing
+
+by Jieru Lin
+
+of the requirements for the degree of
+
+Master of Design
+
+Thesis.indd   5 Thesis.indd   5 2025/12/18   21:59 2025/12/18   21:59
+
+INTRODUCTION
+
+The rapid proliferation of artificial intelligence has fundamentally transformed digital consumption patterns, with generative AI tools like ChatGPT attracting over 100 million weekly active users within months of launch [1]. Yet this unprecedented adoption obscures a significant envi­ ronmental paradox: generating responses through large language models can consume approximately 500ml of water for every 10-50 queries, with AI’s global water withdrawal projected to reach 4.2-6.6 billion cubic meters by 2027 - “more than the total annual water withdrawal of four to six Denmarks or half the U.K.” [2, p. 56]. Despite these substantial costs, users remain largely unaware of AI’s material footprint, perceiving digital interactions as inherently ‘clean’ and costless.
+
+This invisibility is not accidental. Technology corporations increasingly deploy ‘greenwashing’ - deceptive marketing practices that convey mis­ leading impressions of environmental responsibility [3, p. 1]. As de Freitas Netto et al. explain, greenwashing represents “the intersection of two firm behaviours: poor environmental performance and positive communication about environmental performance” [3, p. 2]. Major AI providers exempli­ fy this pattern, promoting “Water Positive by 2030” commitments while simultaneously expanding energy-intensive datacenter infrastructure [2, p. 56]. Research demonstrates that such misleading claims erode consumer trust and undermine genuine sustainability efforts [4, pp. 719-720], yet existing interventions - primarily utilitarian carbon calculators - fail to engage the emotional dimensions necessary for meaningful change.
+
+This thesis responds through speculative design, a critical practice that uses provocative future scenarios to challenge assumptions about tech­ nology’s role in society [5, p. 6]. We present AIter, a fictional corporate sustainability program set in 2050 that satirically embodies three green­ washing mechanisms through physical ritual devices: selective disclosure, burden-shifting to individuals, and commoditized virtue. By designing artifacts that feel plausible yet absurd, we aim to make visible the hidden costs of everyday AI usage, expose corporate greenwashing mechanisms, and challenge systems to respond to a more informed, skeptical public. Our approach recognizes that greenwashing exists across “shades” of organizational behavior [4, p. 734] and that combating it requires affective engagement that transforms how users feel about their digital consump­ tion.
+
+Thesis.indd   6 Thesis.indd   6 2025/12/18   21:59 2025/12/18   21:59
+
+BACKGROUND
+
+Speculative Design as Critical Practice Speculative design emerged as a methodology for using design artifacts to provoke reflection on possible futures. Dunne and Raby’s foundational work Speculative Everything [5, p. 2] established the practice as distinct from commercial design, arguing that designers should ask ‘what if’ questions rather than solving predetermined problems. Their approach cre­ ates ‘design fictions’ that feel plausible enough to be believable yet strange enough to defamiliarize assumptions about technology [5, p. 34]. As shown in Fig. 1, the project moves from scenario space to artifact space.
+
+Fig. 1. Double Diamond of Speculative Design used as a process map for AIter. Adapted from [23]
+
+Within HCI, this has evolved into what Blythe terms ‘research through design fiction’ [6, p. 703], where fictional scenarios serve as both research method and knowledge contribution. Auger argues that speculative design works best when it occupies the ‘sweet spot’ between the fantastic and the familiar [7, p. 22] - close enough to seem possible, strange enough to provoke critical thought. Bardzell and Bardzell [8, p. 3298] extend this through critical design, which explicitly engages with power structures and ideological critique, revealing how designed artifacts embody and perpetuate particular worldviews. DiSalvo’s ‘adversarial design’ [9, p. 8] further develops this stance, showing how designed interventions can deliberately create productive friction that surfaces hidden contradictions in sociotechnical systems.
+
+Thesis.indd   7 Thesis.indd   7 2025/12/18   21:59 2025/12/18   21:59
+
+Greenwashing and Corporate Environmental Communication Greenwashing - conveying misleading impressions about environmental performance - has become increasingly sophisticated. Lyon and Mont­ gomery [10, p. 225] theorize greenwashing as ‘strategic self-presentation’ that manages stakeholder perceptions while minimizing actual behavioral change.
+
+Research demonstrates that perceived greenwashing erodes consumer trust and creates cynicism that undermines even legitimate sustainability efforts [5, p. 721] - a ‘pollution halo’ effect where skepticism spreads beyond guilty parties. Brevini’s work on carbon capitalism and communication [11, p. 2] shows how tech companies promote sustainability initiatives while expanding energy-intensive infrastructures. Her analysis of AI’s en­ vironmental mythologizing [12, p. 3] reveals how technological discourse systematically avoids considering material costs, creating what she terms a ‘deafening silence’ on digital technologies’ ecological impacts.
+
+This creates a dangerous feedback loop: sustainability concerns drive de­ mand for AI optimization, which requires expanded infrastructure, which necessitates more sustainability messaging to maintain legitimacy.
+
+The Environmental Footprint of AI AI’s material costs have only recently entered mainstream discourse. Strubell et al.’s landmark study [13, p. 3645] revealed that training a single large language model can emit tmore carbon than five cars over their entire lifetimes. Li et al. [2] expanded this analysis to include water con­ sumption, showing that AI models require substantial freshwater for data center cooling.
+
+Crawford and Joler’s ‘Anatomy of an AI System’ [14] maps the full supply chain of an Amazon Echo, revealing vast networks of extraction, labor, and environmental impact that extend beyond electricity to rare earth min­ ing and e-waste.
+
+Recent interventions have attempted to make these costs visible through carbon tracking tools [15] and computational carbon footprint calculators [16]. However, as Brynjarsdóttir et al. [17, p. 949] argue in their critique of ‘sustainable HCI,’ providing information alone rarely changes behavior without addressing underlying values and social contexts - a limitation that motivates AIter’s turn to speculative design.
+
+Thesis.indd   8 Thesis.indd   8 2025/12/18   21:59 2025/12/18   21:59
+
+Positioning AIter AIter builds on these literatures by combining speculative design’s provoc­ ative methodology with critical analysis of greenwashing in AI contexts. Where existing interventions focus on information provision, we use designed artifacts to make corporate greenwashing mechanisms tangible and absurd. This extends recent ‘dark patterns’ research [18, p. 2] - which examines how interfaces manipulate behavior - to environmental commu­ nication. By designing objects that reveal rather than conceal their manip­ ulative mechanisms, we aim to cultivate what Sengers et al. call ‘reflective design’ [19, p. 50] - design that helps users question the values embedded in technological systems.
+
+AI infrastructure sustainability is becoming a near-term design problem, not a concern reserved for engineers. Generative AI now sits in every­ day workflows, but its material costs remain largely hidden at the point of use. When routine interaction scales to infrastructure, the stakes shift from individual “usage” to collective resource demand. Li et al. translate this hiddenness into concrete water demand, estimating roughly 500 mL of freshwater withdrawal per 10-50 LLM queries (depending on site and season) and projecting large aggregate impacts under widespread adoption [2, p. 56].
+
+At the system level, data centers already represent a major electricity load; Masanet et al. estimate around 205 TWh of global data center electricity use in 2018 and note that rapid compute growth can offset efficiency gains [20, p. 985]. Energy demand also links directly to emissions when grids remain carbon-intensive; Strubell et al. argue that unreported compute and energy costs distort decision-making and hide real environmental tradeoffs across model development choices [14, p. 3645].
+
+Henderson et al. push this further by calling for systematic reporting of energy and carbon footprints as a basis for comparison and accountability across ML work [22, p. 1]. Material supply chains make the story even less “virtual,” as the AI stack depends on extraction, logistics, and labor that sit far from the user interface [15].
+
+Thesis.indd   9 Thesis.indd   9 2025/12/18   21:59 2025/12/18   21:59
+
+This visibility gap creates incentives for narrative control. Greenwashing scholarship defines greenwashing as the intersection of poor environ­ mental performance and positive environmental communication [3, p. 2]. Lyon and Montgomery describe it as strategic self-presentation that manages stakeholder perception while limiting substantive change [11, p. 225]. Delmas and Burbano connect greenwashing to incentive struc­ tures where reputational benefits arrive quickly while verification remains weak, making symbolic action a rational strategy for firms [21, p. 65]. In practice, this can erode consumer trust and shift responsibility away from institutions and toward individuals [4, pp. 719-720]. For AI, the risk is that “sustainable AI” becomes a branding layer that smooths public concern while leaving underlying resource demands intact.
+
+Design becomes relevant because interfaces mediate how responsibility is assigned and how sustainability is felt. Sustainable HCI argues that information provision alone rarely changes behavior without engaging values, social context, and power relations [18, p. 949]. Reflective design offers a compatible approach: it uses artifacts and interactions to prompt people to question the values embedded in sociotechnical systems rather than accept them as defaults [20, p. 50]. Sustainable Interaction Design emphasizes life-cycle thinking—how invention, disposal, renewal, and reuse get shaped through design decisions [23, pp. 503-512]. Knowles et al. add a pragmatic critique: “Plan A” narratives that rely on small indi­ vidual behavior changes can distract from structural leverage points [24, pp. 3593–3596]. Speculative design provides a method for engaging those structural questions through plausible futures and tangible artifacts [6, p. 2], and it fits the goal of making hidden infrastructure legible in everyday terms [5, p. 6]. At the same time, design research on dark patterns warns that interfaces can also manipulate attention and responsibility through defaults and framing [19, p. 2].
+
+AIter responds by treating a corporate sustainability program itself as an interface. Set in 2050, it extrapolates current branding and incentive structures into a subscription model that packages ecological responsibility as consumer participation. The three signup devices materialize distinct greenwashing mechanisms - selective disclosure, burden shifting, and commoditized virtue - so audiences can experience how “responsible AI” can be operationalized as ritual, default, and convenience. By translating infrastructure into enrollment interactions, AIter makes AI infrastructure sustainability discussable at the level where people actually encounter AI:
+
+Thesis.indd   10 Thesis.indd   10 2025/12/18   21:59 2025/12/18   21:59
+
+products, policies, and corporate programs that shape what responsibility looks like in practice.
+
+This project treats ai infrastructure sustainability as an interaction and communication problem, not only an engineering one. I built AIter using a research-through-design-fiction stance: a fictional but plausible cor­ porate program, anchored in material artifacts, that lets people feel how “responsible AI” can be packaged as a consumer ritual rather than struc­ tural change [6, p. 703]. The goal was to translate abstract infrastructure impacts into a legible enrollment experience, then use that experience to surface three specific greenwashing mechanisms.
+
+1) Scoping and evidence gathering (desk + precedent research) I started with desk research on the material footprint of AI infrastructure (energy, water, extraction) and on how sustainability claims get com­ municated and contested. In parallel, I reviewed existing sustainability interventions—especially utilitarian “calculator” formats—and noted a recurring limitation: they often deliver information but fail to create the emotional friction that makes people question the system producing the harm. This gap became a design constraint: AIter needed to avoid “helpful dashboards” and instead model how dashboards can become part of the problem.
+
+2) Translating theory into a system concept I mapped greenwashing into three mechanisms that could be performed through interaction: selective disclosure (performing a score that hides the corporate black box), burden shifting (reframing systemic issues as indi­ vidual choice), and commoditized virtue (selling symbols of repair that do not repair). I then designed the AIter “closed loop” system as an ecosystem rather than a single object: a website storefront and service layer, a brand­ ing package, and three enrollment devices that together choreograph what the program calls “climate positive AI.”
+
+3) Prototyping as critique (pivots, failures, and iteration) Early sketches leaned too close to literal sustainability tooling (e.g., trans­
+
+Thesis.indd   11 Thesis.indd   11 2025/12/18   21:59 2025/12/18   21:59
+
+parent metrics and behavior tips). Critique sessions pushed a pivot: if AIter looked purely instructional, it risked reproducing the same moralizing pattern it aimed to challenge. I shifted toward Dunne and Raby’s “believ­ able yet strange” balance, using plausible corporate UX language while exaggerating its rituals and rewards [5, p. 34]. That pivot changed the form language: instead of an “explanatory” object, each device became a small ceremony that produces reassurance. I iterated the physical interface three times, moving from a simple me­ chanical box toward a translucent, glowing handheld object intended to feel polished and consumer-friendly. Across iterations, I adjusted (a) affor­ dances (how the hand triggers the system), (b) feedback (how results look “objective”), and (c) interpretability (how little the system reveals while still feeling credible). This iterative loop let me tune each artifact to com­ municate a different manipulation tactic rather than simply demonstrating electronics.
+
+4) Building the three devices and integrating the flow The final artifacts operationalize the mechanisms through distinct input– output patterns.
+
+The Scanner triggers a user input and returns a scored display result.
+
+Thesis.indd   12 Thesis.indd   12 2025/12/18   21:59 2025/12/18   21:59
+
+The Slider sends a continuous “choice” signal to the website.
+
+The Printer combines a trigger, a dual-output protocol, and an explicit consequence (system lock).
+
+I treated these interactions as reflective design prompts—objects that make the user pause and interrogate what values the system embeds and what it omits [19, p. 50]. In the completed enrollment sequence, AIter moves users from anxiety toward manufactured “clarity, control, validation,” explicitly framing reassurance as a product outcome rather than a climate outcome.
+
+OUTCOME For AI infrastructure sustainability, the final outcome is AIter: a specula­ tive corporate program set in 2050 that packages “climate positive AI” as a consumer subscription. The finished artifact is a connected ecosystem, not
+
+Thesis.indd   13 Thesis.indd   13 2025/12/18   21:59 2025/12/18   21:59
+
+object: a website (service layer + storefront), a branding package, and three physical devices that stage an enrollment ritual (Scanner → Slider → Printer).
+
+System structure and interaction flow. AIter begins on the website with a guided, three-step “check-in” that matches the three objects. The website frames participation as quick, repeatable, and reassuring, while the physical kit makes the program feel official and productized. In the closed loop, the website promotes the program and sells the kit; the kit produces “results” and “progress”; those outputs feed back into the website’s narrative of responsible use.
+
+Thesis.indd   14 Thesis.indd   14 2025/12/18   21:59 2025/12/18   21:59
+
+Device 1: Scanner (Selective Disclosure) The Scanner is a one-hand, ergonomic handheld object designed to feel like a polished consumer diagnostic tool. A side sensor detects an elec­ trical context, and a single button triggers the reading. Its round display stages a simple sequence: an initial “press” prompt, an expanding anima­ tion that performs “analysis,” and a final binary Eco Score result (Good/ Bad). That score syncs to the website, so the user receives the same verdict in both places. The point is not accuracy; it is the performance of legibility that hides the corporate black box behind a tidy score.
+
+Device 2: Slider panel (Shifting the Burden) The energy-management panel materializes “choice” as three physical sliders representing water, electricity, and minerals. As users move the sliders, the system transmits continuous values to the website, which re­ sponds by expanding or shrinking color fields mapped to those resources. This interaction feels like control, but it reframes a systemic, corporate infrastructure problem as individual calibration - turning AI infrastructure sustainability into a personal settings task.
+
+Thesis.indd   15 Thesis.indd   15 2025/12/18   21:59 2025/12/18   21:59
+
+Device 3: Printer (Commoditized Virtue) The Printer displays a running “credits left” counter for daily AI usage. As “usage” increases, credits drop faster, presenting scarcity as a moral economy. At the end of a session (or day), users press a button to generate a printed certificate that summarizes their consumption as an achievement or milestone. The device adds an explicit consequence (a system halt/ lock state) to make restraint feel like a feature of the program rather than a structural demand placed on industry.
+
+Evaluation and evidence We evaluated the final version through in-studio walkthrough testing using the full kit: participants used the website on a laptop while scanning, ad­ justing sliders, and printing certificates (photo documentation included in the final “Testing” slide).
+
+Two consistent learnings surfaced in observation and discussion: (1) the more “product-like” the devices appeared, the more readily participants treated outputs (scores, credits, certificates) as authoritative, and (2) the synced website feedback increased immersion and made the greenwash­ ing mechanisms easier to recognize and name. This outcome reframes AI infrastructure sustainability from a hidden backend issue into a frontstage, consumer-facing corporate narrative - so people can interrogate how responsibility gets performed, sold, and redirected.
+
+DISCUSSION AIter reframes ai infrastructure sustainability as something people meet through interfaces, rituals, and “helpful” corporate programs - not through data centers themselves. The project’s core lesson is that sustainability discourse around AI can operate like UX: it can reduce anxiety, offer a
+
+Thesis.indd   16 Thesis.indd   16 2025/12/18   21:59 2025/12/18   21:59
+
+sense of control, and stabilize trust while leaving the underlying resource footprint untouched. That framing matters because recent work shows how AI’s environmental costs (carbon, energy, and water) scale with model development and deployment choices, but those costs rarely show up in everyday product interactions [13, p. 3645] and [2].
+
+In greenwashing literature, Lyon and Montgomery describe greenwashing as “strategic self-presentation” that manages stakeholder perceptions while minimizing real behavioral change [10, p. 225]. AIter extends that idea into the AI context by showing how interaction design can become the vehi­ cle for strategic self-presentation. The Scanner’s Eco Score stages selective disclosure: it looks objective, but it only reveals what the system chooses to reveal. The Slider stages burden shifting by turning systemic extraction into “personal settings,” echoing critiques that individual-choice narra­ tives can distract from structural leverage points [24, pp. 3593–3596]. The Printer then commoditizes virtue by transforming resource use into credits and certificates—symbols that feel like progress even when they function as permission to continue.
+
+Methodologically, AIter supports speculative design’s claim that plausible artifacts can help people interrogate present-day trajectories. The project’s pivot away from an “instructional tool” toward a believable corporate ritual directly follows Dunne and Raby’s “believable yet strange” stance [5, p. 34]. Rather than presenting a “correct” sustainability behavior, the system builds productive discomfort: if the interface feels polished, you become more likely to accept its story. That speaks back to Sustainable HCI argu­ ments that information provision alone often fails without engaging values and power relations [18, p. 949]. In other words, AIter treats affect as part of infrastructure politics: reassurance becomes the product.
+
+Limitations sit in the same place as the critique. First, the system inten­ tionally uses simplified metrics (e.g., per-inquiry resource numbers) to perform authority, which can also reproduce the false precision it critiques. Second, the project’s evaluation mainly happened through studio critique and demo walkthroughs, so it cannot claim longitudinal behavior change or generalizable user insights. Third, speculative futures risk misreading: some viewers may interpret the devices as a proposal for “better calcula­ tors” instead of a critique of how calculators can become part of green­ washing. Future work could test AIter with policy, sustainability, and prod­ uct stakeholders to see how different audiences interpret responsibility, and
+
+Thesis.indd   17 Thesis.indd   17 2025/12/18   21:59 2025/12/18   21:59
+
+could prototype alternative “breaks” in the loop that point to collective or institutional leverage instead of individualized guilt.
+
+CONCLUSION This thesis began from a practical gap in AI infrastructure sustainability: the material costs of AI (energy, water, minerals, emissions) shape climate impact, but they rarely appear in the everyday places where people actual­ ly encounter AI—product interfaces, subscription plans, and “responsible use” messaging. My research question asked: how do corporate sustain­ ability narratives around AI get produced, circulated, and trusted, and how might design make those mechanisms visible rather than persuasive? I answered this by building AIter as a speculative corporate program set in 2050, where sustainability becomes a consumer service with a kit, a dash­ board, and a ritual of compliance.
+
+AIter brings the thesis full circle by showing that the sustainability story is not only told through reports or policy language. It is also told through in­ teraction patterns that feel neutral: a score, a slider, a credit counter, a cer­ tificate. When these patterns move from screen to object, they gain weight. They feel official. That “officialness” becomes the point. The system does not mainly change infrastructure. It changes perception, responsibility, and emotional comfort. In AIter, greenwashing does not look like a lie. It looks like a helpful feature. That is the argument I take forward for AI infrastruc­ ture sustainability: the interface can function as an environmental gover­ nance device, even when it never touches the actual supply chain.
+
+My contribution is twofold. First, I offer AIter as a coherent artifact sys­ tem (website + three devices) that concretizes greenwashing mechanisms as user interactions, so audiences can critique them in real time. Second, I demonstrate a design method: treating sustainability messaging as a de­ signed experience that can be prototyped, tested, and interrogated like any other product.
+
+What remains unresolved is also important. AIter does not provide a “bet­ ter” metric for impact, and it does not settle how accountability should be assigned across users, companies, regulators, and infrastructure providers. It leaves open the harder question: if AI infrastructure sustainability needs governance, what should trustworthy, enforceable, and non-performative interfaces look like - and who gets the power to define them?
+
+Thesis.indd   18 Thesis.indd   18 2025/12/18   21:59 2025/12/18   21:59
+
+REFERENCES [1] K. Hao, “ChatGPT sets record for fastest-growing user base”, Reuters, Feb. 2, 2023. [Online]. Available: https://www.reuters.com/technology/ chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/ [2] P. Li, J. Yang, M. A. Islam, and S. Ren, “Making AI less ‘thirsty’: Un­ covering and addressing the secret water footprint of AI models”, Com­ mun. ACM, vol. 68, no. 7, pp. 54–61, Jul. 2025. doi: 10.1145/3724499 [3] S. V. de Freitas Netto, M. F. F. Sobral, A. R. B. Ribeiro, and G. R. da Luz Soares, “Concepts and forms of greenwashing: A systematic re­ view”, Environ. Sci. Europe, vol. 32, art. no. 19, pp. 1–12, Feb. 2020. doi: 10.1186/s12302-020-0300-3 [4] S. Szabo and J. Webster, “Perceived greenwashing: The effects of green marketing on environmental and product perceptions”, J. Bus. Ethics, vol. 171, no. 4, pp. 719–739, Jul. 2021. doi: 10.1007/s10551-02004461-0 [5] A. Dunne and F. Raby, Speculative Everything: Design, Fiction, and Social Dreaming. Cambridge, MA, USA: MIT Press, 2013. [6] M. Blythe, “Research through design fiction: Narrative in real and imaginary abstracts”, in Proc. CHI Conf. Human Factors Com­ put. Syst., Toronto, ON, Canada, Apr. 2014, pp. 703-712. doi: 10.1145/2556288.2557098 [7] J. Auger, “Speculative design: Crafting the speculation”, Digital Creativity, vol. 24, no. 1, pp. 11–35, Mar. 2013. doi: 10.1080/14626268.2013.767276 [8] J. Bardzell and S. Bardzell, “What is ‘critical’ about critical design?”, in Proc. CHI Conf. Human Factors Comput. Syst., Paris, France, Apr. 2013, pp. 3297–3306. doi: 10.1145/2470654.2466451 [9] C. DiSalvo, Adversarial Design. Cambridge, MA, USA: MIT Press, 2012. [10] T. P. Lyon and J. W. Montgomery, “The means and end of gre­ enwash”, Org. Environ., vol. 28, no. 2, pp. 223–249, Jun. 2015. doi: 10.1177/1086026615575332 [11] B. Brevini and G. Murdock, Eds., Carbon Capitalism and Communi­ cation: Confronting Climate Crisis. Cham, Switzerland: Palgrave Macmil­ lan, 2017. [12] B. Brevini, “Black boxes, not green: Mythologizing artificial intelli­ gence and omitting the environment”, Big Data Soc., vol. 7, no. 2, pp. 1-6, Jul.-Dec. 2020. doi: 10.1177/2053951720935141 [13] E. Strubell, A. Ganesh, and A. McCallum, “Energy and policy con­ siderations for deep learning in NLP”, in Proc. 57th Annu. Meeting As­
+
+Thesis.indd   19 Thesis.indd   19 2025/12/18   21:59 2025/12/18   21:59
+
+-soc. Comput. Linguistics, Florence, Italy, Jul. 2019, pp. 3645-3650. doi: 10.18653/v1/P19-1355 [14] K. Crawford and V. Joler, “Anatomy of an AI system: The Amazon Echo as an anatomical map of human labor, data and planetary resources”, AI Now Institute and Share Lab, New York, NY, USA, Rep., Sep. 2018. [Online]. Available: https://anatomyof.ai [15] S. Luccioni, A. Hernandez-Garcia, V. Schmidt, and Y. Bengio, “Quan­ tifying the carbon emissions of machine learning”, in Proc. Workshop Cli­ mate Change AI NeurIPS, Vancouver, BC, Canada, Dec. 2019. [Online]. Available: https://arxiv.org/abs/1910.09700 [16] L. A. Lannelongue, J. Grealey, and M. Inouye, “Green algorithms: Quantifying the carbon footprint of computation”, Adv. Sci., vol. 8, no. 12, art. 2100707, Jun. 2021. doi: 10.1002/advs.202100707 [17] H. Brynjarsdóttir, M. Håkansson, J. Pierce, E. Baumer, C. DiS­ alvo, and P. Sengers, “Sustainably unpersuaded: How persuasion nar­ rows our vision of sustainability”, in Proc. CHI Conf. Human Factors Comput. Syst., Vancouver, BC, Canada, May 2012, pp. 947-956. doi: 10.1145/2207676.2208539 [18] C. M. Gray, Y. Kou, B. Battles, J. Hoggatt, and A. L. Toombs, “The dark (patterns) side of UX design”, in Proc. CHI Conf. Human Factors Comput. Syst., Montreal, QC, Canada, Apr. 2018, pp. 1-4. doi: 10.1145/3173574.3174108 [19] P. Sengers, K. Boehner, S. David, and J. Kaye, “Reflective design”, in Proc. 4th Decennial Conf. Crit. Comput., Aarhus, Denmark, Aug. 2005, pp. 49-58. doi: 10.1145/1094562.1094569 [20] E. Masanet, A. Shehabi, N. Lei, S. Smith, and J. Koomey, “Recali­ brating global data center energy-use estimates”, Science, vol. 367, no. 6481, pp. 984–986, 2020, doi: 10.1126/science.aba3758. [21] M. A. Delmas and V. C. Burbano, “The Drivers of Greenwashing”, California Management Review, vol. 54, no. 1, pp. 64–87, 2011, doi: 10.1525/cmr.2011.54.1.64. [22] P. Henderson, J. Hu, J. Romero, N. Prabhu, M. Andreas, and N. Ba­ con, “Towards the Systematic Reporting of the Energy and Carbon Foot­ prints of Machine Learning”, Journal of Machine Learning Research, vol. 21, no. 83, pp. 1–43, 2020. [23] E. Blevis, “Sustainable interaction design: invention & disposal, renewal & reuse”, in Proc. SIGCHI Conf. Human Factors in Computing Systems (CHI ’07), 2007, pp. 503–512, doi: 10.1145/1240624.1240705. [24] B. Knowles, L. Blair, P. Coulton, and M. Lochrie, “Rethinking plan A for sustainable HCI”, in Proc. SIGCHI Conf. Human Fac­
+
+Thesis.indd   20 Thesis.indd   20 2025/12/18   21:59 2025/12/18   21:59
+
+tors in Computing Systems (CHI ’14), 2014, pp. 3593–3596, doi: 10.1145/2556288.2557311.
+
+Thesis.indd   21 Thesis.indd   21 2025/12/18   21:59 2025/12/18   21:59
+
+v
+
+Thesis.indd   22 Thesis.indd   22 2025/12/18   21:59 2025/12/18   21:59

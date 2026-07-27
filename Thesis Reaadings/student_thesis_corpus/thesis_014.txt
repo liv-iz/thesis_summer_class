@@ -1,0 +1,205 @@
+Introduction
+
+he concept of immersion can be defined as “the fact of becoming completely involved in something[1].” Within the entertainment realm, this term can be understood as the suspension of disbelief that allows individuals to perceive themselves as living in an imaginative setting. The level of immersion involves the extent to which individuals can fully engage with and be absorbed into a created environment. experiencing a blend of reality and fantasy. Over the past decades, designers have been dedicated to the pursuit of total immersion, exploring diverse approaches to construct captivating worlds that effectively engage visitors [2].
+
+In the context of video games, achieving immersion has been a central objective for game developers, with players aspiring to be transported into virtual realms where they can get involved with gameplay and narrative, blurring the boundaries between reality and fiction. The existence of immersion is often considered a crucial factor in determining game enjoyment, relying heavily on the mechanisms and features embedded in the game [3].
+
+Prior research in the gaming domain highlights that designers need to strategically reduce barriers to engagement and access, allowing users to quickly feel engrossed. Additionally, the surroundings must be crafted to facilitate the suspension of disbelief in the virtual world, ensuring that users can fully immerse themselves in the game environment. Retaining the user’s undivided focus within the game is deemed essential for sustaining the immersion [4].
+
+Interestingly, the world of theme parks serves as a valuable reference for game designers since it has already translated the principles of immersive gaming into tangible, real-world experiences. While theme parks predate video games, their historical precedence does not negate the goal of immersion. Even in their earlier forms, theme parks aimed to allow visitors to believe in and participate in the imaginative worlds presented. With expansive spaces hosting a diverse array of attractions like rides, games, and shows, theme parks have been dedicated to achieving immersion through cohesive design unified by central themes. This commitment results in a more consistent and engaging storytelling experience comparing to other entertainment venues [2].
+
+Strategies of establishing Immersion in Theme Parks
+
+Evolving from their roots in early European pleasure gardens and world fairs, theme parks have undergone significant development and now offer unique recreational experiences to a global audience [5]. Differed from normal amusement parks that are simply collections of disjoint “rides,” theme parks’ structures and settings are “based on a central theme” [6]. Today, the most alluring theme parks range from well-known franchise parks like Warner Bros. World Abu Dhabi, Disneyland Resort, and Universal Orlando Resort to exhilarating coaster parks such as Six Flags and Cedar Fair establishments. The creative minds behind these destinations, including engineers, designers, and builders, have collectively strived to construct captivating worlds in which guests can immerse themselves fully.
+
+Compelling Narrative
+
+Constructing an immersive entertainment experience in theme parks involves developing a compelling narrative complete with clear objectives and tasks for visitors to participate in. By merging traditional design principles with game design concepts, theme park creators establish the narrative as the main backbone of the entire experience, enabling visitors to actively take part in some of their most cherished stories [7]. This principle is exemplified in Randy Pausch’s collaborative project with Disney Imagineering, Aladdin, which integrated virtual reality (VR) technology into a theme park ride. While advanced VR technology can empower visual illusions to transport guests into fantastical worlds, Pausch and the Disney Imagineering team recognized that fostering immersion requires providing a pre-immersive “background story” and a concrete goal for visitors within the virtual environment [8].
+
+Detailed Environment
+
+Theme parks also excel at recreating the virtual world environment and incorporating immersive details to complete the storytelling. These surroundings give visitors a sense of authenticity and convince them that they have crossed the boundary between virtuality and reality. In the Wizarding World of Harry Potter at Universal Studios, for example, visitors can wander through Diagon Alley, where every storefront and sign is as described in the Harry Potter movies. From exactly the same Honeyduke sweets to the fantastic beasts hidden throughout the area, these meticulously crafted details transport visitors into that mysterious and charming magical world [9].
+
+Cutting-edge Technology
+
+Innovative technology has been widely used in theme parks to blur the line between the virtual and the real world, creating experiences that are even closer to visitors. In addition to the application of VR introduced above [8], theme park developers have also integrated augmented reality (AR) and mixed reality (MR) technologies into various attractions and are testing new inventions to further improve the immersion experience [10].
+
+While brilliant environmental design and storytelling are essential components, sheer virtuosity in these areas does not guarantee guest satisfaction. To craft a truly memorable experience for visitors, it’s imperative to envision them as the ones in control [2]. Rather than passively receiving captivating entertainment, visitors today seek active involvement and the power to shape their own experiences. Theme park designs have also expanded their focus towards valuing visitors’ input and optimizing interaction with entertainment facilities, which aims to provide a more personalized and, consequently, more immersive experience for visitors.
+
+Natural Behavior Utilization
+
+To enhance immersion, theme parks also utilize visitors’ inherent behaviors. Drawing from Human-Computer Interaction (HCI) design theories, which emphasize the overlap of “expected movements” visitors naturally perform and the necessary input actions [11], theme parks can create attraction and experience interfaces that minimize disruptions to the immersive user experience. For example, in the recent attraction “Bowser Jr. Shadow Showdown” at Universal Studios, the input for boss battles incorporated full-body movements. When adversaries approached and initiated attacks, visitors could swat them away using hand gestures, duck to evade strikes, and jump to counter [12]. A design approach like this encourages visitors to perceive the human body as an integral component of gameplay, enabling them to seamlessly integrate themselves into the experience and fostering a natural and playful interaction [13].
+
+Existing Knowledge Adaptation
+
+Theme parks also enhance immersion by leveraging visitors’ preexisting knowledge to reduce the learning curve and create an effortless transition. A notable example of such an approach is found in Disney Imagineering’s Pirates of the Caribbean: Battle for the Buccaneer Gold. The design incorporates obvious interfaces that establish a subtext universally relatable to every visitor, preparing them with the correct mindset for engagement. For instance, the inclusion of a steering wheel signals that the operation involves steering, while the presence of cannons guides visitors to anticipate the next step of pointing and shooting virtual cannonballs. These instinctive interfaces play a pivotal role in ensuring a smooth shift from the real world to immersive stories while also facilitating the rapid throughput that is necessary for theme parks [14].
+
+Disruptive Factors in Theme Parks and Solutions
+
+Despite the remarkable efforts to enhance immersion, various factors within theme parks still have the potential to disrupt the overall immersion, momentarily pulling visitors away from the captivating fantasies and back into the realm of everyday reality. Such factors include challenges associated with navigating the theme parks, the need for adequate resting spaces, and the often frustrating experience of queuing in long lines. Researchers have diligently addressed these issues and come up with emerging approaches that integrate AR technology to offer a more comprehensive experience.
+
+In the realm of navigation, some scholars have adopted a locative media approach. This developing team of “Map Story” leverages AR to provide visitors with real-time guidance and a location-based story to follow along with, making it easier for them to navigate the landscapes and encouraging users to be fully absorbed in the narrative [15].
+
+Disney Research Studios has introduced a “combined augmented and mixed reality experience” known as the “Magic Bench.” People sitting on the Magic Bench can interact with an animated character by viewing a mirror image of themselves on a large screen in front. This unique technology offers visitors an opportunity to rest while simultaneously engaging with multi-sensory immersive experiences, blurring the line between reality and the virtual world during every minute in the theme park [16].
+
+Designers from Eindhoven University of Technology delved into the waiting experience in theme parks, highlighting the need for less passive and more entertaining solutions during the wait. They suggested incorporating interactive gaming platforms into queues, allowing visitors to play games based on psychological principles to make the waiting time feel shorter [17]. Similarly, researchers from the Exertion Games Lab have also undertaken investigations into the optimization of queueing experiences. Recognizing that long waits in
+
+Reducing Perceived Waiting Time in Theme Park Queues via an Augmented Reality Game, by Exertion Games Lab, 2020
+
+lines can significantly diminish immersion and visitor satisfaction, they have proposed a “digital interactive entertainment in the queue environment” powered by AR technology to reduce perceived waiting times. Visitors waiting in line can scan markers placed on the sides of the waiting area to initiate an AR game in which they must tap the screen to fight off enemies that are slowly appearing from the portal. The outcomes demonstrated that the gaming time while waiting in line can be perceived as passing faster than the non-gaming waiting time, which effectively contributes to the efforts to use gaming experiences to address the disruptions that arise during theme park visits [18].
+
+However, it is worth noting that these approaches, while successful in reducing perceived wait times, do pose a potential challenge. By diverting visitors’ attention primarily to fingertip interactions within the AR game, it may inadvertently detract from the immersive narrative of the theme park environment and the understanding of upcoming attractions. This departure from the theme park’s overarching goal of total immersion presents an area for further exploration and a potential action point for our project.
+
+Our Direction
+
+Building upon prior projects and research findings, our objective is to elevate the overall level of immersion by enhancing the wait­ ing-in-line experience within theme parks. We aim to accomplish this by integrating the previously discussed strategies that have been demonstrated to enhance immersive levels in theme parks.
+
+Theme parks have forever been my source of inspiration, an enchanting realm that has profoundly influenced my creativity. I vividly recall the magical moment when I first crossed the threshold of the castle-style gate. It was as if I had stepped into the pages of a fairytale, becoming the protagonist of my own narrative. This magical encounter serves as the catalyst for my dedication to enriching the theme park experience for all. The desire to extend the enchantment that once ignited my imagination to a broader audience propels my commitment.
+
+As enthusiasts deeply immersed in the enchanting world of theme parks ourselves, we recognize the evolving landscape of consumer entertainment options [19], where individuals increasingly seek active participation and the ability to shape their own experiences rather than passively receiving predefined entertainment [20]. This evolving landscape is notably reflected in the surging demand for interactive and customizable entertainment within theme parks. In response to this demand, our goal is to create a seamless fusion between the physical and digital realms, providing visitors with the power to craft their own adventures. We envision a theme park experience that goes beyond the traditional, offering a dynamic and personalized journey for each guest. This aspiration is rooted in our belief that the theme park experience should be more than a series of rides and attractions. It should be a transformative and interactive journey that captivates visitors throughout their entire visit.
+
+Drawing on our personal experiences visiting theme parks worldwide, we have heard
+
+how visitors complained about the disrupted immersion in these magical places. This
+
+realization led us to work on this design project to address those challenges within theme parks in order to achieve a more immersive and entertaining visit. Studies
+
+indicate that, on average, visitors spend a staggering 82% of their time waiting [21].
+
+To contextualize this, if a visitor plans a 10-hour park visit, nearly 8.2 hours are
+
+consumed by the waiting experience. For a theme park hosting 50,000 visitors
+
+daily, this accumulates into a substantial timeframe that, we believe, could be
+
+better utilized to heighten the overall entertainment value. We are deeply
+
+concerned about the negative impact of lengthy and dull queue times on visitors’ interests and overall satisfaction with the theme park experience [22]. Physical waiting in theme parks is inevitable due to the need to manage crowd flow and
+
+attraction demand [23]. While waiting is an inherent aspect of theme park visits,
+
+we want to challenge the notion that waiting must be a dull and uneventful
+
+experience. Instead, we propose transforming the 8.2-hour waiting period into
+
+an integral part of the overall immersive theme park experience. By enhancing the queue experience, we aim to blur the traditional boundaries between
+
+waiting and the ride itself to create a cohesive and engaging narrative. We
+
+seek to redefine the conventional understanding of queues, positioning
+
+them as an essential and enjoyable component of the overall theme
+
+park adventure.
+
+Beyond our immediate concerns, we noticed that the theme park market
+
+has demonstrated consistent growth over the years [24], underscoring
+
+the potential impact and enduring relevance of our project. By
+
+recognizing and addressing the evolving preferences of a diverse and
+
+expanding demographic, our project seeks not only to meet the
+
+current needs of theme park visitors but also to anticipate and shape
+
+the future of theme park entertainment.
+
+On-site observation
+
+Having established our direction to enhance the waiting-in-line experience for enhancing immersion in theme parks, we transitioned to real-world investigation. On September 15, 2023, we conducted an on-site observation at Disney’s California Adventure Park. This field study was intended to discover the specific needs of visitors and understand their current interactions with park facilities during the waiting period. By researching in a real-life context, we aimed to gain valuable insights that would inform the refinement and implementation of our project.
+
+In our investigation, our initial focus was directed toward the design of the waiting area environment, with particular attention to the characteristics of queue barriers. We identified two main types:
+
+Fixed Barriers: These barriers are integrated into the environment and are intentionally designed to harmonize with the narrative of the section. Typically constructed from durable materials such as metal, their layout is meticulously organized to efficiently guide visitors.
+
+Versatile Barriers: In contrast, versatile barriers offer greater flexibility, allowing for easy adjustments or relocation. These barriers are often introduced temporarily, in addition to the fixed ones, when the queue extends beyond its usual confines.
+
+In some attractions with slightly higher than average capacity per vehicle, like Soarin’ Around the World [25], we observed a system where seats are assigned just before boarding. This process involves a designated waiting area equipped with relevant visual guidelines. This highlighted an additional role of the queue—lining up visitors to more effectively organize the seats. We also intend to incorporate this feature into our project.
+
+Further observation of queue dynamics revealed two distinct statuses: firstly, a swift progression when visitors board the ride, and secondly, a pause in movement following the completion of boarding. This stationary phase persists until the arrival of the next ride, constituting the duration of a single ride cycle.
+
+Inspired by these observations, we plan to incorporate the organizational aspect into our project. Specifically, we aim to synchronize narrative elements with queue dynamics. By strategically controlling the narrative rhythms, our objective is to create a seamless flow within the waiting line, ensuring visitors progress through the attraction in a continuous and immersive manner and maintaining a consistent level of engagement from the moment they enter the queue until the completion of the ride experience.
+
+Then we extended our investigation to visitor behavior during queue waiting periods. A focal point of our observation was the queue for Radiator Springs Racers [26], the longest line during our visit, spanning approximately 65 minutes and nearing the full occupancy of planned waiting areas. We observed around  200 visitors in total and then identified distinct visitor groups and categorized their behaviors as follows:
+
+Our observations suggested contrasting behaviors between children and adults in theme parks. Notably, children emerge as the more active group, displaying sustained excitement and energy. They engage in constant movement, often seeking attention from their family members. In contrast, adults tend to remain stationary, using the time in line to take a break.
+
+Given that many parents travel long distances to reach theme parks and actively care for their children during the visit, it’s common for adults to feel fatigued and view waiting in line as a chance to rest. While the children, unaffected by real-world concerns, continue to find enjoyment in the theme park experience.
+
+This on-site observation not only grounded our work in the practical realities of theme park dynamics but also provided a firsthand understanding of visitor behaviors, allowing us to tailor our innovations to authentically enhance the overall theme park experience. Summarizing our observations, we defined our project as a gaming experience designed for family visitors that takes both children’s active nature and adults’ need for relaxation into account, with the integration of narratives, AR technology, and tangible user interfaces.
+
+Concept Development
+
+In this project, we worked collaboratively towards our goal, with each team member playing a crucial role. Yidie Ling focused on the digital side, managing circuit design, coding, and AR setup, while I, Shirley Zhang, oversaw the physical aspects, including industrial design, prototyping, and 3D modeling.
+
+Building upon the concept we defined, I formulated several ideas specifically tailored for family visitors. In this proposed system, parents will interact through smartphones, utilizing an augmented reality (AR) game interface dynamically generated based on physical elements such as queue barriers and decorations. Meanwhile, their children actively engage with these physical elements, initiating various in-game actions, such as obtaining props, unlocking achievements, and encountering new characters, guided by their parents (Figure 1).
+
+This design promotes a dual objective: allowing parents to remain unwinding during the wait while enabling children to explore and interact with a captivating virtual world. Moreover, the selective usage of screens is restricted to adults or older children, fostering an inclusive experience where all family members can actively participate and communicate with each other.
+
+I further refined this concept to extend its application beyond queue barriers, incorporating other environmental features. By embedding strategic signifiers, we leverage environmental elements like the ground as an additional queue management tool and gaming map, guiding visitors efficiently (see Figure 2). This aligns with our overarching goal of enhancing the overall theme park experience through innovative and immersive design.
+
+After integrating ground elements with redesigned queue barriers, I proceeded to prototyping, 3D printing mockups, and building a 1:6 scale model to validate our concepts (Figure 3).
+
+Entertro
+
+Through a series of thoughtful iterations, we arrived at our final design solution, Entertro. This gaming experience is crafted to mitigate waiting aversion, fostering visitor engagement in an immersive entertainment journey that transforms queues into an integral part of the overall theme park adventure. Through carefully curated design features and narratives tailored to each attraction, Entertro is capable of adeptly organizing queues without compromising the overall immersive experience.
+
+The name “Entertro” merges the terms “entertainment” and “portal,” infusing a touch of sci-fi and futurism. This title encloses the essence of our design as a gateway to a realm of entertainment, embodying a fusion of augmented reality (AR) technology and captivating narratives. Entertro transcends the physical waiting space, transporting visitors into a blended virtual realm.
+
+Entertro’s function was achieved through three key components:
+
+Ground Elements: These components serve as both a game interface and navigational cues for visitors in the queue when it is moving. They guide the movement of visitors to ensure a smooth and fast flow.
+
+Queue Barriers: When the ride is in operation and the queue comes to a temporary stop, visitors can interact with these barriers to engage in physical gameplay. The design ensures that the duration of each gameplay aligns with a single round of rides, facilitating effective queue management while providing an enjoyable experience for visitors.
+
+AR Entertainment: This component enhances the overall narrative by introducing overlays to the above physical components. The AR layer complements and enriches the visitor’s experience, creating a combination of the physical and digital realms, thereby contributing to a more immersive theme park adventure.
+
+Together, these three components constitute the foundational system and mechanism of Entertro. Its modular nature allows easy customization to match the theme, atmosphere, and storytelling. This flexibility empowers theme park operators to tailor the system’s narrative, including specific games and appearances, to suit various theme park attractions with specific themes like adventure, fantasy, or historical settings. We presented a design prototype with a sci-fi theme during the MDes Graduation Showcase on December 15, 2023, featuring an original narrative set in the waiting area of a space adventure-themed ride. In this scenario, visitors are envisioned to be engaged in space battles for a 3-minute duration in 20-person roller-coaster carriages decorated as spacecraft. The prototype serves as an example showcasing Entertro’s potential to craft captivating narratives in various theme park settings.
+
+The Entertro prototype unfolds as follows :
+
+The Entertro experience begins as visitors step into the entrance of the queue area. When the visitors at the front start to board rides, the queue moves forward. Visitors are directed by flashing LEDs on the ground to proceed, and they see a robotic assistant showing up and guiding them in the AR game.
+
+When the ride operates, there are pauses in the queue. The LEDs stop flashing and lead visitors’ attention to the interactive queue barriers. In the given session, which aligns with the ride’s operation duration, visitors can enjoy the physical game by operating a laser cannon (a laser pointer embedded in the barrier, oriented randomly at the beginning of each game round) and adjusting mirror reflections to stay away from obstacles and approach the enemy’s space fleet.
+
+Or they can experience the AR game generated based on the layout of these physical setups, controlling an astronaut protagonist to collect essential materials scattered in space to repair their spacecraft while avoiding attacks (Figure 4).
+
+The level of difficulty of the game on the barriers rises as the line approachesitse end. And the narrative of the game develops and transitions into the narrative of the ride, where visitors take control of the spacecraft for an immersive and captivating space travel experience.
+
+Storyboards of Entertro’s experience, by Tianshu (Shirley) Zhang, 2023
+
+Strategies that Entertro adapted
+
+In the development of Project Entertro, we actively integrate insights obtained from extensive research and literature reviews, particularly drawing from proven strategies known to enhance immersive experiences in theme parks, which were discussed earlier in this essay. As the one in charge of the industrial design of Entertro, I particularly employed the strategies of creating visual storytelling through design details and adapting the user’s existing knowledge.
+
+Narrative and Design Details
+
+The narrative of our current prototype draws inspiration from classic Space War games, offering visitors clear objectives to enhance their engagement during the waiting experience and serving as a prologue to the actual ride’s narrative. In alignment with this narrative, I designed the physical prototype of the queue barrier to resemble a sci-fi-themed window. The tangible interfaces on the barriers were designed as miniature representations of sci-fi props with numerous details, allowing visitors to imagine themselves within the operation cab of the spacecraft. By looking through the window during the space war, operating the weapon, and interacting with the environment, participants are immersed in the sci-fi narrative and entertainment.
+
+Entertro weaves a captivating storyline by integrating clear objectives for visitors and maintaining engagement throughout the waiting experience. This cohesive storytelling is achieved through a fusion of physical and digital elements. Ground elements evoke a spaceship ambiance for visitors, while interactive queue barriers contribute by maintaining the same style in puzzle and interface design. The AR game adds depth to the narrative with sci-fi-themed characters and missions. Together, these elements create a dynamic and participatory narrative.
+
+Augmented Reality Technology
+
+The incorporation of AR stands out as another important strategy employed by Entertro to elevate storytelling and enhance immersion. AR overlays digital elements onto the physical environment, enabling visitors to integrate into the narrative and fostering a sense of having entered an alternate world [27]. This application of AR proves particularly beneficial in waiting areas with environmental constraints, offering visitors a stable and engaging experience while waiting in line. Furthermore, AR accommodates varying age groups, ensuring sustained engagement, especially for those too tired or not interested in interacting with physical gameplay. This inclusive approach broadens the audience’s scope, facilitating immersion across a diverse demographic range.
+
+Knowledge Adaptation
+
+As the queue for rides shifted between two distinct phases, we also adapted visitors’ existing knowledge and inherent behaviors to develop Entertro to reduce the learning curve for game interaction and enhance the overall efficiency of the queue dynamic. Therefore, I employed the concept of affordance, which in design field refers to the intuitive relationship between the physical characteristics of an object and the actions users can perform with it [28]. My application of affordance involved creating tangible interfaces that were widely familiar to users and aligned with familiar objects and actions. The handle designed to adjust mirror angles in the game took the form of a wheel. Resembling a space station, this wheel shape not only added to the thematic coherence but also intuitively signaled to visitors that turning the handle was the action required to fulfill the corresponding in-game task. This design choice aimed at enhancing user interaction by aligning the physical interfaces with users’ natural inclinations, ensuring a smooth gaming experience within the queue.
+
+Interacting with Entertro’s Prototype during MDes Fall 2023 Thesis Presentation
+
+Future Work an
+
+We envision refining Entertro’s narrative and design details, increasing the variety of games, ensuring adaptability across different theme park attractions, and keeping visitors refreshed even after many times they interact with Entertro. While our initial prototype showcased a sci-fi-themed waiting area, future iterations may explore different themes to cater to diverse visitor preferences. To draw validated conclusions about whether Entertro can shorten the perceived waiting time and enhance the level of immersion, user testing and feedback collection need to be processed. We are looking forward to collaborating with current theme park management and stakeholders for in-context research to gather user adoption studies and data analytics in a real-life context. Which may provide valuable insights for the continuous improvement of Entertro.
+
+nd Envisionment
+
+Beyond the scope of theme parks, the potential applications of immersive technologies in other waiting contexts need to be investigated, such as in clinics and government offices. Future work may involve adapting Entertro’s design concept to create tailored waiting experiences in diverse settings, contributing to a broader user’s well-being.
+
+In our vision, the waiting times in theme parks and beyond can be transformed into positive experiences and foster a new level of immersive entertainment with the integration of technology, narrative, and user-centric design principles.
+
+Conclusion
+
+In conclusion, our research endeavors to address the disruptive experience that breaks the immersion within theme parks, with a focus on addressing the challenge of unenjoyable waiting. While theme parks have proven successful in delivering immersive experiences during rides, the long waiting time significantly influences visitors’ overall park experience. Our investigation into existing solutions and onsite observation within theme parks highlighted the need for innovations that optimize queue management efficiency and maintain immersive narratives. By combining emerging technologies, such as augmented reality, with narrative elements foreshadowing upcoming rides, our project, Entertro, aims to change the waiting-in-line experience. Our design approach focuses on upgrading waiting areas with tangible interfaces and creating an AR mobile platform game responsive to real-time interactions. Through our project, we aim to contribute to the improvement of individuals’ quality of life by enhancing the enjoyability and immersion of virtualworld interactions.

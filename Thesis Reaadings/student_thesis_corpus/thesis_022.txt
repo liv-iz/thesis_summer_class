@@ -1,0 +1,113 @@
+Abstract
+
+4. Approach My research adopted a qualitative, exploratory design approach built around three se­ quential, focused workshops. The goal was to systematically follow the entire process of how people form perceptions of friendliness toward robotaxis: starting with an immedi­ ate visual judgment and ending with a relational assessment shaped by experience and understanding.
+
+Workshop 1: The friendly–unfriendly axis In the opening stage of my research, I set up a simple experiment to test my own biases. Like many designers, I had assumed friendliness was a quality you could simply “bake” into a car’s physical body. I presented participants with a diverse lineup of robots—from sleek pods to humanoids—and asked them to place each along a physical friendly–un­ friendly axis. Crucially, I provided no context, manuals, or pitches.
+
+As they moved the photos, I had them “think aloud” to map their mental shortcuts. Most participants reached for the usual suspects: rounded corners, “soft” eyes, and warm colors were labeled “friendly.” However, as I dug into their reasoning, the results became totally inconsistent. One person’s “cute” was another person’s “creepy” or “infantilizing.”
+
+This was a major turning point. I realized there is much more to this than aesthetics. Participants began mentioning familiarity and questioning the machine’s social impact. It proved that first impressions are too fickle to be the bedrock of trust. While appearance might start the conversation, it is far too unstable to keep it going.
+
+Workshop 2: Cultural Narratives and the “Knowledge Gap” In the second phase, I moved from observing to listening. I ran interviews with non-tech­ nical users, tech enthusiasts, and robotics experts to understand why people project so much “personality” onto these machines.
+
+I discovered that when people lack direct experience with robotaxis, they don’t have a “blank” opinion; they fill the gaps with cultural narratives. Participants relied on sci-fi tropes and movies like Big Hero 6 to judge friendliness. This confirmed that trust is often more critical than technical knowledge. As Washington State University (2024) research suggests, trust—more than raw data—determines whether people accept autonomous vehicles. Essentially, if the “movie” in a user’s head is a thriller, the car feels dangerous; if it’s a Pixar film, the car feels like a friend. This was a massive insight: friendliness is a moving target that depends entirely on the stories we’ve already been told.
+
+Table 2. Interview Findings Across User Groups
+
+Workshop 3: Media Framing and the Fragility of Trust
+
+In the final stage, I turned to the power of “secondhand” information. Let’s face it: since most people haven’t sat in a robotaxi yet, they rely on news media to tell them what to think. To test this framing, I split participants into two groups. One read a “positive” article on urban safety, while the other read a “negative” piece focused on accidents and loss of control.
+
+The results were sobering. Negative news acted like poison—one bad article sent trust plummeting, regardless of how much a participant liked the car’s design. Words like “dangerous” and “unpredictable” flooded their responses. Meanwhile, the positive article only caused a modest “bump” in friendliness. This highlighted a massive asymmetry: negative narratives are exponentially more effective at destroying trust than positive ones are at building it.
+
+However, once I introduced a “learning” phase explaining how the robot signals intent, ratings finally began to climb. This confirmed my final theory: friendliness isn’t a sticker you put on a car. It is a relational quality built through transparency. It’s something you have to earn over time, much like a human friendship.
+
+Table 3. Comparison of Media Framing Effects on Perceived Friendliness
+
+5. Outcome This project successfully produced three primary outcomes: a conceptual shift in how we define robotaxi friendliness, robust empirical insights into how different audiences build that perception, and a set of practical design implications for future autonomous systems.
+
+5-1. Conceptual Reframing: Friendliness is Relational, Not Aesthetic The most significant conceptual shift was moving friendliness from a simple aesthetic attribute to a complex relational quality. While my initial prototype focused on using soft materials and approachable forms, the combined findings across all workshops clearly showed that these cues only manage first impressions. True, lasting friendliness, much like human trust, must evolve through context, public narrative, and accumulated under­ standing. This reframing moves the conversation away from surface-level design features and firmly toward the long-term process of relationship-building.
+
+5-2. Empirical Insights: The Audience-Dependent Definition The three empirical workshops revealed distinct but interconnected mechanisms driving perceived friendliness:
+
+Visual Instability (Workshop 1): We confirmed that people use visual shortcuts—cur­ vature, material, and color—for immediate judgment. However, the high variability in participant placements highlighted just how unstable those first impressions are.
+
+Divergent Definitions (Interviews): The interviews proved that friendliness is profoundly audience-dependent. Non-technical users defined it through emotional warmth, empathy, and fictional narratives, often citing movie robots. Technical users, in sharp contrast, emphasized calm interaction, smooth user experience, and predictability. This variance proves a single design strategy simply cannot address everyone.
+
+Narrative Fragility (Workshop 3): The media experiment demonstrated the powerful influence of cultural narratives. Negative articles consistently made robotaxis seem less trustworthy, while positive articles produced only modest improvements. This striking asymmetry revealed that friendliness is fragile and highly susceptible to negative fram­ ing, even before a person has any direct experience. Media acts as a form of indirect, trust-shaping interaction.
+
+5-3. Design Implications: From Personality to Impact As a practical design outcome, the project shifted focus entirely, moving beyond aesthetic prototyping toward an impact-based framing of friendliness. The core finding suggests
+
+things like improved efficiency, reduced environmental impact, and better accessibility. This reframing proposes that friendliness is communicated not just through how a robot looks or behaves, but through the positive and visible contribution it demonstrably makes to the community and to society as a whole.
+
+Taken together, these three outcomes establish friendliness as a dynamic, complex con­ struct shaped equally by perception, experience, and narrative. They provide a vital foun­ dation for rethinking how designers must approach the challenge of emotional acceptance in all future autonomous systems.
+
+6. Discussion The results of this thesis lead to one core realization: friendliness in robotaxis operates far less like a static design feature and much more like a genuine social relationship. Across every workshop, participants evaluated robotaxi friendliness using criteria that are strikingly similar to those we use for human relationships: demanding consistency, pre­ dictability, emotional safety, and a clear alignment between what the system intends and what it actually does. This dynamic perfectly mirrors how friendship is truly formed—not through an appealing appearance alone, but through a history of repeated, trustworthy interaction.
+
+The observed instability of first impressions from Workshop 1 underscores the critical limits of relying solely on material design. Yes, visual softness might temporarily reduce initial anxiety, but it cannot sustain trust. This finding directly challenges many common design strategies that prioritize anthropomorphic or “cute” aesthetics for social accep­ tance. In safety-critical systems like robotaxis, these strategies are risky; if the car looks friendly but drives unpredictably, that visual deception could actively backfire and imme­ diately destroy any nascent trust.
+
+The insights from the interviews (Workshop 2) further complicate the picture, showing that friendliness is defined differently depending on who you ask. These are not signs of user confusion; they point to the existence of multiple, valid “friendship models.” One group seeks emotional reassurance, another values functional reliability above all else, and experts prioritize honesty and technical coherence. This means designing for friend­ liness requires a major shift: we must acknowledge and cater to these plural expectations rather than waste time trying to optimize for one single, universal emotional response.
+
+Crucially, the powerful effect of negative media framing (Workshop 3) aligns with estab­ lished negativity bias research, confirming that trust is exponentially easier to lose than to build. This has profound implications for organizations deploying autonomous systems. While designers cannot control the news cycle, they absolutely can design the system to generate its own credible, positive narratives. The way forward involves a commitment to radical transparency, clear accountability, and a demonstrable commitment to social value.
+
+Taken together, these findings demand a major shift in design responsibility. The question we should be asking is no longer, “How do we make robotaxis look friendly?” The real challenge is, “How can robotaxis behave like good social partners?” This requires us to design for crystal-clear communication of intent, ensure fully predictable interactions,
+
+and rigorously align the system’s behavior with societal values. Friendliness, in this critical sense, is not an input; it is an emergent property—the natural result of ethical and responsible system design.
+
+7. Conclusion: They Don’t Need to Look Like Friends, They Need to Act Like Them
+
+This thesis started with what felt like a simple, intuitive assumption: that we could design friendliness into robotaxis through visual softness, material choices, and approachable form. Through developing an initial prototype, conducting sequential workshops, running extensive interviews, and setting up media-based experiments, that initial assumption was systematically and decisively challenged.
+
+The research demonstrated clearly that while first impressions open the door, they are wholly insufficient to sustain public trust. Friendliness, we found, is profoundly shaped by context, media narrative, lived experience, and the passage of time. People don’t just evaluate robotaxis as passive machines; they treat them as social actors operating in shared public space. As a result, friendliness operates less like a simple interface feature and much more like a genuine form of human relationship.
+
+Across every data point, participants consistently described friendliness using language associated with strong human bonds: demanding reliability, emotional safety, honesty, and consistency. We saw that negative narratives instantly undermine these qualities, whereas positive impressions require sustained, consistent reinforcement. This striking asymmetry underscores the profound fragility of friendliness and the serious ethical responsibility inherent in deploying these autonomous systems.
+
+The central contribution of this thesis is the reframing of robotaxi friendliness as a form of friendship-like trust. Designing friendly robotaxis does not mean making them appear human or overly expressive. Instead, it means designing systems that are fundamentally predictable, completely transparent, and demonstrably aligned with human values—sys­ tems that earn trust over time through responsible behavior and positive social impact.
+
+By shifting the designer’s focus from surface appearance to the long-term relationship, this work offers a robust new framework for professionals developing autonomous mo­ bility and other public-facing AI systems. Friendliness is not something that can be added at the surface; it must be cultivated through consistent action, clear communication, and a meaningful contribution to the environments in which these systems operate. Ultimately, robotaxis do not need to look like friends. They need to act like good ones.
+
+8. References
+
+[1] M. Bar and M. Neta, “Humans prefer curved visual objects,” Psychological Sci­ ence, vol. 17, no. 8, pp. 645–648, Aug. 2006. Available: https://doi.org/10.1111/j.14679280.2006.01759.x
+
+[2] R. F. Baumeister, E. Bratslavsky, C. Finkenauer, and K. D. Vohs, “Bad is stronger than good,” Review of General Psychology, vol. 5, no. 4, pp. 323–370, Dec. 2001. Avail­ able: https://doi.org/10.1037/1089-2680.5.4.323
+
+[3] S. Cave, K. Dihal, and S. Dillon, AI Narratives: A History of Imaginative Thinking about Intelligent Machines. Oxford, UK: Oxford University Press, 2018.
+
+[4] J. Forlizzi and K. Battarbee, “Understanding experience in interactive systems,” in Proceedings of the 5th Conference on Designing Interactive Systems, 2004, pp. 261–268. Available: https://doi.org/10.1145/1013115.1013152
+
+[5] J. Forlizzi and C. DiSalvo, “Service robots in the domestic environment: A study of the Roomba vacuum in the home,” in Proceedings of the ACM/IEEE International Conference on Human-Robot Interaction, 2006, pp. 258–265. Available: https://doi. org/10.1145/1121241.1121286
+
+[6] P. A. Hancock et al., “A meta-analysis of factors affecting trust in human–robot in­ teraction,” Human Factors, vol. 53, no. 5, pp. 517–527, Oct. 2011. Available: https://doi. org/10.1177/0018720811417254
+
+[7] K. Höök, Designing with the Body: Somaesthetic Interaction Design. Cambridge, MA, USA: MIT Press, 2018.
+
+[8] J. Koo et al., “Why did my car just do that? Explaining semi-autonomous driving actions to improve driver understanding, trust, and performance,” in Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, 2015, pp. 2777–2786. Available: https://doi.org/10.1145/2702123.2702521
+
+[9] M. Mori, K. F. MacDorman, and N. Kageki, “The uncanny valley [From the field],” IEEE Robotics & Automation Magazine, vol. 19, no. 2, pp. 98–100, Jun. 2012. Available: https://doi.org/10.1109/MRA.2012.2192811
+
+[10] D. A. Norman, The Design of Everyday Things, Revised and expanded ed. New York, NY, USA: Basic Books, 2013.
+
+[11] R. W. Picard, Affective Computing. Cambridge, MA, USA: MIT Press, 1997.
+
+[12] B. Reeves and C. Nass, The Media Equation: How People Treat Computers, Televi­ sion, and New Media Like Real People and Places. Cambridge, UK: Cambridge Univer­ sity Press, 1996.
+
+[13] B. Schoettle and M. Sivak, “Public opinion about self-driving vehicles in China,
+
+India, Japan, the U.S., the U.K., and Australia,” University of Michigan Transportation Research Institute, Ann Arbor, MI, USA, Rep. UMTRI-2014-30, 2014.
+
+[14] P. Sengers, K. Boehner, S. David, and J. Kaye, “Reflective design,” in Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2005, pp. 49–58. Available: https://doi.org/10.1145/1054972.1054982
+
+[15] P. Slovic, “Perception of risk,” Science, vol. 236, no. 4799, pp. 280–285, Apr. 1987. Available: https://doi.org/10.1126/science.3563507
+
+[16] Washington State University, “Trust, more than knowledge, critical for acceptance of fully autonomous vehicles,” Jul. 9, 2024. [Online]. Available: https://www.wsu.edu/news
+
+[17] A. Waytz, J. Heafner, and N. Epley, “The mind in the machine: Anthropomorphism increases trust in an autonomous vehicle,” Journal of Experimental Social Psychology, vol. 52, pp. 113–117, May 2014. Available: https://doi.org/10.1016/j.jesp.2014.01.005
+
+[18] T. Zhang et al., “The roles of initial trust and perceived risk in public’s acceptance of automated vehicles,” Transportation Research Part C: Emerging Technologies, vol. 118, p. 102733, Sep. 2020. Available: https://doi.org/10.1016/j.trc.2020.102733
+
+This is the back cover of your thesis book, and is the last page of the PDF you submit.
+
+This page may be designed at your discretion,
+
+but please be sure to delete this text.

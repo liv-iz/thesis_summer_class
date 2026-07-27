@@ -1,0 +1,289 @@
+Abstract
+
+Screen transitions are a common yet under-examined component of contemporary digital interfaces. While motion design guidelines typically frame transitions as functional mechanisms for maintaining clarity, spatial continuity, and efficiency, they offer limited insight into how users emotionally interpret temporal change. As a result, emotional interpretation during short-duration interactions such as screen transi­ tions remains insufficiently explained.
+
+This thesis examines emotional interpretation as a temporal process by using transition pacing as a controlled experimental stimulus. Rather than approaching transitions as complete interface designs, the study isolates pacing variables to investigate whether emotional responses shift independently or develop through a structured dependency.
+
+A quantitative experiment compared two contrasting transition pac­ ing profiles: an Addictive/Neutral profile characterized by fast, abrupt pacing, and an Emotional Care profile characterized by slower, more intentional pacing. Thirty participants evaluated each condition across three emotional dimensions—Calmness, Sense of Closure, and Empa­ thy or Care—using a five-point Likert scale.
+
+Results indicate that Emotional Care pacing consistently outperforms Addictive/Neutral pacing across all three dimensions, with differences in magnitude and distribution. Calmness shows the most stable and immediate improvement, followed by Sense of Closure, while Empa­ thy/Care exhibits the largest increase only when emotional stability and cognitive coherence are already present. These findings suggest that emotional responses form a layered and dependent structure rather than occurring in parallel.
+
+Based on these findings, the thesis proposes the Emotional Hierarchy Framework, which describes emotional interpretation during interac­ tion as a layered process. Calmness supports emotional stability, Sense of Closure enables cognitive integration, and Empathy/Care reflects perceived relational meaning. By reframing transition pacing as a com­ ponent of emotional infrastructure, this work contributes a structured perspective on how micro-temporal design decisions influence emo­ tional experience in digital systems.
+
+Emotional Hierarchy in UX
+
+of the requirements for the degree of
+
+Master of Design
+
+1. INTRODUCTION
+
+Screen transitions are a fundamental temporal structure in contemporary digital interfaces. Although often treated as decorative details or functional connectors between interface states, transitions play a meaningful role in how users emotionally experience interaction. Design systems typically frame motion as infrastructure that supports clarity, spatial continuity, and efficiency, while recent UX frameworks, such as Google’s Material 3 Expressive Design [9], suggest that users also value interfaces that feel intentional and trustworthy. Beyond visual polish, the pacing of motion can regulate emotional states, influence perceptions of care and agency, and shape how meaning develops as interfaces move between contexts. Building on this perspective, this thesis introduces Emotional Hierarchy as a model for understanding how emotional responses are structured during screen transitions.
+
+Emotional experience in interaction does not occur instantaneously, but unfolds as users engage with change over time. Users do not simply observe a transition; they interpret it emotionally as it progresses. Duration, rhythm, and settling behavior can stabilize or disrupt emotional states, shape cognitive interpretation, and influence whether an interface feels intentional, coherent, or attentive. These effects are often subtle yet persistent as digital interfaces increasingly mediate attention, emotion, and well-being.
+
+Despite the pervasiveness of motion in user interfaces, there remains no systematic model for explaining how emotional meaning forms during transitions. Design systems specify durations, easing curves, and physical parameters, but rarely articulate how these temporal variables shape emotional interpretation. Meanwhile, affective computing provides robust frameworks for measuring emotion, yet often conceptualizes emotion as a static state rather than a process occurring over time [11] [12]. This disconnect leaves a critical gap: how emotional responses emerge sequentially during interaction remains under-examined.
+
+This thesis addresses this gap by treating screen transitions not as design artifacts, but as controlled experimental stimuli for studying emotional interpretation over time. It introduces the Emotional Hierarchy as a theoretical model describing how distinct emotional responses arise in
+
+sequence during interaction. Rather than asking whether a transition feels “good” or “bad,” this research examines whether emotional responses respond independently to pacing changes or depend on prior emotional conditions.
+
+Through a controlled experiment comparing two contrasting transition pacing profiles—Addictive/Neutral (A/N) and Emotional Care (EC)—this study evaluates emotional interpretation across three dimensions: Calmness, Sense of Closure, and Empathy/Care. Quantitative analysis shows that these dimensions do not respond in parallel. Instead, emotional meaning occurs hierarchically: Calmness establishes emotional stability, Closure enables cognitive integration, and Empathy/Care emerges only after the prior layers are satisfied.
+
+By empirically grounding this sequential structure, the Emotional Hierarchy Model reframes transition pacing as emotional infrastructure rather than visual embellishment. The model contributes a transferable framework for understanding how micro-temporal design decisions shape emotional experience, with implications for humane computing, interaction design theory, and the ethical role of motion in digital systems.
+
+2. BACKGROUND
+
+2.1 Motion as Functional Infrastructure in UI Design
+
+In human-computer interaction research, motion has traditionally been conceptualized as functional infrastructure. Animated transitions support users in maintaining spatial orientation, understanding cause– effect relationships, and reducing cognitive load during state changes. These principles are reflected in widely adopted design systems such as Google’s Material Design [9], which define motion through parameters such as timing, easing, and duration to ensure perceptual continuity and usability [14].
+
+While these frameworks effectively standardize motion behavior, they primarily address how motion should function rather than how it is emotionally interpreted. Motion is commonly treated as an emotionally neutral carrier of information, used to minimize friction or ambiguity. As a result, emotional consequences of pacing, rhythm, and temporal structure remain largely
+
+implicit or unarticulated within design guidance.
+
+This functional framing becomes increasingly limited as digital interfaces play a growing role in shaping attention, emotional regulation, and users’ sense of agency. Without a model for emotional interpretation, motion design remains centered on consistency and efficiency, leaving its affective impact under-theorized.
+
+2.2 Limitations of Static Emotion Models in Affective Computing
+
+Affective computing offers established frameworks for modeling and measuring emotion, most notably valence– arousal representations [11][12]. These models support systematic categorization of emotional states and enable quantitative evaluation across contexts [11][12]. However, they rely on a key assumption: emotion is treated as a static state that can be sampled at a specific moment.
+
+This assumption becomes limiting when applied to interactive systems, where experiences such as screen transitions are inherently temporal. Emotional responses during interaction develop across a transition rather than occurring at a single point in time. As a result, emotional qualities relevant to interaction design, such as perceived calmness, completion, or care, are difficult to capture using static emotion coordinates alone.
+
+Despite their analytical value, dominant emotion models provide limited means to describe how emotional interpretation develops during interaction. Emotional response is typically framed as an isolated outcome rather than as a process shaped by temporal structure.
+
+2.3 Humane Design and Emotion as Process
+
+Humane design frameworks emphasize emotional sensitivity, attentional respect, and user agency in interactive systems. Rather than optimizing for efficiency alone, these approaches argue that interfaces should support users’ emotional well-being and capacity for sensemaking. The Humane Design Guide, in particular, conceptualizes emotion as a progressive process involving emotional grounding, cognitive interpretation, and decision support [13].
+
+Despite this process-oriented perspective, humane design
+
+literature rarely specifies how such principles are enacted at a micro-temporal level of interaction. Motion, especially transition pacing, is often mentioned only in passing, without detailed examination. As a result, the relationship between temporal interaction parameters and humane emotional outcomes remains underspecified.
+
+This thesis builds on the Humane Design Guide by examining motion pacing as a concrete mechanism through which emotional sensitivity, sensemaking, and relational meaning can be supported in interface design [13].
+
+2.4 Empirical Evidence of Emotional Disruption During Screen Transitions
+
+Prior empirical research in HCI suggests that screen transitions are not emotionally neutral, particularly during moments of disengagement or state change. Studies across child–computer interaction and everyday media use contexts indicate that poorly structured or abrupt transitions can destabilize emotional regulation, while more gradual or structured transitions support emotional grounding and smoother behavioral outcomes [1][3][7][8].
+
+Hiniker et al. [1] observed that families develop informal screen-use rituals to manage transitions away from digital media, pointing to the importance of temporal structure in reducing emotional distress during disengagement. Brauchli et al. [3] found that abrupt transitions are associated with increased negative affect and reduced effortful control, indicating that temporal disruption can undermine emotional stability. Zabatiero et al. [8] further showed that structured transition practices help reduce conflict and support emotional regulation during screen disengagement.
+
+Although these studies focus on specific populations and situational contexts, they converge on a shared observation: the timing and pacing of screen transitions play a significant role in emotional regulation and stability. However, existing work primarily documents the consequences of transition disruption rather than examining how emotional meaning is formed over time during interaction. Emotional responses are typically framed as situational effects, rather than as part of a structured, sequential interpretive process.
+
+2.5 Identified Research Gaps
+
+Synthesizing insights from motion design systems [14], affective computing [11][12], humane design guide [13], and empirical HCI studies reveals three critical gaps:
+
+(1) The emotional effects of transition pacing lack systematic empirical modeling.
+
+(2) Emotional interpretation in interaction is rarely conceptualized as a temporal and sequential process.
+
+(3) Motion remains under-theorized as an ethical and emotional design parameter.
+
+Together, these gaps point to the need for a framework that explains not only whether screen transitions affect emotion, but how emotional meaning develops over time during interaction. In response, this research focuses on articulating an emotional hierarchy as a temporal account of emotional interpretation in screen transitions.
+
+3. MOTIVATION
+
+This research began with a repeated feeling I had while using everyday digital products. Over time, I noticed that certain applications consistently left me feeling rushed or tense, even during short periods of use. Fast-paced social media platforms, in particular, created a persistent sense of pressure, as if something important might be missed if attention lapsed. This sensation accumulated and became tiring. In contrast, other applications, especially those designed for meditation or reflection, felt noticeably different. Their slower transitions supported a calmer, more settled mode of interaction. These differences led me to pay closer attention to speed itself as a meaningful aspect of interface design.
+
+What surprised me was how small the differences often were. The emotional shift did not come from content, visuals, or functionality alone. Instead, it seemed to happen during the brief moments when one screen changed into another. The pace of these transitions shaped how the interaction felt before I had time to think about it. This led me to question why such short moments, sometimes lasting only a fraction of a second, could
+
+perceptual settling have such a strong emotional effect. Screen transitions are usually treated as simple connectors between interface states, but my experience suggested that they play a more active role in shaping how users feel.
+
+This question became clearer through my work with design systems as a UX designer. A common part of interface design involves setting transition durations and motion timing for components. In tools like Figma [15], designers often rely on default values such as 150 ms, 200 ms, or 300 ms, adjusting them until an interaction feels acceptable. I found myself doing the same, making decisions based on intuition rather than clear reasoning. At some point, this approach began to feel insufficient. Why did certain speeds feel calming while others felt overwhelming, and where did these standards originate?
+
+To explore this further, I turned to established design systems, particularly Google’s Material Design [9]. Material Design provides detailed motion guidelines grounded in physical concepts such as easing and resistance. These guidelines are effective for maintaining consistency and clarity across interfaces. However, they primarily describe how motion should behave, not how it should feel. Terms such as “fast,” “default,” or “slow” are defined through technical values [14], while their emotional implications remain largely unaddressed.
+
+This disconnect points to a broader issue in contemporary interface design. As motion becomes more prominent and interfaces increasingly compete for attention, transition speed quietly shapes whether interactions feel pressured, neutral, or supportive—often without designers having a shared language to describe these effects. The motivation for this thesis emerges from this gap between lived experience and design explanation. By focusing on transition pacing, this research seeks to make the emotional impact of motion more visible, discussable, and intentional, supporting more reflective and humane digital interactions.
+
+4. APPROACH
+
+This research followed an iterative design-led process that moved from exploratory prototyping toward a controlled empirical study. Rather than beginning with a fixed experimental design, the approach evolved through a series of refinements prompted by both conceptual and practical constraints.
+
+4.1 Early Exploration and Framing
+
+The project initially began with exploratory interface prototypes that embedded different transition speeds within familiar application contexts [15], such as social media feeds and wellness-related flows. These early prototypes were intended to simulate real-world usage and capture emotional responses in different situations. However, early feedback revealed a key limitation: participants’ reactions were strongly influenced by content, task expectations, and prior associations with the application type. This made it difficult to attribute emotional responses specifically to transition pacing.
+
+This early phase clarified an important insight: interface realism introduced too many confounding variables. When narrative context, visual hierarchy, and task meaning were present, emotional response could not be reliably linked to motion speed alone. As a result, the project shifted away from scenario-based interface design toward a more abstract representation of transition behavior.
+
+4.2 Abstraction of Transition Conditions
+
+To address this issue, the study reframed transitions not as UI elements, but as temporal stimuli. Visual complexity, layout, and content were deliberately removed. Instead, transitions were represented as simplified motion profiles that communicated differences in pacing, acceleration, and settling behavior, without referencing any specific application, task, or interaction goal.
+
+Through iterative prototyping, two contrasting pacing profiles were developed, as shown in Figure 1. The first, termed Addictive/Neutral (A/N), emphasized fast acceleration, short duration, and abrupt stopping, reflecting high-stimulation temporal patterns commonly found in attention-driven interfaces. The second, Emotional Care (EC), featured slower pacing, smoother easing, and a
+
+window designed to support emotional stability and interpretability.
+
+These profiles were refined across multiple iterations to ensure that pacing remained the only meaningful difference between conditions. This level of abstraction allowed emotional interpretation to be evaluated independently of interface content or usage context.
+
+4.3 Selection of Emotional Metrics
+
+Parallel to refining the transition conditions, the study explored how emotional response should be evaluated. Initial consideration was given to general affect measures such as valence and arousal [11][12]. However, these measures were found to be insufficiently specific for capturing the experiential qualities observed during transitions.
+
+To address this gap, the study selected three evaluative dimensions: Calmness, Sense of Closure, and Empathy/ Care, each corresponding to a distinct limitation identified in existing theoretical frameworks. Rather than measuring overall mood or preference, these metrics were chosen to capture how users emotionally interpret transition pacing at perceptual, cognitive, and relational levels.
+
+Each dimension was operationalized as a subjective perceptual judgment and rated independently using a 5-point Likert scale. Independent evaluation was used to reduce anchoring effects and to ensure that each metric reflected a distinct aspect of emotional interpretation rather than a composite emotional response.
+
+The theoretical rationale for selecting these three dimensions is detailed below.
+
+First, Calmness was selected based on established affective theory. In valence–arousal models proposed by Russell [11] and further developed in affective computing by Picard [12], arousal is the primary emotional dimension that can be reliably influenced by low-level perceptual stimuli such as motion. Because screen transitions primarily modulate temporal intensity rather than emotional valence, arousal provides the most theoretically grounded entry point for evaluating emotional response. In the context of interaction, reduced arousal is commonly experienced as calmness or emotional stability. Measuring calmness therefore allows the study to capture the direct emotional effect of transition pacing as predicted by affective theory.
+
+Second, Sense of Closure was introduced to address a limitation shared by both affective models and motion design frameworks. While Material Design defines the physical mechanics of transitions, such as continuity, easing, and duration [14], it does not account for how users cognitively interpret the completion of a state change. Similarly, dominant affective models treat emotion as a static condition rather than a process unfolding over time [11][12]. As a result, neither framework adequately represents the moment when a transition is perceived as complete or integrated. Therefore, Sense of Closure was selected as another metric to capture this cognitive integration, reflecting whether a transition supports the perception that an interaction has meaningfully resolved.
+
+Finally, Empathy/Care was included to explore aspects of emotional interpretation that extend beyond perceptual and cognitive processing. Humane design frameworks, particularly process-oriented models of emotional experience, emphasize that relational meaning, such as perceived intentionality or care, emerges through interaction rather than being immediately available [13]. Existing motion and affective models largely omit this dimension, focusing instead on efficiency, clarity, or measurable affective states [11][12][14]. Measuring empathy or perceived care allows the study to examine whether temporal pacing contributes to higher-order emotional meaning.
+
+4.4 Experiment Procedure
+
+Thirty participants (N = 30) were recruited from a general
+
+user population. Participants viewed the two transition conditions, Addictive/Neutral (A/N) and Emotional Care (EC), in randomized order to reduce sequence effects. Each transition was presented in isolation, without task framing or contextual explanation.
+
+After viewing each condition, participants rated their emotional interpretation across the three dimensions using a 5-point Likert scale. This procedure ensured that responses reflected the interpretation of temporal pacing rather than task success, content, or interface familiarity.
+
+4.5 From Data to Model
+
+The resulting dataset enabled systematic comparison across pacing conditions and emotional dimensions. Summary statistics and distributional patterns were examined to support subsequent analysis of emotional interpretation across conditions.
+
+5. OUTCOME
+
+This chapter presents the final outcomes of the study. It first reports empirical findings from the evaluation of transition pacing across three emotional dimensions, using multiple complementary visual analyses. These findings are then synthesized into a final design outcome: the Emotional Hierarchy Framework, which formalizes the observed emotional structure revealed by the data.
+
+The raw dataset consists of ratings from 30 participants across three emotional metrics—Calmness, Sense of Closure, and Empathy/Care—under two transition pacing conditions: Addictive/Neutral (A/N) and Emotional Care (EC). Each participant provided six ratings in total.
+
+The dataset follows a 30 × 3 × 2 structure, enabling direct comparison across pacing conditions and emotional dimensions. To support transparency, the raw data allows inspection of individual variability prior to aggregation.
+
+Due to space constraints, only a subset of the dataset is shown in Figure 2; the complete raw dataset is provided in Appendix A (Figure A1).
+
+5.2 Average Emotional Ratings: Bar Chart Analysis
+
+Average ratings for each emotional metric under both pacing conditions are shown in Figure 3. Across all three dimensions, Emotional Care (EC) pacing consistently outperforms Addictive/Neutral (A/N) pacing.
+
+Calmness increases by (+2.1), reflecting greater emotional stability under slower pacing. Sense of Closure increases by (+1.8), indicating improved cognitive integration when transitions support anticipation and settling. Empathy/ Care shows the largest mean difference (+2.6), reflecting a strong increase in perceived relational meaning under EC pacing.
+
+Importantly, the magnitude of change differs across metrics. These non-uniform gains indicate that emotional responses to transition pacing do not shift uniformly across dimensions, motivating closer examination of distributional patterns beyond average values.
+
+5.3 Distributional Differences: Boxplot Analysis
+
+Distributional analysis using boxplots (Figure 4) shows how emotional responses to transition pacing differ not only in magnitude, but also in stability across metrics.
+
+Calmness shows the most fundamental response pattern. Under Addictive/Neutral (A/N) pacing, ratings are highly scattered, indicating that fast pacing disrupts emotional grounding. Under Emotional Care (EC) pacing, ratings cluster tightly around 4–5, suggesting that users first experience emotional stability when pacing supports anticipation and settling.
+
+Sense of Closure shows a similar contrast, but its stability appears dependent on Calmness. Under EC pacing, Closure ratings cluster consistently at high values, while under A/N pacing they remain dispersed. This pattern indicates that users can only judge whether a transition has meaningfully completed once emotional stability is established.
+
+Empathy/Care displays a threshold-like response. Under A/N pacing, ratings concentrate in the lowest range (1–2), indicating an absence of perceived warmth or intentionality. Under EC pacing, ratings are nearly uniform at the highest level, showing minimal variance. This polarization indicates that Empathy/Care does not emerge gradually, but only when both Calmness and Closure are consistently satisfied.
+
+Taken together, these patterns indicate a clear progression: Calmness differentiates first, Sense of Closure depends structurally on emotional stability, and Empathy/Care emerges only when prior conditions are met. This distributional evidence supports a sequential organization of emotional interpretation during screen transitions.
+
+5.4 Difference Analysis and Tiered Effects: P-Values
+
+The difference chart with p-value–style annotations (Figure 5) shows that Emotional Care (EC) pacing leads to statistically significant improvements across all three emotional dimensions when compared to Addictive/ Neutral (A/N) pacing (p < 0.001). This indicates that the effects of EC pacing are robust rather than random.
+
+However, the magnitude of improvement differs across metrics. Calmness increases by (+2.1), Sense of Closure by (+1.8), and Empathy/Care by (+2.6). These nonuniform gains suggest that the three emotional dimensions vary in how readily they respond to pacing.
+
+Calmness shows a strong and reliable shift, indicating that it is the most directly influenced dimension. Sense of Closure shows a smaller but consistent increase, suggesting moderate sensitivity. Empathy/Care demonstrates the largest gain, but only under EC pacing, indicating that it is the least readily influenced and depends on additional conditions being satisfied.
+
+Importantly, these differences do not establish a temporal order among emotional responses. Instead, they indicate a tiered effect: emotional dimensions are not affected in parallel, but differ in responsiveness and dependency. This pattern provides evidence for the existence of distinct emotional levels within the interpretive process, rather than a single uniform emotional response to pacing.
+
+5.5 Cross-Metric Empirical Synthesis
+
+Synthesizing evidence across Figures 4–7, the results
+
+reveal a consistent empirical pattern in how emotional dimensions respond to transition pacing. Improvements across Calmness, Sense of Closure, and Empathy/Care are not uniform in magnitude or distribution. Instead, the data suggest structured dependencies among metrics.
+
+Calmness appears as the most stable and reliably improved dimension under Emotional Care pacing. Sense of Closure improves once emotional stability is present, indicating a reliance on prior emotional grounding. Empathy/Care shows the strongest increase, but only under conditions where both Calmness and Closure are consistently high.
+
+Taken together, these findings indicate that emotional interpretation during screen transitions does not occur as parallel responses, but exhibits a sequential tendency shaped by transition pacing.
+
+5.6 Final Outcome: Emotional Hierarchy Framework
+
+Building on the empirical patterns identified above, this research produces the Emotional Hierarchy Framework as its final design outcome (Figure 6). The framework formalizes the observed relationships among the three emotional dimensions into a structured representation of emotional interpretation during screen transitions.
+
+Within the framework, Calmness functions as the foundational condition that stabilizes emotional response
+
+to temporal change. Sense of Closure follows as a cognitive layer that enables users to integrate and interpret a transition as complete. Empathy/Care occupies the upper layer, reflecting perceived intentionality and relational meaning that emerge only when prior conditions are satisfied.
+
+Rather than serving as a prescriptive rule set, the Emotional Hierarchy Framework functions as an analytic tool that translates empirical findings into a form designers can actively work with. Designers engage with the framework by examining whether a given transition supports emotional stability (Calmness), perceptual completion (Sense of Closure), and perceived intentionality (Empathy/Care). By locating breakdowns at specific levels, the framework helps explain why an interaction may feel rushed, unresolved, or emotionally distant, even when it meets existing motion guidelines.
+
+The controlled user evaluation presented in this chapter serves as the final empirical validation of the Emotional Hierarchy Framework, grounding the proposed structure in observed patterns of emotional interpretation rather than speculative design reasoning.
+
+6. DISCUSSION
+
+This thesis examined how transition pacing shapes emotional interpretation in digital interfaces, treating motion not as a decorative detail but as a core interaction parameter. The findings show that emotional responses to transitions are neither neutral nor parallel. Instead, they exhibit structured dependencies, suggesting that pacing plays an organizing role in how users experience stability, completion, and care during interaction.
+
+A central contribution of this work is the reframing of emotional response as a process rather than a static state. Dominant affective models, including valence–arousal frameworks, are effective for categorizing emotional conditions but offer limited insight into how emotions develop over time during interaction [11][12]. The results of this study complicate that assumption. Calmness, Sense of Closure, and Empathy/Care do not shift uniformly in response to pacing. Instead, empirical patterns show that these dimensions differ in responsiveness and dependency, supporting the view that emotional interpretation during
+
+transitions emerges sequentially, even when captured through simple perceptual ratings.
+
+The findings also extend existing motion design frameworks. Design systems such as Google’s Material Design provide detailed prescriptions for motion behavior, defining duration, easing, and physical realism to support usability and spatial continuity [14]. However, these guidelines largely frame motion in mechanical terms, leaving emotional consequences implicit. The Emotional Hierarchy Framework complements these systems by offering a vocabulary for evaluating how motion is emotionally interpreted, not merely how it behaves. By distinguishing emotional grounding, cognitive integration, and perceived intentionality, the framework makes visible a layer of interaction experience that current guidelines do not explicitly address.
+
+From a humane design perspective, the results provide empirical support for claims that emotional sensitivity and care emerge only after more basic conditions are satisfied. Prior work in humane design emphasizes stabilizing users emotionally before demanding interpretation or action [2] [13]. The threshold-like behavior observed in Empathy/ Care aligns with this view, suggesting that perceived care does not arise directly from expressive motion alone. Instead, it depends on prior moments of emotional stability and perceptual completion. This finding challenges interface patterns that prioritize speed and engagement while overlooking users’ need for emotional grounding.
+
+At the same time, this study involves important methodological choices that shape how the findings should be interpreted. To isolate the emotional effects of transition pacing, the evaluation focused on controlled transition examples in which pacing was treated as the primary variable. Rather than embedding transitions within specific applications, categories, or design systems, the study used generic interaction structures that commonly appear across digital products.
+
+For example, many applications, ranging from social media and meditation tools to language learning platforms, involve transitions from a list of items to a detailed view (Figure 7). In such cases, users engage in a similar behavioral pattern: scanning options, selecting an item of interest, and transitioning to a new state to seek
+
+further information. By focusing on this shared interaction structure, the study aimed to examine how pacing alone shapes emotional interpretation, independent of content, branding, or domain-specific expectations.
+
+However, emotional experience in real-world use is shaped by more than isolated transitions. Over longer periods of interaction, users may encounter multiple transitions in sequence, and their interpretation of pacing may be influenced by accumulated context, task continuity, or prior emotional states. While the present study captures immediate perceptual responses to individual transitions, future work could extend this framework to examine how emotional interpretation evolves across sustained interaction and repeated exposure.
+
+These methodological boundaries point toward meaningful directions for future research. Applying the Emotional Hierarchy Framework within real product flows or design systems could examine how the identified structure operates in situated, longitudinal contexts. In addition, combining perceptual measures with behavioral or physiological data may further refine understanding of how emotional stability and perceived care develop over time.
+
+Overall, this research argues that motion functions as emotional infrastructure within digital systems. Transition pacing shapes not only efficiency, but how supported, resolved, and cared for interactions feel. By articulating emotional interpretation as a structured process, this thesis extends current affective and design theories and provides a foundation for more reflective and humane motion design.
+
+7. CONCLUSION
+
+This thesis began with a simple but underexplored question: how does the pacing of screen transitions shape emotional interpretation during interaction? Although motion is a routine component of contemporary interfaces, its emotional consequences are often treated as secondary to efficiency or visual coherence. By isolating transition pacing as a primary variable, this research positions motion not merely as connective tissue between screens, but as an active contributor to how interactions feel over time.
+
+The findings of this study demonstrate that emotional responses to transitions are not uniform. Calmness, Sense of Closure, and Empathy/Care respond differently to changes in pacing, revealing structured dependencies rather than parallel shifts. Calmness functions as an affective baseline that stabilizes experience. Sense of Closure reflects whether users can cognitively integrate a change. Empathy or Care emerges only when both prior conditions are satisfied. Together, these results support the central argument of this thesis: emotional interpretation during interaction develops through a layered, timedependent process.
+
+From these findings, the Emotional Hierarchy Framework is introduced as the primary contribution of this work. The framework functions as an evaluative structure for understanding transition pacing at an abstract level. Rather than prescribing specific durations, easing curves, or stylistic conventions, it enables designers to assess whether a transition supports emotional stability, perceptual completion, and perceived intentionality. Importantly, the framework is derived from controlled pacing relationships rather than from any single design system, application category, or interface composition. By abstracting transition speed away from concrete UI elements and visual styles, the framework remains applicable across a wide range of interaction contexts without relying on domain-specific assumptions.
+
+At the same time, this work does not claim to fully capture the complexity of emotional experience in real-world use. Emotional interpretation is influenced by longer-term engagement, repeated transitions, and situational context, which extend beyond the scope of the present study. These open dimensions suggest opportunities for future research
+
+that applies the framework within sustained product flows, longitudinal use scenarios, or design systems operating at scale.
+
+In closing, this thesis argues that transition pacing is not a neutral technical parameter, but a meaningful component of interaction design. By articulating emotional interpretation as a structured process, this work offers a new way to reason about motion beyond intuition or efficiency, contributing toward more intentional and emotionally considerate digital experiences.
+
+REFERENCE
+
+[1] A. Hiniker, H. Suh, S. Cao, and J. A. Kientz, “Screen Time Tantrums: How Families Manage Screen Media Experiences for Toddlers and Preschoolers,” CHI ‘16: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, pp. 648–660, 2016, doi: 10.1145/2858036.2858278.
+
+[2] L. Sánchez Chamorro, K. Bongard-Blanchy, and V. Koenig, “Ethical Tensions in UX Design Practice,” DIS Proceedings, 2023, doi: 10.1145/3563657.3596013.
+
+[3] V. Brauchli, P. Edelsbrunner, R. Paz Castro, R. Barrd, A. von Wyl,  P. Lannen, et al., “Screen time vs. scream time: Developmental interrelations between young children’s screen time, negative affect, and effortful control” Computers in Human Behavior, vol. 154, 2024, Art. no. 108138, doi: 10.1016/j.chb.2024.108138.
+
+[4] A. Rossi, R. Carli, et al., “Who is vulnerable to deceptive design patterns? A transdisciplinary perspective on the multi-dimensional nature of digital vulnerability,” Computer Law & Security Review: The International Journal of Technology Law and Practice, doi: 10.1016/j. clsr.2024.106031.
+
+[5] S. Medjden, N. Ahmed, and M. Lataifeh, “Adaptive user interface design and analysis using emotion recognition through facial expressions and body posture from an RGB-D sensor,” PLoS ONE, vol. 15, no. 7, 2020, Art. no. e0235908, doi: 10.1371/journal.pone.0235908.
+
+[6] S. Duan, Z. Wang, S. Wang, M. Chen, and R. Zhang, “Emotion-Aware Interaction Design in Intelligent User Interface Using Multi-Modal Deep Learning,” arXiv, arXiv:2411.06326, 2024, doi: 10.48550/ arXiv.2411.06326.
+
+[7] L. Kiernan and M. Mc Mahon, “Guide to ethical research and design practice with vulnerable participants,” Journal of Engineering Design, vol. 95, pp. 1-19, 2024, doi: 10.1080/09544828.2024.2324401.
+
+[8] J. Zabatiero, et al.,“‘Yeah, no more tantrums, whoo!’: Practices parents valued in helping their young children to transition away from sedentary screen use,” International Journal of Child-Computer Interaction, 42 (2024) 100691, doi: 10.1016/j.ijcci.2024.100691.
+
+[9] Google Material Design Team, “Better, Easier, Emotional UX: The Research Behind Material 3 Expressive,” Google Research Blog / Material Design Guidelines, 2023. [Online]. Available: https://design. google/library/expressive-material-design-googleresearch
+
+[10] D. A. Norman, Emotional Design: Why We Love (or Hate) Everyday Things. New York: Basic Books, 2004.
+
+[11] J. A. Russell, “A circumplex model of affect,” Journal of Personality and Social Psychology, vol. 39, no. 6, pp. 1161–1178, 1980.
+
+[12] R. W. Picard, Affective Computing. Cambridge, MA: MIT Press, 1997.
+
+[13] Center For Humane Technology, “Humane Design Guide,” [Online]. Available: https://www.humanetech. com/. Accessed: Jan. 2025.
+
+[14] Google Material Design Team, “Motion physics system,” Google Material Design 3, [Online]. Available: https://m3.material.io/styles/motion/overview/how-itworks. Accessed: Jan. 2025.
+
+[15] Figma Design Team, “Prototype easing and spring animations,” Figma Design, [Online]. Available: https:// help.figma.com/hc/en-us/articles/360051748654Prototype-easing-and-spring-animations. Accessed: Jan. 2025.
+
+APPENDIX A. Full Raw Dataset
+
+This appendix provides the complete raw dataset for all 30 participants referenced in 5.1 Raw Data Overview.
+
+Figure A1. Full view of the raw dataset.
+
+EMOTIONAL
+
+motion timing, rhythm, and sequencing in screen transitions.
+
+Hierarchy.

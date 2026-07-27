@@ -1,0 +1,247 @@
+Abstract
+
+We are becoming more and more disconnected from our own mental needs and the unfortunate state of healthcare in America means that many people cannot rely on professional help to handle their mental wellbeing [9, 13, 15]. It’s important that we create more resources and tools that allow people to take action on their own to improve their quality of life. The outcome of this project is just one tool that can hopefully help people take their first steps toward having a better, healthier mind.
+
+Existing wellness tools lack the combination of externalization, visualization, and individualization needed to fully connect with our minds in the way we connect with others. There is often a lack of focus on the way we perceive our own mental health and without first changing this perception, it is difficult to proceed with getting the support and care we need.
+
+The goal of this project is to develop a tool that helps encourage people to look at their mental health in a new way and encourage a deeper empathy with their mental wellbeing. It aims to connect people with themselves in the way they are able to connect with others.
+
+People have tried to visualize mental health and wellbeing in the past through illustrations, data visualizations, and exercises in imagination. But these methods tend to be very generalized, focused on diagnoses rather than individual and complex experiences of mental wellbeing, and static without an exploration in
+
+In this project, I utilize the current self-reflective practice of journaling as the groundwork from which to create a visual representation of a person’s
+
+thoughts and feelings. These visualizations are created from data extracted from journal entries using natural language processing and take the form of monsters. These monsters are living representations of a person’s mind that evoke empathy and motivate care. They change as you make new journal entries and help illustrate the progress you are making in your mental health journey.
+
+mental health. This project encourages people to not only empathize more with themselves and their minds, but also with other people who may be struggling in ways that are invisible to them.
+
+In the future, further refinement of the design and technology would make this tool more effective and accessible to the people who need it, and testing will need to be done to prove the efficacy of the concept.
+
+Due to the timeframe of the project and the complexity of the technology used, the final prototype is limited in its functionality and interaction but communicates the main ideas and intended interactions to the audience.
+
+That being said, the completion of this thesis not only brings a new resource to help people increase their mental wellbeing, but it also opens up a broader conversation about how we view and think about
+
+Background
+
+is crucial to the wellbeing of every person. Unfortunately however, many people are unable to get the care that they need. According to Mental Health America, “the percentage of adults with a mental illness who report unmet need for treatment has increased every year since 2011.” [15] And the National Alliance on Mental Illness (NAMI) reports that, “Nearly half of the 60 million adults and children living with mental health conditions in the United States go without any treatment.” [13] There are a lot of reasons for this, including stigma, cost, availability, and medical bias. The confusing and difficult process of trying to find care coupled with exorbitant costs associated with many providers, means that a lot of people are simply unable to get professional help. [9, 13]
+
+Our minds are intangible, abstract, nebulous things. We cannot see them, we cannot touch them, and we often struggle to understand them. The mind is so different from the body. We often think about our bodies as vessels that carry us through life, that do work, and that keep us running. We understand that we need to fuel, clean, and take care of our bodies in order for them to continue to function and for us to survive. But our minds are different. Feelings are not concrete. Thoughts have no physical form. How can you care for something you cannot see or touch?
+
+This project aims to help people approach their mental health from a new angle, to inspire a more instinctual desire to practice mental hygiene, and to create a more positive relationship between themselves and their minds.
+
+Because of these difficulties, it is extremely important that there are options for people to take their mental health into their own hands.
+
+Access to mental healthcare
+
+This project is not meant to serve as a replacement to therapy or other professional services. It is simply meant to give people a resource to help better their mental wellbeing in just one small way with low to no barriers to access.
+
+of adequate treatment, negative self-talk, and loss of hope. [9] This perception of self is a big part of what this project aims to reframe. Instead of seeing your mental health concerns as a negative reflection on yourself and a sign that you do not deserve care and support, this project tries to reconceptualize the essence of your mind so that you can see your mental wellbeing as something separate from your selfworth. The goal is to show you how your mind is just as deserving of care as any other person’s and that empathy, understanding, and empowerment can be powerful tools to dismantle the internalized negativity surrounding your mental health.
+
+Among these barriers to care is stigma. There is a lot of stigma surrounding mental health and this not only affects whether people seek out care, but also how well that care goes. The stigma surrounding mental health leads to bias, misinformation, and discrimination at an institutional level, as well as shame, negativity, and prejudice at a more personal level. [9] In addition to stigma being perpetuated by the public and the healthcare system, self-stigma is a huge problem as well. This type of stigma is a form of negativity and shame that one might feel towards themselves about their mental health struggles. It can lead to isolation, lack
+
+mental health, everything is so abstract and invisible. It’s easy to doubt yourself when all you have as evidence is your thoughts and words. How do I tell someone about an experience they’ve never had or heard of? How do I know if the way I feel is normal or a valid concern?
+
+I’ve struggled with my mental health most of my life but I’ve only been able to get professional help in recent years. Growing up, I had a lot of difficulty understanding what was going on inside my own head. I doubted the validity of my struggles, blamed myself for the things that were difficult for me, and didn’t feel as though I had the language to describe my experiences to others. I spent a lot of time wishing my pain was physical, that other people could see it and understand it. When I broke a bone or scraped my knee, that pain was never called into question or doubted by others. I never had to think about whether it was real or not because the evidence it existed was right there on my skin. Those physical pains were easy to see. They were undeniably there and were relatable enough experiences that no one had trouble understanding what they meant. With
+
+I found myself often struggling with communicating and understanding my needs when it came to mental health. I was able to support friends and family, give advice to others, and be a caregiver to people in my life that were having a hard time, but with myself, I was always at a loss. Why was I able to take mental health so seriously when it came to others but with myself, I couldn’t justify the need for care? There was a clear disconnect between the empathy I felt for those around me and what I felt for myself. And there was even a disconnect between the way I treated my physical health to how I dealt with my mental
+
+health. I needed a way to mend this disconnect. Something that could connect me with my mind in the way I could connect with others. Something that could give my mind form in the way my body had form. It was this need that drove the creation of this thesis.
+
+and technology. The Master of Design program at UC Berkeley, from which this thesis is being created, emphasizes the use of emerging technologies for social good. This project aims to use one such technology, artificial intelligence, to tackle a specific problem within the mental health field and promote accessible care and wellbeing.
+
+If we can see our minds as separate beings, needing care and kindness in order to survive, perhaps we can change the way we view our mental health. If we can create a representation of the thoughts and feelings we experience daily in a way that is visible and easy to understand, perhaps we can foster a more positive relationship with our minds and give us tools to communicate the nebulous state of our mental wellbeing with others.
+
+The use of natural language processing and data visualization to achieve these goals gives this project a unique position within the landscape of mental healthcare, design,
+
+History / Prior Art
+
+sparked the initial idea to apply self-tracked data and visualizations to mental health. Dear Data is a beautiful illustration of how we can use data to gain insights into the minutiae of our lives and how data visualization can be applied to an individual and be a form of connection between people.
+
+The domain that this thesis inhabits is an intersection between reflective writing, artificial intelligence, data visualization, and art in the context of mental health and wellbeing. Many past projects have been an inspiration to this one in the various areas of the domain.
+
+Self-Tracked Data and Visualizations I was very influenced by the work of information designers Giorgia Lupi and Stefanie Posavec and their project Dear Data [3]. This was a project where Lupi and Posavec spent a year recording data about their lives, creating unique visualizations of that data, and sending those visualizations to each other on postcards through the mail. Every week, they collected and measured a different type of data and hand drew that data for the other to get a peak into their day to day lives. This project was a huge inspiration to mine and
+
+When bringing these ideas and practices to the domain of mental health, there tends to be a big emphasis on communication, education, and awareness. This is shown well in the work of Jill Simpson [16], a sociology research fellow at the University of York. Simpson asked the question, “What does mental illness look like?” and explored the answer to it through her own OCD. She spent a day recording data about her compulsions and created a visualization of that data in order to bring awareness about what her anxiety and OCD can look like to those who may not understand how Jill Simpson visualizes her OCD compulsions through self tracked data [16]
+
+Dear Data visualizations of a “week of complaints” and a “week of indecision” [3]
+
+it can affect someone’s day to day life. She states that, “visualizing [her] own behavior has helped [her] to take a step back from it, to see it as a symptom of OCD rather than a personal failing.” [16] This concept is at the core of this project. Being able to see mental health in an external form can be a great way to separate it from feelings of failure or negative self-talk. These works are great examples of people taking data about their own lives and turning it into meaningful visualizations.
+
+However, it is important to this project that the outcome can be applied to anyone who would like to participate. This goal is similar to that of journalist and interface/visualization designer, Anna Wiederkehr, in her project Fine [6]. Similar to the projects above, Wiederkehr created another great example of self-tracked personal data and unique visualizations. However, this time, it was an application that anyone could use to learn about their own lives. Fine is a system for recording
+
+Anna Wiederkehr’s representations of emotional experiences as an iceberg [6]
+
+and visualizing emotions. Wiederkehr created an app that walks the user through recording an emotional experience and then provides a structured visualization in the form of an iceberg with different features representing different aspects of the experience. It also provides an opportunity for reflection. The different aspects explored by Anna’s visualizations are control, reaction, conduciveness, valence, intensity, arousal, and triggers. The goal is to promote emotional awareness, create a visual vocabulary to describe emotional experiences, and give opportunity to reflect on emotions in a nuanced way that allows for easy communication. Fine is a great example of recording an aspect of mental wellbeing, visualizing it, and giving people a different way of seeing their minds. This project served as a huge inspiration to this thesis and it is a great proof of concept for how visualizing thoughts and
+
+feelings can be helpful in a person’s mental health journey.
+
+Illustrations and Monsters In addition to visualizations based on data, many people have tried to visualize mental health through illustration. This is represented well through the works of Phil Wall [1] and Toby Allen [8, 10, 11]. Both are artists that created separate series of illustrations of mental illnesses in the form of monsters. Phil Wall’s illustrations depict mental illnesses as monsters that follow us around on a daily basis. The purpose is to open up a conversation surrounding mental health and bring awareness in a way that is easily understood by everyone. This more artistic approach to visualization gives a glimpse into what these mental illnesses are and the magnitude of their effects on people’s lives while also being easily digestible and understood. [1] Toby Allen’s illustrations in his series “Real Monsters”, similarly
+
+Phil Wall creates illustrated monsters to represent mental illness [1]
+
+Toby Allen illustrates monsters to represent mental illness [10]
+
+Output art of Judith Amores and David Alvarez-Melis’ Emotional GAN [14]
+
+depict mental illnesses as monsters. In addition to the illustrations, each monster gets a short description of their personality, mannerisms, and effect on the person they cling to. Toby states that the project’s goal is to reduce stigma around mental health and to educate on lesser known conditions. This is another example of using monsters to give life to mental health issues and to try to create empathy surrounding people with mental illnesses. The added personalities for each monster further drive home the idea that these representations of mental health are alive and are imagined to be sort of companions to the people they cling to. [8, 10, 11]
+
+thoughts as the words of a monster. This is a way of separating yourself from your anxious thoughts and can be a helpful coping mechanism to manage anxiety. You give your monster a name, shape, and voice. You imagine what it looks like and how it talks to you. And once you do, you can address your thoughts in a way that is not negative to yourself and can allow you to acknowledge your needs in a safer, more approachable way. Part of this activity can also be to draw your anxiety monster. Whether through your imagination or through drawing, this exercise is another way of visualizing mental illness as a monster and helping people externalize their thoughts and feelings. [5, 12]
+
+This combination of using illustration and monsters to portray mental illness is something that can be utilized in therapy practices as well. The concept of the anxiety monster [12] or worry monster [5] is used to imagine your anxious
+
+All of these examples have influenced my decision to use art and monsters in my own work as a method for representing thoughts and feelings in a meaningful and understandable way.
+
+Artificial Intelligence This project explores the use of journaling in order to record and track information about a person’s mental wellbeing. After recording this information, data needs to be extracted in order to create meaningful visualizations. An example of this type of work is by Ryan Brown [4], a data scientist who took 4 and a half years worth of his journal entries and analyzed them with natural language processing to pull out some interesting insights. He specifically determined three things, the most common words used in his journal, the overall sentiment of his writing, and the length of each entry. He then visualized these data points to understand his habits and see how his journaling has changed over time. He visualized the most common words in the form of word clouds that revealed the people and things he talked about the most. He also created graphs to see
+
+his changes in sentiment over time. From this, he was able to draw conclusions about how he was feeling and what was important to him throughout the years. [4] This use of natural language processing to analyze journal entries is very similar to the way it is done in this thesis project. However, the goal here is to try to push the visualizations of the extracted data further than graphs and word clouds.
+
+A good example of using AI to create interesting images is the project, The Emotional GAN [14] by Judith Amores and David Alvarez-Melis. In this project, they created a classconditioned generative adversarial network that turned emotion into art. They took a dataset of modern artworks that they labeled with different emotions and trained their network to generate new art based on a specifically requested emotion. It relies on people’s interpretation of current artwork to classify
+
+what visual features exhibit certain emotions. This project is a great example of how AI generated art can be a compelling way to create and communicate content surrounding thoughts and feelings. [14]
+
+in this domain that have informed the direction and process of this thesis. Even with this body of work, however, there were still some areas of opportunity left to be explored. The main gaps that exist are a lack of non-static visualizations that change over time, tools that people can use to create their own personalized visuals without focusing on diagnoses or generalizing experiences, a focus on empathizing with your own mind and motivating your own self-care, and sufficient motivation to begin or continue practicing mental hygiene. Visualizing Our Minds is a combination of artificial intelligence, journaling, and data visualization that manifests in digital companions, selfreflection, and self-empathy. This combination will create a unique experience that will address these gaps in the current project landscape.
+
+AI has also been used in mental healthcare as well for both detection and treatment. Companies like Woebot are creating applications that use AI to conduct chat therapy as a way of treating symptoms of anxiety and depression in a more accessible way [17]. In addition, AI can be used to diagnose certain mental health conditions through analyzing behavior such as vocal data or movement [2, 7]. These technologies are still being developed and tested and are not standard practice in the mental health field yet but they show potential for the increased use of AI in this area.
+
+Gaps in the domain All of these projects are examples of existing work
+
+Methods
+
+be used to process the journal entries and generate the visuals.
+
+The main goals of this project are to externalize our thoughts and feelings, create a visual representation of a person’s mind that can be empathized with and cared for, and to help people connect with themselves and their mental health in the way they can connect to others. In order to achieve these things, research was conducted, metaphors were created, and technology was developed.
+
+The Metaphor The metaphor at the center of this project is a monster being a representation of a person’s mind. This metaphor is what allows people to translate their feelings of empathy and care for another being to themselves. It allows them to see their minds in a new form that can make the invisible visible. There are a couple reasons that monsters in particular were chosen for this. The first being the many precedents for using monsters as visualizations for mental illnesses and the established practices such as the “anxiety monster” activity that demonstrate the efficacy of this metaphor already. [1, 5, 8, 10, 11, 12]
+
+Research Research was conducted to figure out how people currently conceptualize their minds, how people can track their thoughts and emotions in a way that promotes self reflection, and what products and services already exist in this space. Findings from this research led to the conclusion that journaling was the best method to use for the user input, monsters would be used as the imagery of the visualization, and AI would
+
+In addition, it was important that the representation of the mind was a living being. Part of the project was trying to get people to
+
+see their minds in the same way they see their bodies, or even other people. It is a lot easier to empathize with something alive than with something inanimate or abstract. So giving the mind a body that lives and breathes and has needs, pushes the user to see their mental health in the same way they see physical health and encourages empathy towards both the monster and themself.
+
+feelings is not always pretty but with care, work, and time, you can figure out a way to live with both the positive and the negative aspects of your mind. Therefore, a monster can be a powerful metaphor for the complexity and nuance of dealing with your mind.
+
+Technology After fleshing out the metaphor, the technology needed to be developed to create those monsters. The first step of that was creating a place for people to journal and record their thoughts and feelings. Then, a program had to be developed to analyze those journal entries to extract data from it. It was decided that natural language processing would be used here to pull out important sentiment and themes from the freeform writing. Finally, a way to take that data and generate the monsters that represent it was created. This allowed the user to see the data that had been extracted from their journal entries in visual form.
+
+The term monster also carries interesting connotations that fit well with how we see our minds. One might hear the word monster and think of something scary and ugly. But the reality is that monster is a neutral term. There are both positive and negative depictions of monsters in popular media and often the narrative goes that monsters seem scary until you get to know them and befriend them (e.g. Monsters Inc.). The mind, like monsters, can be scary, difficult, and ugly. Dealing with your thoughts and
+
+Process people conceptualized their mind monsters. This then informed the way the generated monsters for this project looked and what features were used to represent different aspects of people’s minds.
+
+a way to externalize and give form to the mind, but the goal shifted from wanting to change people’s behaviors to changing their perceptions.
+
+Research The first several weeks of the project were spent on research and concept development. This process also included talking to cluster advisors, Mark Miller and Pablo Paredes to get feedback and input on the direction the project was taking. The project started with the simple question of “how do we visualize mental health?” Throughout the research process, this question evolved into focusing on perceptions and empathy. It was discovered that a big reason people have issues taking care of their mental health is due to the way they think about and perceive it. This perception differs so much between thinking about one’s own mental health vs others’. So the question driving this project became, “how can people learn to connect with their own minds in the way they are able to connect with others?” The use of visualizations remained as
+
+Drawings In order to figure out how the final visualizations should look, the way people currently would imagine their mind monsters needed to be explored. Multiple groups of people, including two classes of 2nd and 3rd grade students as well as some peers, were asked to participate in the activity of imagining their thoughts and feelings as the words and emotions of a monster inside their head. They were asked to visualize what that monster looked like, what features it had, and what its personality was. They then drew these monsters out to show what they had imagined. The different aspects and features of all these drawings were then compared to figure out if there were any similarities between how
+
+the journal entries and generated the monsters needed to be developed, and the monsters themselves needed to be designed.
+
+The first pass at the UI was a simple design meant to show the main features of the tool. However, this got the feedback that it needed to be more playful and inviting to use, so iteration began on figuring out the right design and
+
+Design and Development There were several different aspects of the project to design and develop. The UI of the final tool needed to be planned out, the program that analyzed
+
+An initial attempt at designing the interface for the application. Monster drawing used here was my own personal mind monster I drew for myself.
+
+Selection of drawings of “mind monsters” that represent thoughts and feelings done by 2nd and 3rd grade students
+
+branding. In addition, the original user input was just a freeform journal entry. But after some exploration with the capabilities of natural language processing, it was determined that more input was needed in order to create a compelling visualization. So additional questions were added to the interface to gather more data.
+
+wasn’t enough control or uniformity in the output of these tools. Generative Adversarial Networks (GANs) were also researched since there were a few projects in this domain that used them for image generation in a similar way to this project. However, these also turned out to not be ideal to the intended outcomes of the project and too complicated for the timeframe of development. Therefore, it was decided to look into other forms of generative design and information design to create the final visuals.
+
+One of the most difficult things to figure out was how to actually generate the monsters. A few different options were explored here. Text to image AIs such as stable diffusion and Artbreeder were experimented with to see what kinds of visuals they could create. I also experimented with some of the drawings done of people’s mind monsters by feeding both the drawing and the writings about what that person was feeling at the time into Artbreeder to see what kind of digital monster it would generate. It was ultimately determined there
+
+AI generated monsters using various prompts containing keywords such as “illustration,” “cute,” “monster,” and “emotion.”
+
+Using the Artbreeder collage feature, a drawing of a kid’s mind and a description of the drawer’s thoughts and feelings is turned into an AI generated monster.
+
+Prompt used: “Illustrated Monster. I feel super excited about tests. I like to get a 100 on my test. I want to hop up and down like a bunny! I hop over Mount Everest!”
+
+Using the Artbreeder collage feature, a drawing of a kid’s mind and a description of the drawer’s thoughts and feelings is turned into an AI generated monster.
+
+Prompt used: “Illustrated monster. Happy, Mad, and Scared. Growls when she is mad. Ears down and shaking when scared. Bear face, bear body, wings, and mermaid tail”
+
+Concept behind final design and technology
+
+Interface The interface design was created with the intention of it being user friendly, playful, and fun to use. The screens of the interface were built and prototyped out in figma and Illustrator to show the intended design and functionality of the different aspects of the app. The main screen was then prototyped in HTML, CSS, and JavaScript to show how the major features would work.
+
+The freeform journaling section allows you to write freely about your day, your thoughts, your feelings, and anything else you might have on your mind. This section is for anything the user might want to express or process and is a free place for selfreflection. The identification of emotions section allows the user to think about the main emotions they are experiencing in the current moment and how those emotions have come up from the things they wrote in the free write section. The intensity section asks users to rate the intensity of the emotions they identified previously to better understand what emotions are the most prominent and
+
+Journal Entries The final journal entry input consists of a few different sections: freeform journaling, identification of emotions, intensity of emotions, and progress towards goals/self-care.
+
+at the forefront of what they are feeling. Finally, the user can input steps they have taken to reach personal goals or engage in self-care recently as a way of feeling pride in the progress they are making and to highlight the importance of small efforts in the day to day of a mental health journey. Once all of these sections have been completed, the user submits the entry and
+
+a monster is generated based on the data collected. Afterwards, the user is able to adjust different parameters and inputs in order to see how they affect the monster that was created.
+
+Data Collection Once the user submits their journal entry, it must be transformed from a journal into data that can
+
+Main concept for user interface and user experience for the application
+
+be used in the image generation process. For many of the inputs, this is a simple process. However, for the freeform writing section, natural language processing is utilized to turn text into data. The main piece of data being extracted from this section is sentiment, which comes out in the form of numerical scores for percent positive, negative, and neutral, as well as overall sentiment. This was prototyped in python using the Natural Language Toolkit.
+
+intensity is. The intensity comes in as a numerical score from 0 to 100, 0 being not feeling it at all to 100 being feeling the emotion very intensely. The default for every emotion is 0 until the user indicates otherwise.
+
+The goals and self-care section is tied to the wellbeing of the monster. The important information from this section is whether the user is checking off any goals or self-care tasks and how many have been completed, not necessarily what the specific tasks are. It matters less what they are doing, and more that they are making efforts to progress and take care of themselves daily. So the data extracted from this section is purely a number of how many tasks the user checks off.
+
+For the identification of emotions section, each emotion is directly tied to different features on the monster and whether the features are changed from the default is dependent on whether the user says they are experiencing that emotion and what the
+
+Image Generation Once the data is collected for a specific journal entry, the monster needs to be generated based on this data. A few different methods for doing this were explored through the prototyping process.
+
+aspects of that image was dynamically changed with JavaScript as the inputs changed. For example, different emotions affected the colors in different ways, stress was mapped to horn height, happiness to arm position, sadness to mouth size/shape, anxiety to body shape, tiredness to eye shape, and calmness to body size.
+
+i) Direct Feature Manipulation One method was through hard coding feature changes based on the imputed data. The monster was created through HTML and CSS and then different
+
+ii) Text to Image AI Another method was to take the data and keywords associated with
+
+Prototyping the basic monster generation and manipulation based on user input into the journal entries Result of sentiment analysis on a sample journal entry using Natural Language Toolkit (NLTK) in python
+
+the journal entry and run it through a text to image AI in conjunction with some common phrases to generate a monster image. This was a great way to experiment with more unique and artistic image generation that utilized the data in a more abstract way. However, it was difficult to look at the final image and understand what the data that went into it said. Therefore, a lot of the communication was lost in the process. However, this tool was also useful in experimenting with transforming the monster drawings people did into a digital monster that could be changed with different inputs. But I was unable to get this method to fully work as intended as there was not a lot of control over the final output.
+
+that the text to image AIs did while having more dynamic control over the final output like the direct feature manipulation method had. However, time constraints limited how far this method could be developed and it was not able to be utilized in the protoype.
+
+Digital Pet Concept After the monster is generated, the idea is that the user should be compelled to connect, empathize, and care for the monster in an effort to inspire the same feelings towards their minds. In order to achieve this, I was inspired by the concept of digital pet games like Tamagotchi and Nintendogs that motivate players to dedicate time and energy to care for fictional, digital creatures. In order to influence people in a similar way, the monster that was generated is able to live on your desktop or phone and keep you company as you go about your day on your computer. Throughout the
+
+iii) GANs Finally, the use of generative adversarial networks were briefly researched as well. These showed a lot of promise to give the artistic aspects and uniqueness
+
+day, it will remind you that it needs care and suggest you complete some of your self-care tasks that you’ve inputted into the app. The monster frames these requests as needs for their own care so by completing tasks that care for yourself, you are caring for your monster.
+
+screens and a simplified demo version of the monster generation. This demo consists of the main journaling screen where the user can play around with different inputs and see how it affects the generation of the monster. The additional designed screens show how the app might look in practice and aim to give a feeling of a playful, gamified experience.
+
+Final Demo/Prototype The final prototype consists of planned designs and
+
+Mockup of a screen of the app where you can see your generated monster, its “stats”, the progress towards your daily goals, and a place to write a new journal entry. background image: Freepik.com
+
+Discussion
+
+aspect of this design more. It would be useful to see how I could build in a way of sharing this experience with others to not only encourage people to take care of themselves more but also reach out to others for help when needed. Potentially, instead of just reframing how you think about yourself, it is also important to reframe how you view the way other people can be involved in your mental healthcare.
+
+Reframing Perspectives One of the main goals of this project was to encourage people to reframe the way they think about mental health and how they perceive their own mental wellbeing. In its current form, the app doesn’t have a great way of measuring how successfully it does this. So even though there is research and theory behind the design choices made and the development of the prototypes, it is hard to definitively say whether the final outcomes were fully successful. At the very least, I think the project effectively opens up a conversation about mental health and encourages people to examine the way they think about their own mental wellbeing, but further development is definitely needed to set up adequate testing on the efficacy of the app in the long term.
+
+Metaphors A big part of the project was figuring out a convincing metaphor to use to represent a person’s mind that would accomplish the goal of helping someone connect with themselves and their mental health in a new and effective way. The monster metaphor was chosen after a lot of research and ideation. However, the final form of this metaphor was a bit generalized. Due to the limitations in time, ability to fully develop the technology, and artistic skill,
+
+I also got the feedback that I should explore the social
+
+the final monster image was very simplistic, with only a few key features to manipulate. This limits the metaphor and the user’s ability to project their thoughts and emotions onto their generated creature. Through the collection of personal monster drawings, it became clear that people see their minds as complex creatures that are entirely unique and personal. Further development of the image generation for this form would be needed to allow the monster metaphor to be as effective as possible.
+
+monsters that are “out” at a given time.
+
+Personalization/ Customization Everyone is different. From the way people think, to the types of issues they deal with, to the things they are interested in, to the things they connect to and empathize with, every person is unique. It is important that an application like this is able to be customized to each individual’s needs and preferences in order to be effective. As shown in the variety of drawings people came up with when imagining their own mind monsters, no one is going to experience the exercise of externalizing their thoughts in the form of a generated creature in the same way. Since the goals of this project are very personal and involve very intimate details of oneself, it is imperative that the process someone follows as they use the application is equally as personal and individualized.
+
+Also, I received feedback that some people might prefer to have multiple monsters for different emotions rather than one monster to represent the whole mind. These separate monsters could come and go as different emotions are felt over time and you would be able to have a visual of how many different things are going on inside your head by the number of
+
+the metaphor as relatable as possible.
+
+Image Generation The biggest area for future work is in the image generation. The intended design was meant to have fully AI generated artwork of monsters based on the data imputed in the journal entries by the user. Due to time constraints and complexity, the development of this was not fully possible. A few different avenues were explored but the future of this project would include a functional image generator using text to image AI software to produce customized monsters that have more complexity than the current iterations while still clearly communicating information about the user’s journals. In addition, future iterations would ideally allow the user to first draw their own version of their mind monster and the app would then use this design as the base for all future monster generations in order to further personalize the experience and make
+
+Natural Language Processing In addition, the natural language processing done on the journal entries would benefit from further complexity beyond the current sentiment analysis. There is a lot more information contained in the free-written sections of the journal than just how positive or negative someone is being, such as specific emotions they are conveying, the subject matter of their writing, how much or little they are writing, the voice they are writing in, etc. NLP is a powerful tool that, given more time, could have been more thoroughly utilized in this project to generate more data and more complex visualizations.
+
+Further App Development The app itself could use some further development as well. The designs are thought out and the main functionality has been
+
+prototyped but the entire, cohesive, working app has not been completed. It also currently exists only in desktop form but would ideally be adapted into a mobile app in the future.
+
+Testing Due to time constraints, there was not a lot of opportunity to test the final design. User testing on the concept, UI, efficacy, and desirability of the app would be extremely useful in refining the design and figuring out the direction for more future work.
+
+Conclusion
+
+our minds and encourage more self-empathy with ourselves in regards to mental health.
+
+Mental health is an extremely important part of every person’s overall health and wellbeing. Despite the stigma and biases surrounding the way people view mental health, it is something that every single person needs to deal with and address throughout their lives. The first step in tackling your mental wellbeing is establishing a healthy understanding of how your mind works, affects your daily life, and needs care. It is imperative that we all learn how to reframe the way we see our minds, our mental wellbeing, and our overall health to allow for more self-empathy, support, and daily action. Mental hygiene is just as important as physical hygiene and our own mental wellbeing is just as important as that of our friends and family. This project was an exploration into how we could use selfreflective practices such as journaling to accomplish this reconceptualization of
+
+The conclusion of this project opens up a conversation about the way we see ourselves and our minds in comparison to others. Can you empathize more with an external creature representative of your thoughts and feelings than with yourself? Can you see the abstract concept of your mind as a concrete form that can be talked to, interacted with, and cared for? Can reframing the way you see your mental wellbeing help motivate you to take daily steps to care for your mental health?

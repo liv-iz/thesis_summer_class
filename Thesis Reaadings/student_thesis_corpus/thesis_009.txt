@@ -1,0 +1,241 @@
+Abstract
+
+Public health systems rely on data to save lives. The natural world is constantly sending us such signals. But we are not listening. Today, much of the work in public health is consumed by reactionary measures. Once a disease has jumped from animal to human, the effort shifts to curbing the spread. The moment for prevention at the source has passed, and mitigating the spread becomes the focus.
+
+What if we could get ahead of the next pandemic? The answer may lie in our ability to listen to creatures that soar off into the sky each night– bats. Over millions of years, bats have evolved an unique immune system that allows them to co-exist with many viruses. Bats act as natural disease reservoirs, including many coronaviruses. Monitoring bat health can serve as an early warning system for the next pandemic.
+
+Monitoring bats at scale is a time consuming and manual process. Today, specially trained teams of field researchers hike and climb to cave entrances and deploy nets to catch bats as they exit. If the health of bat populations around the world could be easily and passively monitored, then researchers could gain valuable insights to save lives in a preventive framework. Thus, automating data collection of bat health is key.
+
+Methods & Limits
+
+Monitoring the social behaviors and movements of roosting bats within caves can help provide insight into bat health. Bats are highly social creatures, and studies have shown that sick bats will distance themselves from the colony by roosting away from other bats in times of illness.
+
+To capture roosting bat movements, a range of sensors is evaluated including acoustic, infrared night vision, light detection and ranging (LIDAR) and thermal imaging. Selection criteria will be based on accuracy, endurance time and deployment costs. The goal is to design a low cost panoramic thermal imaging system which can be affixed to cave walls to monitor changes in bat social behaviors and movements as a proxy of their health.
+
+In lieu of working directly with active bat colonies, a bat conservancy, show cave and conferences involving both caves and bats were attended and consulted. Testing of the prototype thermal imaging system was performed with faux bats fitted with internal heaters to simulate the animal‘s temperature. Live (healthy) bats were captured with a medium resolution thermal camera at a UC Berkeley animal research facility.
+
+Significance & Future Work
+
+Development of a bat health monitoring network can equip public health teams with data to act proactively for future emerging threats. Field scientists need only to visit caves that are detecting anomalous data. The described prototype is only one piece of the puzzle. Since bats can fly and migrate long distances, how might seasonal data trends across entire regions be pieced together to tell the broader story of bat health globally?
+
+Future research should continuously evaluate the appropriateness of new sensor technologies, especially ones suitable for the biological needs of different bat species.
+
+Public health systems rely on data to save lives. The natural world is constantly sending us such signals. But we are not listening. Today, much of the work in public health is consumed by reactionary measures. Once a disease has jumped from animal to human, the effort shifts to curbing the spread. The moment for prevention at the source has passed, and mitigating the spread becomes the focus.
+
+What if we could get ahead of the next pandemic? The answer may lie in our ability to listen to creatures that soar off into the sky each night– bats. Over millions of years, bats have evolved an unique immune system that allows them to co-exist with many viruses. Bats act as natural disease reservoirs, including many coronaviruses. Monitoring bat health can serve as an early warning system for the next pandemic.
+
+Monitoring bats at scale is a time consuming and manual process. Today, specially trained teams of field researchers hike and climb to cave entrances and deploy nets to catch bats as they exit. If the health of bat populations around the world could be easily and passively monitored, then researchers could gain valuable insights to save lives in a preventive framework.
+
+Automating data collection of bat health is critical.
+
+Monitoring bats as an indicator species
+
+The importance of monitoring bats as an indicator species because of their insect-rich diet and low reproductive rate has been argued by biologists (G. Jones et al., 2009). As human populations expand into habitats overlapping with bats, the impact of humans on bats and vice versa increases. Monitoring programs such as the United Kingdom’s iBats project highlights the ecological contribution of bats as seed dispersers and pollinators, stressing the need for conservation before larger irreversible ecological changes take hold (K. E. Jones et al., 2013).
+
+In recent years with the emergence of Severe Acute Respiratory Syndrome (SARS) and other novel coronaviruses such as SARS-CoV-2 (COVID-19), the immune system of bats has been of key interest. Bats are natural reservoirs for the ancestors of these viruses and many others, yet their immune systems allow them to co-exist with them instead of succumbing to their effects (Irving et al., 2021).
+
+Capturing bats through field work
+
+Subsequently, initiatives such as PREDICT from the United States Agency for International Development (USAID) have undertaken work since 2009 to capture and test bat populations for new and future viruses (Kelly et al., 2020). Much of the field work is labor intensive and time consuming, involving teams deploying nets at cave entrances to individually capture bats. Supaporn Wacharapluesadee, a researcher at the Thai Red Cross, leads many of these expeditions. Their work involves sampling bats with mouth and rectal swabs, taking blood samples and wing punch samples. Work by her team and others has yielded the discovery of several new coronaviruses that have yet to infect human populations (Wacharapluesadee et al., 2021).
+
+Prior to the recent focus on coronaviruses, efforts to count and understand the scale of bat populations has been ongoing since 1999 following designation of several bat species on the Endangered Species Act of 1994 (O’Shea & Bogan, 2003). “Direct visual counts” are performed by individuals stationed at cave entrances or by performing cave walkthroughs, sometimes aided by video capture equipment. Other programs rely on acoustic monitoring systems that detect echolocation frequencies used by bats to navigate (Loeb et al., 2015). The North American Bat Monitoring Program (NABat) seeks to pool, combine and analyze the data resulting from such individually distributed documentation efforts across the continent (Reichert et al., 2021).
+
+Cave monitoring systems
+
+Dry caves that are home to insect eating bat populations were selected as the focus of BatBabble. Cave entrances may present as inaccessible due to terrain, geometry, elevation and remoteness from urban centers making automated monitoring solutions ideal for deployment. The DarkCideS project focuses on maintaining a world wide database of caves where bats live, finding that nearly half of all bat species live in caves (Tanalgo et al., 2022). Furthermore, respiratory diseases such as Histoplasmosis resulting from inhalation of spores in bat guano found within caves presents an ongoing risk to field workers (Igreja, 2011).
+
+The Cave Pearl Data Logger project is an open source project using off the shelf microcontrollers and was originally designed for underwater use in wet and humid caves. In particular, the project focuses on long endurance and operation times in excess of 1 year on common AA sized dry cell batteries (Beddows & Mallon, 2018).
+
+The Troglometer project is another open source project that consists of three reference designs: an infrared camera for recording in total darkness, a water analyzer and an air analyzer. Like the Cave Pearl project, it is also based on an Arduino microcontroller. A differentiating feature is the introduction of a networking system dubbed TrogloNet that connects multiple systems within a cave (GRECABAT, 2019).
+
+Monitoring roosting bats in caves
+
+Early techniques used infrared night vision cameras and camcorders to invisibly illuminate caves so as to not disturb roosting bats to perform population counts (Kirkwood & Cartwright, 1991; Elliott et al., 2006).
+
+Because such systems rely on an invisible light source, heating of the light source and uneven illumination was cited as drawbacks.
+
+Radio based tracking involves individually adhering battery powered mobile sensors to bats directly and tracking their movements. However battery life is short at one week endurance (Dressler et al., 2016). The limiting factor beyond size and weight is the manual process required for capturing and securing such sensors to each bat. A passive radio tag system that relies on a large antenna deployed within the cave removes the endurance limit per bat, however the Radio-frequency identification (RFID) antenna ray must still be powered. In one such project, this limitation was solved by an external solar system (van Harten et al., 2019)
+
+Light Detection and Ranging (LIDAR) has been deployed to automate bat counts and create a 3D representation of the cave interior. Specific species of bats could be discerned by analyzing specific features such as ear shapes of different bats (Azmy et al., 2012). However such systems are presently high in cost and weight with one project utilizing a 11.5 pound unit costing $18,000 (Shazali et al., 2017).
+
+Monitoring social behavior
+
+Projects focusing on high resolution movement, positional and temporal data have been completed with miniature battery powered proximity sensors that are placed on individual bats. In one study, proximity sensors were measured every 2 seconds with signal strength to nearby bats measured and charted for distance (Ripperger et al., 2020). Another study used similar equipment finding that bats will distance themselves from other bats when they are sick (Moreno et al., 2021). The latter project claims a longer endurance time of “potentially years”, however the task of applying sensors to individual bats remains (Carlson, 2021).
+
+Temperature monitoring of bats
+
+Temperature is theorized to play a crucial role in the immune response of bats and their ability to co-exist with viruses and coronaviruses. During flight, bats core temperatures can reach over 104°F, producing a fever-like state, while at rest in roosting, they can drop to as low as 50°F (Fumagalli et al., 2021). In another project, monitoring of bat temperatures has been achieved by gluing battery powered sensors to bats (Mayberry et al., 2018).
+
+Thermal imaging that visualizes thermal radiation without the need for an external light source has been used to count bat emergence volumes (Betke et al., 2008; (Betke et al., 2008; Hristov et al., 2010); Otálora-Ardila et al., 2020). All three projects describe the need of vision based filtering and post processing for an accurate count, however these projects were focused on counting bats in flight as they left the cave. An advanced stereo thermal imaging technique yielded 3D paths without the use of extensive post processing (Matzner et al., 2020).
+
+Bats act as a natural reservoir for many zoonotic diseases that can spread from animal to people, uniquely more so than many other animal species making them of key research interest (Irving et al., 2021). The COVID-19 pandemic has shown the importance of an interconnected one world, one health reality with the finding that bats are a probable reservoir for the disease (Zhou et al.). The health of animals and their environments is connected with the health of humans, and we must act now to be better prepared.
+
+The motivation for this project stems from the desire to help prevent the next pandemic with more accessible data. As an MDes thesis, this project explores how automation and design can optimize the collection of field data and elevate awareness between people and animals toward healthier outcomes.
+
+Misconceptions of bats
+
+Bats are an often misunderstood species. Visions of blood hungry mythical characters such as Dracula the vampire or fears of bats overflowing with rabies are common. In reality, of 1,3000 species of bats just three bat species feed on blood (Griffin). Bats are mammals that are more closely related to us than rodents (Brunet-Rossinni & Austad, 2004). As for rabies, worldwide, dogs remain the primary reservoir with less than 1% of wild bats estimated to carry the disease (Banyard et al.; Davis et al.).
+
+Bats bring many benefits to communities, including their voracious diet for insects which make them essential natural pest control systems. They also play an important role as pollinators, helping plants to grow and by dispersing their seeds. In rainforests, fruit eating bats are estimated to be responsible for 95% of all seed dispersion (U.S. Fish & Wildlife Service, 2021).
+
+There exists an opportunity to not only address misconceptions about bats but also highlight their role in local ecosystem benefits as well as potential to mitigate future epidemics. A key means to bridge this gap includes surfacing field data on bats in more user accessible ways.
+
+Sharing data collected by autonomous systems
+
+Data that might capture the interest of a general audience include the species of bats living in their area, the types of habitats and places where they roost and the scale of their populations over time. Such as are bat populations in a particular geographic area thriving or diminishing? What do I need to know about changes in risk over time?
+
+Sarah Thorpe
+
+Design decisions concerning the amount of data about the health of bat populations so as to not cause alarm must be taken with care.
+
+Parallels in surfacing data can be made with recent initiatives in public air quality monitoring such as PurpleAir. Such systems have similarly taken a previously invisible risk factor and made it quantifiable and visible on a map.
+
+Expected outcomes of Bat Babble is the selection of a sensing mechanism that can provide an initial measurement of bat population health.
+
+wBat Babble acts as an early warning system which can flag down specialists for further investigation. This allows field teams to more effectively prioritize and visit specific caves and bat populations. Techniques for determining specific pathogens carried by a particular bat requires bloodwork and other direct handling of biological samples.
+
+By listening to more signals from our environment, we can give public health systems a fighting chance. Bat Babble is the first such step with the help of our nocturnal flying friends.
+
+Slaveika Aladjov
+
+Method
+
+Accuracy, endurance time and deployment costs will be evaluated for different technologies to find one suitable for monitoring the health of bat populations within caves.
+
+Overview & accuracy
+
+Methods for counting bats include acoustic monitoring, visual sight, LIDAR, night vision cameras, and thermal imaging.
+
+Acoustic monitoring captures ultrasonic frequencies that bats use for echolocation as they exit caves nightly.
+
+Some models can discern individual bat species by sound patterns (Frick). Acoustic monitoring is not typically applied within a cave due to echo and noise factors.
+
+Visual counting involves field teams entering caves and using handheld counters to estimate population counts as they walk through caves. This process can be disruptive to roosting bats as external illumination is required. The process is highly prone to double counting or missing bats as they move around. Bats roosting in small crevices are also missed by visual counting.
+
+LIDAR systems with sufficient resolution have the highest potential for accuracy as they capture both the geometry of caves as well as individual bat profiles. Some LIDAR systems are able to capture enough detail such that different species of bats can be discerned.
+
+Night vision cameras are deployed at cave entrances to capture bats exiting caves as they leave to forage after sunset. Estimates are made based on the density of bats passing in front of the cameras for a rough snapshot of population counts. Other deployments involve placing cameras under roosting sites and returning later to recover the footage.
+
+Thermal imaging is typically used in similar ways at night vision cameras. The resolution of thermal imaging is low, with 640 x 512 pixel currently considered high resolution as was used by the ThermalTracker-3D project (Matzner et al.). Due to the large thermal difference in cave environments as compared to the bats, thermal imaging can quickly identify the presence of bats with the least amount of filtering.
+
+Endurance time
+
+The endurance time of bat monitoring systems is commonly measured by data storage and power capacities. Other constraints include debris which may accumulate on sensors and consumables that may need replenishment such as filters. The choice of real time monitoring also requires communication systems which may be hindered by geography and proximity to existing communication infrastructure. These may also increase power consumption depending on the throughput required.
+
+LoRa systems are long range (15-20 km) but with low throughput.
+
+Acoustic based monitoring systems have the longest run times due to their low power consumption. Night vision cameras, followed by thermal imaging have the next lowest power and storage draws.
+
+LIDAR based systems and manual visual counts are limited by the deployment of sensors or people to cover an entire cave. Many of the monitoring systems use battery packs, with some able to deploy solar additionally depending on geography. In speaking with cave researchers that have deployed such monitoring systems, solar is typically not consistent enough, and the threat of the panels attracting attention for theft is another concern.
+
+Deployment costs
+
+Sensors and hardware, service and maintenance costs and subscription fees for communication plans are some of the deployment costs to be considered. Acoustic sensors range in cost from ($100 to $5,000) with night vision ($200 to $10,0000) and handheld thermal cameras ($250 to $13,000) being the next most expensive. LIDAR based systems are the most expensive, ranging from ($500 to $20,000) although handheld lower resolution units do exist.
+
+Service costs are incurred whenever field teams are necessary to dispatch for cleaning, repair or replacement of consumables. This may involve recalibration, cleaning of debris or replacement of battery packs or data storage. For some cave geometries, safety costs for teams reaching or entering caves may be prohibitive. The risk of theft or damage to equipment during transit, during monitoring periods, by other persons or animals must also be considered.
+
+To learn about the environment where bats live, I attended the Geological Society of America caves and karst section. To learn about the biology and health of bats, I visited the University of Florida bat houses, Lubee Bat conservancy, and attended a bat festival. At these three locations I had the opportunity to see thousands of bats and different bat species from around the world.
+
+To understand how bat research was conducted as the COVID-19 pandemic unfolded, I read Breathless by David Quammen. This book documents the bat research that proceeded and became of key interest as COVID-19 took hold. I also met with the NeuroBat Lab at UC Berkeley to capture thermal images with live bats. Lastly, I visited a show cave at the Florida Museum of Natural History to see one of the leading exhibit displays on bats.
+
+Geological Society of America Conference
+
+To learn more about the environment of my intervention, I attended the caves and karst section of the Geological Society of America Conference in Denver, Colorado. This all day panel covered a number of projects and ongoing research in caves and karst systems which included LIDAR and robot monitoring systems. I had the opportunity to talk with cave specialists and researchers with experience deploying systems in caves. I learned about an open source project called Cave Pearls which leverages 3d printing and open source designs to create cave data loggers. I also learned about the challenges and reliability of providing electrical power for monitoring systems, with pump fluid systems only having an endurance time of 24-48 hours.
+
+University of Florida Bat Houses
+
+To learn more about bat biology, I visited the world’s largest man made bat houses at the University of Florida. Between 300,000 to 500,000 bats live in the two large structures which resemble a barn suspended on stilts with an open bottom for guano to fall. The smell of such a large deposit of guano was striking. Many visitors come to watch the nightly emergence, including families and children. In speaking with several, there was a near-even split of people commenting that the guano smelled pleasantly, describing it as “earthly and fresh” while others described it as repulsive and reminding them of mouse droppings. I later had the opportunity to speak with one of the founding members of the Bat House program from which it was constructed in 1991.
+
+Lubee Bat Conservancy
+
+About 30 minutes north from the University of Florida was Lubee Conservancy which does research on primarily larger Malayan “Flying Foxes” bats. These are fruit eating species and as a result there was a very different guano smell, or lack thereof. Speaking to some of the caretakers, I learned that this species primarily chews fruit and spits it out, resulting in smaller, more liquid guano deposits.
+
+Bat Fest is an annual event held at Lubee bringing together talks, related organizations and research groups into a day of exhibition and interaction with the bats. Speaking with the director, I learned about the different designs of bat houses. Some designs experimented with material while others focused on accessibility of cleaning the house. I also met Tina Jackson of Fauna Conservation & Analytics LLC who runs a wildlife analytics company with a focus on bats and related species.
+
+Thermal imaging with live bats
+
+Testing with a FLIR B400 thermal imager was conducted at Li Ka Shing Center with live bats. Inside of a controlled flight test chamber, thermal images were captured of resting bats and bats in flight. Bat body temperatures ranged from 60 to 90 F and were clearly visible against the surroundings, including other sensors placed in the room that happened to be radiating heat. The B400 has a resolution of 320x240 and was sufficient to see multiple bats overlapping. Since Bat Babble is focused on detecting bats which are social distancing, the ability to differentiate overlapping bats was an added bonus that could be used for bat population counts.
+
+Lessons learned and Narrowing scope
+
+The original design concept focused on direct contact sensing of guano. Through my conversations and research, I learned about the challenges of this approach, especially when considering factors such as accuracy, endurance time and deployment cost. Through my reading of Breathless and at the advice of our cluster advisor, direct sensing of the guano was eliminated.
+
+However, uncovering research about the social behavior of bats and their action to social distance when becoming ill themselves led to the final design space of seeking passive sensing as a proxy of bat health. This required narrowing the scope to particular kinds of bats and environments. The selection of insectivorous bat species living in dry caves was selected to balance the opportunities and challenges of developing an automated monitoring system. Insectivorous bat species generally roost in interior spaces like caves compared to fruit eating bats which roost outside on trees. The remoteness of dry caves made the long term monitoring aspect of the project most beneficial.
+
+Bat Babble is a panoramic thermal monitoring device that detects changes in bat roosting positions within dry caves as a proxy of their health. It serves as an early warning system for future zoonotic diseases.
+
+How it works: Field monitoring unit
+
+The position of roosting bats is monitored using passive thermal imaging by comparing the distance between bats along cave roofs and wall surfaces, as well as the location of guano deposits. Because bats are highly social animals that roost close together under normal conditions, when unexpected roosting patterns emerge, it can indicate changes in bat population health (Moreno et al.). In other words, bats socially distance themselves from each other when they are feeling ill.
+
+The combination of panoramic thermal imaging and time lapse photography has the potential to detect changes in bat population health over time. Unexpected roosting patterns can be flagged for further review by field teams. By providing a low fidelity continuous monitoring of caves, field teams can better plan and deploy resources for more detailed testing.
+
+Communication is achieved via long range LoRa wireless technology. A LoRa gateway connected to the Internet or a series of repeaters spaced 15 km apart is necessary for operation. If existing infrastructure is available nearby, the communication module may be replaced with cellular based systems. In the total lack of nearby infrastructure, satellite communication may be used. Data is pooled at the DarkCideS database (https://darkcides.org/) where an existing database of cave locations, bat population and parasite data is available.
+
+What it looks like: Field monitoring unit
+
+Enclosed in a smooth plastic half dome to prevent any bats from latching on, the field monitoring unit of Bat Babble contains a two axis rotary mechanism. This mechanism rotates the narrow field of view of a consumer grade thermal imaging unit in a 180 to 270 degree coverage zone. The thermal imaging sensor used is a Seek Thermal Compact XR unit costing $150 with a pixel resolution of 206 x 156. The field of view is narrow at 20 degrees, making it a candidate for panoramic stitching to create a wide capture of the cave interior and bat locations.
+
+The thermal imaging sensor is moved in a grid like pattern with the resulting images stitched together to form a panorama. Panoramas are then compared against one another to map the change in bat positions. If a threshold of bats roosting in pattern meeting the threshold where social distancing is detected, then the communication module can be activated.
+
+In order to cover the internal geometries of different caves, multiple panoramic thermal imaging units may be distributed within a cave to provide overlapping coverage.
+
+Power and communication is supplied via an umbilical cord to the cave entrance where a weatherproof storage box contains the power and radio communication packages. This minimizes the need for deep servicing of the unit by externalizing power and data logger access at the foot of the cave. Labels on the storage box describe the unit as a sensitive scientific research instrument that should be left undisturbed. Icons represent the field monitoring unit in the cave, asking cave visitors to not disturb it.
+
+Interaction: Field monitoring unit
+
+Researchers interested in the health of bat populations access the collected data via the DarkCideS dataset page. To conserve bandwidth and power, Bat Babble does not transmit full panoramic thermal images, instead only transmitting when unexpected patterns in bat and guano movements are detected. Full resolution panoramic images are envisioned to only be accessed during periods of maintenance and servicing when field teams have direct access to the storage box at the cave entrance. Field teams do not need to enter the cave to retrieve data, the terminal interface is within the storage box where power and data is kept.
+
+Design summary
+
+Bat Babble consists of one or more panoramic thermal imaging units that capture the position of roosting bats on cave ceiling and walls. Thermal images are stitched and compared for changes in bat social distancing behavior. The thermal units are connected by a cable running to the entrance of the cave where a storage box contains the battery and communication packages facilitating servicing of batteries.  The resulting data could be accessed through projects such as DarkCideS.
+
+Discussion
+
+The process of designing Bat Babble uncovered a long standing desire to apply technological means to surveil wildlife in ever increasing resolution. In doing so, it uncovered the important role of design and technology to find new opportunities to improve the health outcomes for all.
+
+Fieldwork is slow and labor intensive, opportunities for automation
+
+In conducting literature review on how bats are currently surveyed in the field, I learned about the immense teams of people who go out to caves to perform long and labor intensive field work. I read field notes, watched videos of teams climbing dangerous cliff faces and spoke with people who regularly worked in caves. These individuals who entered caves regularly often shared stories of close calls of becoming stuck or lost in caves; often with excitement. Hearing of this while coming from a technology oriented world made my brain spin with ideas. How could drones for example reduce the risk or
+
+how might the right technology package automate the work that human labor risks their lives for?
+
+The world of wildlife monitoring remains ripe with opportunities for sensing, interpretation and automation. This is not to say that all field work will one day cease being replaced by machines, but rather that so many aspects of nature and biological signals are being missed. Low fidelity sensor systems like Bat Babble that can provide an initial monitoring of biology need to be deployed widely. The possibilities for field researchers can then multiply, and their time can be focused on investigating new unknowns and frontiers.
+
+Fear of the unknown, illuminating with data
+
+Throughout the semester whenever I explained the topic of my work, I was met with a range of reactions. Upon hearing that I was studying bats, on my way to see them or setting up bat houses to attract them, some reacted with fear and concern while others with
+
+curiosity and excitement. Many had heard that bats were part of the COVID-19 origin story, with some believing that bats were the source to blame. Others had direct experiences growing up with bats while many had never seen one and only received their information from news and pop culture.
+
+For many, it was simply a fear of the unknown. For them, bats were an unseen aspect of nature. With many bat species being nocturnal and preferring to stay away from human activities, they could only speculate about bats.
+
+As I worked to bring myself up to speed on how bats were being monitored, I learned about the teams of passionate volunteers that dedicate themselves to collecting data and the evolution in technology they had been using over time. Entering the world of bats as a non-biologist, I thought back to the explorers in the fictional world of Star Trek. Whenever they embarked on an away mission to an alien planet, one of the first things they would do was to perform a scan with their “tricorder”.
+
+An assurance that the air was safe to breathe, or that no immediate dangers nearby would let the team proceed with confidence.
+
+Working on this project showed me how uncovering the unknown with data and technology could change perceptions.
+
+Technology as a driver to change perceptions
+
+In the process of sharing my work with others, there would often come a time when they would consider bats neutrally– for a moment at least. This was often after hearing about the various kinds of data and sensing techniques that illuminated bats. From this neutral perspective, I could then highlight the benefits of bats and the opportunities presented by them. I would often highlight their incredible immune systems and how they might help warn us about the next epidemic. Technology plays a delicate role in bridging the gap between the undecided and the decided, the ones who are fearful or misguided. The presentation of the technology and the resulting data captured by it is also a delicate component.
+
+Calibrating data
+
+The lowering cost of thermal imaging systems coupled with recent increases in resolution and open source long range communication platforms make wildlife monitoring increasingly viable. Future work includes partnering with existing wildlife monitoring organizations and companies such as Fauna Conservation & Analytics LLC to field test the envisioned design.
+
+Calibration for different thresholds of what is considered normal roosting patterns for one species of bats may be vastly different for other species. The suitability of the proposed system in cave geometries without large internal volumes, such as those with narrow crevices and passageways should also be evaluated. False positive detection of non bat heat sources such as other cave organisms or other natural occurrences would also need to be considered.
+
+Convergence of sensors
+
+The convergence of multiple sensor technologies should be explored as the sum of the data may yield more accurate results than dependence on any single technology. Continuing miniaturization of LIDAR shows promising opportunities to document bats and their environments in increasingly higher resolution and lower costs. Finally, the application of the explored monitoring techniques could be applied to other animals such as rodents.
+
+Conclusion
+
+The toll of the COVID-19 pandemic demonstrates the need for systems which can provide an early warning system into future disease outbreaks. Bats, as natural reservoirs for many zoonotic diseases, are an important indicator species which warrants attention and study. Bat Babble presents a health monitoring system for dry cave insectivorous dwelling bats.
+
+The design of Bat Babble demonstrates a low cost sensing approach through the use of thermal imaging. The design cost is lowered by using consumer grade thermal sensors paired with panoramic stitching and time lapse techniques.
+
+By monitoring the roosting positions of bats and their guano over time, patterns of social distancing among bats can be detected as a proxy of their health. Field teams can then be alerted to changes in specific caves, aiding them in field planning and management of deployment costs. This proactive approach equips public health systems with the data needed to take life saving actions early.
+
+Bats represent just one of numerous opportunities to listen to signals from nature. From some of the smallest creatures that take flight each night, we can improve the health outcomes for all that call Earth home.

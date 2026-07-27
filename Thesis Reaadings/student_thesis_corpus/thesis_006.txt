@@ -1,0 +1,427 @@
+Abstract
+
+Masturbation and sex toys have become a deeply taboo domain, yet surprisingly, there are few sexual acts that have been as “frequently discussed, condemned… yet universally practiced” (Bullough 18).
+
+The stigmatization of this topic has caused a slow and stunted design evolution, and when analyzing the history of female sex toys, it becomes apparent that shape, function and material(s) are still in their infancy. Sex toys, which are predominantly phallic shaped, are largely limited to penetrative and/or clitoral stimulation. Important areas of the female genitalia, such as the inner and outer labia remain ‘unseen’ by traditional sex toys.
+
+The user journey associated with female sex toys is impaired by the negative associations and imagery of the adult film industry. The aforementioned industry is frequently associated with an unrealistic  expectation of the female orgasm; one in which women instantly climax upon penetration or genital stimulation. Because of this, modern day sex toys focus on efficiency, concentrating on the female orgasm, yet failing to address issues of psychological factors –  such as a person’s relationship to the materiality of designed objects, or integrating customisable shapes – which welcome but also enable exploration of the female genitalia. A lack of explorative sex toys, which focus on the journey to orgasm without actually orgasming, are missing from the industry.
+
+Whilst an “anti-movement” of sex toy brands, focusing on minimalist design, neutral colours,
+
+and gender-fluidity are flourishing in the sex toy domain – seen through the work of companies such as Maude and Unbound Babes – it can be found that the element of self-exploration remains unsupported.
+
+If a sex toy – focused on the exploration of the physical self through conscious-raising masturbation –  were developed, users would be better supported in their sexual autonomy, ultimately creating a space to consciously reflect, analysize, and answer the question: ‘what is pleasurable for me?’
+
+This study utilizes the qualitative data collection method of unstructured interviews. Through one-on-one interviews with women, this project investigated the negative associations linked to sex toys – why do some woman have an aversion to them? – and the ritual of masturbation – how do women masturbate? – as well as childhood associations related to self-pleasure – positive or negative?
+
+The qualitative data paved the design brief of this project. Due to the negative associations of sex toys, interviewees revealed that they preferred their fingers because they viewed sex toys as offensive and pornographic. They also emphasized the need for a sex toy that focused on more than clitoral and penetrative stimulation. Lastly, the repeated notion that the journey of an orgasm was just as (or even more arousing) than actual climax, highlighted the need for a sex toy that focused on exploring, enhancing, and lengthening the pre-climax part of the journey.
+
+These insights were used to prototype a new type of sex toy; one focused on slow, conscious, and explorative masturbation, focusing on the journey of the female orgasm as opposed to the climax. Customization and malleability were critical factors and were thus integrated into the final design. Furthermore, in order to address questions of materiality, such as ‘how can materiality impact the user experience of sex toys?’, the project focuses on gold, which is chosen for its associations of luxury, surplus, and abundance, thereby directly battling the negative associations of the sex toy industry.
+
+No user testing could be conducted, preventing the quantification of a users’ improved sexual autonomy. This limitation prevents statistical analysis of whether users better understand what is physiologically pleasurable to them.
+
+Through the focus on the ‘connection of mind and body’, this project aims to strengthen the relationship of the user to their physical body. This heightened awareness of mind and body aims to (re)kindle this human (inter)connection, enabling sexual autonomy through clear definition of sexual likes and dislikes.
+
+Future iterations of this project should investigate gold sputtering, a nanostructure film manufacturing process, which would help further investigate the psychological implications    of gold      on the human sexual psyche.
+
+The Human Experience of Pleasure
+
+According to the Oxford dictionary, pleasure is defined as follows: “a state of feeling or being happy or satisfied”. Pleasure, is the feeling humans perceive in response to “food, sex and drugs (amongst other things)… driven by the release of a range of neurotransmitters” (Kesby). According to the American Psychological Association, pleasure is an umbrella term for anything that activates “the cerebral cortex, especially the medial prefrontal cortex, amygdala, and deep brain structures such as…dopamine neurons” (Berridge).
+
+Chemically, pleasure is experienced through the release of dopamine. Dopamine, which is a neurotransmitter, is made in the brain and is considered the ‘reward chemical’. It is responsible for many of the bodily functions ranging from; executive function, motor control, motivation, arousal, reinforcement, and reward (Conrad). Dopamine communicates to the human brain when a reward is coming, how rewarding it will be, and if the activity should be engaged in again (Conrad).
+
+Although commonly associated with the five senses; sight, smell, hearing, taste, and touch, pleasure can also be derived from non-physical processes
+
+such as life purpose, a job well done, or learning something new.
+
+Sexual pleasure is often the combination of both physical and non-physical processes, and is defined as “the physical and/or psychological satisfaction and enjoyment derived from solitary or shared erotic experiences, including thoughts, dreams and autoeroticism” (Working Definition of Sexual Pleasure).
+
+The Etymology of the Term Dildo
+
+Dildo (n.): “(An) artificial penis used for female gratification”, otherwise defined as “an object shaped like an erect penis used for sexual stimulation”. There have been many claims of the term’s suggested derivation, some believe it stems from the Italian word deletto – a term to describe ‘a woman’s delight’, contrived from the Latin word; dilectio which means to ‘esteem highly, to love’ (‘Dildo’). Others believe it comes from the word dally which means to “to talk intimately” - a word which later transgressed into the following meaning in the 14th century.; "to play, sport, frolic; flirt, engage in amorous exchanges” (‘Dally’).
+
+Sexuality of Ancient Cultures
+
+Sex toys, defined as “an object that
+
+people use to increase their sexual pleasure, such as a dildo or a vibrator” have a stigmatized past (Sex Toy). Yet creating objects for sexual pleasure, is deeply ingrained into our genetics, with the oldest sex toy – found in the Hohle Fels Cave near Ulm, Germany – dating back to the Upper Paleolithic time, about 28,000 years ago (Woollaston, 2015).
+
+Sexual artefacts in the form of paintings, figurines, and texts have provided snapshots of sexual norms and behaviors of ancient societies. Whether ancient cultures were more sexually liberal than modern day societies is a controversial debate.
+
+However, it is clear from the analysis of Ancient Egyptian art, that sexuality and hence sex toys were predominantly elements of (after-)life. Erotic sketches, paintings and reliefs are suggestive of the importance that sex had in their culture, specifically in the afterworld. Dildo-like objects were depicted in Ancient Egyptian paintings dating back to 3000 BCE (Lieberman 20). Although fragmented, due to a scarcity of publicly viewable works of intimate Ancient Egyptian life, most artefacts about sexual life were of a funerary or religion nature, gathered from tombs and temple (Manniche 7).
+
+It was believed that the sexual power of a mummy had to be stimulated and maintained so that the individual could continue living successfully even after death. It is important to note that the idea of sexuality (in the afterlife) was solely projected on male mummies and not on female mummies.
+
+The prevalence and importance of male sexuality is highlighted by pictorial representations of male genitalia and male gods performing acts of masturbation. In Ancient Egyptian mythology, Atum, the first of all gods, created a group of lesser gods called the Ennead, through the act of masturbating (Bullough 18). Masturbation was a customary act amongst the male deities, yet the act of self-pleasure amongst female gods was rarely mentioned. The belief of male superiority was resolute amongst this society, so much so, that it was believed possible for male gods to procreate simply by masturbating (without the need of a female partner). A lack of emphasis, attention and understanding of female sexual organs and female sexuality is a commonality amongst ancient cultures.
+
+Ancient civilizations such as the GrecoRomans, famous for their candid and even overt attitudes towards sexuality, were one of the few societies that did not show “ambivalence…about masturbatory practices for women” (Bullough 22). Women were known to masturbate with artificial phalluses (Bullough 23).
+
+The History of Sex Toys
+
+When analyzing the history of (female) sex toys – a largely opaque topic, with few sources – it is apparent that shape, function and material(s) used, are still in their infancy. The design trajectory of this industry has been limited by its taboo nature, causing decades of products to be disguised and sold as medical devices, forcing companies to use subliminal and suggestive marketing (Lieberman 28).
+
+The challenge of concealing a sex toy as a medical device explains – in part – the recurring of similar shapes within the sex toy industry.
+
+The first dildo that was sold and marketed without euphemistic marketing was in 1870, advertised in the Grand Fancy Bijou Catalogue of the Sporting Man’s Emporium. The description was as follows: “This instrument is manufactured of white rubber, and is a wonderful facsimile of the natural penis of men. For reserved females it is a happy and harmless substitute” (Lieberman 29). Surprisingly, this sex toy targeted men, and not women. It can be assumed that men were buying these for their partners.
+
+When analysing other 19th century sex toys, such as ticklers – made of rubber, fitting over the head of a penis – or cock rings, which were designed to stimulate both the male and female counterparts, it becomes apparent that such designs were created to sexually benefit and increase male enjoyment during sex, focusing less on female pleasure. (Lieberman 29).
+
+Fast forward to the mid-1990s, where the selling of sex toys in states like Texas was illegal due to anti-obscenity laws, code names, and subliminal messaging to explain its uses, were still being used to sell and market such products. The famous Hitachi Magic Wand was sold as a back-massager, whilst mini vibrators were sold as point-specific massagers (Lieberman 5). Never were they named as a ‘vibrator’.
+
+Possessing more than six sex toys in Texas (as well as six other American States) was illegal, causing individuals
+
+to be charged with “intent to promote” (Lieberman 5). The loophole for arrest was if the owner had a “bona fide medical, psychiatric, judicial, legislative, or law enforcement purpose for such possession” (Lieberman 6).
+
+Because of the illicit nature of sex toys, the design of traditional sex toys were based on misunderstandings of the female anatomy and the female orgasms. These scientific ‘truths’, propagated during the mid-century, claimed that the female orgasm was synonymous to the male orgasm and that vaginal orgasm was superior to clitoral orgasm.
+
+Women, who can experience a range of different orgasms – nipple, cervical, clitoral, and vaginal orgasm – deserve sex toys which celebrate this diversity. Even with this new knowledge, many sex toys are male centric in design, and ensure that men are not intimidated by them, making men, and not women the center of the design decisions.
+
+Gender Bias in Textbooks
+
+Gender bias within medical textbooks is a prevalent problem. In 1994, Mendelsohn et al. analysed twelve commonly used anatomy textbooks for equality of representation of male and female anatomy. Only 11% of the total 4,000 images found in the textbook – disregarding the images found in chapters associated with the urogenital system – were female (Morgan et al.).
+
+Similarly, in 2001, Giocomini et al. investigated gender equality in all major western medical school texts. This investigation shined light on the widespread lack of information about the female genitalia, whilst also highlighting
+
+“many traditionally discriminatory medical attitudes towards women”. This investigation highlighted that “males were greatly overrepresented in standard anatomy chapters”. Female illustrations accounted for only 11%, whilst male illustrations accounted for an overwhelming 64% (p 416).
+
+Important Figures
+
+Sigmund Freud
+
+Sigmund Freud popularized the idea that the vaginal orgasm was the superior orgasm. He believed that it was an integral part of female health, whilst women who orgasmed through clitoral stimulation were experiencing ‘infantile sexuality’. His works claimed that the vaginal orgasm represented a better, more desirable sexual experience. Women who were unable to orgasm vaginally were seen as “ frigid, a condition that was thought to require psychiatric intervention and even medical treatment’ (Comella 20).
+
+Master’s & Johnson
+
+William Master, a physician and Virgina Johnson, a sex therapist, are seen as one of the prominent pioneers of understanding human sexual response, dysfunction and disorders. Through live observation of both anatomical and physiological sexual responses in their human subjects, they created ”the first comprehensive study of the physiology and anatomy of human sexual activity under laboratory conditions”.
+
+Their joint research began in 1957 and ended in 1994. A large body of their work began in St. Louis at the Department of Obstetrics and Gynaecology at the Washington University. They later
+
+founded the Reproductive Biology Research Foundation, later renamed Masters and Johnson Institute, where they conducted independent sexological research as well as training for therapists, educators and researchers (‘Masters and Johnson, American Research Team’).
+
+The critical proposition that Masters and Johnson's research proposed was that in order to understand human sexuality it must be studied in response to actual sexual stimulation, rather than being relived and then recorded. Masters’ and Johnson’s  goals were as follows:
+
+“[The] fundamentals of human sexual behavior cannot be established until two questions are answered: What physical reactions develop as the human male and female respond to effective sexual stimulation? Why do men and women behave as they do when responding to effective sexual stimulation? If human sexual inadequacy ever is to be treated successfully, the medical and behavioral professions must provide answers to these basic questions” (Masters and Johnson 160).
+
+Master and Johnson’s research on the female orgasm changed the trajectory of sex history. It was through their research - highly controversial at the time - that the female orgasm could be proven through scientific data. Dissimilar to Freud, they believed that the clitoris was the center of the female orgasm. The belief that there were two district and very separate vaginal and clitoral - orgasms was a myth propagated from the Freudian era. Master and Johnson argued that
+
+women’s lived sexual realities had been ignored, in a similar fashion to women’s anecdotes about their vaginas’, causing the clitoris to suffer from decades of ‘phallic fallacies’ (Comella 21).
+
+Anne Koedt, Founder of the New York Radical Feminists
+
+Anne Koedt, the founder of the New York Radical Feminists, countered the long belief that the vaginal orgasm is of more importance the the clitoral one. In ‘The Myth of the Vaginal Orgasm’ she denounces the idea of vaginal orgasm, stating that Freund’s theory has caused ‘undue distress for countless women who either ‘suffered silently with self-blame or flocked to psychiatrist looking desperately for the hidden and terrible repression that kept them from their vaginal destiny”. She vehemently believes the clitoris - and not the vagina - is the center of female pleasure and orgasm (Comella 20).
+
+“As important as these theoretical contributions were, it would take more than feminist polemics and a nod toward scientific evidence to dismantle widely accepted understandings of female sexuality that had long suppressed information about women’s bodies. The stories emerging from within feminist conscious-raising groups revealed that many women were not having orgasms, had never masturbated, and were deeply sexually dissatisfied. There was a growing sentiment… that women - and indeed society as a whole - needed to be sexually reprogrammed” (Comella 22).
+
+Betty Dodson, Sex Educator
+
+“The most consistent sex will be the
+
+love affair you have with yourself”
+
+- Betty Dodson from Sex for One
+
+Betty Dodson, a sex educator, artist and guru of female self-pleasure, led her revolution with the motto ‘better orgasms, better world’. She believed that masturbation was the way that women “discover (their) eroticism,… learn to respond sexually,… learn to love (themselves) and build selfesteem” (Comella 27). She viewed sex and masturbation the way that others view sports, a skill which has to be learned and
+
+practiced. She also believed that most women lacked understanding of what happened to their bodies during masturbation and build-up of sexual tension. Largely due to a lack of education and hyper-pornographic images and videos produced by the adult film industry caused women to have a misguided understanding of the physiological processes happening to their body during an orgasm. Through her experiential and immersive workshops, she created a space for women to have a much needed discussion about female masturbation (Comella 27).
+
+Known for controversial exhibitions, Dodson became a leader within the emerging microcosm of the sexual revolution. Story-telling though the power of images, her artwork reflected her personal journey around sex, and self-pleasure. Having been in an unhappy marriage, it was her divorce and the finding of a partner who she could explore her sexuality with, that started her passionate and inquisitive journey of learning about her body and its inherent sexual responses (Comella
+
+24).
+
+Her first exhibition in 1968, titled Love Picture Exhibition, depicted couples having sex.
+
+Her second show, two years later, unraveled the largely opaque topic of masturbation. For her show, she created four large depictions of people masturbating. Although this exhibition occurred in 1970, at the height of the sexual revolution — a time where the taboos surrounding masturbation were being lifted — her art causes a huge stir. So much so, that the director of the gallery refused to display her artwork, eventually coming to the compromise of only two pieces being presented to the public (Comella 25).
+
+It was because of this show that Dodson became aware of the strong stigmas surrounding masturbation and selfpleasure. Women admitted to Dodson that they did not masturbate, whilst the men disclosed that they had no idea that women masturbated.
+
+It was this exhibition, that highlighted Dodson’s belief that ‘female sexual repression was directly related to the social prohibitions surrounding masturbation” (Comella 26). Dodson was a firm believer that in order for women to be liberated they needed to understand their sexuality, body and orgasm (Comella 26-27).
+
+Joani Blank, CEO of Goodvibrations
+
+“My mission was simple; to encourage women to take charge of and have fun with their sexuality.” - Joani Blank
+
+Betty Dodson was not the only woman interested in democratizing and
+
+educating women on the female orgasm. Joani Blank, a sex professional, had been teaching women how to orgasm at a clinic in San Francisco (UCSF). In 1977, she opened a ‘hole in the wall’ shop with an array of antique vibrator (Comella 43) Goodvibrations now has stores in Berkeley, San Jose, and San Francisco, revolutionised the sex-toy shopping experience.
+
+Prior to Joani Blank, sex toys were primarily sold in adult-film stores, an uncomfortable shopping experience for both genders. Unlike any other sextoy shop, Blank created a space for conversation, integrating ideas of sex therapy and sex education into a retail environment. Quickly gaining traction, Goodvibrations was celebrated as a ‘unique and non-threatening’ environment (Comella 45).
+
+Interestingly, Blank was not someone who had always felt comfortable with her sexuality. She did not have sex until the age of twenty-four, and did not know that women masturbated until her first lover indirectly svhowed her how. Having previously worked as a public health worker, she became aware that many women were “plain uncomfortable with everything about their genitals and many things about their sexuality” (Evans 12).
+
+Whilst working in the public health sector, Blank became friends with Maggi Rubenstein. Rubenstein was a nurse, a sex educator as well as one of the cofounders of the SFSI hotline, geared at creating a space for honest discussion and communication about sex. It was through her connection with Rubenstein, that brought her into contact
+
+with Lonnie Barbach, a sex educator who worked at a sex therapy program at UCSF for preorgasmic women. The program taught women how to gain agency over their sexuality and orgasm. Instead of handing them vibrators, they wanted women to “become comfortable with touching themselves with their hands” (Evans 11).
+
+Lonnie Barbach’s clinical sexual therapy was a gradual self-exploration which included talking about your sexual histories, and exquisitely looking and appreciating ones own body. One of the assignments included taking a mirror and looking at one’s private parts (Faderman 147).
+
+New patients at the clinic received “an informational overview that discussed sexual anatomy, the sexual response cycle, and the human sexual variation prior to the start of counseling” (Comella 47). It was quickly discovered that this educational overview was enough to successfully “fix” a large portion of their patients (Comella 48).
+
+Over and over, Blank would be asked “Is what I experience normal?” (Comella 48). Once the patients realised that they were indeed part of the normal standard deviation of human sexual variation — and not sexually dysfunctional — the need for further counselling disappeared (Friedan 258).
+
+Clitorial Stimulation Sex Toys
+
+The Hitachi Magic Wand
+
+The Hitachi Magic Wand, commonly referred to as the cadillac of vibrators, was first patented in 1968, and is notably one of the most famous sex toys in the world. Its shape is reminiscent of a drum mallet, and is made of hard plastic. It has two speeds; 6,0000 vibrations or 5,000 vibrations per minute, and requires a power outlet. Unsurprisingly, it was marketed and sold as a personal massager whilst serving as a masturbation toy (Trout).
+
+The Womanizer
+
+The Womanizer makes use of a patented technology, which massages the clitoris with pulsating air pressure. A silicone head is placed on the clitoris, mimicking the act of oral sex. Launched in 2013, this category of sex toy is relatively new to market. Important to note, is the sole focus on clitoral stimulation, without penetrative design elements (‘Womanizer: How It Works’). However, the name – womanizer – commonly known as a man who engages in numerous casual sexual affairs with women is hugely problematic, and highlights the malecentricity, endemic of the industry.
+
+Vaginal and Clitoral Stimulation
+
+The Rabbit
+
+The Rabbit was an innovation of its time, providing users with simultaneous vaginal and clitoral stimulation. The California sex toy company, Vibratex, was the first to import dualaction vibrators to the United States in 1983. These vibrators, which were imported from Japan, were brightly coloured and animal themed, a loophole of the country's anti-obscenity laws. Since its original debut, the rabbit vibrator has become a genre of sex toy (Alyssa).
+
+Vulva Stimulation
+
+Pelle Whim
+
+The Pelle Whim is designed to “envelope and caress the vulva”. The toy is designed to massage the glans clitoris and the internal crura clitorus. Unlike most sex toys, this design focuses on a more wholistic stimulation, integrating internal erogenous zones. To increase stimulation, the soft silicone is slightly grainy, reminiscent of a tongue.  The groves and waves of the design allow the user to experience different sensations of intensity through increasing or decreasing ‘grinding’ pressure.
+
+AI Powered Sex Toys
+
+HUM
+
+HUM,an artificially intelligent vibrator,  is a new generation of sex toy that interacts with its users. This innovation can detect vaginal contractions, and responds with gyrations of movement – through internally placed motors – in order to continue and lengthen orgasm.
+
+Open sourced and Arduino hackable, programmes can be uploaded via bluetooth, which allow users to upload their own code, interfacing directly with their device. Each orgasm is graphically represented, helping users better understand their climax. The aim of this toy is to “better sex for society” (‘HUM’).
+
+Lioness
+
+Lioness, is a new generation of sex toy, focuses on providing its users with scientific data on pelvic floor movements. Different factors can change the contractions of the pelvic floor, and it is this scientific data that Lioness aims to democratize. Compared to a “Fitbit for your sexual pleasure and health”, the Loiness can be synced to your phone, displaying the data in easy-to-read charts, which can  be compared to follow arousal and orgasms over time (‘Lioness’).
+
+h t t p s : / / w w w . g o o g l e . c o m / url?sa=i&url=https%3A%2F%2Fwww. dailydot.com%2Fdebug%2Fhum-smart-sex-to y%2F&psig=AOvVaw2z1xuKpJghlsB0MC6X QFR1&ust=1671263211549000&source=ima ges&cd=vfe&ved=0CBAQjRxqFwoTCLCzze PS_fsCFQAAAAAdAAAAABAI
+
+Exploratory Sex Toys
+
+The Rituals of Sexual Pleasure
+
+Coby Huang’s The Rituals of Sexual Pleasure kit – made of wood, wool, silicone, and metal – are of the few designs geared towards exploration and education, rather than vibration and penetration. Three-dimensionally printed haptic balls with various textures, and three different vibrational patterns enable women to experiment. Huang’s states that “penetration is not the only way to reach orgasm, and an orgasm is not the only way to feel pleasure”. This project aims to mix physiological, emotional and cognitive processes to enable a holistic approach to masturbation (‘Coby Huang’s Sex Education Toys’).
+
+Pior Work Summary
+
+A market scan of the sex toy domain shows that designs are limited to clitoral, vaginal penetration, and anal stimulation. For the purpose of this project, anal toys were not investigated or anaylsed for design inspiration. Most sex toys are designed with the intention to enable users to climax. The focus of highly sensitive erogenous zones e.g clitoral stimulation, directs the user to focus on specific zones, disregarding the exploration of the rest of their genitalia. Unlike the work of Coby Huang, which aims to create a more complete experience of pleasure, most sex toys focus on localized mono- or dualstimulation of the female genitalia.
+
+The sex toy industry will reach 80.7 billion in 2030 (‘Size of the Global Sex Toy Market 2016-2030’). Additionally, 45% of working women aged 25-44 in the USA will be single by 2030 – this is the largest share in history (‘Rise of the SHEconomy’). This means that more and more women will be relying on themselves for pleasure.
+
+Albeit the sexual revolution of the 1970s, and our ever-growing hypersexualised world, we are having less sex than ever. Concurrently, we are living in the most digitally connected world to date, yet are perished by loneliness and depression. Depression rates have increased dramatically over the past decades, with incident cases of 172 million in 1990 to 25,8 million in 2017. Globally, a 49,86% increase was seen over the span of 27 years (Liu et al.).
+
+George Vaillant, who led The Grant Study – a longitudinal study spanning over a 75-year period – investigated how a group of 268 white males from different socio-economical backgrounds “coped with their lives over a period of time” (Vaillant et al.). A key finding was that relationships had a powerful influence on our mental and physical health (The 80-Year-Old Harvard Grant Study). It
+
+found that the healthiest and happiest individuals were those who maintained close and intimate relationships, whilst participants who suffered from loneliness were shown to die earlier and were more inclined to suffer from health issues. Another study by the National Institute on Aging, showed that prolonged isolation was equivalent to smoking 15 cigarettes a day (Kroll).
+
+If a critical factor of human health are relationships, how important is the relationship that an individual has with themselves? How can our internal worlds impact our external experiences and relationships?
+
+(On a larger scale) this project aims to improve the health of interpersonal relationships with the belief that if an individual is disconnected internally, they will be disconnected externally. The focus of this connection to self, commonly known as mind-body connection, aims to improve self-love through self-pleasure.
+
+This work aims to start a conversation about creating a ritual which is positively associated with a holistic projection of human health. A ritual which aids in a conscious lifestyle — giving the users time to connect with themselves, both on a mental and
+
+physical level. The hope is that through the exploration of self, a conscious template for connecting with the world around the user is created. By practicing conscious pleasure, individuals will be able to experience more pleasure in all realms of life.
+
+Data Collection Method
+
+This study utilizes the qualitative data collection method of unstructured interviews. This method is commonly used to investigate user processes and to gather feedback on prototypes to ensure a successful iterative design process. This collection method allows the interviewer to collect data on a broad range of topics, whilst exploring the opinions, behaviors, experiences, and phenomena of the subject. The interview sample size was ten individuals, and were recorded, transcribed and thematized for three main thematics:
+
+1. The first memory of masturbation
+
+2. Associations to masturbation
+
+3. Masturbation rituals
+
+Furthermore, two industry experts were interviewed to gain a better understanding of the thesis domain. Due to the discrete nature of the topic, interviewees were given the option to participate in interviews without having their interviews presented in text form.
+
+Timeline of study
+
+This investigation was a crosssectional study in which interviews were conducted within a time frame of
+
+a month. The choice to use this research design methodology was to better understand the current associations to, and wants from, a sex toy.
+
+Sampling strategy
+
+This study utilized convenience, nonprobability sampling. The reason for this was due to the stigmatized nature of the research. Not ever individual felt comfortable discussing their masturbation techniques and sex toy preferences.
+
+Data Analysis Methods/Techniques
+
+The data that was collected through recorded-interviews was transcribed, and coded into recurring thematics. The findings from these thematics influenced the design decisions in the prototyping stage.
+
+The Methodological Limitations
+
+The limited time scope of this project did not allow for user testing. This resulted in a product being designed based on the verbal needs and wants decoded from the interview sample.
+
+Additionally, there was a sample bias due to the use of a non-probability sampling strategy. The sample was heavily skewed by convenient sample subjects, e.g. college students. This limited the sample in age,
+
+demographic, educational background. This inherently limited the study, preventing generalizations of the populus engaging in masturbation to be made.
+
+Material Exploration
+
+Albeit the common use of silicone within the domain of sex toys, this product aims to explore the amelioration of the material. The investigation of gold and silicone aims to create an alluring, luxurious user-experience. The alteration of the visual component aims to distance the product from the associations of the adult film industry.
+
+Leatrice Eiseman, the executive director of the Pantone Color Institute states that “the color gold causes the eye to move because of the glistening and seemingly moveable surface, similar to the way water moves” (Booth). The undulating patterns of the material have had an unexplainable allure within human history.
+
+The first material exploration were small sample swatches. The aim of this was to understand how the faux-gold pigment and gold leaf would interact with the silicone and if it would cause cure inhibition. Four explorations with different pigment ratios were explored:
+
+1/4 tsp + 10 grams of silicone
+
+1/2 tsp + 10 grams of silicone
+
+3/4 tsp + 10 grams of silicone
+
+1 tsp + 10 grams of silicone
+
+When examining the samples, notable (undesired) patterns were visible. One side of the swatch has a smooth texture and an aesthetically pleasing gold hue
+
+whilst the other side is pox-marked with a marbled black and gold. This latter texture and marble aesthetic was caused by the depressurising of the silicone in the vacuum chamber. Additionally, by mixing the gold powder directly into the silicone, a matt surface was created.
+
+The second material exploration entailed gold leafing silicone swatches. Gold gilding glue was painted directly onto the silicone swatches. Improvements in shininess were visible, however, upon stretching and bending the silicone, the gold leaf would flake off.
+
+The third material exploration - which was most successful - investigated dipping silicone swatches directly into gold powder. This resulted in the best luminosity, closest in shininess to real gold. It was this method which was used in the final prototype.
+
+Shape Exploration
+
+Prototypes focusing on the genitalia ‘which are not seen’ by current sex toys e.g. inner and outer labia were brainstormed, created and iterated upon. The first three prototypes were made of a polymer clay. An ideal material due to its easy malleability and moldability; soft when warmed with the body heat of the hands or heat gun and hard when at room temperature. The focal point of the first prototypes are the stimulation of the inner and outer labia, one of the ‘unseen’ body parts that current toys do not design for.
+
+The concept prototypes are inspired by different flowers e.g. roses, lotuses, and orchids. The aim is to create a romantic, feminine design which is inspired by the calming effects that nature has on the
+
+human nervous system. Each prototype fulfills the following objectives:
+
+1. Moveable digits which enable customizable positions for the user
+
+2. Elegant and feminine design
+
+My Pleasure is an artefact that does not focus on penetration or clitoral stimulation, but rather focuses on the parts of the female genitalia that traditionally remain ‘unseen’ by sex toys. The aim of this design is to help the user explore her body. My Pleasure is an artefact focusing on the  journey towards an orgasm without having an orgasm. This is distinctly different to a traditional sex toy which is geared towards orgasming quickly, focusing less on the ritual of exploration, selfcare, and the connection of mind-andbody.
+
+As Todd Baratz, a licensed psychotherapist who specialized in sex therapist, said: ‘Stop defining your sexuality by centering penetration. If your not trying to get pregnant it actually doesn’t matter what type of sex your’re having. Instead of specific sexual acts, think about eroticism, kink, comfort and creativity.’
+
+It is with this explorative mindset that users’ should gain when using the product. With the aim to learn; to learn what they like, but just as importantly, to learn what they do not like. To understand the physiological responses to different stimulations of the vagina.
+
+The design is inspired by the powerful
+
+symbolism of flowers, specifically orchids. The aim is to create an elegant, hyper-feminine toy of pleasure with high levels of individualisation and customisation. Each petal, which is made of silicone, has an individual motor which is stabilised by an aluminium wire and nitinol mesh. This allows the user to adapt, mold, and alter each pedal to the ideal position of pleasure. When the user wants to revert the toy back to its original shape, it simply must be placed in hot water. Due to the ‘memory shape’ characteristic of nitinol, this process of shaping and reverting can be done infinitely.
+
+Each petal has been individually molded, cast, and gold leafed. The purposeful use of gold in the design intends to generate the sensation of surplus pleasure within the user. Pleasure, which is much more than physical stimulation, and rather the arousal of multiple different senses, the integration of a precious metal aims to utilise deeply subconscious psychological associations of abundance.
+
+Each petal is autonomous, and can be turned on and off by the user. Ultimately, this means that the user can use the orchid as a non-vibrating
+
+toy, as a toy with one (or more) vibrating petals. The purpose of this customization is to allow the user to experiment with vibrations, localised in different parts of the vulva, with the aim to better understand which regions are most pleasurable. Additionally, it aims to prevent overstimulation of the vagina; instead of having to turn off all vibrations, the user can, for example, turn off all stimulation close to the clitoris, which is the most densely populated with nerve endings (Nagoski 21).
+
+Phallic Sex Toy
+
+‘Not another phallic sex toy’. This was the feedback that was given throughout the project, which was reiterated during interviews. It highlighted that individuals were not interested in another penetrative sex toys. Interviewees claimed that they liked using their hands. It was this feedback that was integrated into the design; the pedals symbolize  mobile appendages which can be molded into a number of shapes and forms.
+
+Vibrational Patterns
+
+Users wanted to have the possibility of changing the vibrational settings. This included improvements in the strengths of different vibrations, but also having the possibility to upload their own vibrational design. Essentially an option to upload open source vibration code.
+
+Material
+
+This silicone  that was used for the prototype had a shore strength of 30. When asking for feedback about the material and ‘softness’ of the silicone, users expressed a desire for  a softer material. Their worry was that the material would cause pain.
+
+Shape
+
+Similarly, feedback was given that
+
+the shape of the design might not be universal, causing irritation or discomfort for certain users.
+
+Future Work and Envisionments
+
+24K Gold Nanostructure
+
+Ideally, a sputtering machine, commonly used in the medical device industry could be used to create a smooth, 24k gold (or any other metal), nanostructure surface onto the silicone.
+
+This nanostructure would create the base structure used to fabricate a thicker layer of gold using a gold plating machine. The integration of metal would  allow for the exploration of temperature play. A heating and cooling component could be added to the toy which would allow the user to experiment with different temperatures.
+
+Since gold is a finite resource, it would be of sustainable interest and important environmental impact to utilize recycled gold. There are a number of industries that manufacture with (semi-)precious metals but do not yet have an adequate recycling process in place. An example of this is e-waste.
+
+Conclusion
+
+This thesis has demonstrated a need for further research and exploration of a new category of self-pleasure artefacts; ones that focus on non-penetrative and non-clitoral stimulation and allows for self-explorative play.
+
+Furthermore, upon analyzing the history of sex toys and their design trajectory, it becomes clear that both shape and material exploration has been limited due to the taboo nature of the product. Being an artefact of stigma and long-term prohibition, prevented true creative liberty within the industry. Instead, incremental (design) progress was made. With only a handful of sex toy shapes and materials being used, the industry is ripe for a design evolution.
+
+Additionally, many assumptions about female anatomy and hence female pleasure were made based on ‘scientific research’ which was outof-date and incorrect. The belief – which is still propagated in today’s society – that vaginal orgasm is superior to a clitoral orgasm has caused a stunted design trajectory. It was such fictitious ‘knowledge’ which resulted in phallic-shaped sex toys to be designed and produced for decades without taking clitoral stimulation
+
+into consideration. Fast forward to the current market of sex toys, and a similar phenomenon is presented; sex toys exclusively focus on vaginal and clitoral stimulation. But what about the rest? If it took decades for the phallic-shaped sex toys to be updated to include clitoral stimulation, what is the next step and how long will it take?
+
+By focusing on the parts of the vagina that are commonly overlooked by sex toys, the author aims to create a solution for this unmet need. By focusing solely on these parts of the vagina, the author hopes it can eventually be added, like the last missing piece of puzzle to current sex toys, ultimately creating a wholistic toy with allows for customized stimulation along the entire female genitalia.
+
+This thesis was of an exploratory nature, not geared at creating a production ready product. Instead it was about creating awareness, a discussion of what pleasure is and how the body and the mind  play an important role in both excepting and experiencing (sexual) pleasure.
+
+By creating a pleasure toy that does not focus on clitoral or vaginal stimulation, the user is obliged to explore her own body. Explore the
+
+parts that she might have been unaware of. And it is this, the act of exploration that is the education component of the design.
+
+Alyssa, Morterud. ‘The History of the Rabbit Vibrator’. Sexual Health Alliance, https://sexualhealthalliance. com/nymphomedia-blog/the-historyof-the-rabbit-vibrator. Accessed 7 Dec. 2022.
+
+Berridge, Kent. ‘Simple Pleasures: New Findings in Hedonic Psychology and Affective Neuroscience Are Revealing Intriguing Complexities.’ Https://Www.Apa.Org, Dec. 2022, h t t p s : / / w w w. a p a . o rg / s c i e n c e / a b o u t / psa/2004/11/berridge.
+
+Booth, Puja Bhattacharjee, CNN Animation by Tim. ‘The Psychology of Gold and Why It Has That Allure’. CNN, 13 Oct. 2017, https://www.cnn. c o m / 2 0 1 7 / 1 0 / 1 3 / h e a l t h / c o l o r s c o p e gold-allure/index.html.
+
+Bullough, Vern L. ‘Masturbation: A Historical Overview’. Journal of Psychology & Human Sexuality, vol. 14, no. 2–3, Jan. 2003, pp. 17– 33. DOI.org (Crossref), https://doi. org/10.1300/J056v14n02_03.
+
+‘Coby Huang’s Sex Education Toys’. Dezeen, 25 Feb. 2020, https:// w w w. d e z e e n . c o m / 2 0 2 0 / 0 2 / 2 5 / s e x e d u c a t i o n - t o y s - c o b y - h u a n g - y o u n g swedish-design/.
+
+‘Coby Huang’s Sex Education Toys Are Designed to Explore What Brings
+
+Us Pleasure’. Dezeen, 25 Feb. 2020, https://www.dezeen.com/2020/02/25/ s e x - e d u c a t i o n - t o y s - c o b y - h u a n g young-swedish-design/.
+
+Comella, Lynn. Vibrator Nation: How Feminist Sex-Toy Stores Changed the Business of Pleasure. Duke University Press, 2017.
+
+Conrad, Brian. The Role of Dopamine as a Neurotransmitter in the Human Brain. Nov. 2018, https://www. enzolifesciences.com/science-center/ t e c h n o t e s / 2 0 1 8 / n o v e m b e r / t h e - r o l e of-dopamine-as-a-neurotransmitterin-the-human-brain/.
+
+‘Dally’. Online Etymology Dictionary , Dec. 2022, https://www.etymonline. com.
+
+‘Dildo’. Online Etymology Dictionary, Dec. 2022, https://www.etymonline. com.
+
+Evans, Sara M. Personal Politics: The Roots of Women’s Liberation in the Civil Rights Movement and the New Left. Vintage Books, 1980.
+
+Faderman, Lillian. Odd Girls and Twilight Lovers: A History of Lesbian Life in Twentieth-Century America. Columbia University Press, 1991.
+
+Friedan, Betty. The Feminine Mystique. W. W. Norton & Company,
+
+Giacomini, M., et al. ‘Gender Bias in Human Anatomy Textbook Illustrations’. Psychology of Women Quarterly, vol. 10, no. 4, Dec. 1986, pp. 413–20. DOI.org (Crossref), https:// d o i . o r g / 1 0 . 1111 / j . 1 4 7 1 - 6 4 0 2 . 1 9 8 6 . tb00765.x.
+
+‘HUM: The First Artificially Intelligent Vibrator’. Indiegogo, http://www. indiegogo.com. Accessed 7 Dec. 2022.
+
+Kesby, James. How Pleasure Affects Our Brain. Dec. 2022, https:// med icin e. u q . ed u . au /ar ticle/2018/04/ how-pleasure-affects-our-brain.
+
+Kroll, Michele M. ‘Prolonged Social Isolation and Loneliness Are Equivalent to Smoking 15 Cigarettes A Day’. University of New Hampshire, 2 May 2022, https://extension.unh. e d u / b l o g / 2 0 2 2 / 0 5 / p r o l o n g e d - s o c i a l i s o l a t i o n - l o n e l i n e s s - a r e - e q u i v a l e n t smoking-15-cigarettes-day.
+
+Lieberman, Hallie. Buzz: A Stimulating History of the Sex Toy. First Pegasus Books hardcover edition, Pegasus Books, 2017.
+
+Lioness. ‘How Lioness Smart Vibrator ’. Lioness, https://lioness.io/pages/ how-it-works. Accessed 7 Dec. 2022.
+
+Liu, Qingqing, et al. ‘Changes in the Global Burden of Depression from 1990 to 2017: Findings from the Global Burden of Disease Study’. Journal of Psychiatric Research, vol. 126, July 2020, pp. 134–40. ScienceDirect, h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . jpsychires.2019.08.002.
+
+Manniche, Lise. Sexual Life in Ancient
+
+Egypt. Kegan Paul International ; Distributed by Columbia University Press, 2002.
+
+‘Masters and Johnson’. Britannica, https://www.britannica.com/. Accessed 7 Dec. 2022.
+
+Masters, William H., and Virginia E. Johnson. Human Sexual Response. 1st ed, Little, Brown, 1966.
+
+Mochizuki-Kawai, Hiroko, et al. ‘Viewing a Flower Image Provides Automatic Recovery Effects after Psychological Stress’. Journal of Environmental Psychology, vol. 70, Aug. 2020, p. 101445. ScienceDirect, https:// doi.org/10.1016/j.jenvp.2020.101445.
+
+Morgan, Susan, et al. ‘Sexism and Anatomy, as Discerned in Textbooks and as Perceived by Medical Students at Cardiff University and University of Paris Descartes’. Journal of Anatomy, vol. 224, no. 3, Mar. 2014, pp. 352– 65. PubMed Central, https://doi. org/10.1111/joa.12070.
+
+Nagoski, Emily. Come As You Are: The Surprising New Science That Will Transform Your Sex Life. Simon & Schuster Paperbacks, 2015.
+
+‘Rise of the SHEconomy’. Morgan Stanley, https://www.morganstanley. c o m / i d e a s / w o m e n s - i m p a c t - o n - t h e economy. Accessed 7 Dec. 2022.
+
+Sex Toy. https://dictionary.cambridge. o r g / u s / d i c t i o n a r y / e n g l i s h / s e x - t o y. Accessed 7 Dec. 2022.
+
+‘Size of the Global Sex Toy Market 2016-2030’. Statista, https://www. statista.com/statistics/587109/size-ofthe-global-sex-toy-market/. Accessed 7 Dec. 2022.
+
+The 80-Year-Old Harvard Grant Study. https://www.hbsab.org/s/1738/cc/21/ page.aspx?sid=1738&gid=8&pgid=62 169&content_id=88619. Accessed 15 Dec. 2022.
+
+Trout, C. ‘The 46-Year-Old Sex Toy Hitachi Won’t Talk About’. Engadget, h t t p s : / / w w w. e n g a d g e t . c o m / 2 0 1 4 - 08-27-history-of-the-hitachi-magicwand.html. Accessed 7 Dec. 2022.
+
+Vaillant, George E., et al. Grant Study of Adult Development, 19382000. Harvard Dataverse, 20 Feb. 2022. Harvard Dataverse, https://doi. org/10.7910/DVN/48WRX9.
+
+Womanizer: How It Works. https:// www.womanizer.com. Accessed 7 Dec. 2022.
+
+Woollaston, Victoria. ‘The “sex Toys” Dating Back 28,000 Years’. Mail Online, 13 Jan. 2015, https://www.dailymail. c o . u k / s c i e n c e t e c h / a r t i c l e - 2 9 0 8 4 1 5 / T h e - s e x - t o y s - d a t i n g - 2 8 - 0 0 0 - y e a r s - Ancient-phalluses-stone-dried-cameldung-started-trend-sex-aids.html.
+
+Working Definition of Sexual Pleasure. h t t p s : / / w w w. g a b - s h w. o rg / o u r- w o r k / w o r k i n g - d e f i n i t i o n - o f - s e x u a l pleasure/. Accessed 7 Dec. 2022.

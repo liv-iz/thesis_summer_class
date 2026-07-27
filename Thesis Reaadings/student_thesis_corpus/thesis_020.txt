@@ -1,0 +1,699 @@
+Abstract
+
+5 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+History and Prior Art
+
+Optical illusions have been long-standing from the beginning of
+
+civilization. Parthenon, which dates 447 BC back to ancient Greek
+
+times, used curved floors, columns, and beams to create optical
+
+illusions that looked perfect. The columns are not straight along
+
+their vertical axes but seem bulged in their middle section. This
+
+phenomenon, called “entasis,” is intended to counteract another
+
+optical effect in which columns with straight sides appear to the
+
+eyes to be more slender in their middle parts, so the columns can
+
+appear to have more curves. In the recent era, artists like M.C.
+
+Escher created drawings using optical illusions to trick our eyes. In
+
+recent years, with the richness of media, the world has witnessed
+
+more and more optical illusions via films such as Space Odyssey
+
+2001 and Inceptions, or in the entertainment industries, video games
+
+such as Portal and Superliminal, showing how optical illusions have
+
+been widely accepted and explored throughout history.
+
+Having been used by magicians, carnival rides, film, etc., and built
+
+upon our cognitive beliefs and models, optical illusions are now part
+
+of the most human element of our existence within humanity. We
+
+take those as starting points as a design material to rethink and re
+
+approach VR authorship. In some sense, VR is how it is because it
+
+was developed by a species living with a set of limited senses and
+
+cognitive models. This project seeks to unshackle those human
+
+constraints in a new VR authoring tool.
+
+However, optical illusions were not widely applied to practical
+
+usage. They were predominantly limited to gimmicks and
+
+entertainment purposes partly due to the field illusions were used
+
+in. Yet, with the help of VR and unshackled by the restriction of
+
+ordinary perception of space, we hope to study how optical illusions
+
+can be used in practical applications in the field of VR.
+
+There is no doubt that VR is still relatively a young technology
+
+compared to other presenting industries such as films and video
+
+games. The current VR hardware is limited by silicon chips that
+
+are not powerful enough to drive real-time graphic renderings
+
+and the lack of battery capacity, not to mention the lack of haptic
+
+peripherals and sensors. Thus, VR can not reproduce our physical
+
+world, or at least not yet with the current limitations.
+
+However, in recent years in the field, silicon chips have made
+
+significant strides in technological advancement in releasing Apple’s
+
+high-efficiency M series chips. More research has been done on
+
+carbon-based batteries with larger captivity, signaling a future
+
+where VR is much closer to the goal of reproducing experiences of
+
+our physical world.
+
+The gap between the unlimited potentials in VR and the narrowness
+
+of our imaginations inspired us to ask: What can VR offer that
+
+cannot be done in the real world? Are these new interactions
+
+making sense in VR environments that are simply not possible in real
+
+life or where people have not thought about?
+
+By admitting the current limitations of VR yet presenting new
+
+possibilities, we hope to establish the foundation for the future of
+
+interaction in XR.
+
+7 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+Methods
+
+The project investigates ways to operate VR illusion in the process
+
+of Element combination - Illusions - Vocabulary - Use case.
+
+1. Element combination
+
+The design method starts by abstracting how environments are
+
+perceived at a rudiment level in architecture, film, and video
+
+games. By examining past works of visual illusion in buildings,
+
+movies, and games, a common trend rose to manipulate how
+
+the user experiences the environment. The common trends were
+
+alteration of gravity, scale, direction, space, and form, which we
+
+labeled as “elements.” Furthermore, these elements became the
+
+foundation for designing different types of optical illusions in VR.
+
+While there are many other elements we have not listed, such as
+
+colors, time, and sounds, the team was mindful of their technical
+
+challenges and focused on a project scope that is manageable with
+
+our background, experiences, and skill sets. The team arranged
+
+the elements into different combinations as inputs and outputs
+
+from these foundational elements. Where one element is used as
+
+an input to alter the experiences,output from the design process
+
+was the environmental conditions. For example, using direction in
+
+the VR environment changes the user’s experience of scale in the
+
+environment. While the formulation of input and output elements
+
+does have a gap between the formula and the VR optical illusion
+
+design in detail, the procedure was for us to narrow the conceptual
+
+down and organize the design scope in a vast range of potential in
+
+VR.
+
+Project  frameworks
+
+2. Illusions
+
+Based on combinations, we brainstormed and went through many
+
+iterations. The iteration process was through listing all the possible
+
+combinations and narrowing them down possible VR interactions.
+
+While this iteration stage did not have any specific requirement
+
+for us to achieve, we were mindful of our VR development abilities
+
+and the technology the VR is opperatinting in such as the game
+
+engine and the VR headset. Through these iterations, the team
+
+came up with six VR optical illusions: space switch, space loop,
+
+passage switch, resituate, god mode and force frame. These six
+
+illusions were selected from the team’s considerations of the future
+
+adaptability and scalability in the VR development.
+
+2.1 Space Switch [Input: Direction, Output: Space] - When
+
+the user travels between disjoint or overlapped spaces. This
+
+illusion is a spatial-based illusion using a two-way teleport
+
+portal to relocate the user. The observations of the illusion can
+
+be subtle without the user noticing the transition of space or
+
+can be direct for the user to recognize the transition.
+
+9 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+2.2 Space Loop [Input: Space, Output: Direction] - When
+
+the user teleports back to a previous space. This illusion
+
+is a spatial-based illusion using a one-way teleport portal
+
+to relocate and/or redirect the user. This illusion is most
+
+successfully used subtly without alerting the user’s attention.
+
+2.3 Passage Switch [Input: Form, Output: Space] - When a
+
+user travels between detached spaces connected by a visual
+
+passageway. Similar to Space Switch, special illusion uses a
+
+two-way teleport portal to relocate the user but differs by
+
+guiding the user using a visual teleport portal of the render of
+
+the other room.
+
+2.4 Resituate [Input: Direction, Output: Gravity] - When
+
+users actively modify the environment’s gravity direction by
+
+interacting with an artifact.
+
+2.5 The God Mode [Input: Scale, Output: Form] - Actively
+
+modify the full-scale scene in VR with miniature scale
+
+duplicates of the real world.
+
+2.6 Force Frame [Input: Form, Output: Space] - Using forced
+
+perspective to transform or convert objects between different
+
+dimensions and/or reality using one point perspective.
+
+Space loop
+
+Passage switch
+
+Resituate
+
+The god mode
+
+Forced frame
+
+11 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+3. Vocabulary
+
+Our consideration of establishing vocabulary for the usage in future
+
+VR design development. Based on illusions, we considered what is
+
+behind the mechanism of these illusions, what is the core of each
+
+illusion, as well as what is driving them.
+
+3.1 Space Switch
+
+When the user travels between disjoined or overlapped spaces.
+
+-Use a two-way portal/stencil shader
+
+-Provide a clear view of the room entrance
+
+-Each room should have a distinct characteristic
+
+3.2 Space Loop
+
+When the user teleports back to a previous space
+
+-Same portal location proportional to the space
+
+-Space A and space B is identical
+
+-Use a one-way portal
+
+3.3 Passage Switch
+
+When a user travels between detached spaces connected by a visual
+
+passageway.
+
+-Use two-way portal/stencil shader
+
+-Use Visual Gate/Portal display view of the detached space
+
+3.4 Resituate
+
+When users actively modify the environment with limited capabilities
+
+-Usefulness and controllability of the result
+
+-Easy to use for target users
+
+3.5 The God Mode
+
+Actively modify the scene in VR with miniature duplicate of the real
+
+world
+
+-The exact copy of the movements between objects
+
+3.6 Forced Frame
+
+Use forced perspective to transform or convertion object between
+
+different dimensions and/or reality using forced perspective
+
+-Provide the proportional scale and position relative to the
+
+user’s perspective
+
+-Provide enough depth between the user and the object for
+
+the eye to focus.
+
+-Use a one-way perspective and fixed position between the
+
+conversion/transformation.
+
+13 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+4. Use case
+
+Each optical illusion is then defined and categorized by its
+
+functions and characteristics to be inspected for its use case
+
+scenario in future VR applications.
+
+4.1 Space switch & space loop & passage switch
+
+Retail Experience
+
+Shops and retail stores can overlay additional information to
+
+physical merchandise to assist customers in understanding
+
+products
+
+Interactive Gallery Museum
+
+Instead of only presenting static objects and artifacts,
+
+museums can add interactions with the exhibited objects.
+
+Expanding Residential Space
+
+It is often the case that we are limited to the physical
+
+boundary of our homes or apartments when playing VR
+
+games. VR space seems to be confined by the physical
+
+space. An unlimited VR space could help VR residents
+
+expand their VR territories beyond physical limitations
+
+where walking around in one’s bedroom can still let them
+
+traveling in a museum with an amount of space and
+
+exhibitions
+
+4.2 Resituate & the god mode
+
+Augmenting ability
+
+We all fantasize about being able to grab things far away,
+
+just like wizards do in Harry Potter. In VR, we don’t even
+
+need a wand. Our abilities are unlimitedly expanded to take
+
+control of everything in the virtual world we reside in.
+
+Adaptive environment
+
+Not only can we actively adapt to the environment, but the
+
+environment can also adapt to us and respond to us.
+
+Inclusive interaction
+
+People with disabilities are always excluded from video
+
+games and VR due to limited physical capabilities. The
+
+new paradigm of interactions enable us to have inclusive
+
+interactions without potentially excluding anyone
+
+4.3 Picture frame
+
+Bridge 2D and 3D
+
+Changing reality from Physical to Digital and/or Digital to
+
+physical, breaking the boundaries between 2D and 3DOur
+
+consideration of establishing vocabulary for the usage
+
+in future VR design development. Based on illusions, we
+
+considered what is behind the mechanism of these illusions,
+
+what is the core of each illusion, as well as what is driving
+
+them.
+
+15 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+Process/Iterative work
+
+The VR design process has not yet been established or widely
+
+discussed both academically and in industry. As trailblazers, we
+
+are inspired by the architecture design, film storyboarding, and
+
+game development process. Learning from architecture design,
+
+we designed scene floor plans and decided on one artistic
+
+style. While the project is mainly focused on the optical illusion
+
+interaction, we consider this project as an opportunity to test the
+
+vocabulary and design guidelines in a cohesive, uniform style in
+
+a single environment. From file storyboarding, we learned to use
+
+wireframing to organize the logic of the experience and design the
+
+user journey. Game development also taught us how to use the
+
+game engine with shaders and coding and the limitations of VR.
+
+Discussion
+
+Early in the prototype phase of the project, the team learned that
+
+the game engine and VR plug-in for the game engine building
+
+VR simulation are not designed to operate with non-euclidean
+
+form and rendering. Being rooted in the video game field, VR
+
+technology organically adopted the technologies and tools to
+
+use in VR simulation. With that adoption, it also took many of the
+
+bases of prebuilt features that are used to build 3D environments
+
+with essential interaction that mimics our real-world interaction.
+
+However, to develop and run the optical illusion, the project faced
+
+many challenges and dead ends that were difficult to navigate
+
+and foresee. The difficulty in forecasting the technical difficulties
+
+was due to the team members’ skills focusing on design, and the
+
+VR development tools still mostly being in progress. While the
+
+project focused mainly on designing and building a prototype
+
+vision of the optical illusions, the designer needed to understand
+
+the technical possibilities and limitations of the software operating
+
+the VR simulation and the stylish and functional choices of the 3D
+
+environments. To create these illusions, the designer should learn
+
+the back end of the game engine and collaborate with the team
+
+member in charge of the software engineering. On the other side
+
+of the spectrum, the design should also determine each piece and
+
+layout accordingly to the VR Illusion.
+
+17 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+The project has two main final deliverables: a working prototype of
+
+the visual illusion in VR simulation and a definition of each illusion
+
+in the form of vocabulary that communicates and operationalise
+
+discrete illusionary VR elements, empowering VR authors and
+
+designers in the creation of radically more fantastical, creative,
+
+but consistent VR worlds. VR simulation is a visual intractable
+
+immersive experience built and designed in a game engine to
+
+operate in a VR headset, presenting the user the experience of
+
+being inside the environment with the optical illusion. As we
+
+mention before, there are six optical illusions in the project,
+
+demonstrating the possibility of designing virtual environments
+
+using optical illusions. Each illusion is defined for its function, style,
+
+technical software requirements, and the future use-case scenario
+
+from the VR simulation. By defining each illusion, the project serves
+
+as a guidebook for the future VR designer to understand how each
+
+illusion can be applied to their projects. And finally deliverable - the
+
+working prototype and the vocabulary-will be packaged and shared
+
+on GitHub for the public to download to experience, use, and
+
+expand to further usage of optical illusions in VR.
+
+sitemap
+
+Scene style
+
+Experience
+
+logics design
+
+19 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+Future Work and Envisionments
+
+In the next stage of the project, we will initiate work on integrating
+
+user tests and expanding the list of illusions. The project focused
+
+mainly on building and developing the prototype of the illusion, and
+
+the team had yet to use the end audience’s experience interacting
+
+with the optical illusion. In the further development of the project,
+
+each illusion will be tested for the viability of the VR experience.
+
+The interview with VR developers will test how the vocabulary can
+
+improve or be modified to better the tools for future development.
+
+While there were many illusion prototypes in the team’s previous
+
+design, the eight illusions were specifically picked based on the
+
+illusion applicability and future usability in the XR development.
+
+Conclusion
+
+Through the Illusory Environment project, we were able to challenge
+
+the current game engine design by developing non-Euclidean space
+
+creating optical illusions in VR. We have observed that many current
+
+trends in VR are shackled by physical space design. In this project,
+
+we illustrated the possibility of using optical illusion to design
+
+beyond the metaphor of physical reality. We hope to see more VR
+
+designers adopting the User Interface design process by connecting
+
+flow from one environment to another, unbound by physical
+
+limitations.
+
+From the perspective of a VR designer, we address the gap between
+
+text-heavy documentation and visual effects that we set as a goal
+
+is identified. We acknowledge that in VR, both visual design and
+
+development are heavily relied upon and explored, but people
+
+have yet to recognize the gap in between. By delivering illusion
+
+design packages and tutorials, we hope to not only inspire more
+
+XR developers and designers to continue exploring possibilities in
+
+illusion design in XR but also make it easier for both designers and
+
+developers to deliver what they hoped for and skip potential bugs
+
+and failed trials where we spent countless time on this project.
+
+We also actively responded to previous critics, questioning if
+
+these illusions are more like gimmicks. However, the project was
+
+able to address the  question by examining the future use case
+
+and application of the optical illusion in XR. Thinking from several
+
+perspectives and industries where VR and AR technologies can
+
+be heavily utilized, we have logically established a framework
+
+for different illusions, design guidelines, and corresponding
+
+applications, establishing both comprehensive and enlightening for
+
+future XR designers and developers.
+
+In addition, we also identify our works to be un-illusionalizing, in
+
+the way that illusions might become useful and so common in the
+
+future that it becomes ordinary and ubiquitous in VR. Just like
+
+we are used to elevators and escalators in our buildings hundreds
+
+of years ago when they were also identified as gimmicks, we are
+
+encouraged that the use of VR will become an essential part of our
+
+future lives In a sense, we are non-illusionalizing illusions, creating
+
+new patterns and paradigms for future human-XR interactions.
+
+21 Illusory Environment : Elijah Lee | Xiaobai Ji
+
+Citation
+
+Bowman, D. A., and McMahan, R. P. (2007). Virtual Reality: How Much Immersion Is
+
+Enough? Computer 40, 36–43. doi:10.1109/MC.2007.257
+
+Dinh, H. Q., Walker, N., Hodges, L. F., Chang Song, C., and Kobayashi, A. (1999).
+
+“Evaluating the Importance of Multi-Sensory Input on Memory and the Sense of
+
+Presence in Virtual Environments,” in Proceedings IEEE Virtual Reality (Cat. No.
+
+99CB36316), Houston, TX, USA, 13-17 March 1999, 222–228. doi:10.1109/VR.1999.756955
+
+Kilteni, K., Maselli, A., Kording, K. P., and Slater, M. (2015). Over My Fake Body: Body
+
+Ownership Illusions for Studying the Multisensory Basis of Own-Body Perception. Front.
+
+Hum. Neurosci. 9, 141. doi:10.3389/fnhum.2015.00141
+
+Lombard, M., Ditton, T., Crane, D., Davis, B., Gil-Egui, G., Horvath, K., et al. (2000).
+
+“Measuring Presence: A Literature-Based Approach to the Development of a
+
+Standardized Paper-And-Pencil Instrument,” in Third International Workshop on
+
+Presence, Delft, Netherlands.
+
+Nowak, K. L., and Biocca, F. (2003). The Effect of the agency and Anthropomorphism of
+
+Users’ Sense of Telepresence, Copresence, and Social Presence in Virtual Environments.
+
+Presence: Teleoper. Virtual Environ. 12, 481–494. doi:10.1162/105474603322761289
+
+Stoffregen, T. A., Bardy, B. G., Smart, L. J., and Pagulayan, R. J. (2003). “On the Nature
+
+and Evaluation of Fidelity in Virtual Environments: Applications, Implications, and
+
+Human Performance,” in Virtual and Adaptive Environments. Editors L. J. Hettinger, and
+
+M. W. Haas (Mahwah, NJ: Lawrence Erlbaum Associates, Inc), 111–127.
+
+Kubrick, S., & Clarke, A. C. (1968). 2001: A space odyssey. Metro-Goldwyn-Mayer Corp.
+
+Nolan, C. (2020). TeneT. Warner Bros.
+
+Nolan, C. (2010). Inception. Warner Bros.
+
+Valve Corporation. (2011). Portal 2(2.0) [Video game]. Valve Corporation.
+
+Electronic Arts. (2021). It Takes Two(1.0) [Video game]. Hazelight
+
+Studios.
+
+CodeParade. (2022). Hyperbolica(1.1.9) [Video game]. CodeParade.
+
+Alexander Bruce. (2013). Antichamber(1.1)  [Video game]. Demruth.
+
+23 Illusory Environment : Elijah Lee | Xiaobai Ji

@@ -1,0 +1,241 @@
+Abstract
+
+Single-use disposable cups have become an inseparable part of modern life and their environmental cost is staggering. Their short lifespan, often just minutes between purchase and disposal, belies their long-term impact, as they accumulate in landfills and pollute ecosys­ tems. This reliance on disposables highlights a deeply ingrained throw­ away culture that prioritizes convenience over sustainability, creating a significant barrier to addressing global waste challenges.
+
+By conducting surveys, interviews, experiments, and cultural probes, we identified the critical area of focus: driving a behavioral shift through habit formation within the community. And, the findings indicate that the convenience of single-use disposables and the existing friction in available alternatives such as additional effort for cleaning and carry­ ing, perceived hygiene concerns, and not being compatible with fastpaced nature of students’ schedules, are primary barriers to reusable cup adoption.
+
+This thesis targets behavioral shift within university communities, where habits are formed and social influence is strong. Therefore, universities provide an ideal setting to integrate reusable cups into students’ daily routines and instill sustainable behaviors as second nature through collective community engagement.
+
+Using UC Berkeley as a pilot site, we propose a “phygital” (physical + dig­ ital) approach to integrate behavioral nudges for reusable cup usage seamlessly into students’ daily routines. Physically, reusable cup vending kiosks enable students to rent and return reusable cups using their stu­ dent IDs, streamlining the process. The kiosks are designed to spark curi­ osity, encourage participation, and seamlessly onboard the community to the system. Digitally, a gamified nudging system aims to enhance the experience with social incentives, sustainability-focused moments of delight, and fulfilling community engagement. This combination aims to make reusables convenient, enjoyable, and socially rewarding, weaving sustainability into the campus culture.
+
+However, challenges remain, including scaling the system to larger communities, integrating personal reusable cups into the existing eco­ system, and developing a financially sustainable model that balances affordability with operational viability.
+
+Despite these hurdles, this project has significant potential beyond UC Berkeley. By embedding sustainable practices into student routines, it can inspire adoption on other campuses and eventually expand to urban areas. Future efforts will focus on creating a universal system that accommodates all reusable cups, regardless of ownership, to further streamline sustainable practices and seamlessly integrate them into daily life. This initiative provides a scalable blueprint for communities aiming to reduce waste and prioritize sustainability.
+
+Bop
+
+by Kanchan Pathak
+
+of the requirements for the degree of
+
+Master of Design
+
+THE HISTORICAL ROOTS OF SINGLE-USE  DISPOSABLES
+
+BACKGROUND
+
+The widespread adoption of single-use disposab les can be traced back to the early 20th century, par­ ticularly during the Spanish flu pandemic of 1918. Prior to this period, communal drinking vessels were common in public spaces, posing significant health risks due to the spread of germs. The Spanish flu, which resulted in mil­ lions of deaths worldwide, heightened public awareness about hygiene and the transmission of diseases. This led to an invention and surge in demand for single-use disposable cups as a safer alternative to shared con­ tainers that aligned with the public’s growing concern over health and hygiene during the pandemic.
+
+THE CHALLENGES OF THROWAWAY CULTURE
+
+Once celebrated as a mark of progress, single-use convenience now drives severe environmen­ tal challenges. Throwaway culture and the widespread use of single-use cups contribute significantly to the global waste management crisis and environmental degradation. In the United States alone, over 50 billion disposable coffee cups are used annually—enough to circle the Earth 12 times[1]. Yet, fewer than 1% are recy­ cled due to hidden plastic linings that make them nearly impossible to process. This unchecked habit of disposal, rooted in convenience, adds to landfills, disrupts ecosys­ tems, and complicates climate goals.
+
+In the modern circular economy, recycling and com­ posting, while valuable, are not sufficient solutions; true impact must begin with refusing and reusing to mini­ mize waste generation. The Zero Waste Lifestyle move­ ment, led by Bea Johnson, emphasizes refusing unnec­ essary items and prioritizing reuse for preventing waste at its source [2]. The movement gained global traction, influencing businesses, governments, and individuals to rethink consumption patterns.
+
+GLOBAL AND LOCAL EFFORTS TO PROMOTE REUSABLES
+
+These ideas have inspired global movements and corporate initiatives, with companies like Starbucks and Loop launching programs to promote reusable cup adoption through strategies such as in-store discounts and deposit-return schemes. Startups like Okapi (Alameda), FoodWare and Buoy (UC Berkeley) offer rental models for reusable cups, leveraging technology to track usage and incentivize returns. Howev­ er, these efforts have achieved limited behavioral shifts, as they often lack visible community engagement and social incentives. For example, FoodWare’s low participation rates could be attributed to insufficient promotion and unclear instructions on how to participate. Similarly, Buoy’s limited adoption among UC Berkeley students highlights the challenge of reaching a critical mass, as the system requires users to provide credit card details, creating a barrier to participation. These challenges highlight the critical need for a stronger community en­ gagement, with user-centric design emerging as essential for driving the widespread adoption of reusable systems.
+
+THE ROLE OF BEHAVIORAL NUDGES IN DRIVING CHANGE
+
+Behavioral nudges, grounded in principles of psychology and economics, subtly guide individuals toward desirable actions without restricting their choices. In the book Hooked: How to Build Habit-Form­ ing Products [4], Nir Eyal emphasizes how by leveraging triggers - both external, like notifications, and internal, like motivations - nudges prompt users to act in specific ways. The importance of reducing friction to make actions simple and rewarding, as well as incorporating variable rewards to sustain engagement and anticipation. And, the role of user investment in strengthening habits, building a sense of ownership and commitment. This aligns with the idea of altering decision environments, such as making sustainable options more visible or incentivizing them, to influence habits subtly yet effectively, preserving personal autonomy while promoting positive behavioral change [6]. For instance, a study published in Behavioural Public Policy examined how framing and per­ ceived effort influence the acceptance of green nudges. Researchers found that individuals were more receptive to nudges when they were personally framed and when the promoted behavior was perceived as requiring low effor [3]. The Refill Campaign in the UK displays how simple cues, like prominently displayed ‘Refill’ stickers and app-based location tools, reduce cognitive effort and normalize sustainable behavior. The program’s success stems from leveraging social proof (participants see others engaging in the behavior) and convenience, making it easy for users to participate without altering their routines drastically. This suggests that thoughfully designed nudges can enhance community acceptance and embed sustainable practices in cultural norms [5].
+
+Living in a university town, I’ve witnessed firsthand the volume of waste generated daily, particularly dispos­ able coffee cups thoughtlessly discarded after just a few minutes of use. Walking past bins with single-use items, I began to reflect on how this casual disposal represents a much deeper issue, how a throwaway culture is normal­ ized, fueled by convenience and consumerism. Instead of addressing the root cause, capitalism often exacerbates the problem by introducing “eco-friendly” disposable alternatives, which merely shift the burden rather than solving it. For instance, compostable coffee cups market­ ed as “eco-friendly” often require industrial composting facilities, which are inaccessible in many regions, leaving these items to accumulate in landfills alongside tradi­ tional disposables.
+
+The absence of visible mountains of trash does not negate the reality of its existence and environmental impact. Waste management systems may vary across regions, but the core issue remains the same - massive waste generation. Despite these downstream efforts, such as sorting, recycling, or introducing penalties for disposables, the core issue persists: the ingrained habit of disposability driven by convenience. Over time, it has be­ come clear that the real solution lies upstream - curbing waste generation by changing behaviors and encour­ aging reusable practices. [7] Because, unlike disposables, which perpetuate linear waste systems, reusables direct­ ly reduce waste generation, making them an essential part of a sustainable, circular economy.
+
+Even policies such as charging 25 cents for disposable cups have not significantly deterred people, illustrating that convenience often trumps sustainability. This reali­ zation highlights the need for innovative approaches that align sustainable practices with the desires and motiva­ tions of users, making sustainability an easier and more rewarding choice. [8]
+
+Spontaneous consumption decisions, such as grabbing a coffee, are inherently convenient and often incompatible with the burden of carry­ ing bulky reusable cups or the hassle of cleaning and storing them. This convenience-driven system leaves people feeling conflicted or guilty when discarding single-use items, yet trapped in a cycle where reusing feels impractical. While education appears to be an easy solution, the gap between knowing what is right and acting on it underscores the complexity of this systemic challenge.
+
+Existing initiatives often tackle this challenge but are limited by insuffi­ cient emphasis on user convenience, social incentives and community engagement. These gaps present an opportunity to build a commu­ nity-driven approach that integrates sustainability into daily life and redefines convenience in alignment with environmental goals. [9]
+
+As a designer and a student at UC Berkeley, this project represents an exciting opportunity to bring meaningful change to a communi­ ty I deeply care about. As design students of MDes at UC Berkeley, we are trained and equipped to address such challenges by employing user-centered approaches to uncover root causes and leveraging emerging technologies to craft practical solutions. Imagining a wastefree UC Berkeley campus where single-use cups are no longer the norm is not just a distant dream but a tangible goal that motivates this work.
+
+This project aspires to do more than reduce waste, it seeks to redefine convenience and embed sustainability into daily life. By making reuse simple, accessible, and rewarding, we aim to inspire a cultural shift that extends beyond UC Berkeley, promoting a global movement where re­ using is second nature, and waste is no longer an inevitable byproduct of modern life.
+
+The key question guiding the thesis is:
+
+How can a community-centered reusable cup
+
+system disrupt single-use consumption habits and drive sustainable behavioral change?
+
+Berkeley has a thriving beverage culture and beverage consumption among students is often driven by convenience and the need for en­ ergy throughout the day. To address this, reusable systems must over­ come practical, behavioral, and social barriers, embedding sustainable practices into daily life [10, 11].
+
+Through our initial interviews and surveys, we identified several pain points that shaped our hypothesis:
+
+Spontaneous Purchases: Beverage purchases are often unplanned, making it challenging for individuals to consistently remember to bring reusable cups for these spontaneous moments.
+
+Logistical Challenges: Washing, carrying, and managing reusable cups throughout the day poses practical barriers, discouraging regular use.
+
+Social Discomfort: Many users feel awkward asking baristas to fill reus­ able cups, as the interaction feels unfamiliar and is often perceived as inconvenient or disruptive.
+
+These findings were echoed in conversations with key stakeholders, including Cal Zero Waste and reusable cup companies like Okapi (Ala­ meda) and Buoy (UC Berkeley).
+
+Stakeholder insights revealed three broader challenges:
+
+Logistical Friction: Users often experience confusion about borrowing and returning reusable items, which undermines trust and participation.
+
+Behavioral Resistance: Low awareness and perceived inconvenience discourage broader adoption, particularly during spontaneous bever­ age purchases.
+
+Systemic Friction: Requirements like entering credit card details for de­ posits create unnecessary complexity, deterring user engagement.
+
+We validated our hypothesis through weeks of experiments:
+
+EXPERIMENT 1: Prototyping of a Makeshift Vending Machine
+
+We developed a vending machine prototype that allowed users to rent reusable cups for a small deposit, receive a free coffee on first use, and personalize their cups with playful meme designs to encourage en­ gagement [15].
+
+To test its effectiveness, we created a café-like environment, offering free coffee and snacks as incentives.
+
+Curiosity and Incentives: Students, including those who hadn’t planned on getting coffee, participated out of curiosity and attraction to the rewards.
+
+Social Visibility: Personalized meme cups sparked conversations, nor­ malizing reuse as a visible, socially accepted behavior.
+
+Ease of Use: Clear singnages, instructions and intuitive return mecha­ nisms reduced confusion, building trust in the system.
+
+EXPERIMENT 2: Cultural Probes to Uncover Behavioral Insights
+
+To explore emotional and behavioral factors influencing reuse hab­ its, we provided cultural probe kits to ten participants. Each kit includ­ ed a reusable cup, a map of drop-off points, and reflective postcards prompting participants to document their emotions and experiences with planned and unplanned reuse scenarios.
+
+Participants used the kits over a week, documenting challenges and successes in adopting reusable cups.
+
+Social Dynamics: Positive interactions with baristas increased enthusiasm for reuse, highlighting the importance of supportive social interactions.
+
+Unplanned Behaviors: Forgetting cups or feeling discomfort in requesting their use underscored the need for stronger social cues and accessible infrastructure.
+
+Emotional Barriers: Hygiene concerns and logistical inconveniences revealed the emotional and practical factors.
+
+Through iterative prototyping and qualitative insights, our approach demonstrated the importance of normalizing reusable cup systems into cultural practices rather than merely scaling infrastructure. The findings emphasize that reusable systems must prioritize community engage­ ment and social incentive strategies to drive meaningful behavioral change.
+
+This guides our phygital (physical + digital) strategy as it is essential for addressing the multifaceted challenges of adopting reusable cup systems, as it combines the strengths of tangible, real-world interaction with the efficiency and scalability of digital solutions.
+
+OUTCOME
+
+This thesis proposes a phygital reusable cup system that integrates seamlessly into students’ routines, addressing logistical, social, and behavioral barriers to sustainability.
+
+By combining a playful, low-cost physical kiosk with a gamified digital interface to extend the engagement, the system redefines convenience while promoting community engagement and environmental impact [12]. Using the UC Berkeley campus as our pilot location, we aim to implement a system that combines a physical vending kiosk with a digital interface, creating a cohesive and accessible eco­ system.
+
+By integrating these elements, the phygital approach addresses both practical needs such as ease of use and emotional factors, including a sense of accomplishment. This strategy ensures the system is functional, engaging, and scalable. The physical strategy further includes nudg­ es, such as visual and verbal cues provided by café staff, to help students feel comfortable and welcomed when using reusable cups.
+
+PART I: THE PHYSICAL VENDING KIOSK
+
+The low-tech, low-cost vending kiosk is intentionally designed to mini­ mize user effort and streamline the process of obtaining reusable cups. With its playful and approachable design, the kiosk invites interaction, sparking curiosity and encouraging engagement. The kiosk incorporates the following features:
+
+Playful Engagement: The design attracts users with its playful personality and offers mo­ ments of delight throughphysical and verbal interactions.
+
+Integrated Payment: Payments linked to student IDs allow users to access the system in a single tap, avoiding the hassle of linking or entering card details.
+
+Easy Returns: The kiosk’s dual functionality dispenses clean cups and accepts returns. Transactions are automatically tracked through the student account linked to the UC Berkeley system.
+
+PART II: THE DIGITAL ENGAGEMENT
+
+While the physical system supports the in-café experience, the digital interface extends the system’s reach, making it ubiquitous and accessi­ ble throughout students’ routines [15]. Accessible on kiosk and via smart­ phones, the interface includes the following features:
+
+Kiosk Locator: Helps users locate nearby kiosks for easy cup dispensing and drop-off, ensuring accessibility all across campus.
+
+Digital Passport & Widgets: Nudges remind users to return cups before a specified time, encourag­ ing responsibility and smooth system operation.
+
+While physical nudges are embedded in the kiosk and throughout the cafes, digital nudges are through the app that has the kiosk locator and digital passport. The Digital passport enables the students to collect Berkeley-themed stamps (satisfying but also keeps you wanting more) which where each stamp is associated with a tangible reward like dis­ counts from their favorite cafes on campus. Each badge is associated with the number of times the user returns cup. For instance, with every cup returned, user unlocks a new color in the stamp and after a given number of returns, the user earns a new com­ plete stamp!
+
+And widgets provide subtle updates on the student’s sustainability jour­ ney, including the status of borrowed and returned cups, as well as their environmental impact.
+
+Community Engagement:
+
+Students need to feel invested in the system to increase their likelihood of returning, A personalized summary of their and community’s con­ sumption habits keeps them engaged by showcasing their contribu­ tions and progress among peers and departments, encouraging friend­ ly competition and shared responsibility.
+
+SUSTAINABILITY AND SCALABILITY
+
+Sustainability is at the core of this thesis, with every decision—whether physical or digital—rooted in best practices for environmental responsi­ bility. Additionally, the low-tech approach ensures scalability, enabling seamless adaptation to other campuses or urban environments with­ out compromising effectiveness [16].
+
+The interweaving of the physical and digital systems ensures that users remain aware and connected to the reusable cup program at all times.
+
+DISCUSSION
+
+Our project provides valuable insights into user behavior, design chal­ lenges, and the broader implications of building sustainable practices. By combining direct observation, user feedback, and iterative design, and continuous testing, we identified four key themes—convenience, social influence, behavioral nudges, and system design that shaped the development of our phygital reusable cup system. These themes guided the development of a phygital reusable cup system that inte­ grates physical and digital solutions. Below, I reflect on what we learned, its implications, and opportunities for future exploration [13, 14].
+
+KEY THEMES AND INSIGHTS
+
+1. Convenience A central lesson was the importance of convenience in driving behav­ ioral change. Users often prioritize ease over sustainability, particularly in spontaneous scenarios like grabbing a coffee. This insight led us to de­ sign drop-off kiosks in high-traffic areas, reducing the burden of return­ ing cups. The digital app further simplified the experience by providing real-time kiosk locations and integration with students’ routines through gamified experience of stamp collection.
+
+Implications: For sustainable practices to compete with single-use dis­ posables, they must match their ease of access and simplicity. Solutions like strategically placed kiosks and seamless app integration highlight the importance of reducing friction to encourage adoption and build long-term habits. This insight underscores my role as a designer in prioritizing user convenience as a catalyst for behavioral change.
+
+2. Social Influence Social dynamics emerged as a powerful motivator. Cafe staff encour­ agement, visual cues near kiosks, and visible cup usage all played a role in normalizing reusable practices. Users responded positively to oppor­ tunities for public acknowledgment and shared efforts, indicating the importance of having a sense of community.
+
+Implications: Designing for visibility and peer influence can amplify adoption by projecting a sense of collective responsibility. For example, users responded positively to cafe staff encouragement and visible reuse practices, demonstrating the potential of social validation. As a designer, I aim to leverage these dynamics to make sustainability both aspirational and deeply embedded in community culture.
+
+3. Behavioral Nudges Nudges, both physical anf digital, such as in-cafe motivating experi­ ence, digital passport, personalized summary, and verbal reminders, proved effective in encouraging returns and participation. Gamification elements - like stamps, contribution summary, and impact visualiza­ tions - added a layer of fun and pride to sustainable actions.
+
+Implications: Gamification elements can make sustainable practices engaging and rewarding, turning small actions into moments of pride. However, as a designer, I must ensure these nudges maintain user trust and avoid manipulative tactics, striking a balance between motivation and ethical design.
+
+4. System Design Our focus on system integration highlighted the importance of us­ er-centric design. Connecting the physical and digital touchpoints created a cohesive ecosystem, while scalable, low-cost solutions en­ sured adaptability for broader use. However, challenges like workload on baristas and integrating users’ own cups into the system remain unre­ solved.
+
+Implications: However, challenges such as reducing barista workload and incorporating users’ own cups into the system highlight areas for it­ erative refinement. These complexities reinforce the need for adaptable solutions that balance operational efficiency with user engagement.
+
+Our final testing also led to a few more meaningful insights into having a standardized sanitation process after dropping off and cost, consump­ tion and Life Cycle Assessment(LCA) for implementation of this system. And since the system is built around campus and access to student ID, the concerns about “Who has access to my data?” also arose.
+
+OPPORTUNITIES FOR FUTURE EXPLORATION This project opens conversations about addressing upstream waste generation and reshaping policies around single-use products.
+
+Key questions include: How can manufacturing practices prioritize reus­ able options over disposables? What role can policy design play in mak­ ing reusables more attractive through incentives and penalties? These systemic considerations extend beyond individual behavior, advocating for broader alignment with sustainability goals
+
+For future designers inspired by this work, exploring gamification’s role in behavioral change offers fertile ground. Seasonal campaigns or collab­ orations with local businesses could amplify impact and promote citywide participation.
+
+Several envisioned scenarios were left unexplored due to time and re­ source constraints:
+
+Ergonomics and Product Design: While we collaborated with Okapi Re­ usables for cup prototypes, future efforts could explore gamified sleeves or custom branding to deepen user engagement and build more con­ venience around the physical cup.
+
+Community-Led Expansion: Testing how students themselves could lead adoption efforts, potentially through ambassador programs or campus challenges.
+
+Tangible Rewards: Non-monetary incentives tied to user milestones or campus-wide recognition for sustainability achievements, could inspire deeper participation and reinforce environmental contributions.
+
+One major constraint was balancing ambition with focus. Diving into product design or expanding partnerships risked overshadowing the core system design, which was the thesis’s priority.
+
+CONCLUSION
+
+This thesis addresses the urgent need to reduce reliance on single-use disposables by designing a phygital reusable cup system that seam­ lessly integrates into students’ daily routines. Through the combination of physical vending kiosks and a gamified digital interface, the system reduces logistical and behavioral barriers, offering a convenient and engaging alternative to disposable cups. By piloting the system on the UC Berkeley campus, we demonstrated how user-centered design can foster sustainable habits, while also uncovering challenges and oppor­ tunities for broader adoption.
+
+Key findings emphasized the importance of convenience, social in­ fluence, and behavioral nudges in shaping user behavior. Strategic placement of drop-off kiosks, seamless payment integration via student IDs, and gamification elements like badges and leaderboards played crucial roles in normalizing reusable cup practices. However, challenges remain, such as integrating users’ own reusable cups into the system, minimizing the environmental impact of washing reusable cups, and scaling the system for diverse communities.
+
+This work highlights how design can address waste management while inspiring a broader cultural shift toward sustainability. The project highlights the power of combining physical and digital tools to create a cohesive ecosystem that encourages reuse while fostering a sense of community and shared responsibility.
+
+Future iterations of this work could expand to include modular kiosks with built-in cleaning systems, and partnerships with policymakers to in­ centivize systemic changes [17, 18, 19]. By tackling upstream issues, such as manufacturing practices for disposables, and creating user-centric systems, this approach offers a scalable blueprint for reducing waste [20].
+
+Ultimately, this project demonstrates how sustainability can be em­ bedded into everyday life through thoughtful design, inspiring further exploration into scalable, community-driven solutions for a sustainable future.
+
+CITED WORKS
+
+[1] D. Evans, “The Problem with Disposable Cups,” Plastic Education, Dec. 26, 2019. [Online]. Available: https://plastic.education/the-problem-withdisposable-cups/.
+
+[2] B. Johnson, “Bea Johnson: Founder of the Zero Waste Lifestyle Move­ ment,” Zero Waste Home. [Online]. Available: https://zerowastehome. com/bea/.
+
+[3] N. Eyal, Hooked: How to Build Habit-Forming Products. New York, NY, USA: Penguin Random House, 2014. [4] S. Grelle, S. Kuhn, H. Fuhrmann-Riebel, and W. Hofmann, &quot;The role of framing and effort in green nudging acceptance,&quot; Behavioural Public Policy, vol. 8, no. 4, pp. 717–732, Oct. 2024. [Online]. Available: https:// doi.org/10.1017/bpp.2024.8.
+
+[5] Refill, &quot;Refill – Find free drinking water on the go,&quot; [Online]. Available: https://www.refill.org.uk/.
+
+[6] D. Pilat and S. Krastev, “Nudges,” The Decision Lab. [Online]. Available: https://thedecisionlab.com/reference-guide/economics/nudges.
+
+[7] The World Bank, “Solid Waste Management,” World Bank. [Online]. Available: https://www.worldbank.org/en/topic/urbandevelopment/ brief/solid-waste-management.
+
+[8] City of Berkeley, “Single-Use Foodware Rules,” City of Berkeley. [Online]. Available: https://berkeleyca.gov/doing-business/operating-berkeley/ food-service/single-use-foodware-rules. [9] L. E. Hunter and N. D. Daw, &quot;Context-sensitive valuation and learning,&quot; Current Opinion in Behavioral Sciences, vol. 41, pp. 122– 127, 2021. DOI:10.1016/j.cobeha.2021.05.001. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S2352154621001091.
+
+[10] I. Vermeir and W. Verbeke, “Sustainable food consumption: exploring the consumer ‘attitude – behavioral intention’ gap,” Journal of Agri­ cultural and Environmental Ethics, vol. 19, pp. 169–194, 2006, doi: 10.1007/ s10806-005-5485-3.
+
+[11] T. Chatterton, “An introduction to thinking about ‘energy behaviour’: a multi-model approach,” Department of Energy and Climate Change, London, UK, 2011.
+
+[12] F. Bemmann and H. Hussmann, “Self-reflection as a tool to foster profound sustainable consumption decisions,” arXiv preprint, arX­ iv:2303.12434, 2023.
+
+[13] T. Bhamra, D. Lilley, and T. Tang, “Design for Sustainable Behaviour: Using Products to Change Consumer Behaviour,” The Design Journal, vol. 14, no. 4, pp. 427–445, Dec. 2011, doi: 10.2752/175630611X13091688930453.
+
+[14] F. Ceschin and I. Gaziulusoy, “Evolution of Design for Sustainability: From Product Design to Design for System Innovations and Tran­ sitions,” Design Studies, vol. 47, pp. 118–163, Nov. 2016, doi: 10.1016/j.de­ stud.2016.09.002.
+
+[15] W. Poortinga and L. Whitaker, “Promoting the Use of Reusable Coffee Cups through Environmental Messaging, the Provision of Alternatives and Financial Incentives,” Sustainability, vol. 10, no. 3, pp. 873, Mar. 2018, doi: 10.3390/su10030873.
+
+[16] C. Duwel, C. Montens, S. Wan, R. Basheer, C. Gelman, and T. Thomp­ son, “From Pennies to Prizes: Assessing Incentive Strategies for Reusable Cups,”; UBC Social Ecological Economic Development Studies (SEEDS) Student Report, University of British Columbia, Vancouver, Canada, Jul. 2024. DOI: 10.14288/1.0444898. [Online]. Available: http://hdl.handle. net/2429/88771.
+
+[17] A. Clarke and A. Crane, “Cross-Sector Partnerships for Systemic Change: Systematized Literature Review and Agenda for Further Re­ search,” Journal of Business Ethics, vol. 150, pp. 303–313, Sep. 2018, doi: 10.1007/s10551-018-3922-2.
+
+[18] Samans, R., Nelson, J. (2022). Corporate Partnerships and Systemic Change. In: Sustainable Enterprise Value Creation. Palgrave Macmillan, Cham. https://doi.org/10.1007/978-3-030-93560-3_7
+
+[19] A. Williams and L. A. Blasberg, “SDG platforms as strategic innovation through partnerships,”Journal of Business Ethics, vol. 180, no. 2, pp. 1041– 1057, Aug. 2022. DOI: 10.1007/s10551-022-05194-y.
+
+[20] I. Zelenika and J. M. Pearce, “Innovation through collaboration: Scal­ ing up technological solutions for sustainable development,” Environ­ ment, Development and Sustainability, vol. 16, no. 6, pp. 1299–1316, Dec. 2014. DOI: 10.1007/s10668-014-9528-7.

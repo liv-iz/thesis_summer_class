@@ -1,0 +1,79 @@
+Abstract
+
+Losing is universal, but approaches to dealing with grief after losing a loved one may vary. Mixed reality technology shows new possibilities for grief healing. It provides users with an immersive sensory experience, including visual, hearing, sense of time and space, etc. These sensory illusion caused by VR/AR technology has proved their potential in physical rehabilitation, PTSD  therapy, bipolar disorder healing, and other mental healing cases.
+
+The project wanted to explore the potential of using mixed reality technology as a tool to heal emotional trauma by focusing on the scenario of losing pets. Targeting the users who lost or separated from their pets, this project aims to use the virtual environment to arouse
+
+[AUTHOR] is designed in two parts: the gamification mobile App and an Oculus VR environment. According to Rando’s 6R grief therapy process, the user would be required to complete the corresponding five game levels in the mobile application. After going through the whole game level, which means finishing a therapy process, users would finally reach the VR platform - [AUTHOR]. In the VR environment, users would be able to see the happy afterlife of their beloved pets and finally let go of
+
+their sorrow.
+
+From film to existing technology, virtual technology to reconstruct the image of life is a cliché. Including consciousness uploading, brain-com­ puter interface, emotional computing, etc., the ethical dilemma brought by technical triggered emotional resonance is an unavoidable topic. This project will avoid sending users into the vortex of painful memories. Instead, the design will focus on strengthening and generating positive memories. In addition, one of the essential factors in reconstructing the incarnation is to establish the similarity of personality traits, which is one of the optimization directions for future study.
+
+Grief healing for losing pets as a starting point, [AUTHOR] attempts to ex­ plore how technology can intervene in human emotions and positively impact, thereby inspiring how could mixed reality technology helps people recover from grief or separation anxiety.
+
+History/Prior Art
+
+In 2000, a product called Tamagotchi took the world by storm. With only the size of an egg, it was a toy that allowed people to raise digital pets. Although the digital pet it provided was made up of black and white fuzzy pixel dots, many people were still addicted to it. People brought Tamagotchi around with them and spent a lot of time playing with
+
+and feeding digital pets every day. The over-indulgence in Tamag­ otchi affected people’s daily lives. Some Japanese schools started to ban students from bringing Tamagotchi to school. Interestingly, many students developed separation anxiety because of the banning. They worried about their digital friends’ happiness and life quality through­ out the day. This phenomenon later became known as the Tamagotchi phenomenon, which says, “The Tamagotchi effect is the development
+
+of emotional attachment with machines, robots or software agents. It has been noticed that humans tend to attach emotionally to things which otherwise do not have any emotions.” “Attachment” is the first impression many people have when machinery and technology intervene in emotions. Humans have endless curiosity but at the same time worry about how machinery and technology interfere with human
+
+emotions. There is a fear that technology will enhance a dependence on the past, that people will become addicted to illusions and forget what real life is. What if we think about the other way around: Can emerging technology help people de-attach, help them detach to some negative emotions?
+
+There are already many related applications exploring this topic. In 2016, James Vlahos built a chatbot that responds like his dead father. When his father was alive, he helped the chatbot build his database of voice and text. As a result, after James’ father passes away, his loved ones can still relive the familiar tone and dialogue in the bot’s chats. To help people remember their loved ones who have passed away, Jame’s released additional products that serve as lasting tokens of interaction between people and their deceased loved ones. In the same year, in the project Meeting You, a mother who lost her daughter to blood cancer welcomed the opportunity to see her daughter again through VR goggles. A Korean VR technology team reconstructed her daughter’s body model based on images and voice sources provided by the mother. In 2017, a Chinese couple used artificial intelligence to create a digital copy of their late daughter. Also, in 2017, a Japanese couple used artificial intelligence to generate a 3D avatar of their dead daughter.
+
+1 A South Korean documentary reunited a grieving mother with her dead daughter in VR. By Violet Kim
+
+Losing and parting are inevitable topics in life. When faced with losing, people deal with it in different ways. Some can be brave enough to let go, while others are forever trapped in the debris of their memories. From the past to the present, people with different beliefs and cultures have thousands of ways to cope with the pain caused by grief. People used tombstones, flowers, and photos to commemorate their passing in the past. In the United States, a typical funeral includes a visitation, a funeral service, and a burial. The visitation is a time for family and friends to gather at the funeral home and pay their respects to the deceased. The funeral service is usually led by a clergy member and includes readings, prayers, and eulogies. There are many ways to cope with grief and loss. Some people may find comfort in religion, while others may find solace in their hobbies or interests. Some may choose to memorialize their loved ones tangibly by planting a tree in their memory, while others may prefer to keep their memories alive through stories and photos. Grief is a universal emotion, and there is no one right way to deal with it.
+
+More recently, technology has opened up new possibilities for mourning. For example, the coronavirus pandemic has led to increased Zoom funerals. Zoom funerals are a solution for when in-person funerals are not possible because of travel restrictions or other reasons. A Zoom funeral allows mourners to participate in a funeral service online. The status reported a 10x increase in the number of funerals held on its video conferencing platform during the first week of March. Technology can help connect people during times of mourning, but it can also serve as a reminder of loss and grief. For example, Facebook has a “memorialized account” feature that allows users to remember loved ones who have passed away. The feature includes a “Remembering” tag on the person’s profile and gives users the option to share memories on the profile.
+
+In this project, augmented reality and virtual reality technologies that provide an immersive experience were chosen as the method. Virtual reality and augmented reality technologies have been able to
+
+emotionally influent users. It shapes an immersive experience, enabling users to feel like being in-person in specific scenarios through designed digital illusions. Users could feel relaxation, concentration, happiness, and diversified feelings in the designed virtual scene. The results of the study indicated that the virtual reality system could provide a good feeling and could be used to treat the patients. Then what role could
+
+virtual and augmented reality play in the scenario of losing a loved one?
+
+2 Zoom funerals: mourning in a pandemic by Colin Freeman
+
+To study how virtual and augmented reality illusion can positively impact grieving people, I learned about the grief-to-healing process, most famously is The Five Stages of Grief by Kübler-Ross. It was first proposed in her book On Death and Dying, published in 1969. She later
+
+expanded on the concept in her book The Grief Process that there are five stages of grief: denial, anger, bargaining, depression, and acceptance. The grieving process is not always linear, and people may experience different stages in different order. Some people may even get “stuck” in a certain stage. Many people dealing with the process of grief stay at the stage before acceptance, which causes them always to have feelings of depression, anger, self-blame, etc. Some of them are serious enough even to affect their daily life.
+
+3 Kubler-Ross proposed five stages in Grief Cycle.
+
+Dr. Therese Rando created the Six R Processes to treat grief for these five stages. The six R’s are a process to help someone grieve and move on from a loss. The six R’s include: •Recognizing the loss. •Reacting to the separation. •Recollecting old attachments.
+
+•Relinquishing old attachment to a loved one who died. •Readjusting to move into the new without forgetting the old. •Reinvesting.
+
+This project will use these 6 R principles as the basis for the design, utilizing mixed reality methods to help people going through the whole process of grief therapy in a gamified mobile application and finally embrace a new start after losing their loved pet. The reason for developing an XR experience for the “6R” therapy is that, according to research, the key for grieving people to let go of their sorrow is to have a mental image of their beloved pet’s happy afterlife. This image acts as a form of closure for the griever and allows them to accept the loss and move on with their lives. However, it is difficult for people to create such an image on their own. The VR experience will provide a realistic and comforting environment where users can see their beloved pets playing and living happily. This will help users achieve closure and finally let go of their grief.
+
+4 Dr. Therese Rando suggested six “R” therapies for healing grief.
+
+To empathize with users, I interviewed four potential users who have owned or lost pets and learned which characteristics of pets mostly resonate with owners. The customizable features of pets were designed based on user research. Users can upload photos of their pets to get color information. In addition to this, users can customize the digital version according to their pet’s breed, size, personality, weight range, age, and gender. In terms of interaction design, users can throw a ball for their pet to fetch by using the spatial coordinates calculated by the Unity AR Foundation technical stack. Users can also touch the screen to feed, walk and pat their digital pets. Meanwhile, this project uses Unity to build a VR space for the pet’s afterlife world. Users can move freely in the scene, visit the pet’s happy afterlife, and throw a toy ball to plant a rose in the community to commemorate.
+
+5 Scene building process in Unity 3D
+
+Petopia’s grief healing process consists of two parts in the final design. The first part is a mobile application with four phases of interaction. These four phases correspond to the first four steps of the 6R therapy. Users could customize a digital version that resembles their deceased
+
+pet by selecting personality, age, breed, and weight in the first phase. In the second phase, users will relive positive memories through interacting with the digital pet, such as feeding, fetching, and taking walks. The pet will encourage users to gradually adapt to the separation by traveling around and sending postcards in the third phase. In the fourth stage, the pet will say goodbye to the user again and return to the VR pet planet.
+
+6 UI: Customize Personality; Chose breeds; Waiting for hatching; AR Interaction
+
+The final step of the 6R therapy will be built in an Oculus-based VR environment. In the VR environment (representing the pet’s home after the afterlife), users will be able to see the happy afterlife of their beloved pet and finally let go of their sorrow. It is designed as a virtual pet cemetery, which is a place where people can go to visit the graves of their deceased pets. It is a peaceful and calming place, with beautiful
+
+scenery and soft music. Users will no longer be able to interact with their digital pets in the VR environment. Instead, they can walk around and observe the happy lives of their pets from an onlooker’s perspective. The only thing they can do is leave a rose in this digital land in memory of their departed beloved pet. Through the AR interaction in the mobile application and VR interaction in Oculus, Petopia aims to guide users go through the “6R” therapy process, gradually adapt to the anxiety and sadness brought by separation, and finally let go of obsession and regret.
+
+7 VR environment built for a positive pet afterlife envision.
+
+Discussion
+
+The topic of detaching the grief of losing a pet by utilizing emerging technology like AR and VR is a starting point. Petopia explores how technology can intervene in human emotions and positively impact, thereby inspiring how mixed reality technology could help people recover from grief or separation anxiety. Emerging technology shows its potential in exploring related topics like how machines intervene in negative human emotions like losing a loved family or a friend or the separation anxiety that comes from facing a breakup or divorce. From film to existing technology, virtual technology to reconstruct the image of life is not a new idea. Including consciousness uploading, braincomputer interface, emotional computing, etc., the ethical dilemma brought by technical triggered emotional resonance is an unavoidable topic. This project tried to avoid sending users into the vortex of painful memories during the designing process. Instead, the design focused on strengthening and generating positive memories. In addition, one of the essential factors in reconstructing the incarnation is to establish the similarity of personality traits, which is one of the optimization directions for future study. There are also ethical concerns about using virtual reality technology to reconstruct a deceased loved one. There are also ethical concerns about using virtual reality technology to rebuild a deceased loved one. There are a number of ethical concerns that could be raised about using virtual reality technology to reconstruct a deceased loved one. One concern is that it could be seen as a way to exploit the grieving process, as people who are grieving may be more likely to want to use such a technology in order to feel closer to their deceased loved one. Another concern is that it could be used to create a false sense of closure for people, as they may believe that they are interacting with their loved ones in a real way when in fact, they are not.
+
+Y. Guo, J. Li, L. Deng, W. Li, X. Li, J. Li, and M. Li, “Virtual Reality Treatment for Patients with Alzheimer’s Disease,” in IEEE Sys­ tems Journal, vol. 12, no. 1, pp. 532-537, March 2018.
+
+Holzinger, A & Maurer, H 1999, Incidental learning, motivation and the Tamagotchi Effect: VR-Friends, chances for new ways of learning with computers. in Computer Assisted Learning, CAL 99. Elsevier B.V., Amsterdam, S. 70-70.
+
+Kim, V. (2020, May 27). The uncanniness of watching a grieving mother and her dead daughter meet in VR. Slate Magazine. Retrieved May 16, 2022, from https://slate.com/technology/2020/05/meeting-you-virtual-reality-documentary-mbc.html

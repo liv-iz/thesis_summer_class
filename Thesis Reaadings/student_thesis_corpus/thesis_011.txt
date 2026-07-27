@@ -1,0 +1,245 @@
+Abstract
+
+Through the pandemic, “self-therapy” mobile apps, which typically host a library of mental health techniques based on cognitive behavioral therapy (CBT), became popular. They have proven to be effective at helping people treat mild to moderate symptoms of depression without seeing a therapist. However, utilization rates still have not matched the skyrocketing rates of anxiety and depression for minorities — specifically for Asian Americans who have been affected by the 339% increase in Asian hate crimes (Gold, 2022 and Yam, 2022). Cultural stressors like this, in addition to accessibility gaps, are not represented in today’s resources — contributing to mental health disparities for Asian Americans (Thomeer et al., pg. 2).
+
+Given the already limited pool of diverse therapists, affordability barriers, inconveniences of seeking support, and, more critically, the lack of cultural responsiveness in mental health, this thesis explores how to redefine and repurpose “personalized” support for Asian Americans (South, Southeast Asians, Pacific Islander, and East Asians. The deliverable is to design a machine learning personalization model capable of predicting advice based on common trends identified by therapists and researchers most relevant to an Asian American. Through an iOS/Android mobile app, the model can capture cultural attributes (age, religion, sexual orientation, and more) in addition to user behavior. This thesis explores using both technologies because it allows an individual not to wait for therapy or sift through dozens of online search results. The hypothesis is that this model can increase levels of personalization and motivation of mental wellness support
+
+and self-efficacy. The deliverables are to create mockups, prototypes, and data visualizations to communicate a proposed personalization model reflected in Empathie’s mobile experience.
+
+This thesis focuses on Asian Americans (ages 23-31) due to my shared ethnic identity. This group is small enough to identify niche trends yet broad enough to demonstrate that the personalization model could adapt to various subcommunities’ needs on Empathie. Empathie is a self-guided mobile app for early and culturally responsive mental health intervention, which I co-founded. It contains a set of mental health videos and activities developed by and displays Asian American licensed therapists. I am the CEO/co-founder of this app and the lead in the product development process, which is still undergoing until the app launch next February.
+
+I, plus the Empathie team, interviewed eight individuals to identify gaps in personalized support and their impact on self-efficacy. After identifying prevalent attributes, we ran a survey to identify which were most important. Collaborating with a licensed clinical psychologist, software engineer, and A.I./Data expert, I explored various data collection methods and personalization models through informational interviewing and brainstorming sessions, sketching, wireframing, and prototyping. Across thirteen participants and two rounds of usability testing that evaluated personalization questionnaires and personalized mental health videos, we compared perceived levels of personalization, motivation, and self-
+
+efficacy between the proposed personalized experience (Empathie) and Bloom (industry competitor).
+
+Research outcomes demonstrate that culturally-responsive support can be more impactful and personalized through A.I./mobile technologies, even if it is based on only 2 data points — having self-critical behavior and an Asian cultural background. Higher levels of personalization were associated with higher levels of motivation. In combination with intervention strategies, intrinsic motivation is critical in improving mental health outcomes (Jochems et al., pg.1). Empathie’s culturally-responsive video on stress increases motivation. It explains how the Model Minority Myth affects how Asian Americans feel pressured to uphold unrealistic societal expectations of being “perfect” and not seeking help. Based on Cohen’s D score, the video had a mediumsized effect on motivation to reduce stress. 89% of participants also perceived it as more personalized and motivating than the generalized one on stress (Bloom’s). I hypothesize that showing topics, such as intergenerational, where our audience is more aware of their intersectionality, can boost motivation.
+
+Further research should explore how to tie and visualize cognitive, behavioral, and mindfulness assessment scores inspired by Bloom with cultural attributes. This culturally responsive personalization model should adapt to other intersectional groups. Lastly, more research should explore how to create more long-term, habitforming behaviors that encourage individuals to return and practice their personalized support frequently.
+
+History & Prior Art
+
+The evolution from traditional talk therapy to “self-therapy” mobile apps Before the COVID-19 pandemic, people heavily relied on in-person traditional talk therapy to seek relief. People would take more time out of their routines to plan and attend appointments (Weinberger, 2022 and Ahlström, pg. 1). Since the pandemic, self-guided mental wellness apps like Bloom and Calm have become more popular (Todd, 2021). According to their website, Bloom claims that people can replace a therapist by using their app, which hosts a library of CognitiveBehavioral Therapy lessons, daily habit activities, and mental health score tracking (Bloom). Though this “selftherapy” concept is new and a significant leap from traditional talk therapy that requires you to see a therapist in person, CBT (Cognitive-Behavioral Therapy) has existed since the 1950s (Morrow, 2022). CBT is a form of psychotherapeutic treatment that involves reframing one’s cognitive thinking, such as countering negative self-talk with more positive thoughts. Accessible CBT through selftherapy apps has proven to be effective at helping people treat mild to moderate symptoms of depression in addition to negative thoughts (Gold, 2022). In addition, Bloom and other related apps conduct self-directed cognitive and behavioral assessments and ask about a user’s wellness goals for a tailored experience. They are unique in addressing mental health problems that would have otherwise taken many therapy sessions to achieve (Su, 2019).
+
+Lack of cultural responsiveness for Asian Americans in “self-therapy” apps Though there has been evidence that self-directed CBT apps delivered via mobile can be helpful, self-guided mental
+
+wellness apps have also been under scrutiny, for apps cannot solve “every mental health problem” (Gold, 2022). That is the case for Asian Americans struggling to manage their anxiety from the recent 339% increase in Asian hate crimes (Yam, 2022). I conducted a competitor analysis across Mind Doc, Headspace, and Bloom, —identifying very few to zero questions about a user’s cultural attributes outside of age and gender. The mental health topics were universal across factors like ethnicity and sexual orientation.
+
+The need for Asian Americans represented in self-guided mental wellness apps Since 2020, Asian Americans have experienced an increase in the likelihood of receiving a diagnosis for depression by 104% (Lee and Howard, pg.1). Ultimately, the consequences of this are physical health complications, strained relationships, and negative impacts on careers (National Institute of Mental Health, 2021 and Priory Group, and Anderson and Cardoza, 2016). Asian Americans desire to support that empathizes with their cultural experiences — critical in building emotional trust and therefore influencing mental health advice to adhere (Meyer and Zane, pg. 1 and Decety and Fotopoulou, pg.1)
+
+Why Asian Americans are struggling to meet their mental health needs outside of “self-therapy” apps The lack of culturally responsive, affordable, and accessible mental health support contributes to mental health disparities amongst Asian Americans can be (Thomeer et al. pg. 1). There are only 198,000 U.S. therapists. Only 10.6% of them are Asian — impacting the representation of cultural stressors and
+
+norms in resources across therapy, books, social media, and more (Zauderer, 2022). The lack of diverse therapists makes minorities reluctant to seek therapy due to the lack of alignment in identities and culture (Villano, 2021). It is also important to consider culture because “it relates to how people cope with everyday problems and more extreme types of adversity”; minorities often grow up with trauma — such as being impacted by systemic racism (Mental Health America). Therapy is not affordable or convenient for many because it can cost between $60-250 per hour, and it takes an average of 3 sessions to assess if there is a therapistto-patient fit. Achieving positive health outcomes takes an average of 10-20 sessions (Therapy FAQs, 2014 and Su, 2019).
+
+More accelerated and accessible support like Bloom caters to one’s unique cultural background by providing videos for Women’s History Month. However, they need to explain how intersectionality might influence stress for a person. They also feature topics about inequality in the workplace. However, it is not nuanced enough because an individual might face multiple forms of discrimination, such as gender or sexual orientation and ethnicity (American Progress, 2017). Fortunately, a minority-focused app called Shine exists, but it is focused more broadly on meditation than mental health. For example, topics like the “bamboo ceiling,” which represents the lack of career opportunities for Asian Americans in leadership positions due to factors like racial discrimination, are not shown in these apps (Kubota, 2021).
+
+What is yet to be done for Asian Americans in the self-guided mental wellness space It is easy to assume that the solution to providing culturally-responsive care lies
+
+in therapy. However, affordability gaps, convenience factors, and a limited pool of diverse therapists affect this possibility for many. There has been an incredible amount of focus on therapy-matching platforms, but more is needed to solve the problems mentioned here. There needs to be a focus on accessible and tailored resources that meet people where they are rather than having them try to fit a default, universal mold that is not representative of diverse cultures. There has yet to be a solution that delivers support at scale at a low cost and is also culturally responsive to support America’s Asian American population of 18.43 million (The United Census Bureau, 2022).
+
+Where the opportunity lies There is an opportunity to leverage inspiration from apps that have been successful at personalization. Popular machine learning methods like neural networks, used by Netflix in their personalization model, identify patterns in interests and behaviors within clusters or communities of people (Netflix). This same approach applies to mental health for not all but many common Asian American communities. This approach is an improvement from the disparities mentioned previously. As the app gains data, it can better identify these communities and recommend topics that are most useful to them.
+
+When cultural relevance is considered, CBT can be even more effective in the case of CBT for Asian Americans. In a research study by Asian psychologists, a participant name Chan improved his PTSD symptoms through consideration of his immigration history after the Vietnam war. The culturally-responsive CBT methods focused on the “cognitive restructuring of fear networks, especially trauma memories and catastrophic misinterpretations of somatic sensations
+
+As a survivor of sexual and emotional abuse throughout my childhood experiences, where I moved from home to home, the journey to self-acceptance was challenging. I sought therapy and tried mental health coping techniques like exercising, yet I still struggled to manage my emotions and adequately process past traumatic experiences. I eventually became clinically depressed in college — gaining 20 pounds in my first year and often lacking the appropriate mental state to attend class. Though mental health resources were available, they felt too inconvenient, full of friction, or irrelevant for me to stay motivated.
+
+It was not until five years later that I found an Asian therapist who empathized with my cultural experiences, such as when I did not feel a sense of belonging as a young Asian kid who had just moved in with a culturally-white family. I also read helpful psychology-related books that helped me understand my reality and take actionable steps toward healing. This culmination of self-curated support has empowered me to become more mentally balanced and achieve many of my life goals. However, not everyone has the financial means or time to afford inclusive therapy or consume lengthy books like I did when I worked a high-paying, flexible job.
+
+Understanding what it is like to experience support that lacks empathy and become impacted by that, I’m motivated to support underrepresented audiences who might have or are currently experiencing the struggles I once faced. Given the current tragic events like the Asian hate crimes or George Floyd’s assault, there is a greater need than ever to support minorities. Unfortunately,
+
+their narratives have not been included in the mental health industry yet deal with anxieties of not feeling safe in their environments.
+
+Today, various mental health apps loosely examine the word “personalization” in mental health. However, they do not consider all the varying cultural sources of stress that might impact an individual. Considering these attributes can not only encourage the industry to produce topics about these intersectionalities but enable AI/ML classification of these pieces of content so that they can be distributed to diverse audiences at scale in a way that one-on-one teletherapy cannot.
+
+Mental health is challenging to personalize with or without a mental health professional that aligns with an individual’s identity, mainly because there are so many nuances, even when thinking about age groups, racial background, and more.
+
+However, I firmly believe that additional consideration of cultural stressors for any form of mental health support — through books, self-guided apps, social media, and more — is an improved direction for the industry. Accordingly, I challenge the mental health industry to make efforts towards rethinking personalization as more than just personalizing based on wellness goals or user behaviors. I suggest considering intersectionality, which affects how one navigates the world (Office of the Surgeon General (US) et al. pg.25).
+
+Design & Research Methods
+
+User interviews and surveys
+
+To identify what data points affect levels of personalization, motivation, and selfefficacy, Proud (Product Design Intern at Empathie) and I conducted eight user interviews with Asian Americans who have felt frustrated when receiving personalized mental health support. These interviews supported my hypothesis of support that people often feel distrustful of advice due to differences in cultural identities. Based on the user interviews, I extrapolated a myriad of cultural attributes, such as being in the stage of life of starting a family, which I did not consider, or being a college student. Finally, I learned that data points like family conflict were critical of the interviewees’ narratives, though interviews were not always conscious.
+
+I ran a prioritization survey to identify which data points were most important in personalization. Knowing that specific life situations were most popular helped me focus on making these the focal points of the personalization model — breaking down the details for those data points rather than focusing on time preferences. I audited Empathie’s current MVP experience to understand the data collected today and assess the personalization journey (Figure 1). This process prepared me for the following informational interviews.
+
+App audit
+
+Informational interviewing and brain­ storming with a software engineer
+
+Over 1.5 hours of Zoom meetings, I met with Lisa Wang (Co-founder & CTO at Empathie) to understand the technical mechanics behind Empathie’s existing personalization model based on neural networks and collaborative filtering. Empathie matches mental health content to clusters of users with similar user behaviors (engagement time) and demographic backgrounds. We ask for user input on age, gender, highlevel stages of life (student or working professional, unemployed) when a user signs up. However, this model is prone to noise because it over-generalizes people rather than putting them into more targeted communities — leading to irrelevant personalization results. Understanding the mechanics, feasibility, and risk of over-generalizing based on the data points alone inspired me to design a personalization model with more variables that could adapt to numerous and a broader range of communities.
+
+Informational interviewing and brain­ storming with a licensed Asian American psychologist
+
+To understand how I might automate existing clinician models for personalizing mental wellness support, I collaborated with Dr. Amanda Tan over 1.5 hours of Zoom sessions. She suggested we leverage the ADDRESSING Model and Framework (Figure 2), a framework used by clinicians like herself to address cultural complexities (Hays). Given the many characteristics in this framework, Dr. Amanda selected age, religion, ethnicity, sexual orientation, origin, and gender since they were more familiar to her clients. To reduce complexity, for now, we chose not to include socioeconomic status, indigenous heritage, and disabilities. Instead, we
+
+prioritized the ordering according to the broadest categories first with less varying subgroups, such as gender over ethnicity, to serve more people. Dr. Amanda suggested applying Bronfrenbrenner’s Socioecological theory (Figure 3, next page). This theory helped organize topics according to micro and macro systems of impact (Paat, pg.1). Understanding macrosystems can help explain implicit reasons for why people experience stress. This model acknowledges how environments shape people. I saw this trend when speaking with various therapists. However, this model needs to acknowledge how exactly microsystems like family might impact a person based on one’s history, which is why I have combined this theory with the ADDRESSING model. We also discussed data points we could infer, such as certain holidays. Finally, the informational interviews helped me organize topics according to self, personal relationships, work, school, and society (Figure 4, next page).
+
+Sketching, wireframing, and prototyping
+
+After receiving feedback from the aforementioned cross-functional stakeholders and gathering research insights, I sketched ways to visualize the personalization model better since the visualization above is unclear regarding the relationship between cultural attributes and topics. Sketching, wireframing, and prototyping allowed me to explore ways to collect demographic data and topic preferences without being overwhelming.
+
+Usability testing
+
+To demonstrate a more favorable impact of including culturally responsive mental health content distributed through A.I./ mobile technologies, I conducted two
+
+rounds of 13 unmoderated usability testing on Usability Hub’s web platform. The tests helped me remove bias by providing participants the privacy needed to answer personal personalization questionnaires and watch mental health content across Bloom (industry competitor) and Empathie’s mobile experience. The outcomes helped me compare and contrast evaluations across levels of personalization, motivation, and self-efficacy when using both platforms. Finally, I primarily focused on evaluating and comparing motivation, as that influences sustained engagement with intervention strategies and, therefore, a driver in improved mental health outcomes (Jochems et al., pg.1).
+
+Design Explorations
+
+Exploring data visualizations
+
+After user research and conducting informational interviewing/brainstorming sessions with Lisa and Dr. Amanda, I partnered with Mark Miller (PhD. CS specializing in Data/ A.I. at Stanford) to explore various ways of visualizing the model to be interpreted intuitively. I explored Mosaic Plots with demographic attributes on the x-axis and topics on the y-axis. I could not visualize non-linear connections between attributes and topics (Figure 5).
+
+I created a condensed and expanded view of the model using leaf nodes (Figure 6). Users can respond with high-level inputs (i.e., Asian) but have the autonomy to provide more details if they would like to. Asking for in-depth details of every question would increase the length of the personalization questionnaire. The outcome would influence users to abandon the experience.
+
+The expanded view is based on the prioritization survey, in which individuals vary based on the life situations they want to prioritize and highly value the autonomy of prioritizing desired topics. I worked with Proud to provide additional subcategories and bullet points underneath the bolded text (i.e., college student, any, undergrad, and more).
+
+Based on a combination of attributes connected to topic categories, there will be varying results containing personalized topics. The green leaf nodes represent the relationship between the various layers of personalization. Depending on what exists in our library of content, we would need to classify those categories according to the attributes listed here for the matching algorithm to work. In this example (Figure 7), you can see how the intersectionality of Asian Americans can produce vastly different results. Asian women felt outraged by the Atlanta Spa shootings, which are related to men fetishizing them for being Asian (Givens, 2021). Asian men have self-esteem issues due to a lower sense of sexual desirability (Kao et al., pg.1).
+
+Ideating the user-facing experience of the proposed personalization model The personalization model in the previous section provided me with the necessary data points to collect from users throughout the signup and personalization journey.
+
+Before sketching (Figure 8), I created a list of criteria to guide ideation when considering the core steps of setting up a user’s profile, completing the personalization questionnaire, and providing the ability to reassess and adjust personalization settings:
+
+1) Give people autonomy to choose what is important to them at the moment 2) Keep the experience simple and lightweight to start the mental health journey 3) Make it easy to reaccess & re-configure settings 4) Make it flexible to personalize and provide high-level or more detailed data points
+
+Ideating the user-facing experience of the proposed personalization model The personalization model in the previous section provided me with the necessary data points to collect from users throughout the signup and personalization journey.
+
+Before sketching (Figure 8), I created a list of criteria to guide ideation when considering the core steps of setting up a user’s profile, completing the personalization questionnaire, and providing the ability to reassess and adjust personalization settings: 1) Give people autonomy to choose what is important to them at the moment
+
+For the personalization questionnaire, it was not easy to condense all the questions so clearly that users could provide more input if desired. So, I partnered with Empathie’s co-founders to narrow down required versus optional inputs. We learned that age 18+ is mandatory through our pro-bono partnership with the Berkeley Law Clinic. However, if users only answered age, it would be challenging to match users to relevant content, so we included stage of life. Below are my design explorations that led to Iteration 1 (Figures 9, 10, and 11).
+
+Testing & Iteration
+
+First round of testing - Iteration 1
+
+I tested the first Iteration with a clickable Figma prototype (Figure 12) through unmoderated usability testing against Bloom’s app experience. The primary goals were to evaluate both experiences’ levels of personalization and motivation of personalized mental health advice on workplace stress and self-efficacy.
+
+I tested the signup/personalization questionnaires and personalized mental health topics on stress. Test participants in our target demographic and Asian female working professionals. All 4 test participants preferred Bloom’s questionnaire, composed of cognitive, behavioral, and mindfulness assessments below (Figure 13), because these questions were more directly related to how participants felt. However, Empathie’s demographic questions need to clarify how they would be helpful to them.
+
+Despite Bloom’s 30+ screen questionnaire being much lengthier, all participants felt content answering the assessment questions because it made them feel like the app would be more personalized. Showing fewer options to add personalization details influenced users to perceive Empathie as too high-level and not personalized enough. Questionnaires like Bloom, as stated by a participant, can be an enjoyable process of learning about one’s self. Another reason why Empathie’s demographic questions needed to be more detailed is because a participant identified more with being Taiwanese than Chinese.
+
+I tested the personalized mental health topic on workplace stress — for the persona of an Asian female working professional — between Bloom and Empathie (Figure 14). Despite Empathie’s topic aligning with the test persona, 3 out of 4 participants preferred Bloom’s experience. Intersectionality is not often a focus on more general topics like workplace stress, compared to intergenerational trauma, so they preferred Bloom’s topic because it belonged to the app they felt was more personalized.
+
+Test participants mentioned that cultural consideration is a secondary factor compared to the primary data points found through cognitive, behavioral, and mindfulness assessments. However, realizing that participants only saw the value of understanding their potential sources of stress if they consumed the content, I chose to have participants watch actual mental health videos between Bloom and Empathie in the next round of testing.
+
+Due to the limitations of Empathie’s mental health library of videos, I could not provide a more intersectional video based on attributes of racial background and gender but only racial background.
+
+I conducted nine 30-minute unmoderated usability tests with the same target population, with the variance in testing being the addition of the culturefocused demographic questions after Bloom’s assessments (Figure 15). I omitted the company names from the test to remove bias. However, I improved the context regarding how providing cultural attributes could impact their personalization. Participants were then prompted to watch personalized videos about stress from Empathie and Bloom after completing the questionnaire (Figure 16). Bloom’s 4-minute video topic on stress is generalized — containing some actionable frameworks and activities. You can view this video at https://youtu.be/JuQkF4Vly8c. One participant stated it was “very informative, but [ they thought the topic
+
+just had ] general information rather than personalized.” Another participant provided positive feedback, enjoying how the video “provided a specific framework for pausing and self-reflecting before acting, and that is an actionable thing for someone to take away and start applying in their life.”
+
+For Empathie, the therapist content creator Dr. Aileen Fullchange discusses how the Model Minority Myth impacts Asian Americans — causing stress due to societal expectations to fulfill this “perfect” and unrealistic representation. She also discusses how this myth affects how Asian Americans choose not to ask for help because they feel invalidated about their problems. One participant
+
+mentioned that she felt “heard and seen when she mentioned [her] actual ethnic group in one of [Dr. Aileen’s] videos.” Text
+
+Post-testing Discussion
+
+Sensitivity in disclosing cultural attri­ butes
+
+Some participants expressed discomfort disclosing their demographic information due to the questions feeling too personal (i.e., inputs for sexual orientation) or felt that the information would be used against them. It was unclear that adding this information was optional. However, the context of this optional ability should be more discoverable to ease users into disclosing what they wish more comfortably.
+
+Quality of questions takes precedence over quantity
+
+Users perceived cognitive, behavioral, and mindfulness assessments to be more direct with what users were experiencing in their present lives. Based on this, I combined all questions due to a lack of perceived friction with the questionnaire length if cultural attributes were requested.
+
+Value in including generalized videos and culturally responsive approaches Given that the generalized videos were still helpful in providing actionable frameworks and understanding of stress, participants stated they were interested in having their complements to culturallyresponsive videos. Based on past user research with Empathie, some research participants have expressed discomfort with learning insights about their trauma and would prefer to learn about those topics at their own pace. Providing a variety of topics, including a general and culture-enriched approach, can provide users the autonomy and comfort they need in their mental health journey.
+
+Personalization impacts motivation in
+
+mental health
+
+For both testing rounds, the perceived personalization level correlated with the motivation to work on a mental health topic.
+
+The desire for a broader range of ethnic options
+
+For both iterations of usability testing, research participants expressed concerns about the demographic fields of user input being too broad — specifically within the Asian racial background. One desired a Taiwanese category related to her family’s intergenerational and cultural conflicts. However, a few other participants did not see their ethnicities, such as Malaysian or Indonesian, represented. For the final design in the following section, I incorporated more Asian ethnicities and counted Taiwanese as separate from Chinese.
+
+Culturally responsive mental health con­ tent impacts one’s motivation to work on their mental health
+
+When participants evaluated the videos, Empathie’s culturally-responsive topic had a medium-sized effect on one’s motivation to work on their mental health, based on a Cohen’s D score of .51 in motivation. One participant felt motivated because “much information was given to prove why we, [Asian Americans], should not compare ourselves to others, especially in our race.” As previously mentioned in this thesis, intrinsic motivation plays a critical role in improved mental health outcomes.
+
+Preference for culturally responsive topics over-generalized ones Between both videos, 89% of participants felt that the culturally-responsive video on stress was more personalized and motivating than the generalized one (Figure 18). One participant mentioned that the video “gave facts that pertain to societal pressures [they] have felt,” while another stated enjoyed how it was “more specific to [them] as an Asian-American and empowering to see how [their] cultural identity contributes to [their] experiences.”
+
+However, self-efficacy ratings scored lower because participants stated that the generalized video felt more actionoriented with its frameworks and tips. A participant included that Bloom’s video provided more general information on stress management than the model minority myth video. However, it also does not explain the reasons behind the stress.” This comment demonstrates
+
+an opportunity to combine the general frameworks and cultural reasons behind stress. Self-efficacious frameworks can be incorporated in future mental health content by Empathie but are out of scope for this thesis.
+
+Culturally responsive videos are an excellent place for discovery Based on user research interviews and usability studies, Asian Americans are unaware of how their intersectionality impacts them. Even if they could Google a niche topic, they likely would not be conscious of what to search for without knowing the keywords in the first place. However, Empathie’s culturally responsive video was considered an “eye-opener,” according to a test participant. It was well-received because it made their implicit experiences explicit — building self-awareness that they would have struggled to gain.
+
+Data visualization of revised and proposed personalization model I have created a data visualization that accounts emphasize cultural complexities and their relationship to topics of interest. I have included a broader range of Asian ethnicities (Figure 19).
+
+Example user persona interacting with proposed mental health personalization experience
+
+Taylor Chang is a 24-year-old Asian American woman who experiences day-to-day stress (Figure 20). She visits Empathie’s website (Figure 21), which she learned about through a friend, and is interested in how Empathie provides her accessible digital tools and easy-to-consume knowledge, inclusive of her Asian American background. You can view the app demo here.
+
+App signup
+
+She signs up for Empathie by logging in to her email and reflecting on what she hopes to accomplish, primarily to improve self-esteem/confidence, anxiety management, and relationships (Figure 22).
+
+Onboarding
+
+Taylor completes short onboarding screens to learn about how Empathie works in addition to setting up her notifications, so she receives helpful nudges to engage with mental health topics and activities on the app (Figure 23)
+
+Cognitive, behavioral, and mindfulness assessments
+
+To receive personalized recommendations most related to supporting what obstacles Taylor is currently facing or what goals she would like to accomplish, Taylor is asked how she behaves and thinks in the present. She can reflect on her own patterns and
+
+The screen automatically moves to the following assessment after 1000 milliseconds after each assessment finishes.
+
+Taylor struggles with self-confidence, which impacts how she shows up at work. She is having difficulty speaking up in meetings, often overthinking her work tasks. Overthinking makes her compare herself to her peers and lose sleep over her anxious thoughts at night, but she is yet to be made aware of why she struggles to ask for help, why Taylor is often a perfectionist, or why she is so self-critical.
+
+That is where Empathie comes in by collecting her cultural information to help uncover her cultural sources of stress (Figure 27). Taylor enters her age, stage of life, gender and sex, and Asian background. Answering these questions helps Empathie analyze
+
+Taylor struggles with self-confidence, which impacts how she shows up at work. She is having difficulty speaking up in meetings, often overthinking her work tasks. Overthinking makes her compare herself to her peers and lose sleep over her anxious thoughts at night, but she is yet to be made aware of why she struggles to ask for help, why Taylor is often a perfectionist, or why she is so self-critical.
+
+That is where Empathie comes in by collecting her cultural information to help uncover her cultural sources of stress (Figure 27). Taylor enters her age, stage of life, gender and sex, and Asian background. Answering these questions helps Empathie analyze the collected data and match those attributes with Empathie’s library of resources — tagged with attributes.
+
+Personalized homepage
+
+Since we can capture Taylor’s cultural attributes, Empathie’s personalized homepage provides her with topics that overlap with these attributes (Figure 28). In addition, the mental health topics have thumbnails that have visuals tailored to a user’s background for an added personal touch. Netflix’s personalization algorithm and thumbnails,
+
+Personalized mental health topics
+
+For being Asian, Taylor receives a topic about the Model Minority Myth by Dr. Aileen Fullchange (Figure 29). She selects “Start Now” to begin the interactive video. The condensed version can be found at https://www. empathie.care/dealing-withasian-stereotypes. Quickly, Taylor feels connected to Dr. Aileen, who is speaking in the video, because she seems credible and relatable. She learns about the societal perceptions of Asian Americans being “perfect,” which influence them to feel shame when asking Figure 28 - Personalized homepage with personalized thumbnail images
+
+for help or pressure to live up to their stereotype. Taylor feels relieved, as she can understand why she often feels self-critical of herself. When she worries about not seeming “perfect” to others, she now knows that this is a product of societal systems and that the poor image of herself that she thinks is true is not reflective of reality.
+
+After watching the video, Taylor feels motivated to explore an easy activity related to this Topic (Figure 30).
+
+She tries the “Acknowledge Connection To Cultural History” activity to know where Taylor comes from to help create a cohesive story about who she is rather than societal stereotypes of “perfect” Asian Americans. She reflects on the resilience of her past ancestors, specifically her parents, whom both immigrated from Guangdong province (Figure 31). As she lets the fact that she would not be here today without her family, her eyes begin to water. Taylor feels immense gratitude and empathy for what her family had to go through, acknowledging that there were hardships despite societal depictions of Asians seeming to have no problems. Taylor feels comforted by her own story and feels more control over her narrative.
+
+A few days later, Taylor felt the stress from her manager providing her feedback. Taylor visits a recommended topic on self-criticism called “How To Balance Self-Criticism” by Dr. Amanda Tan (Figure 32). She learns that she is often critical of herself because of her cultural upbringing. Her parents would compare her to other school kids with higher test grades. This behavior is common among Asian households. Feeling understood, Taylor then learns a new cognitive-behavioral technique to reframe selfcritical thoughts by countering negative thoughts, which occurred in Taylor’s childhood, with evidence that her thoughts about being “worthless” or “incompetent” are not representative of who she is.
+
+Since Taylor is immediately feeling stress from work, she wants to relieve it by trying a quick meditation on how to ease self-critical thoughts (Figure 33).
+
+Now that she feels better than before, Taylor comes across an activity called “Create a Thought Record.” She repeats this activity throughout the week to build more of a habit of being self-aware of her self-critical thoughts (Figure 34).
+
+Specifically, around multiple dimensions of her intersectionality, Empathie recommends a topic about the hypersexualization of Asian women in society because of the intersectionality of being Asian and a woman (Figure 35). She uncovers why she feels unsafe when she strolls her neighborhood, which is not predominantly Asian. Taylor also gains strategies on tips on how to manage her anxieties surrounding this topic.
+
+Positive life changes
+
+The variety of personalized mental health topics related to Asian American experiences gradually improves Taylor’s mood over time as she is empowered to learn and practice CBT techniques (Figure 36). She feels a sense of relief knowing that she is not alone in how she feels and feels more control over her story by understanding the sources behind her stress.
+
+Future Work & Envisionmnents
+
+Given the complexity of the personalization model, I could not account for and visualize cognitive, behavioral, and mindfulness assessments in addition to time preferences, temporary changes like holidays, or types of activities (i.e., meditation, reflection, etc.). As a result, I need to discuss more with Dr. Amanda Tan and other therapists how we can create an improved version of cognitive, behavioral, and mindfulness assessments. I also need to consider the relationship between these assessments and their corresponding demographic information. Finally, I aim to make the personalization assessment much more direct with what might impact users. For example, suppose someone is feeling low perceptions of self-worth. In that case, we can then use conditional rendering logic to ask what factors might contribute, such as present criticism from family members. Knowing these factors could make it much clearer that there is a relationship between one’s cultural complexities and the present thinking patterns and behaviors.
+
+Also, people are uncomfortable answering personal questions about their background. Instead, prompting them with self-discovery questions like, “Have you ever experienced discrimination regarding your sexual orientation” could be helpful if combined with an explanation of how our app supports the experiences a person might have gone through.
+
+In addition, we should research how this research model could scale to more intersectional groups like Black Americans, LatinX, men, women, LBTQIA+, and more. How might the model change or evolve across various subgroups and
+
+attributes? We have learned that even within Asian communities, there is still substantial variability, such as Taiwanese Americans or Asian Americans from Hong Kong who intentionally separates themselves in culture and identity from mainland Chinese. When personalizing, there is a deep and critical need to address these distinctions for cases such as these.
+
+Though recommending personalized mental topics based on cultural complexities and mental health issues at hand reduces the friction of searching for credible, culturally responsive, and easily accessible support, that is only the beginning of one’s mental health journey. To create healthier, long-lasting habits, there needs to be repetition in practicing activities specific to one’s personalized mental health topics. For example, more research should be conducted on creating more habit-forming behavioral loops related to one’s personalized mental health topics.
+
+Conclusion
+
+My argument is not to demonstrate that A.I. is capable, should, or could replace therapy. My research demonstrates that A.I. can automate broad parts of what minority therapists struggle to do at scale, which is to provide relief and knowledge on Asian American trends within various audiences they support and are knowledgeable. Visualizing the culture-based personalization model can aid Empathie’s therapist content creators in identifying new attributes and communities to serve when creating new mental health topics that also correspond with their specialties.
+
+While this app is not designed for therapists to use, it does provide resources for their clients that can be used in tandem with clients’ therapeutic experiences. For example, the app can help clients discover topics to talk about or delve deeper into existing topics discussed in therapy. This level of discovery can improve therapist-patient relationships and health outcomes because the patient is more engaged with their mental health journey outside of sessions (Tang and Kreindler, pg.1).
+
+I have learned that there is immense value even in providing culturally responsive CBT support through mobile and A.I. technologies. Imagine how helpful our support could be if we address even more attributes of intersectionality. Research demonstrates that even by considering just two attributes, one about struggling with self-esteem and the other about being Asian, in a personalized mental wellness app, Asian Americans strongly preferred culturally responsive topics on stress over generic ones. Secondly, the motivation to work on reducing their stress and
+
+levels of perceived personalization were higher than the generic one. This correlation demonstrates that the level of personalization influenced by consuming cultural responsiveness mental health content is correlated with the level of motivation.
+
+I challenge the mental health industry to address cultural complexities in their A.I. personalization — not to avoid doing so out of concern that it would not be helpful.

@@ -1,0 +1,263 @@
+Abstract
+
+What hidden costs do migrants, international students, and second-generation immigrants carry as they move between cultures? Many acts of adaptation, often seen as personal choices, are shaped by deeply institutionalized cultural norms, becoming burdensome when expectations clash across contexts.
+
+This project imagines a speculative library as a shared space where these hidden costs can be made visible and held together. Rather than remaining private and individu­ alized, moments of cultural strain are collected, shared, and re-encountered through everyday objects and stories.
+
+Code-switching is often understood as linguistic shifts, but it also oper­ ates through the body, behavior, appearance, and self-presentation. For migrants and diasporic individuals, these everyday adjustments are not optional. They are necessary forms of adaptation that carry emotional and cognitive costs. Yet these costs remain largely invisible, absorbed privately by individuals rather than recognized collectively. How can the hidden costs of code-switching be made visible and distributed across a broader public?
+
+This thesis introduces the Code-Switching Index, a participatory archive that seeks to externalize the hidden code-switching. Through interviews and co-creation sessions, participants identify ordinary objects that embody moments of adjustment made to remain legible within dominant cultural norms. These objects, alongside their narra­ tives, form an evolving archive.
+
+Rather than framing code-switching as an imperfect assimilation, this project reframes it as a site of negotiation between multiple cul­ tural logics. By materializing these negotiations, the archive shifts code-switching from an internalized burden to a shared cultural phe­ nomenon. The project argues that visibility itself functions as a form of cost distribution: when audiences encounter these objects and stories, they participate in carrying the weight that has long been held individ­ ually.
+
+Ultimately, this thesis positions participatory archiving as a design intervention that transforms private adjustments into collective knowl­ edge and invites new ways of understanding code-switching.
+
+of the requirements for the degree of
+
+Master of Design
+
+1 Introduction
+
+What happens to a person’s sense of self when their words, tone, or gestures must constantly change to fit in?
+
+For many immigrants, such adjustments are not optional but essential for belonging. They shift language, demeanor, and emotional expression to navigate safety, legitimacy, and acceptance within dominant cultures. We call this code-switching [1].
+
+In everyday life, code-switching often appears subtle and unremarkable. These shifts are frequently framed as matters of personal preference or adaptability [1]. But for those living between cultural systems, such adjustments accumulate into a continuous, embodied labor that remains largely unseen.
+
+These practices are not freely chosen; These practices are responses to social and institutional pressures that shift the cost of adaptation onto individuals [2].
+
+Importantly, the costs of code-switching are not evenly distributed. Migrants and diasporic subjects are often expected to adapt seamlessly, absorbing the burden of translation and adjustment on their own. The effort required to be “legible” in a dominant culture becomes internalized as a private responsibility rather than recognized as a collective condition.
+
+This thesis emerges from that imbalance. It asks how design and archiving might intervene in the unequal distribution of code-switching costs. Instead of treating code-switching as a hidden, individualized coping mechanism,
+
+what happens if we make it visible and open to public engagement?
+
+I explore an alternative approach: a participatory archive that gathers everyday objects as evidence of cultural negotiation. By focusing on the ordinary items that might otherwise seem insignificant, this project foregrounds the reality of adaptation. The introduction sets the conceptual groundwork for understanding code-switching as embodied labor, outlines the stakes of making such labor visible, and frames the archive as a design intervention that distributes recognition and responsibility beyond the individual.
+
+2 Background
+
+Code-switching is traditionally defined in linguistics as the practice of alternating between two or more languages or dialects within a single conversation.
+
+Over time, scholars in sociology, cultural studies, and communication have broadened the concept to include shifts in behavior, appearance, or affect when individuals navigate different social and cultural contexts.
+
+In this broader sense, code-switching is not limited to words; it encompasses gestures, tone of voice, clothing, and other embodied cues that signal belonging or distance.
+
+Research in migration and minority studies describes code-switching as a strategy for negotiating belonging and safety. Gardner-Chloros observes that code-switching “occurs among immigrant communities, regional minorities and native multilingual groups alike” and often emerges “each time minority language groups come into contact with majority language groups under conditions of rapid social change[1].” Immigrants and racial minorities frequently adjust their linguistic repertoires or social habits to reduce discrimination, gain acceptance, or access opportunities.
+
+These adjustments are not merely communicative choices but responses to power structures that reward certain performances of identity while marginalizing others.
+
+Psychological studies further reveal the cognitive and emotional costs of these shifts, including identity fatigue and the feeling of “performing” a self that may not fully align with one’s internal sense of identity [2], [3]. Feminist and critical race scholars argue that expectations around gender, race, and class create unequal pressures: women and people of color are often required to switch more frequently and at greater emotional expense than majority-group members [4]. Digital environments add new layers to this phenomenon, as social media platforms and algorithmic curation
+
+amplify stereotypes, rewarding certain performances of identity while rendering others invisible.
+
+Despite this growing body of work, less attention has been paid to the fine-grained emotional experiences of individuals who navigate multiple, sometimes conflicting expectations in everyday interactions. Redström emphasizes that one of design’s core capacities lies in its ability to remain “in the middle,” engaging with contradiction, instability, and lived complexity rather than resolving it into fixed categories [5].
+
+While design research has increasingly addressed questions of identity, affect, and power, much of this work has focused on formal political structures or visible sites of participation. As DiSalvo argues, everyday social practices often remain outside the primary focus of design inquiry, despite being key sites where power relations are enacted and negotiated [6]. Building on this gap, this thesis approaches code-switching as a lived, embodied negotiation that unfolds through mundane social encounters rather than explicit political arenas.
+
+Moreover, design-oriented investigations into how such hidden negotiations might be visualized, shared, or critically questioned through participatory, speculative, or systems-oriented approaches remain limited [7]. This thesis builds on these gaps by examining code-switching as a lived negotiation of agency, visibility, and power, and by exploring design methods that can surface its affective and relational dimensions.
+
+3 Motivation
+
+What does it mean to shift one’s language and behavior to belong, and what emotional cost follows when those shifts collide with competing expectations?
+
+This question became personal when I moved from South Korea to the United States for graduate study at twenty-six. Determined to adapt quickly, I consciously adopted American gestures, speech patterns, and conversational reactions in order to “act American.” Yet moments of unintentional reversion—hesitating to initiate conversation with someone positioned as a senior authority figure such as a professor or manager who carries high status within East Asian cultural hierarchies, bowing slightly when greeting, or smiling shyly when embarrassed—reminded me of behaviors often read as “Asian female,” leaving me self-conscious and ashamed.
+
+At other times, I exaggerated the very identity I was trying to transcend. Although I have little personal interest in Korean dramas, I felt an even stronger expectation that a “real Korean” should be knowledgeable about Korean skincare routines, and I sometimes performed that expertise when peers expressed curiosity. These contrasting patterns—switching to assimilate and switching to fulfill stereotypes—revealed that code-switching is not simply a matter of personal adaptation but a negotiation shaped by social expectations and power relations.
+
+Recent work conceptualizes code-switching as a form of emotional labor and identity negotiation. McCluney and colleagues describe an “energy tax” imposed on racialized individuals as they monitor speech, demeanor, and appearance to pre-empt bias in professional and social settings [8].
+
+Classic sociolinguistic research similarly frames
+
+code-switching as the strategic management of social meaning, through which speakers signal competence, authenticity, or belonging to secure acceptance [1], [2]. More recent studies emphasize that these practices extend beyond language itself, deeply shaping identity construction within multilingual and racialized communities [9].
+
+Together, these findings suggest that the pressure to switch is inseparable from structural inequalities and the ongoing negotiation of agency and authenticity. However, much of this work remains analytical rather than experiential, offering limited insight into how such negotiations are felt, remembered, or shared in everyday life. Design research has begun to explore how affective experiences, invisible labor, and marginalized forms of identity work can be externalized and collectively reflected upon through artifacts, interactive systems, and participatory processes [10]. This thesis positions code-switching within that emerging design space, using design as a means to surface its emotional textures and relational dynamics rather than to resolve or optimize them.
+
+4 Approach
+
+Mapping the Direction of Code-Switching Costs 3.1.
+
+3.2.
+
+3.3.
+
+3.4.
+
+The Archive as a Mechanism for Distribution
+
+Participant Recruitment and Scope
+
+Participatory Design and Co-Creation Process
+
+3.1.
+
+Mapping the Direction of Code-Switching Costs
+
+This project begins by reframing how the costs of code-switching are distributed.
+
+As illustrated in Figure 1, when an individual from a minority culture (B) enters a dominant cultural system (A), adaptation largely flows in a single direction. The individual shifts behavior toward dominant norms in order to assimilate and remain legible, generating what scholars describe as an “energy tax” [8]—the ongoing cognitive effort required to monitor and adjust oneself.
+
+As shown in Figure 2, this sustained expenditure of energy results not in full assimilation, but in a hybridized state (Ab), where elements of the minority identity persist beneath the surface of dominant cultural conformity.
+
+From an individual perspective, these costs may appear small or manageable. However, when viewed at a structural level, their cumulative impact becomes significant.
+
+As shown in Figure 3, individuals from multiple cultural backgrounds (B, C, D, and beyond) all adapt toward the same dominant culture (A), each incurring an energy cost in the process. Figure 4 illustrates the outcome of this repeated adaptation: a series of hybridized forms (Ab, Ac, Ad), in which dominant norms are reproduced while differences are retained through ongoing adaptive labor.
+
+Over time, this asymmetry compounds.
+
+As depicted in Figure 5, when one-directional assimilation becomes normalized, newly arriving individuals inherit increasingly heavier expectations to adapt. While the dominant culture remains largely unchanged, the burden of code-switching intensifies over time, accumulating on those who follow.
+
+In response, this project proposes an alternative approach: shifting code-switching from a onedirectional demand to a bidirectional exchange. Rather than placing the cost of adaptation solely on individuals, the project explores how this burden might be made visible, shared, and partially absorbed by the broader social environment.
+
+3.2. The Archive as a Mechanism for Distribution
+
+The project proposes the archive as a mechanism for distributing code-switching costs. Instead of treating code-switching as a private psychological effort, the archive reframes it as an external, shareable experience. Hidden costs are made visible, narratable, and open to collective engagement.
+
+This is why speaking and making are central to the project’s method. Interviews allow participants to articulate experiences that are often unspoken or normalized. Co-creation transforms those narratives into material forms—objects that carry and communicate the weight of adjustment. Through this process, code-switching shifts from an internal burden to a public artifact, inviting recognition beyond the individual.
+
+Visibility here functions as a form of distribution: when experiences are encountered by others, the responsibility of understanding no longer rests solely on those who must adapt.
+
+3.3. Participant Recruitment and Scope
+
+Participants include migrants, international students, and second-generation immigrants with diverse cultural, linguistic, and migratory backgrounds. Rather than aiming for demographic representativeness, the project prioritizes indexical diversity—the range of ways code-switching manifests across contexts.
+
+Participation is voluntary, and participants are not treated as subjects of observation but as collaborators. Each participant retains agency over how their experience is interpreted, represented, and shared. The goal is not to generalize codeswitching into a single narrative, but to surface its multiple forms and textures.
+
+3.4. Participatory Design and Co-Creation Process
+
+This project is structured as a participatory design process rather than an observational study. Participants are actively involved in shaping how their experiences are represented. Their role includes describing moments of code-switching, defining what constituted an adjustment, and selecting an object that best represents that experience.
+
+The designer’s role is not to extract meaning, but to facilitate reflection—by designing prompts, asking clarifying questions, and supporting participants in articulating their own interpretations [10]. The notion of “donation” is central here: participants contribute their objects and stories not as
+
+data, but as offerings to a shared archive. This framing emphasizes care, consent, and ethical responsibility, positioning the archive as a collective space built through trust rather than extraction.
+
+5 Outcome
+
+Code-Switching Index is a participatory archive that materializes the hidden costs of code-switching through everyday objects, stories, and shared interpretation.
+
+Rather than producing a single artifact or fixed installation, the project results in a system composed of three interconnected outputs: a physical exhibition, a printed booklet, and an online archive. Together, these formats function as a distributed index of lived code-switching experiences.
+
+Crucially, the project’s outcomes extend beyond these formats themselves. The processes through which they are developed through the four-stage model of cost distribution, articulated through the archive itself: externalizing, materializing, interpreting, and distributing.
+
+Stage 1. Externalizing
+
+The first stage involves voicing experiences that are usually kept internal. Through interviews, participants articulate moments of discomfort or self-adjustment that emerged while navigating different cultural expectations. These conversations treat code-switching not as a personal flaw, but as a lived response to social pressure.
+
+For example, one participant described how brushing her teeth after meals was a deeply ingrained habit from school and workplace life in Korea. In the U.S., however, brushing in public bathrooms felt inappropriate or “dirty,” even though the habit itself had not changed.
+
+Reflecting on this experience, she described a moment of realization: what she had long
+
+Stage 2. Materializing
+
+considered a purely personal hygiene practice was, in fact, deeply shaped by cultural norms.
+
+In the second stage, participants select an everyday object that embodies their codeswitching experience. These objects function as material carriers. Rather than symbolic or designed artifacts, the archive prioritizes ordinary items that participants already own.
+
+In the toothbrushing case, the participant chose a travel toothbrush-and-toothpaste set she brought from Korea but rarely uses anymore.
+
+Materialization allows psychological and emotional costs to become visible and tangible.
+
+Stage 3. Interpreting
+
+Interpretation emerges collaboratively. Through follow-up conversations and co-writing, each object is situated within broader social, cultural, or historical systems. This stage resists treating codeswitching as an individual preference by connecting personal experiences to structural forces.
+
+For the toothbrush object, interpretation traced the role of South Korea’s national oral hygiene campaigns in the 1980s and 1990s, which promoted collective post-meal brushing as good manners and civic responsibility. This context reframes the participant’s discomfort not as oversensitivity, but as the collision of two different cultural norms around hygiene, privacy, and propriety.
+
+Stage 4. Distributing
+
+The final stage occurs when these objects and narratives enter public circulation. Distribution takes place through three formats: a physical exhibition (figure 11), a printed booklet (figure 12), and an online archive (figure 13).
+
+In the exhibition, objects are displayed alongside brief narratives. Visitors can browse the booklet onsite and explore the full archive through a desktop interface connected to the project website.
+
+Ongoing Archive
+
+Beyond the exhibition, the Code-Switching Index continues as an open archive. A printed brochure inserted into the booklet and a submission page on the website invite others to contribute their own objects and stories. Participants can donate experiences that represent the hidden costs they carry, expanding the archive over time.
+
+Rather than concluding with a fixed set of outcomes, the project remains intentionally unfinished. Its value lies not only in what is displayed, but in its capacity to grow for distributing the cost of code-switching through continued participation and collective acknowledgment.
+
+6 Discussion
+
+This project set out to examine codeswitching as an ongoing, embodied form of labor shaped by social power [1].
+
+Through the Code-Switching Index, everyday adjustments, often dismissed as personal habits or individual adaptability, were reframed as structural responses to unequal cultural expectations.
+
+By externalizing, materializing, interpreting, and distributing these experiences, the project demonstrates how design can intervene in the uneven allocation of adaptation costs.
+
+One key contribution of this work lies in its use of ordinary objects as analytic tools. Rather than relying on abstract descriptions of identity or belonging, the archive foregrounds ordinary material traces as evidence of lived negotiation. These objects make visible what is often rendered invisible.
+
+Another important outcome is the reframing of code-switching as relational rather than individual. In many dominant narratives, the burden of adaptation is implicitly assigned to migrants and diasporic subjects, who are expected to “fit in” without friction [2]. The Code-Switching Index challenges this logic by distributing recognition. When these objects and stories enter public circulation, audiences are no longer passive observers. They become witnesses to the labor of adjustment, participating in the act of carrying its weight. In this sense, visibility functions as a form of redistribution, shifting code-switching from a private coping mechanism to a shared social condition.
+
+The participatory structure of the project also raises important ethical and methodological considerations. By positioning participants as co-creators rather than subjects, the archive resists extractive research practices. Participants defined their own experiences, selected their own objects, and shaped the meanings attached
+
+to them. However, this approach also introduces limits. The archive does not aim for representational completeness or demographic balance. Instead, it embraces indexical diversity—a range of situated experiences that point to broader patterns without claiming universality. As a result, the project prioritizes depth and specificity over generalizability.
+
+There are also limits to what materialization can achieve. While objects can surface hidden costs, they cannot fully capture the ongoing emotional labor of code-switching, nor can they resolve the structural inequalities that produce it. Making experiences visible does not automatically dismantle the systems that demand assimilation. The archive, therefore, should be understood not as a solution but as an invitation—to notice, to question, and to rethink where responsibility for adaptation should lie.
+
+Finally, the project opens questions about sustainability and scale. By extending the archive online and inviting future contributions, the CodeSwitching Index positions itself as an ongoing structure rather than a closed work.
+
+This raises questions about authorship: Who holds the archive over time? How are contributions contextualized as social conditions change? These unresolved questions are not shortcomings but part of the project’s speculative nature. They point toward future work that treats archiving not as preservation alone, but as a living practice of collective reflection.
+
+In sum, this thesis argues that design can play a critical role in distributing the hidden costs of code-switching—not by eliminating them, but by making them shared, legible, and discussable. The Code-Switching Index offers one such intervention, grounded in everyday life and oriented toward collective understanding.
+
+7 Conclusion
+
+It began with a simple but persistent question: “What are the consequences of treating the costs of adaptation as individual responsibilities rather than shared social conditions?”
+
+For migrants and diasporic individuals, codeswitching is not a temporary adjustment but an ongoing demand. These shifts are often invisible, normalized, or framed as personal choice, even as they accumulate into significant emotional and cognitive labor.
+
+The Code-Switching Index responds to this imbalance by proposing participatory archiving as a design intervention. By collecting ordinary objects and the stories attached to them, the project makes visible the everyday negotiations that sustain belonging within dominant cultural systems. Through distributing these experiences, the archive shifts code-switching from an internalized burden to a shared cultural phenomenon.
+
+This project could not exist without its participants. The archive is not a collection extracted by the designer, but a body of knowledge co-produced through trust, reflection, and voluntary contribution. Participants were not treated as subjects to be analyzed, but as collaborators who actively shaped how their experiences were represented and interpreted. This collaborative process affirms the ethical importance of co-creation in design research—especially when working with experiences tied to vulnerability. The value of the project lies not only in the objects displayed, but in the relationships and shared understanding formed through the act of contributing.
+
+Visibility itself becomes a form of redistribution: when audiences encounter these materials, they are invited to recognize and even partially carry the weight that has long been held privately by
+
+individuals.
+
+The archive is ongoing. It acknowledges that code-switching is not a fixed category but a living condition shaped by time. The project grows as more people contribute their objects and stories, and its meaning deepens through accumulation rather than closure.
+
+Ultimately, this thesis argues that design can intervene in invisible forms of labor not by resolving them, but by changing how they are seen, shared, and understood. By transforming private adjustments into collective knowledge, the CodeSwitching Index reframes belonging as something produced relationally—through shared recognition and responsibility—rather than as an individual achievement borne alone.
+
+Reference
+
+[1]
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+P. Gardner-Chloros, “Code-switching and language contact,” in Code-switching, Cambridge, U.K.: Cambridge Univ. Press, 2009, pp. 20–41. DOI: 10.1017/CBO9780511609787.003.
+
+C. Myers-Scotton, Multiple Voices: An Introduction to Bilingualism. Malden, MA, USA: Blackwell, 2006.
+
+S. Stamos and C. Cañete-Quesada, “The code-switching and confluence of languages in Esmeralda Santiago’s When I Was Puerto Rican (1993),” FAURJ, vol. 5, pp. 31–38, 2016.
+
+H. S. Alim and G. Smitherman, Articulate While Black: Barack Obama, Language, and Race in the U.S. Oxford, U.K.: Oxford Univ. Press, 2012.
+
+J. Redström, “Thing and Theory,” in Making Design Theory, Cambridge, MA, USA: The MIT Press, 2017, pp. 1–8.
+
+C. DiSalvo, “Design, democracy and agonistic pluralism,” in Design and Complexity – DRS International Conference 2010, D. Durling, R. Bousbaci, L. Chen, P. Gauthier, T. Poldma, S. Roworth-Stokes, and E. Stolterman, Eds., Montreal, Canada, Jul. 7–9, 2010. [Online]. Available: https:// dl.designresearchsociety.org/drs-conferencepapers/drs2010/researchpapers/31.
+
+[7] [8] [9]
+
+[10]
+
+[11]
+
+[12]
+
+J. Bardzell and S. Bardzell, Humanistic HCI. Cham, Switzerland: Springer, 2015, DOI: 10.1007/978-3031-02214-2.
+
+C. L. McCluney, M. I. Durkee, R. E. Smith, K. J. Robotham, and S. S.-L. Lee, “To be, or not to be… Black: The effects of racial codeswitching on perceived professionalism in the workplace,” J. Exp. Soc. Psychol., vol. 97, 2021.
+
+S. Bullock and A. Toribio, Language and Identity: Code-Switching Practices among Multilingual Communities. Cambridge, U.K.: Cambridge Univ. Press, 2009.
+
+E. Sanders and P. J. Stappers, “Co-creation and the new landscapes of design,” J. Design Research, vol. 4, no. 1, 2008, pp. 5-18.
+
+J. Chang, “Externalizing interview,” photograph, personal archive, 2024.
+
+“어릴 때 치아관리 나이 들어 ‘으뜸 복’.”시정일보, 2023. [Online]. Available: https://www.sijung.co.kr/news/ articleView.html?idxno=70833.

@@ -1,0 +1,231 @@
+Abstract
+
+Cultural identity is both characteristic of the individual but also of the culturally identical group of members sharing the same cultural identity or upbringing. Rather than necessarily representing an individual's interaction within a certain group, cultural identity may be defined by the social network of people imitating and following the social norms locally. The virtual forums – some of them highly attractive, vivid, and absorbing (e.g. video games or virtual games of personification) – could present a risk to the construction of a stable and viable personal identity. They are eager for acceptance on social media. However, they sometimes believe the elegant, easy lifestyle that influencers show is real. So many fans believe in influencers blindly, just listen to some extreme opinions and even look down upon themselves. What’s more, in the XR space, the young generation will get more identities in different spaces and have more challenges of identity formation and recognition.
+
+The work proposes a future lifestyle for the young in virtual spaces which want to solve the questions mentioned above. How could the young generation build a stable and healthy identity in virtual spaces? How could young people define themselves when connecting with in-person interaction and virtual communities? What kind of impressions they wanna show to other people in virtual communities in the future?
+
+This semester I began by researching the history of fashion and identity consciousness. In the process, I learned why we now have a problem with fashion and the expression of personal identity. After troubleshooting the problems associated with this, I conducted research on existing technologies, existing solutions, and related problems that exist. This was followed by journalistic research coupled with CLA analysis methods to discover future technological and social trends. Based on the above research, I
+
+Design Studio Thesis 1
+
+designed the entire design fiction storyline and interactive uiux and ar demos to explain my concept.
+
+The project mainly focuses on building persuasive and speculative user flow to visualize their self-identity for VR and AR. That approach is closely related to the trend of XR  technical development and the simplest way to convey the ideas to audiences.
+
+XID is a digital platform that could form young generation personalities in the virtual world and build stronger connections with people with similar interests. Excessive neglect of the traditional physical and social world in favor of internet culture became codified as a medical condition under the diagnosis of internet addiction disorder. Nevertheless, internet culture seems destined to plunge headlong into the metaverse. This is the avowed ambition of Facebook as rebranded Meta Platforms in October 2021.
+
+Since design fiction’s goal is to convey facilitate and foster debates, as explained by futurist Scott Smith: "... design fiction as a communication and social object creates interactions and dialogues around futures that were missing before. It helps make it real enough for people that you can have a meaningful conversation with". Therefore, I plan to host a community on social media to help young people build their digital identities.
+
+History/Prior Art
+
+The internet has become central to the construction of identity for the young generation - an extension of their self-expression. In contrast to identity construction based upon real-world interactions, the reliance on influencers, who often present an absorbing yet simplistic world view, presents a risk to the stability and viability of personal identity.
+
+When talking about identity, we generally define this word as the series of physical features that differentiate a person. Thus at birth, our parents declare us and give us a name with which they will identify us based on whether we are a boy or a girl. Identity is not only a right that declares the name, sex, time, and place that one is born; the word identity goes beyond what we define it. Identity is a function of elements that portrays one in a dynamic way, in constant evolution, throughout the stages of life identity develops
+
+Design Studio Thesis 2
+
+based on personal experiences, tastes, and choices of a sexual and religious nature, as well as the social environment, these being some of the main parameters that influence and transform the day to day and allow us to discover a new part of ourselves
+
+Rather than necessarily representing an individual's interaction within a certain group, cultural identity may be defined by the social network of people imitating and following the social norms as presented by the media. Accordingly, instead of learning behavior and knowledge from cultural/religious groups, individuals may be learning these social norms from the media to build on their cultural identity.
+
+A version of the passport considered to be the earliest identity document inscribed into law was introduced by King Henry V of England with the Safe Conducts Act 1414. For the next 500 years up to the onset of the First World War, most people did not have or need an identity document.
+
+Photographic identification appeared in 1876 but it did not become widely used until the early 20th century when photographs became part of passports and other ID documents such as driver's licenses, all of which came to be referred to as "photo IDs". Both Australia and Great Britain, for example, introduced the requirement for a photographic passport in 1915 after the so-called
+
+The shape and size of identity cards were standardized in 1985 by ISO/IEC 7810. Some modern identity documents are smart cards including a difficult-to-forge embedded integrated circuit that were standardized in 1988 by ISO/IEC 7816. New technologies allow identity cards to contain biometric information, such as a photograph; face hand, iris measurements; or fingerprints. Many countries now issue electronic identity cards.
+
+Current
+
+What are the main tools for consumers to communicate with fashion companies? this could be one way. KOL, or we could call them influencers, create contents on the internet and attract more traffics. Some of the main tools that consumers use to communicate with fashion companies are social media platforms, such as Instagram, Snapchat, and Twitter. By following and interacting with fashion brands on these platforms, consumers can provide
+
+Design Studio Thesis 3
+
+feedback, ask questions, and make suggestions. Additionally, many fashion companies have customer service contact information listed on their websites, so consumers can also reach out to them directly with any concerns or comments. Traffics and followers are the power of this. In some way, KOLs could represent target followers’ opinions.  They could influence the followers’ purchasing decisions, and they could directly represent consumers’ preferences.
+
+What are the main tools for consumers to communicate with fashion companies? this could be one way. KOL, or we could call them influencers, create contents on the internet and attract more traffics. Traffics and followers are the power of this. In some way, KOLs could represent target followers’ opinions.
+
+How would KOLs use their power? They could use influence to earn money.  Since the internet becomes increasingly immersive, people are more and more dependent on their opinions to decide what things they should buy. So many companies that want to gain more impressions will find KOLs, so it could become a fashion trend. Recently in China, some VCs have concluded how to massively produce a new brand.
+
+Some of the main tools for consumers to communicate with fashion companies are social media, online forums, and customer review websites. Social media platforms such as Instagram, Facebook, and Twitter allow consumers to connect with fashion brands and share their thoughts and opinions on various products and collections. Online forums give consumers a space to discuss fashion trends and share recommendations with other like-minded individuals. Customer review websites such as Yelp and Amazon provide a way for consumers to rate and review fashion products and services, which can help other consumers make informed decisions about what to buy.
+
+A decentralized autonomous organization (DAO), sometimes called a decentralized autonomous corporation (DAC), is an organization constructed by rules encoded as a computer program that is often transparent, controlled by the organization's members, and not influenced by a central government, in other words, they are member-owned communities without centralized leadership. A DAO's financial transaction records and program rules are maintained on a blockchain.
+
+Design Studio Thesis 4
+
+DAO governance is coordinated using tokens or NFTs that grant voting powers. Admission to a DAO is limited to people who have confirmed ownership of these governance tokens in a cryptocurrency wallet, and membership may be exchanged. Governance is conducted through a series of proposals that members vote on through the blockchain, and the possession of more governance tokens often translates to greater voting power. Contributions from members towards the organizational goals of a DAO can sometimes be tracked and internally compensated. Inactive holders of governance tokens can be a major obstacle for DAO governance, which has led to implementations of allowing voting power to be delegated to other parties.
+
+Future In the future,  how might our self-expression and fashion tastes not be defined by influencers, but by ourselves, by those who share our passions and aspirations?
+
+Our self-expression and fashion tastes may be more individualized and not as influenced by outside sources such as influencers. We may dress more for ourselves and our own personal style, rather than what is popular or trending. Our fashion choices may better reflect our own unique passions and aspirations.
+
+Potential Opportunities
+
+Decentralized KOL is a visual form of consensus formed by decentralized organizations 20 years later. This form of visualization can be used to display the consumer goods we want and show our actual consumption habits and our real-life status.
+
+KOL can be used to show the difference between our ideal lifestyle and our actual lifestyle. For example, we may want to consume healthy and organic food, but our actual diet consists of fast food and processed snacks. KOL can help us to see this discrepancy and make changes in our behavior.
+
+Method/Approach
+
+Looking back to history, we want to find insight from technology to give us some solutions. One is, that we could build a decentralized community in the blockchain. People with the same interests and backgrounds could join the community to discuss and even create the things and fashion we actually need. How to make their needs
+
+Design Studio Thesis 5
+
+and creation visualized? We want to ask for help from Virtual Idol. Virtual Idol is a trending topic in east Asia. In America, we could also find some digital influencers, but they are all owned by companies. How about people could create their influencers? How could the influencers be created by the group of people, could it be a better way to let users use their power to communicate with large companies?
+
+I started this semester by researching the history of fashion and identity. In the process, I learned why we now have problems with fashion and the expression of our personal identity. After addressing the issues related to this, I did research on existing technologies, existing solutions, and related problems that exist. This is followed by news research and CLA analysis methods to discover future technological and societal trends. Based on the above research, I designed the entire design novel storyline and interactive uiux and ar demos to explain my concept.
+
+This concept aims to solve the problem of the fashion industry by developing a new style of wearable tech, combining identity and fashion based on the user's identity and characteristics. The system will automatically generate a personalized wardrobe for the user. Users can also access and view their wardrobe anytime and anywhere, and receive personalized recommendations.
+
+This entire novel was designed using Figma and spark AR, which simulates the interaction between humans and machines. Since I have no experience in coding, this is very challenging for me. The typical challenge of a design novel is the lack of premium visual elements. I am trying to find a way to make the novel more attractive with black and white graphics.
+
+I learned a lot about the history of fashion and identity, the existing problems in the fashion industry, and the trends in the future trend of wearable technology.My future plans include integrating more technologies such as AR/VR, facial recognition, etc. to make the concept more realistic.
+
+Process/Iterative work
+
+The overal AR experience
+
+Design Studio Thesis 6
+
+1. Search Spark AR Library to find the assets
+
+Pic 1  AR Library
+
+2. Arrange them together in a good fit , change the shader, color of it  and add animation and adjust it
+
+Pic 2  Spark AR Settings
+
+Design Studio Thesis 7
+
+3. Build the overall interaction system
+
+Pic 3  Model Settings
+
+4. Add patch editor to get the hole and reveal part work
+
+Pic 4 Patch
+
+Design Studio Thesis 8
+
+5. Set image tracker
+
+Pic 5 Image Tracker
+
+6.Hide the hole behind image tracker
+
+Pic 6 Tunnel Connection
+
+Design Studio Thesis 9
+
+7.Put the model inside and see the final result
+
+Pic 7 Modeling Connection
+
+8.Reorganize the assets and make the size compatible for export
+
+Pic 8 Modeling Export
+
+Visual system
+
+The main idea in this design visual maker is that the business card is wearable on a daily basis. When we don't need to show our information, the business card is a decoration for our body, and if we need it, others can scan the visual maker on our body to express our virtual world image.
+
+In this design, we used a lot of geometric patterns to make the business card look more three-dimensional. And the visual maker is
+
+Design Studio Thesis 10
+
+very easy to use, you can add or delete your own information according to your needs.
+
+Pic 9 Visual Style of Card
+
+Baseline Future: Fifty years later, industrial production has entered an era of full automation. Users spend 80% of their time in information production and manufacturing. The knowledge industry, the real economy and the virtual economy are fully integrated into an intelligent ecosystem.The economy is mainly composed of the three industries: information production, metaverse production and entertainment.  The rise of the influencer economy has been made possible by the metaverse. Influencers are people who have a large following on social media and can use that influence to generate income. They can do this by promoting products or services, or by providing access to exclusive content or experiences. The metaverse has given rise to a new class of celebrities, who are able to use their influence to generate income in ways that were not possible before. This has led to the development of a new economy, in which influencers are able to command high prices for their services.
+
+Ten influencers (messengers of capital) have emerged in each field to show people’s production results. People are engaged in information production, packaging, and beautification during the day. Influencers choose the content they are satisfied with to display and distribute the income. After get off work at night, people go to various fields to see what good things the influencers have, and use the salary paid by the influencers to buy new information. They will also pay attention to the influencers who are new to them in the morning and then go to work to produce new content.
+
+Design Studio Thesis 11
+
+Preferred Future: For people to find their own voice, people have established a new DAO organization in the virtual world to carry out collectivist digital production. The DAO is a digital organization that is designed to be decentralized and autonomous. It is made up of people who have migrated from the physical world to the digital world. The DAO is designed to carry out digital production.
+
+People call this behavior “digital migration.” In the past year, a group of people have begun to migrate to the virtual world and establish a DAO. This group is composed of many former members of the online game “Second Life.” They have established a new game world called “Decentraland” and are planning to build a new digital society there.
+
+This group of people is not only composed of game players, but also many programmers, designers, and other creators. They hope to use the virtual world to create a new world that is not controlled by any central authority.
+
+In this new game world, people can create anything they want. There are no rules or regulations. People can do whatever they want.
+
+Manifesto:
+
+Fashion is the innovation people wanna pay for, a visualization of their mind, a true expression of their life, a strong symbol of community power, and a representative sign of community consensus.
+
+Fashion has always been a driving force in the evolution of culture. It is a reflection of the times we live in and an expression of our individuality. It has the ability to change the way we think, feel and behave. It can be a force for good or for evil. It can be a tool of self-expression or a tool of conformity. It can be a source of inspiration or a source of anxiety. It can make us feel confident and attractive or it can make us feel self-conscious and insecure.Fashion is a powerful industry with the ability to influence the lives of billions of people around the world. It is an industry that is constantly changing and evolving.
+
+Design Studio Thesis 12
+
+Members of the community have the right to choose their fashion styles and become their digital assets.
+
+Members of the community have the right to choose their digital assets. The members in the community can exchange their assets with each other. Members of the community can use their assets to purchase goods and services in the real world. Members in the community can use their assets to pay for their membership fees. Members of the community can use their assets to pay for their share of the community’s expenses.
+
+Organizers in the communities should take charge of coordination, and encourage them to work together. Organizers in communities should take charge of coordination, and encourage them to work together. Take charge of coordination, and encourage them to work together.
+
+Organizers should respect the rights of self-expression and creation. The role is open to anyone who wants to contribute to the community. The organizers should be accessible to the community and should be willing to answer any questions or concerns. Organizers should be accessible to the community and should be ready to answer any questions or concerns. How should organizers communicate with the community? Organizers should communicate effectively and efficiently to the community about their plans, events, and announcements. The communication should be respectful and professional. Organizers should also be willing to answer any questions or concerns from the community.
+
+User Flow:
+
+Users extract the content they post and interact with others on social media and turn it into their own digital assets to store in their electronic business cards. This Figma prototype illustrates the whole process.
+
+Design Studio Thesis 13
+
+Pic 10 User Flow
+
+AR Name Card Through spark AR, we can recognize special markings on everyone and turn it into an opportunity for us to introduce our inner world. In fact, this is a filter that can be used on social media, as long as you have the corresponding image to identify the corresponding personal space.
+
+Design Studio Thesis 14
+
+Pic 10 AR Namecard
+
+Discussion
+
+The impact of social media on reshaping our sense of identity has been profound.We now have the ability to share aspects of our lives with a large audience instantaneously. This has led to a fundamental shift in the way we think about our identities. We are now more likely to see our identities as fluid and constantly evolving, rather than as fixed and stable.
+
+Who is defining our fashion nowadays? Fashion is inherently a social phenomenon. A person cannot have a fashion by oneself, but for something to be defined as fashion, there needs to be dissemination and followers. This dissemination can take several forms; from the top-down ("trickle-down") to bottom-up ("bubble up"), or transversally across cultures and through viral memes and media.
+
+If this could value their power, audiences could tolerate them to earn some money. But more disadvantages come emerged. Many KOLs are becoming the slave of data. To attract more people,
+
+Design Studio Thesis 15
+
+influencers perform much extreme things and even harm themselves. Many products care more about marketing because marketing would be the most efficient way to increase selling volumes. Internet celebrities can draw in a devoted crowd of fans whether their reach is small or wide. Often, the connection becomes personal and the celebrity is treated like a friend or even a family member.
+
+Who is defining our fashion nowadays? Fashion is inherently a social phenomenon. A person cannot have a fashion by oneself, but for something to be defined as fashion, there needs to be dissemination and followers. This dissemination can take several forms; from the top-down ("trickle-down") to bottom-up ("bubble up"), or transversally across cultures and through viral memes and media.
+
+If this could value their power, audiences could tolerate them to earn some money. But more disadvantages come emerged. Many KOLs are becoming the slave of data. To attract more people, influencers perform much extreme things and even harm themselves. Many products care more about marketing because marketing would be the most efficient way to increase selling volumes.
+
+The decentralized approach to building social media has not yet been fully discussed. The debate about whether people have the right and ability to build a systematic organization to build awareness on their own, rather than through individuals supported by social media platforms, remains to be explored by designers through speculative design to inspire stakeholders. The purpose of this research is to explore the alternative relationships we have with social media platforms by designing a decentralized social media platform that allows users to interact directly with each other without the control of an invisible middle layer.
+
+Future Work and Envisionments
+
+Since design fiction’s goal is to convey to facilitate and foster debates, as explained by futurist Scott Smith: "... design fiction as a communication and social object creates interactions and dialogues around futures that were missing before. It helps make it real enough for people that you can have a meaningful conversation with". Therefore, I plan to host a community on social media to help young people build their digital identities.
+
+Design Studio Thesis 16
+
+Since design fiction’s goal is to convey facilitate and foster debates, as explained by futurist Scott Smith: "... design fiction as a communication and social object creates interactions and dialogues around futures that were missing before. It helps make it real enough for people that you can have a meaningful conversation with". Therefore, I plan to host a community on social media to help young people build their digital identities.
+
+The more time people spend on social media the more they are exposing themselves to digital identity theft. I want to help not only the younger generation but everyone to build a solid digital identity. This can protect their information and their reputations.
+
+A strong digital identity includes social media, personal websites, and email accounts. The goal is to help people learn to use these tools without revealing too much information.
+
+-1. Create a social media account on Twitter, Instagram, or Facebook.
+
+-2. Find people who are talking about digital identity theft or related topics.
+
+-3. Retweet or share their posts to help spread awareness.
+
+-4. Use the hashtag #BuildYourDigitalIdentity to help people find the community.
+
+Conclusion
+
+In the process of learning to do speculative design, I found that speculative design is not only about showing concepts and worldviews, but also about showing our stories through visualizing the results. One of the things I found challenging was how to create a story that would be compelling, but also believable. I wanted to create a story that would be relatable but also offer a glimpse into a future that might be different from our own.I hope that this exploration of social media and decentralized production methods will attract more people to discuss what kind of ways we can define ourselves in the future and how to distribute them.
+
+Thank you very much to Jiaxuan for her support in this project, she has been actively discussing with me and helping me to optimize
+
+Design Studio Thesis 17
+
+my project, especially in the visual design, giving me a lot of valuable advice. Also a big thank you to Kyle, Eric, Yoon, Sabin, all the students, and judge for their help. It is because of your help that I can better reflect and iterate on my project and grow more.
+
+Design Studio Thesis 18

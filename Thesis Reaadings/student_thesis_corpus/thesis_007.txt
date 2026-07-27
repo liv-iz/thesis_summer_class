@@ -1,0 +1,341 @@
+Abstract
+
+Profound autism presents unique challenges, including severe cognitive impairments, an IQ below 50, and extensive communication difficulties, necessitating round-the-clock care. Traditional communication meth­ ods often fall short, leading to increased caregiver burden and mental health risks. This study emphasizes the need for innovative communica­ tion methods tailored for individuals with profound autism.
+
+The research explores non-verbal communication through physiological and emotion-based analyses, a relatively untapped area within pro­ found autism. It hypothesizes that wearable physiological sensing and affect-based detection systems can effectively communicate basic needs, like thirst, in these individuals. This marks a shift from traditional methods.
+
+The study involved data collection from neurotypical individuals to understand non-verbal communication patterns, employing advanced machine learning models to discern physiological states and needs. From this, the Augmentative and Alternative Communication (AAC) plat­ form ‘Aiden’ was developed. Aiden, a caregiver assistant app, provides real-time assistance and insights based on detected physiological cues, aiding in expressing basic needs. It also features a chatbot for caregiv­ ers, streamlining information access.
+
+While pioneering, the study faced challenges like resource constraints and complexities in processing data from individuals with profound autism. Accurately interpreting physiological cues was difficult, but the study’s potential impact on alleviating caregiver stress and enhancing support is significant. It could lead to similar systems for diverse popu­ lations with communication challenges, marking a significant advance­ ment in assistive technology and healthcare support.
+
+Project Aiden
+
+of the requirements for the degree of
+
+Master of Design
+
+I want to express my heartfelt gratitude to my family, with a special mention of my brother, who has been the motivation behind this project. Their unwavering support and understanding have been the bedrock of my strength and perseverance throughout this journey.
+
+I am deeply thankful to my entire MDes family at the University of Cal­ ifornia, Berkeley, encompassing the faculty, staff, and my batchmates, for their continuous support and encouragement. The camaraderie and solidarity of my friends and cousins have also been a cornerstone of my resilience and determination.
+
+This thesis stands as a testament to the collaborative spirit and guid­ ance I have received. In my academic journey, I have had the privilege of engaging with the works of eminent individuals whose contributions have profoundly shaped my approach. My sincere appreciation extends to Rosalind Picard, Kristy Johnason, Catherine Lord, Bishop Somer, Amy Kelly, John Herrington, Cathy Farmer, Audrey, John Chuang, and Connie Kasari. Their pioneering work in the field has not only guided my research but has also deeply enriched my passion and understanding of the subject.
+
+Special gratitude is owed to my mentor, Luna Andreux, for her invaluable guidance, patience, and wisdom. Her mentorship has been pivotal in shaping both this project and my personal academic development. Her insights have provided clarity and foresight through the complexities of this academic endeavor.
+
+This work is a reflection of the collective wisdom, insights, and contribu­ tions of these remarkable mentors, scholars, and supporters, marking the collaborative and dynamic nature of academic growth.
+
+Discussion
+
+Conclusion
+
+The conceptualization and categorization of Autism Spectrum
+
+Disorder (ASD) have evolved significantly in contemporary scholarly discourse. The increased scholarly focus on ‘profound autism,’ a subtype of ASD requiring extensive caring and exhibiting distinct obstacles, particularly in the domains of communication and self-expression, is a critical aspect of this evolution. Although the proliferation of Alternative and Augmentative Communication (AAC) technologies has benefited many people on the autism spectrum, their applicability remains limited for people with severe autism, owing to the required higher levels of cognitive and motor skills. Emerging research in biosensor and wearable technology has shown promise in overcoming these communication barriers.
+
+“Approxim1ately 1 in 36 children identified with ASD (CDC)”
+
+This focus on technological innovation and care for profound
+
+autism emerges against the backdrop of a broader shift in
+
+the understanding of ASD over the last five decades. Initially, ASD was narrowly defined as a rare childhood-onset disorder with distinct characteristics. The core features of ASD (“Diagnostic and Statistical Manual of Mental Disorders”), characterized by deficits in social communication and repetitive and unusual sensory-motor behaviors, have remained consistent since its inception. Nevertheless, the current perception of ASD has shifted, recognizing it as a spectrum with diverse manifestations, ranging from very mild to severe. This shift in perspective has contributed to recognizing the prevalence of ASD as fairly common and highly heterogeneous, with approximately 1 in 36 children identified with ASD (CDC), signifying an increase in prevalence.
+
+In 2013, the DSM-5 implemented the notion of ASD as a spectrumbased diagnosis, merging the earlier distinct pervasive developmental disorder (PDD)
+
+categories from the DSM-IV. This integration sought to cover a wider array of conditions within the spectrum, such as autistic disorder, Asperger’s disorder, childhood disintegrative disorder, and pervasive developmental disorder not otherwise specified (PDD-NOS), under one unified ASD diagnosis. Significantly, Rett syndrome has been redefined as an independent neurological disorder, distinct from ASD. In parallel with this change, a distinct diagnosis of
+
+social (pragmatic) communication disorder (SPCD) was created for those who have challenges in social communication but do not exhibit repetitive, restricted behaviors. Additionally, the incorporation of severity level descriptions has enhanced the understanding of the varying support requirements for individuals with ASD (Hodges et al.; “Diagnostic and Statistical Manual of Mental Disorders”). In 2021, the establishment of The Lancet Commission on the future
+
+of care and clinical research in autism marked a significant advancement in the ongoing development of understanding and care for ASD. This Commission concentrated on addressing both
+
+historical and forthcoming needs of autistic individuals and their families globally, paying special attention to ‘profound autism,’ a concept they recently introduced. ‘Profound autism,’ suggested as a classification for administrative use, is intended for those with autism who need round-theclock adult care, cannot be left unattended, and struggle with basic daily living skills. Often linked with a significant intellectual disability, typically indicated by an IQ under 50, and minimal language abilities, profound autism is characterized not by its autistic traits but by intellectual or language impairments. This designation is designed to standardize the representation of care needs, differentiating it from informal terms like ‘severe’ or ‘low-functioning.’ While it may encompass behaviors such as self-harm, aggression, and epilepsy, profound autism is not an official diagnostic category but rather an administrative term to encapsulate the additional aspects of intellectual and language disabilities in an autism
+
+diagnosis (The Lancet Commission on the Future of Care and Clinical Research in Autism - The Lancet).
+
+Within the realm of autism, particularly in cases of profound autism, the role of caregivers is crucial, as they frequently face increased anxiety and depression. Generally, parents of autistic children endure higher levels of stress and depression than parents of children who are typically developing or have other disabilities. This heightened stress is shaped by
+
+on (AAC) Devices
+
+various factors such as mental health challenges, insufficient support, the severity of autism symptoms, demanding care requirements, financial burdens, difficulties navigating educational systems, dissatisfaction with healthcare services, and worries about the child’s future (McStay, Dissanayake, et al.; McStay, Trembath, et al.). The societal and familial lack of acceptance of autism, fears about the condition’s permanence, feelings of isolation, and its impact on siblings add to the caregivers’ burden (Sharpley
+
+et al.).
+
+The intensity of challenges escalates in cases of profound autism due to the need for constant, specialized care
+
+stemming from substantial intellectual and language disabilities. This leads to increased emotional and physical demands on caregivers, exacerbating the risk of burnout. The complexity of care for individuals with profound autism underscores the necessity for dedicated support and resources for these families, highlighting the unique challenges they face.
+
+A primary challenge faced by individuals with profound autism is communication and selfexpression. ASD is increasingly recognized as a highly heterogeneous condition, both in clinical presentation (Kim et al.) and likely in its underlying causes (Bill and Geschwind). This diversity is especially apparent in language abilities, where two individuals diagnosed with ASD might have vastly different profiles - one might be nonverbal for life, while the other could be verbally fluent, potentially achieving academic success at a college level or beyond (Pickles et al.).
+
+In addressing these communication challenges, Alternative and Augmentative Communication (AAC) devices have become essential. These technologies significantly enhance
+
+the lives of individuals with autism by aiding both expressive and receptive communication (Kagohara et al.). AAC technologies encompass a range of tools, from communication boards and speech-generating devices to mobile applications like Proloquo2Go. These devices enable individuals with autism to express their needs, emotions, and thoughts more effectively, thereby improving their ability to participate in social interactions and perform daily activities (Flippin et al.).
+
+Studies suggest that tailored interventions, aimed at addressing the unique communication needs and preferences of individuals with autism, are successful in improving their communication abilities and overall life quality. The integration of AAC strategies with individualized approaches shows considerable promise (Kasari et al.). Such assistive technologies play a crucial role in addressing the unique communication barriers faced by individuals with autism, ultimately aiding in their
+
+social integration and improving their overall well-being.
+
+Despite the advancements in Alternative and Augmentative Communication (AAC)
+
+technologies, these tools are not universally effective for all individuals with autism due to varying levels of cognitive and motor abilities.
+
+A significant limitation arises when considering individuals with profound autism. These individuals often face substantial barriers in effectively using AAC devices. This is primarily because AAC systems, although advanced, can be complex and require certain cognitive and motor skills for independent operation. Individuals with profound autism may not possess these skills to a sufficient degree, making it challenging for them to use these technologies without substantial assistance (Lorang et al.).
+
+The concept of physiological analysis and affect-based detection is gaining prominence in enhancing our understanding and support for individuals with autism. This approach involves the use of biosensors to gather physiological data, which can be instrumental in gaining insights into the specific
+
+needs and emotional states of people with autism. This method is especially beneficial for individuals who are non-verbal or have limited communication abilities, as biosensors can provide
+
+a more detailed and nuanced understanding of their conditions that goes beyond conventional communication methods.
+
+An exemplary application of this concept is the ECHOS Platform (The ECHOS Platform to Enhance Communication for Nonverbal Children with Autism | Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems), as demonstrated in a study from MIT Media Labs. ECHOS (Enhancing Communication using Holistic Observations and Sensing) employs audio collection and processing through machine learning algorithms to translate non-traditional vocalizations into communicative content. This platform is unique in that it leverages the knowledge of primary caregivers to facilitate communication between individuals with more severe forms of autism spectrum
+
+disorder (mvASD) and the broader community.
+
+The development of ECHOS was a comprehensive process, spanning
+
+“Our long-term vision is to design a device that can help others better understand and communicate with mv* individuals by training machine learning models using primary caregivers’ unique knowledge of the meaning of an individual’s nonverbal communication.”
+
+eight months and encompassing multiple phases, including a detailed case study, participatory design, and iterative development. The initial phase concentrated on physiological sensing and affect detection through wearable sensors. However, these methods were deemed unsuitable for extended use. Subsequently, in the second phase, the focus shifted to gathering first-person audio and video data. An innovative ‘inthe-moment’ labeling application was employed, facilitating the
+
+Our focus is currently on developing personalized models to classify vocalizations using in the moment live labels from caregivers via the Commalla labeling app.
+
+collection of over 300 precise labels from 13 hours of data. This application was instrumental in acquiring accurate data essential for the development of machine learning algorithms.
+
+Recent studies in the field of wearable technology have shown exciting progress, offering new possibilities in the monitoring, management, and prediction of behaviors and fundamental needs of individuals.
+
+A pivotal study in 2019 (Goodwin et al.) explored the potential of wearable technology in forecasting aggressive behavior in children with ASD. In this study,
+
+20 participants, mainly minimally verbal males aged 6-17, wore the Empatica E4 biosensor, which collected physiological and motion data. The analysis, using logistic regression models, showed
+
+a notable degree of accuracy in predicting aggression, suggesting that wearable biosensors could be invaluable in managing aggressive
+
+episodes among youth with ASD.
+
+The promise of wearable technology extends beyond behavior prediction to detecting and understanding basic physiological needs. Notable research in this domain includes studies like “SenseHunger” (Irshad et al.),  which developed a method to classify hunger and satiety states using wearable sensors, employing machine learning to process physiological signals. Another significant study introduced an automated pain assessment tool using Galvanic Skin Response signals, effectively predicting varying pain intensities in noncommunicative postoperative patients (Aqajari et al.). Additionally, another research presented a non-invasive dehydration alert system using wearable Electrodermal Activity sensors, demonstrating impressive accuracy in estimating hydration levels (Kulkarni et al.). Furthermore, a study focusing on urinary incontinence utilized machine
+
+learning to predict urination times, representing a novel approach in managing this condition (Ali et al.).
+
+Despite these technological advancements, there remains a
+
+“We build software and algorithms to advance understanding of human behavior through wearable sensors.”
+
+gap in the market for products specifically designed for individuals with profound autism, many of whom still struggle with communicating basic needs. However, the progress in biosensory computing and wearables, capable of detecting emotional states like stress and anger and predicting basic needs like hunger, thirst, pain, and the urgency to urinate, holds immense potential. These technologies can significantly enhance the lives of individuals
+
+with profound autism and their caregivers by offering noninvasive, real-time monitoring and predictive capabilities. This advancement in personalized care and management strategies
+
+is a substantial leap forward in improving the quality of life for individuals with profound autism, easing the burden on their caregivers, and representing a significant advancement in the field of autism support and research.
+
+My journey towards this thesis project is deeply personal, rooted in
+
+both love and the challenges posed by my younger brother’s condition. He is  21 years old and has profound autism. He is non-verbal, nonexpressive, and hyperactive, elements that have significantly shaped our family life. We’ve adapted our home environment and lifestyle to accommodate his unique needs, delving into the world of autism-friendly spaces and gaining a deeper appreciation of sensory integration. His encounters with biases in education and healthcare systems have only strengthened my resolve to contribute positively to this field.
+
+My entry into the realm of design was motivated by a single, powerful objective: to create a tool that would enable my brother to communicate. This ambition, which initially seemed daunting, took a more definitive shape during my undergraduate studies. In my second year, while researching epilepsy – a condition common in individuals with profound autism – I stumbled upon Empatica (“Embrace2 Seizure Monitoring | Anshu with mom
+
+Smarter Epilepsy Management | Embrace Watch”), a company known for its wearable device for epilepsy management. This discovery led me to the pioneering
+
+work of Rosalind Picard at MIT Media Labs and her significant contributions to the Affective Computing group (“Group Overview ‹ Affective Computing”). It was then that I realized my true calling lay in
+
+working in the field of autism and alternative communication.
+
+Since that enlightening year, I have been diligently following the latest research and developments in this domain. I reached out to notable experts like Professor Gregory Abowd, Matthew Goodwin, and Leanne Chukoskie. It was through conversations with these thought leaders that I first came across the Lancet Commission of 2021, where I encountered the term ‘profound autism’ and recognized my target group. These interactions eventually led me to consider graduate school, with researchers like Kristy Johanson at MIT Media Labs serving as an inspiration, particularly her work on projects like Commala (“Project Overview ‹ Commalla”).
+
+Arriving at UC Berkeley with a focused intention, I sought to meet these influential figures and create groundbreaking technology that would help individuals like my brother. My academic journey at UC Berkeley was characterized by a dedicated exploration of my thesis topic from the outset. It was during
+
+my final semester at the iSchool, while enrolled in the ‘Biosensory Computing’ course led by Professor John Chuang, that I had the opportunity to engage handson with a range of biosensory
+
+wearables. This included extensive work with the Empatica E4 (“E4 Wristband | Real-Time Physiological Signals | Wearable PPG, EDA, Temperature, Motion Sensors”), among other devices, allowing me to deepen my understanding and practical skills in this area, which was directly relevant to my thesis research.
+
+My brother, with an IQ of less than 30, has always been entirely dependent on our family for his needs, akin to caring for a oneyear-old child. In recent years, his deteriorating health and our inability to understand even his basic discomforts, such as identifying aching body parts, have been a source of immense helplessness for us and the medical professionals we consult. This led me to the idea of harnessing biopotentials. If verbal communication is not feasible, perhaps his body’s physiological signals could provide the insights we desperately need. His physical functions, akin to those of neurotypical individuals, offered a window of opportunity: What if a device could interpret
+
+and communicate these internal physiological states?
+
+This thesis project, therefore, is the culmination of a journey that bridges my personal motivation
+
+with academic pursuit. My goal is to develop an assistive communication device specifically designed for individuals like my brother. This device aims to predict basic needs through biosensory technology – a dream that has evolved from a deeply personal idea into a tangible, academic project fueled by a blend of love and innovation.
+
+The genesis of this project was anchored in a long-held vision to
+
+create technology that markedly enhances communication for individuals with profound autism. Initially, the roadmap to actualize this vision was not well-defined. Engaging in dialogues with family members, notably my mother and sister, and consulting with professionals in allied fields, proved instrumental in forming the foundational approach. These interactions, combined with a thorough examination of existing literature, illuminated critical concerns such as privacy issues, data quality, and the practicality of current methods.
+
+My research questions, developed in response to these insights, focused on four main areas: effectively capturing naturalistic non-verbal communication, improving data quality with contextual insights, developing personalized machine learning methods, and crafting an engaging AAC interface. These queries were informed by the limitations observed in preceding studies, including the ECHOS research’s initial reliance
+
+on Empatica E4 sensors and subsequent transition to audio and
+
+video data, driven by challenges in precise caregiver timestamping.
+
+Driven to probe physiological data for deeper understanding, I was determined to explore whether patterns in responses, such as heart rate and Electrodermal Activity (EDA), could reveal crucial insights into the basic needs of individuals with profound autism. Alternatives like EEG sensors were contemplated but ultimately dismissed due to their cost implications and impracticality. Similarly, audio and video data were excluded due to the potential invasion of privacy.
+
+Gathering data directly from the profound autism community presented its own set of challenges. Key insights emerged during my participation in the adult autism/ dd conference at Stanford, particularly the revelation of the highly individualized needs within this community. This understanding prompted a strategic pivot towards more customized solutions. My personal experience, especially the readiness of my brother to wear
+
+a monitoring device constantly, further influenced this shift.
+
+Subsequently, my focus turned to analyzing accelerometer and gyroscope data, taking into
+
+account the repetitive movements characteristic of individuals similar to my brother. Nonetheless, I recognized that this approach would entail navigating significant noise in the data and complexities in preprocessing and model training.
+
+After considerable deliberation, I decided to commence data collection with neurotypical individuals, with an initial emphasis on hydration needs. Among the various basic needs identified – including pain, hunger, thirst, and the urgency to urinate – hydration emerged as the most viable option within the project’s timeframe.
+
+In parallel, I began developing the user interface (UI) for the app. My initial approach, using bar graphs for visualization, evolved through peer discussions, underscoring the need for a more intuitive design. The objective became to present data in a format easily understandable by caregivers. While I initially considered integrating a comprehensive system with a physical hardware component for
+
+caregiver use, this idea was later set aside to maintain simplicity and cost-effectiveness. The app’s final design thus focused on delivering easy to understand visualization and actionable notifications to
+
+caregivers through alarms and messages, optimizing for ease of use and clear communication.
+
+Throughout this journey, each decision was meticulously weighed against the overarching aim of developing a functional and impactful communication tool for individuals with profound autism and their caregivers. The methodology consistently adapted in response to feedback and emerging challenges, ensuring alignment with the project’s core objectives.
+
+The final design of my thesis project centers around the development of ‘Aiden’, an Augmentative and Alternative Communication (AAC) platform, specifically conceived to assist individuals with profound autism in expressing their basic needs and emotions, while also providing crucial support to their caregivers.
+
+Phase 1: Data Collection and Analysis
+
+The initial stage focused on extensive data collection and analysis, aimed at capturing authentic non-verbal communication patterns from individuals with profound autism. However, due to time constraints and difficulties in finding participants, this phase pivoted to gathering data solely from neurotypical individuals. This approach was underpinned by
+
+the premise that a foundational understanding of neurotypical communication patterns could offer valuable insights for the target group. Data was meticulously collected from 10 individuals, each for a duration of 30-40 minutes.
+
+The Empatica E4 sensor, a wearable device measuring various physiological responses, was employed for data collection. Its capability to detect subtle physiological changes related
+
+to different states, such as dehydration, was crucial. Participants adhered to a protocol where they refrained from liquid intake after waking up, enabling the capture of data in both
+
+dehydrated and hydrated states.
+
+Phase 2: Machine Learning and Predictive Analysis
+
+Data preprocessing emerged as the most challenging aspect of the project. The raw data collected was complex and unwieldy, necessitating the exploration of various techniques for effective processing. After several trials with different methodologies, the decision was made to employ the FLIRT (Feature Generation Toolkit for Wearable Data) (Föll et al.). This Python package, specifically designed for wearable data, provided a robust framework for handling the intricacies of the collected physiological data, facilitating the extraction of 44
+
+features from electrodermal activity data. Subsequently, various machine learning models were evaluated to distinguish between dehydration and hydration states. The Random
+
+Forest algorithm emerged as the most effective, with an accuracy score of 0.991. This stage was key in establishing a predictive system capable of alerting caregivers to changes in hydration levels of individuals with profound autism.
+
+Phase 3: Designing a Preliminary AAC Platform
+
+This led to the preliminary development of an Augmentative and Alternative Communication (AAC) platform. Utilizing Android Studio and the Empatica E4’s SDK, a prototype application was developed. Designed to be caregiver-friendly, this app provides real-time alerts and notifications based on the machine learning model’s analysis. The design of this
+
+platform was informed by the data collected and analyzed, ensuring responsiveness to the specific needs and patterns identified in individuals with profound autism.
+
+Interaction and User Interface of ‘Aiden’
+
+The ‘Aiden’ AAC platform is engineered to provide an intuitive and seamless interaction experience, catering to the unique needs of individuals with profound autism and their caregivers. Central to this interface is the use of the Empatica E4 sensor, a wearable device crucial for realtime data acquisition. Worn by the person with profound autism, this sensor diligently collects physiological data, such as hydration levels, and transmits it to the app continuously, ensuring up-to-date monitoring.
+
+Initial Setup and Personalized Database Creation
+
+During the initial setup phase, caregivers are invited to engage in a comprehensive data input
+
+process under the section ‘Let’s Get to Know Them Better.’ This process involves providing detailed information regarding the individual’s hydration and meal preferences, methods of communicating needs, allergies, personal preferences, and other
+
+pertinent data. Moreover, during
+
+the research phase, caregivers are encouraged to upload critical
+
+documents like
+
+medical histories,
+
+personal care notes, and family traditions to
+
+foster a deeper understanding of the individual. This wealth of information is integrated into a central database, forming the bedrock of a personalized care approach, accessible for later queries through the chatbot feature.
+
+Real-Time Visualization and Alert System
+
+Aiden’s primary function is the real-time visualization of essential needs such as thirst,
+
+hunger, pain, and urgency for restroom use. Utilizing the data from the Empatica E4 sensor, the platform triggers tailored alerts for caregivers, such as alarms and vibration notifications, to prompt immediate care actions.
+
+Integration of Advanced Technologies
+
+The incorporation of Language Learning Models (LLMs) like GPT-4 and the RAG model into ‘Aiden’ significantly enhances the platform’s capability as an interactive support system. This integration facilitates a responsive and adaptive communication
+
+channel within the platform. The inclusion of a chatbot feature allows caregivers to interact with the database, retrieving and inputting vital information seamlessly.
+
+Data Collection, Analysis, and Expansion
+
+‘Aiden’ adopts a structured methodology for data collection and integration. Following the ‘Caregiver Input’ stage, the platform features a ‘Document Upload’ step, enabling the inclusion of essential personal and medical documents into the system. The data accumulated through these stages feed into a dynamic ‘Database Expansion’ process, depicted with an expanding chart icon. This evolving database underpins the ‘Chatbot Interaction’ facility, where caregivers can query and
+
+interact with the system, facilitated by advanced AI technologies.
+
+Additionally, ‘Aiden’ includes a ‘Post-Alert Logging’ feature, where caregivers record responses to alerts, aiding in the continuous learning and adaptation of the app. This logging is integral to the ‘Feedback
+
+and Learning Loop,’ where new data enriches the model training and database, ensuring the system’s ongoing refinement and relevance.
+
+Extended Caregiver Support and Dynamic Development
+
+Designed to provide extended support, ‘Aiden’ proves invaluable in scenarios where primary caregivers are absent, enabling
+
+secondary and tertiary caregivers to access vital information and alerts. The development of ‘Aiden’ has been a dynamic and iterative process, continuously molded by caregiver feedback and emerging
+
+needs. This ongoing development underscores the platform’s commitment to practicality, effectiveness, and empathy, aiming to enhance the lives of individuals with profound autism and alleviate the challenges faced by their caregivers.
+
+The current iteration of ‘Aiden’, while promising, has certain
+
+limitations that frame its immediate application and future development. As it stands, the efficacy of ‘Aiden’ is confined to the dataset derived from the ten participants involved in the initial study. This dataset was pivotal in training the model and shaping its initial predictive capabilities. However, the broader vision for ‘Aiden’ is far more ambitious and adaptable.
+
+The ultimate goal is for ‘Aiden’ to be customizable to any individual with profound autism. To achieve this, a new phase of data collection would be necessary for each additional user. This process involves gathering data specific to the individual over several days, covering basic needs such as hunger, thirst, and the urgency to urinate. Crucially, this data would be time-stamped by caregivers during key activities – such as eating, drinking, or restroom visits – to provide contextual accuracy.
+
+The rationale behind this individualized approach is twofold.
+
+Discussion
+
+Firstly, by using data from a single individual, the model’s accuracy
+
+is hypothesized to improve significantly, as the idiosyncrasies and unique physiological patterns of that person are more accurately captured and reflected. Secondly, this approach allows for a continuous expansion of the dataset. As ‘Aiden’ is used over time and the individual continues to wear the Empatica E4 sensor, new data points are constantly generated. This ongoing data collection not only broadens the dataset but also enables continuous training and refinement of the model.
+
+An important aspect of ‘Aiden’s’ functionality is its feedback mechanism. Caregivers have the ability to provide feedback on the accuracy of the predictions made by ‘Aiden’. If a prediction is confirmed as correct by a caregiver, that data is then added to the training dataset, further enhancing the model’s precision. Conversely, if a prediction is deemed incorrect, the data associated with that instance is discarded. This feedback loop is essential, as it allows ‘Aiden’ to learn and adapt over time,
+
+gradually increasing its reliability and effectiveness.
+
+In conclusion, while ‘Aiden’ in its current form represents a significant step forward in AAC technology for
+
+individuals with profound autism, its future lies in personalized, adaptive learning that tailors its functionality to each user. This approach not only promises enhanced accuracy but also ensures that ‘Aiden’ evolves alongside its users, continually adapting to their changing needs and circumstances.
+
+The present study lays the groundwork for enhancing
+
+communication aids for individuals with profound autism. The future trajectory of this research encompasses several key areas:
+
+Expanded Data Collection and Targeted User Testing: Future research should focus on gathering data on a broader range of needs, including hunger and pain, in addition to thirst. Crucially, direct user testing with individuals with profound autism will provide essential feedback for refining the system’s effectiveness and user experience.
+
+Development of a Comprehensive Predictive Model: Enhancing the machine learning models to predict a wider spectrum of needs and emotional states is a priority. This expansion will transform the system into a more holistic tool for nonverbal communication.
+
+App and Wearable Device Customization: Improving the AAC platform’s intuitiveness is vital. Furthermore, developing customizable and sensory-friendly
+
+wearable devices is essential, considering the diverse preferences
+
+and sensitivities of individuals with profound autism.
+
+Interactive Learning and Personalization Mechanism: Implementing a feedback loop where caregivers can correct the system’s predictions will enable the model to learn and adapt over time. This feature is critical for developing a solution that evolves according to individual user profiles.
+
+Stress and Anxiety Monitoring: Utilizing Electrodermal Activity (EDA) for non-invasive monitoring of stress and anxiety offers a promising avenue. Developing models that accurately interpret these signals can significantly aid caregivers in managing the emotional well-being of those with autism.
+
+In essence, the proposed future work aims to build upon the initial findings of this study, focusing on broadening the scope of the research, enhancing technological solutions, and ensuring these solutions are deeply personalized to the needs of individuals
+
+with profound autism and their caregivers. The objective is to leverage technological advancements to create more empathetic and effective tools for autism care.
+
+This thesis project, centered around the development of ‘Aiden’, an
+
+Augmentative and Alternative Communication (AAC) platform, represents a significant stride in addressing the communication challenges faced by individuals with profound autism. It is a testament to the potential of combining advanced technology with a deep understanding of the unique needs of this population.
+
+Throughout this study, from the initial concept to the final design of ‘Aiden’, the focus has been on creating a tool that not only enhances communication for individuals with profound autism but also eases the burden on their caregivers. The journey began with a thorough investigation into current AAC methods, identifying their limitations, particularly for those with profound autism. This led to the innovative approach of utilizing wearable technology, specifically the Empatica E4 sensor, to gather physiological data that could reveal insights into the non-verbal communication patterns of these individuals.
+
+Conclusion
+
+The pivot to collecting data from neurotypical individuals,
+
+although initially necessitated by practical constraints, provided valuable foundational insights. The employment of machine learning models, particularly the Random Forest algorithm, in interpreting this data marked a crucial step in developing a predictive system capable of identifying basic needs like thirst.
+
+The creation of ‘Aiden’ as a prototype AAC platform is a milestone in this journey. Its user-friendly interface, designed to provide real-time alerts to caregivers, embodies the project’s commitment to practicality and empathy. The interaction design ensures continuous monitoring and communication, offering a new level of support to those caring for individuals with profound autism.
+
+However, the project acknowledges its limitations. The current model’s efficacy is restricted to the data set obtained from the ten participants. The future of ‘Aiden’ lies in its ability to be personalized for each user, which will involve collecting
+
+and analyzing individual-specific data and incorporating caregiver feedback for continuous model improvement.
+
+The ultimate vision for ‘Aiden’ is
+
+ambitious yet attainable. It aims to evolve into a highly adaptive and personalized tool that caters to the unique needs of each individual with profound autism. This evolution will not only enhance the accuracy of the platform but also ensure that it adapts and grows in tandem with its users.
+
+In conclusion, this thesis project represents a blend of academic rigor and personal motivation, fueled by a desire to make a tangible difference in the lives of individuals with profound autism and their families. ‘Aiden’ is more than just a technological innovation; it is a step towards a more inclusive and supportive future where the complexities of profound autism are met with equally sophisticated and compassionate solutions.
+
+1. Ali, Haneen, et al. “Mitigating Urinary Incontinence Condition
+
+Using Machine Learning.” BMC Medical Informatics and Decision Making, vol. 22, no. 1, Sept. 2022, p. 243. BioMed Central, https://doi.org/10.1186/ s12911-022-01987-3. 2. Aqajari, Seyed Amir Hossein, et al. “Pain Assessment Tool With Electrodermal Activity for Postoperative Patients: Method Validation Study.” JMIR mHealth and uHealth, vol. 9, no. 5, May 2021, p. e25258. PubMed, https:// doi.org/10.2196/25258. 3.	 Bill, Brent R., and Daniel H.
+
+Geschwind. “Genetic Advances in Autism: Heterogeneity and Convergence on Shared Pathways.” Current Opinion in Genetics & Development, vol. 19, no. 3, June 2009, pp. 271–78. PubMed, https://doi.org/10.1016/j. gde.2009.04.004. 4.	 CDC. “Data and Statistics on
+
+Autism Spectrum Disorder | CDC.” Centers for Disease Control and Prevention, 12 May 2023, https://www.cdc.gov/ ncbddd/autism/data.html. 5.	 “Diagnostic and Statistical
+
+Manual of Mental Disorders.”

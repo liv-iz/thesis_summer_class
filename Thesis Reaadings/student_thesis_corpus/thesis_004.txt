@@ -1,0 +1,351 @@
+Abstract
+
+Teaching high school chemistry is particularly challenging because students can not see how the macroscopic world results from interactions at the atomic and molecular levels. (18) (American Chemistry Society) Every key concept of chemistry, such as the behavior of matter or molecular bonding, requires understanding the relationship between the macroscopic, molecular, and atomic levels. To explain these relationships, high school teachers must constantly show what is occurring at different levels during direct lectures or the demonstration of an experiment in their classrooms.
+
+Today, teachers use digital presentations with videos and images where students can see content in motion. Each type of representation is particularly beneficial for explaining different concepts. Images are a resource to explain spatiality, and videos visualize the relation between space and time. (22) (“Why a Diagram Is (Sometimes) Worth Ten Thousand Words”)  However, many times, spatiality is confusing in images and videos, and understanding 3D concepts is challenging. For students, it is easier to understand concepts when the representation is connected to what is occurring in the physical classroom. (23) (Seufert) As for teachers, it is challenging to maintain a protagonist role because students’ attention is focused on the screen rather than what the teacher shows in real-time. High school teachers still need help explaining what is not visible to the human eye with the technological tools available and face several challenges when learning new technologies.
+
+Teachers need more time, resources, and a supportive community to learn and incorporate new technologies. Studies show that positive student learning outcomes are insufficient to include emerging technology in their classrooms. The need for more resources and a teachers community to share experiences using digital
+
+technology raises resistance to technology adoption for teachers. (Meliha Zejnilagic-Hajric et al. 2017).
+
+This research project aims to design and evaluate a new tool for high school teachers to facilitate access to Augmented Reality (AR) and Virtual Reality (VR) to help them explain the relationship between the macroscopic, molecular, and atomic levels. Studies show that these technologies are a new medium that allows teachers to explain complex 3D concepts, something that today’s teaching tools lack. (5) (Johnston et al.)
+
+This thesis is a case study with Aaron Glimme, a chemistry teacher at Berkeley High School. Aaron teaches AP and CP chemistry and has a total of 130 students. We designed two artifacts: a teaching tool to facilitate AR and VR access and a AR experience to validate what the teaching tool can make. The first artifact is designed as a clickable prototype in Figma and tested with Aaron. The second artifact is built in Unity and tested by Aaron and 15 AP students during a particular class.
+
+Focusing on Aaron Glimme’s needs as a high school teacher narrows down the project’s scope and does not allow evaluation from other science high school teachers. Moreover, we are only developing a AR experience and will not evaluate what changes VR requires.
+
+This project is novel research for building a teaching tool that provides access for science teachers to AR and VR. In future work, the device should be evaluated by other chemistry teachers and work closely with biology and physics high school teachers to understand the particular challenges in these fields. Moreover, the tool needs further development to be more efficient in creating VR experiences.
+
+Fig 0: Technology evolution in classrooms. (1) (del Campo et al.)
+
+The impact of teaching tools in the classroom
+
+The technological tools used in classrooms over the past 100 years significantly impacted the teaching model, how the classroom space is organized, and how teachers display the information to students, among others. (1) (del Campo et al.) Despite this evolution, there are still specific topics, especially when teaching complex 3D science topics, that is difficult for high school teachers to explain with today’s technological tools.
+
+In the 19th century, chalkboards were introduced to classrooms allowing teachers to write vital real-time concepts for students to remember. This new technology had positive learning outcomes in the past, but teachers spent much time writing and planning the content, and once they deleted the content, it was impossible to go back to the previous boards. (1) (del Campo et al.) Another issue with chalkboards was that teachers could not show images or illustrate 3D concepts.
+
+In the 1960s, overhead projectors were invented, reducing the time teachers spent during the lecture to write down key concepts. This new technology was revolutionary because now teachers could show images, write annotations on top of them, and go back to previous content. (1) (del Campo et al.) Regardless of the teaching benefits of overhead projectors, teachers spent much time creating new content, and it was still hard to explain science concepts with static images that were outdated in little time.
+
+Today, high school teachers explain science concepts with dynamic presentations that combine images, illustrations, and videos. Access to online resources has ultimately impacted teaching models since it became a stand-alone source of information for teachers and students. Undoubtedly, the internet and
+
+dynamic presentations have brought notable benefits to classrooms, but many problems still need to be solved using these technologies. Lowering the barriers to accessing information from the internet allows teachers to find new content without stepping into a library. However, this information is only sometimes verified, and the best content is often hard to find.
+
+Presentations with images and videos allow teachers to create more dynamic and engaging content for students. Each media representation is particularly beneficial for specific objectives. Images represent spatiality, and videos show the combination of spatiality and time. (22) (“Why a Diagram Is (Sometimes) Worth Ten Thousand Words”) However, many times, spatiality is confusing to understand using images and videos, and understanding 3D concepts is challenging. It is hard for students to understand concepts when the representation is not connected to what is occurring in the physical classroom. (23) (Seufert) Moreover, it is hard for teachers to keep a protagonist role because students’ attention is focused on the screen rather than what the teacher shows in real-time. Teachers can access physical 3D molecular kits to explain 3D concepts; however, these are difficult to interact with and customize for different teaching purposes.
+
+Virtual, augmented, and mixed reality (XR) can enhance teachers by enabling them to visualize 3D concepts that are not visible at the macroscopic level and would be impossible to teach in a physical classroom. (2) (Willcott) XR can revolutionize high school education by creating immersive teaching experiences that allow teachers to explain science concepts in a way they could never do.
+
+Immersive technology and hardware evolution
+
+Virtual reality (VR) is a simulated environment generated by computational graphics, which allows users to interact with a virtual space and objects in a three-dimensional experience. Users can access VR with a headset or a mobile device. (2) (Willcott) Morton Heilig invented the first mounted VR display and patented in 1960. The first affordable VR headset for commercial use is the Oculus DKI, launched in 2012 and followed by the Google Cardboard in 2014. More than 11 different VR headsets have been established and have become more accessible to the public.
+
+Augmented reality (AR) is the real-time overlap between reality and computational graphics, allowing users to interact with 3D objects with a device. (2) (Willcott) Smartphones are today’s immediate access
+
+to AR technology, allowing rapid adoption. However, accessing the technology through the phone limits the immersive and interaction with the 3D objects since the user has to observe through a 2D screen and their hands are not free. In 2016, it was launched the AR headset Hololens 1, the first affordable for commercial use headset, followed by Meta AR that same year and Magic Leap 1 in 2019. In 2022 AR headsets are still very expensive for the general public and are mainly used in professional environments.
+
+Extended reality (XR) refers to augmented reality, virtual reality combined, and the concept will be used during this thesis project to refer to VR and AR technologies together. (24) (Milgram et al.)
+
+Fig 1: XR hardware evolution.
+
+Image shared by Charles Yust, Executive Technology Director, Frog.
+
+Fig 3: Hololens 2 (February 2019)
+
+Fig 2: Oculus quest 2 (October 2020)
+
+Fig 4: Students collaborating with VR technology at a Biology class
+
+(25) (Webb et al.)
+
+Fig 5: Hannah Bartolomea testing VR experience at MDes Studio Class at Jacobs Hall, UC Berkeley. September 2022. 10
+
+Immersive technologies in high school classrooms
+
+XR is still an emerging technology; however, studies show that it holds promises for future teaching and learning in high schools.
+
+Research has proven that VR provides several benefits for students when learning science. It improves students’ learning of 3D science topics by allowing them to learn about these concepts in an interactive 3D environment (5) (Johnston et al.). It enables students to interact and learn hard-to-visualize concepts in a safe space. (6) (Smutny). It is particularly beneficial for students who have not mastered the subject since the technology allows them to practice complicated experiments they can not carry out in real life. (7) (Alaraj et al. 2011; Larsen et al. 2012). The Stanford founding director of Virtual Human Interaction Lab analyzed which situations are appropriate to use VR in education and concluded that the technology is most effective when activities are “Dangerous, Impossible, Counterproductive, or Expensive and rare (DICE).” (3) (Bailenson).
+
+The literature demonstrates that AR technology benefits students by motivating them to interact and collaborate with classmates. AR has increased student motivation’s attention, satisfaction, and confidence factors (4) (Khan et al.). A study published in 2020 to evaluate the impact and motivation of using AR for geometry classes in Mexican middle schools found that AR is a better learning tool than the web. Furthermore, they evaluated the technology in private and public schools to evaluate the effectiveness differences. They found
+
+that AR was more effective in learning concepts for private school students, and they were more motivated towards technology. (14) (Ibáñez et al.). Immersive learning has yet to be widely used in classrooms, and technology’s benefits and challenges are not specific. Some of the biggest challenges are that it helps motivate students and concentrate on what is being taught, yet it could be more effective in increasing knowledge and understanding. (8) (Meyer et al.) It has also been highlighted that due to the lack of resources, it is challenging for teachers and students to learn how to use XR technology. (14) (Ibañez et al.). This last challenge is particularly of interest to this research paper, which analyzes what kind of tools teachers need to facilitate access to technology in the classroom.
+
+Building XR applications is challenging because it is highly technical, and only a few developers are trained for this task. Low-code, no-code tools such as FlowMatic allow developers and non-developers to create VR experiences directly from the virtual environment. (25) (Zhang and Oney) These tools simplify the building process by designing a user interface and focusing on specific use cases that reduce the number of functions available. High school teachers have specific needs and can use XR technology for particular purposes. Therefore, this research paper focuses on developing a no-code tool to tackle this problem.
+
+Mainly every research paper focuses on how AR and VR can improve student learning, an undisputed outcome to analyze. However, understanding how AR and VR can benefit teachers is essential when investigating how
+
+The role of teachers in the classrooms
+
+Teachers were forced to suddenly change their teaching methods and embrace digital learning, which had a lot of unsolved issues. Educators had to deal with pedagogical and psychological components, technical problems, and rethinking hands-on activities. Introducing new technologies in the classroom is particularly challenging, and it becomes more complicated when teachers are forced to make an abrupt change. A study shows that those teachers who intentionally transitioned to online teaching tended to depend less on traditional methods and used more digital-based methods. (16) (Grunwald Associates LLC) This means that if teachers are thoughtfully introduced to new technologies, they will be more open to using them.
+
+COVID-19 taught us that students need teachers to learn, especially vulnerable or marginalized children. Some of the biggest concerns among parents worldwide have been about learning losses for their children and the vast impact this may have on their academic and human development. (15) (Hargreaves) The national educational assessment showed that COVID-19 devastated middle and high school students. 2020 had the most significant dropout in math in history, and elementary students had lower results in their reading levels. (20) (“NAEP Nations Report Card - National Assessment of Educational Progress - NAEP”). COVID-19 negatively impacted students; however, teachers had to deal, on top of their usual challenges, with challenges they had never faced before.
+
+Fig 6: Illustration made by Lucila Duloup @LadyLobaArte for
+
+Teachers’ day in Argentina, September 2019
+
+Fig 7:  A model of teacher change (19) (Guskey)
+
+Fig 8:  Aaron Glimme, Chemistry High School teacher at Berkeley High School using projector screen with key note presentation designed by him. October, 2022. 14
+
+Adoption of new technologies in Teachers
+
+A study published in 2020 to test how science middle school teachers adopt new technology in their classrooms found that teachers are very receptive to digital technology if they see a positive learning impact on their students. (9) (Walan) Moreover, the model of teacher change Fig.7 (19) (Guskey) also shows how teachers change their belief of a new practice once they see positive learning outcomes in the students. (10) (Clarke and Hollingsworth).
+
+Even though several studies show that positive learning outcomes in students are a good reason for teachers to incorporate new technology in their classrooms, studies show that this is not sufficient. The lack of resources and a teachers community to share experiences using digital technology raises resistance to technology
+
+adoption for teachers. (Meliha Zejnilagic-Hajric et al. 2017). Teachers are responsible for learning how to use technology individually and don’t have enough time or resources to become familiar with it. (11) (Hasse (2017) Science teachers will use digital technology if they see positive learning outcomes, are enthusiastic about incorporating new teaching media and have easy access to technology. (12) (Dawson 2008) Moreover, science teachers will use new technology if their curriculum supports it and have time to plan how to incorporate it in their classrooms. (13) (e.g., Williams et al. 2004) These challenges are hard to tackle when incorporating emerging technologies such as VR and AR. Therefore, this research paper considers all these challenges to lower barriers for teachers and design a tool to give access to VR and AR.
+
+The exponential growth of XR technologies
+
+In the last decade, XR hardware became more economically accessible and provided higher-resolution experiences resulting in a massive increment in headsets selling. In 2019, several companies shipped 0.6 million AR and 7 million VR headsets. By 2022, this number increased to 19.5 million AR and 30 million VR headsets. (21) (Statista) Moreover, the number of people developing VR applications for educational purposes has been growing; the Oculus App store had 171 educational apps in January 2019 and increased to 234 by August 2021. (6) (Smutny, “Learning with Virtual Reality: A Market Analysis of Educational and
+
+XR hold promises for future education
+
+We should embrace XR technology because it benefits higher education in several studies, especially for science classes. Literature proves that AR increases students’ concentration, and motivates them to learn more about the subject. (4) (Khan et al.). VR helps students to interact with concepts that can not be seen in real life in a safe space. (6) (Smutny). It is particularly beneficial for students who have not mastered the subject since the technology allows them to practice complicated experiments they can not carry out in real life.  (7) (Alaraj et al. 2011; Larsen et al. 2012). The possibility of showing 3D complex concepts in an immersive way without losing the teacher’s protagonist role is a huge motivation factor to continue working with XR technology.
+
+Teachers can be XR creators too
+
+Some of the biggest challenges for educators to adopt new technologies in their classrooms are the lack of a teachers community to share experiences, lack of time, and a steep learning curve. Our tools’ vision is to tackle these problems and convert those teachers who demonstrate high enthusiasm into creators of their content. XR technology can become a powerful tool for teachers because it allows them to explain complex 3D concepts and create engaging experiences for their students. It is highly motivating to work on a device that will lower barriers for teachers to access XR while empowering them as content creators.
+
+Method/Approach
+
+This research thesis is a case study with Aaron Glimme, a  high school teacher at Berkeley High School who teaches AP and CP chemistry classes for 130 students. This research thesis has a total length of 15 weeks and is done in collaboration with UC Berkeley MDes student Hannah Bartolomea. Conducting a case study reduces the scope of the research to only one kind of science, in this case, chemistry, and focuses on Aaron’s particular needs. Due to time constraints, this method is the most appropriate to dive deep into the problem and possible solutions.
+
+Some of the most critical limitations are that other science teachers may have more needs not considered during this project. Moreover, we only focus on AR, and VR is only viewed as another possible technology. The logic behind this decision is the same, lack of time forces to reduce the scope and focus.
+
+To evaluate what kind of tools teachers need to access AR and VR technology, we conduct two qualitative interviews with Aaron and an observation of his AP and CP classes. Findings showed that building a tool to help teachers access to XR was critical to introducing
+
+technology in classrooms. Moreover, designing a specific AR experience will strengthen our argument and test a possible outcome the tool can deliver.
+
+We validated our design direction with Aaron during an hour interview. However, to get a broader perspective on class planning and a design direction validation, we interview Emmy Trieu, a biology high school teacher at Oakland School of the arts. Moreover, advisors Rajan Vaish, Bala Thoravi Kumaravel, Michael Neimark, and Aditya Vishwanath are contacted to learn more about education, VR, and AR technology.
+
+Both design artifacts, the tool called TeachXR, and AR experience are tested in class with Aaron. The TeachXR tool is built as a Figma clickable prototype and tested in a 20-minute session with Aaron. The AR experience is designed for Aaron’s enthalpy class as a possible outcome from TeachXR. It is developed in Unity and built for Android using the AR core template and Vuforia Engine. The experience is tested with 15 students in a particular class. After that, based on the evaluation results, a final design iteration is made for both artifacts.
+
+Research: defining the problem scope
+
+A literature review about how XR technology impacts high school classrooms showed that XR has several positive learning outcomes for students, detailed in the prior art section. However, little or no research evaluates how XR can benefit teachers. Studies show teachers need more than positive learning outcomes to adopt new technology. Some of the most critical challenges for teachers when introducing new technology are the need for more time, learning resources, a community to share experiences, and a steep learning curve reduction.
+
+This research thesis aims to design and evaluate a tool for teachers to tackle these problems and facilitate access to XR in their classrooms. To achieve this, we conduct a case study with Aaron Glimme, a high school teacher at Berkeley High School who teaches AP and CP chemistry classes for 130 students. Conducting a case study has certain limitations described in the methods section, but it reduces the scope of the project and allows a better understanding of the specific needs of chemistry teachers.
+
+Two interviews and one observation are conducted to understand Aaron’s teaching needs and what causes resistance to introduce XR in his classroom. The
+
+first introductory interview lasts 1 hour and aims to understand the most significant challenges Aaron faces when teaching chemistry and the technology he already uses in their classroom. The most important findings in the first interview are about his teaching techniques and enthusiasm for technology. Aaron explains that teaching is content-centered instead of student-centered, meaning that some students may need more review sessions, but the content is always taught similarly. Moreover, Aaron is a tech enthusiast and already uses different technologies in his classroom, making him a great candidate for our case study.
+
+An observation of his CP and AP chemistry class is made to learn more about how Aaron conducts his class, how he interacts with students, and how the classroom space is configured. During this observation, two crucial findings are discovered. First, Aaron constantly connects information between three different media, an in-class experiment demo, a giant periodic table, and a screen projecting the experiment. Second, students at the back cannot see the actual demo experiment, they only observe the projection, and none of them have hands-on experience because of security reasons.
+
+Fig 9:  Observation Aaron Glimme’s class. October, 2022.
+
+Fig 10:  Observation Aaron Glimme’s class using laser pointer on periodic table. October, 2022.
+
+Ideation: focusing on teachers
+
+After the observation, we met with Aaron to present two possible design directions. An AR experience to visualize in real-time what is happening at a molecular or atomical level - something he can not show in a physical class, and an AR experience for his students to replicate in their desks the demo. He defined the first option as a “better version of reality,” whereas the AR experience focused on students was a “worse version of reality.” Changing the project user focus from students to teachers is the most significant decision. It started a novel direction for our research and the opportunity to re-think the problem statement.
+
+This new project direction required going back to the literature review and learning more about how new technologies helped teachers in classrooms during the last 100 years. Findings showed that XR could impact teachers positively and help them explain 3D concepts
+
+that are hard to visualize. However, the literature showed that it is complicated for teachers to introduce new technologies in their classrooms.
+
+To get a broader perspective on class planning, we interview Emmy Trieu, a biology high school teacher at Oakland School of the arts. During this early stage, advisors Rajan Vaish, Bala Thoravi, Michael Neimark, and Aditya Vishwanath are contacted to learn more about education, VR, and AR technology. Some of the most significant findings are that teachers prefer to edit content rather than create content from scratch and already use platforms like www.teacherspayteachers. com to search for and share content. Moreover, we discovered that XR activities should be categorized into three groups based on teachers’ standard practices: openers, reviewers, and open lecture explanations.
+
+Fig 11:  Early brainstorming and sketches.
+
+Design process: two artifacts
+
+After these findings, it was clear that we needed two different artifacts, a teaching tool to help teachers introduce XR in their classrooms and an actual AR experience for Aaron.
+
+because we have to simplify and adjust the building experience to teachers’ specific needs. It required several meetings with Aaron to understand how to simplify the experience and structure the creator template to build more than one specific class. There are two crucial variables in mind in this stage: XR technology is beneficial to show 3D concepts immersively, and chemistry teachers need to constantly explain the relationship between the macroscopic, molecular, and atomical levels. Therefore, we designed three main views or states for teachers to interact with, macroscopic, molecular, and atomical. States are interconnected since the molecules and atoms will behave differently depending on the element, and the variables are chosen in the first step.
+
+We designed a digital tool as a clickable prototype using Figma to test with Aaron Glimme. At first, we focused on the explore mode and what kind of user experience teachers prefer for choosing an XR activity. The most important findings in our first session with Aaron are what kind of filters teachers need while searching for activities, having video instead of text tutorials, and having a creator mode for teachers like Aaron who are interested in creating content.
+
+Designing a creator mode is particularly challenging
+
+Fig 12:  Low fi wireframe of Explore mode. Fig 13:  High fi final wireframe of Explore mode.
+
+Teachers’ common practices inspiration
+
+Fig 14: Google slides 2022. Slide small view on the left, main view in the middle.
+
+Creator mode process
+
+Fig 16: First creator mode wireframe.
+
+Fig 18: Creator mode with right menu development. Fig 19: Creator mode.
+
+Fig 15: Google sheet 2022. Edit menu on the right.
+
+Fig 17: Creator mode layout related to today’s teachers’ technology.
+
+An AR experience is created in Unity to evaluate a possible outcome of the creator mode of TeachXR tool. It is designed for the enthalpy class; Its main objective is to visualize the relationship between the macroscopic and molecular levels by showing how the H2O molecules are affected by three variables, mass, temperature, and heat capacity. We tested the technical feasibility of using Unity physics to impact the molecules. This process required several iterations, but it was proven that this could be made.
+
+When the prototype was presented to Aaron, he suggested having three different states, solid, liquid, and gas, to show how H20 molecules are affected by temperature. Therefore, due to time constraints, we started working with animations made in Unity instead of using Unity physics. Three draft image markers were designed to activate three animations representing the three states.
+
+Building the AR experience also helped to iterate on the design of the creator mode since it is easier to understand Aaron’s needs by showing him the different possibilities that the technology has. One of the most significant findings during this process is that at first, we only focused on one formula with three variables mass, temperature, and heat capacity; however, different elements or molecules would be impacted by different formulas. Therefore, we changed the molecular editing step from having one formula option to multiple formulas.
+
+Videos were sent to Aaron for specific feedback on the molecules’ size, speed, and movement. Aaron suggested keeping the hydrogen and oxygen closer to the solid state and adding a chart showing how the variables affect the molecules.
+
+Fig 20: Creator mode Unity. Validating feasibility of physics code.
+
+Fig 22: AR App building in Unity, 3 states with 3 draft image markers.
+
+Fig 23: AR App test, draft image markers. Fig 24: Conical flask and molecules modelling in Blender.
+
+Fig 21: Testing AR app with logo in UI
+
+Testing
+
+Aaron tests the final high-fi Figma prototype, and the results show that most of the design decisions were validated. The creator and explore mode steps are consistent, and the experience is similar to how digital presentations work. This decision was made to simplify the learning curve for teachers, a resistance factor to introducing new technologies in their classrooms. However, it was found that some design decisions need more space for improvement.
+
+The creator mode should allow teachers to add more than one container in the same state since it is vital to show the difference in how molecules change on different containers. Molecule and atomic states should be optional because teachers will only sometimes need to show both. Therefore an enable/disable button should be added in each state. Moreover, more consistency between the teaching tool and the final AR experience is needed; for example, image trackers should be added.
+
+Aaron tested the AR experience in a class with 15 students, and an observation and short evaluation with him was conducted. Aaron did a demo with three conical flasks that contained ice, water, and boiling water. He placed the three image trackers in front and showed and explained how molecules differ between the three states.
+
+The most significant findings were that the technology was efficient and easy to use. Aaron had no technical difficulties, and students said out loud what was going on aloud, indicating that they could easily understand how molecules were impacted. However, some improvements should be made; the app should be landscape instead of vertical, so the projection is easier to see on the screen. The chart will be easier to understand if we have only one chart with three different points indicating which state is represented. Moreover, Aaron suggested that it would be interesting to show the difference in the attractive force between bonds.
+
+Fig 25: Aaron Glimme using TeachXR.
+
+Fig 27: Aaron Glimme using AR app in his class and projecting to the big screen.
+
+Fig 26: Aaron Glimme showin AR gas state in his hand.
+
+The final design has two primary artifacts TeachXR,
+
+an app aimed to empower high school teachers to create and share XR activities for their classrooms, and
+
+a AR activity designed for Aaron’s class as an example
+
+of a possible outcome from TeachXR.
+
+Fig 28: TeachXR app, explore page.
+
+Artifact 1: TeachXR app
+
+The TeachXR app is a web app to lower technological barriers for high school teachers and allow them to use, create, and share XR experiences. The app’s desktop version allows teachers to search and design, while the phone or headset app is used to reproduce the selected experiences in the classroom. This medium distinction is based on teachers’ practices; teachers use their laptops to plan their lessons and should do as little as possible on their phones or headsets.
+
+The web app considers teachers like Aaron Glimme, who are content creators and enjoy the process of making, and teachers willing to use XR in their classrooms to explain a concept but not necessarily create a new experience. To consider these two high school teachers, TeachXR has two main feature modes explore and creator mode.
+
+Fig 29: Explore page
+
+Explore mode
+
+Teachers can search the community catalog to find XR experiences in a gallery format. Teachers need specific filters to find the most relevant experience, such as grade, topic, subtopic, the technology used (VR and AR), curricula compliance, and type of activity.
+
+Fig 30: Explore mode, step 1: Description page
+
+When the teacher selects an activity, a five-step process starts - Description, Settings, XR activity, Instructions, and Save. The first step provides more information about the XR experience selected, such as a detailed description and a review list from other teachers. Reviews from other teachers are critical because one of the leading causes that stop teachers from introducing new technology in their classrooms is the lack of a teachers community.
+
+Fig 31: Explore mode, step 2: Settings page
+
+In the second step, teachers can check and adjust some general settings - technology, number of students, hardware available, and activity duration.
+
+Fig 32: Explore mode, step 3: XR Activity page
+
+The third step, the XR activity, is optional for those teachers who want to tweak the experience in some way. If they decide to edit the actual XR experience, they will be redirected to the creator mode, which is explained in the next section.
+
+Fig 33: Explore mode, step 4: Instructions page
+
+The fourth explains to teachers with videos how to download the app on their phone or headset, adjust their classroom, and use the experience during class.
+
+Fig 34: Explore mode, step 5: Save page
+
+The fifth and final step is a review step where teachers learn how to save the experience to their phone, and can access links with more information about technical instructions.they will be redirected to the creator mode, which is explained in the next section.
+
+Fig 35: Creator mode, step 1: Description page
+
+Teachers who want to create their own XR experience can customize their experience easily using the creator mode. This mode has the same five steps, Description, Settings, XR activity, Instructions, and Save. The design layout is consistent with the explore mode and keeps it as simple as possible to lower technological barriers for high school teachers. The first step is to describe the experience that the user will create. It is recommended that theacers have a clear picture of what they will create before starting the building process. However, they can go back to this step at any point to edit the text.
+
+Fig 36: Creator mode, step 2: Settings page
+
+The second step is to provide the system with the necessary settings about the activity and how it should be categorized. These settings help other teachers to search more efficiently.
+
+Creator mode
+
+Fig 37: Creator mode, step 3: XR activity page/macroscopic view
+
+The third step, XR activity, was created with Aaron’s input which was very helpful in understanding the essential features to be considered while making. One of the biggest challenges was simplifying and standardizing what options a teacher needs to create a XR experience that is useful to explain chemistry topics. To explain chemistry concepts, teachers must show the relationship between the macroscopic, molecular, and atomical levels. Therefore, the creator mode has three views macroscopic, molecular, and atomical views.
+
+The macroscopic view is the first step to creating the XR experience. The teacher selects an element or molecule they want to show during class. The element or molecule selected is placed in a conical flask by default, but the container can be changed if needed. Moreover, teachers can write a title or descriptive text if necessary. All changes are visible in real-time in the center of the layout.
+
+Fig 38: Creator mode, step 3: XR activity page/molecular view
+
+The molecular view shows how the molecules are affected by particular variables—different formulas impact elements differently. Therefore teachers can select a formula or variable to show how the molecules are impacted while explaining a concept.
+
+Fig 39: Creator mode, step 3: XR activity page/atomical view
+
+The atomical view is automatically created based on the element or molecule and variables selected. AP and CP teachers will only sometimes use this view, but explaining some concepts it is crucial for certain topics.
+
+Fig 40: Creator mode, step 4: Instructions page
+
+Fig 41: Creator mode, step 5: Save page
+
+The last two steps, instructions and save, are identical to the explore mode. Teachers can review the XR experience, and learn with tutorials how to technically use their creation.
+
+Fig 43: Phone screenshot installation.
+
+Fig 44: Phone screenshot installation.
+
+Artifact 2: AR activity
+
+Fig 42: Unity builder, three states - solid, liquid, and gas.
+
+Fig 45: Phone screenshot installation.
+
+Fig 46: Phone screenshot - app installed.
+
+The AR experience was designed as a possible outcome of the TeachXR tool. The experience was designed for Aaron’s enthalpy class and visualizes how H2O molecules change from solid to liquid and gas state. Molecules are colorcoded to be consistent with science diagrams and illustrations.
+
+The experience was built for Android in Unity with the AR Core template and Vuforia Engine, and built for Android and projected to a screen from a laptop mirroring the phone. An AR image tracker Manager component tracks three image that when activated, show three different prefabs representing the three different states of H20.
+
+Fig 47: AR Activity, three states
+
+Fig 48: AR Activity, three states. Phone view.
+
+In the solid state, molecules are organized in a hexagonal shape creating hydrogen bonds, and do not move freely because their space is reduced. In the liquid form, some molecules break hydrogen bonds and move faster in a larger area. In the gas state, molecules move even more quicker, and some molecules leave the conical flask.
+
+Discussion
+
+Understand teachers’ common practices
+
+It is essential to learn how teachers search, design, and share classroom presentations and activities today to design a new tool.
+
+Many teachers use platforms such as Teacherspayteachers. com, Youtube.com, and Pinterest.com, to find updated content on the internet. These platforms provide a community space for teachers, which helps them search for reviewed activities and content. However, only Teacherspayteachers.com is specially designed for teachers and has the most efficient search filters such as grade, topic, subtopic, and curricula compliance.
+
+Educators generally prefer to edit content, and only a few create content from scratch. Today, teachers use presentation tools such as Google Slides, Keynote, and Powerpoint with images, videos, and text. We observed that during lectures, teachers prefer to use these presentations as a companion tool and explain concepts in their own words.
+
+From these standard practices, TeachXR is designed especially for science high school teachers, allowing them to search for valuable activities to improve their storytelling skills efficiently. TeachXR does not change how teachers teach but empowers teachers by providing new technological tools to explain hard-to-see concepts in their classrooms.
+
+Focus on teachers, not students
+
+In the early stages, this thesis project focused on how to help high school teachers to include XR technology in their teaching practices to customize learning experiences for their students. One strong assumption was that students have different learning styles, and XR would be a powerful tool to customize the learning experience for students and help teachers achieve this. This assumption needed to be more accurate since chemistry education is content-centered instead of student-centered; Students have different learning paces, indicating that each topic is taught similarly, and some may need to review the content more times. Due to this, the thesis project changed direction and focused on teachers and how XR technology can become a powerful tool to empower teachers in the classroom.
+
+Teachers face several challenges when incorporating new technologies, such as a lack of teachers’ community to share experiences, a lack of time to learn new technology, and a steep learning curve. Therefore, this thesis project focuses on building a tool to lower technological barriers for teachers, where they could find, share, and create XR activities.
+
+How can XR empower teachers?
+
+To design a valuable tool for the user, we need to understand what kind of XR activities they may need and under which circumstances they will use them.
+
+Interview findings show that teachers struggle to explain concepts that are not visible to the student’s eye. Chemistry teachers need help explaining the relationship between the macroscopic, molecular, and atomic levels. To illustrate this relationship, today, they design different activities such as presentations during lectures or demos, openers, and reviewers. Therefore, in the TeachXR tool, we included these activities and considered XR to complement what teachers had already designed. In this way, technology empowers them to explain hard-to-see concepts more efficiently and keep a protagonist role in the classroom.
+
+Can teachers be XR creators too?
+
+To design the creator mode in TeachXR, we watched Aaron’s classes and interviewed teachers to learn how they create and explain content. To build XR activities, creators need high-level technical and design skills, which teachers don’t necessarily have. Therefore, we identified the minimum requirements teachers need to edit to create their own XR experience and made an essential creation experience for them.
+
+We designed a template to explain chemistry concepts by visualizing the relationship between the macroscopic, molecular, and atomical levels in AR. Since teachers don’t have time to learn new technology, our design is similar to other platforms they already use and provide the minimum amount of editable features to simplify the creation process. TeachXR is inspired by how no-code tools work by offering a use-case template and guiding teachers through the process. This thesis project concentrates on only one template for chemistry. However, other science teachers will need different templates to create efficient XR experiences for their subjects.
+
+Future Work and Envisionments
+
+This thesis project is a case study with several limitations to explore in the future. To start, the teachers’ tool TeachXR has only been tested by Aaron Glimme, and the whole iterative process was done collaboratively with him. This method allowed us to be very specific in his needs and challenges as a teacher. Which challenges do other high school teachers have? What kind of technology do they use today? Moreover, what kind of specific needs should be considered if the tool is adapted to other countries? Do teachers have the same resources to use this technology outside the US?
+
+designed when a VR experience is created? Should teachers edit the virtual environment, or should all experiences occur in a single virtual classroom? How much autonomy should teachers have to build with VR?
+
+Research findings show that XR technology has a huge potential for science teachers because it can help them visualize 3D concepts that are impossible in a physical classroom. This thesis focuses on chemistry and does not consider how other sciences, such as biology or physics, may impact the tool’s design, especially the creator mode. What kind of use cases or templates will biology or physics teachers need to create a XR experience? Can the three views used in the creator mode for chemistry be adapted to other sciences? 42
+
+The TeachXR tool lowers barriers for teachers to use XR in their classrooms; However, this project only focused on AR technology, and there are many aspects to consider for VR. How should the creator mode be
+
+Conclusion
+
+This thesis project aims to start a conversation about how XR technology can help high school science teachers’ storytelling and what tools they need to introduce this novel technology in their classrooms. Two artifacts, a teaching tool app called TeachXR and a AR experience as a possible outcome of TeachXR, were designed and tested.
+
+Findings demonstrate that XR holds promises for high school teachers, students, and the future of education. One of the most important benefits of this technology is that it allows teachers to explain the hard-to-see 3D concepts without losing the protagonist’s role in the classroom. However, more than having positive learning outcomes, teachers must include new technology in
+
+their practices. High school educators need a teaching community to share and review the latest content, a fast and efficient way to search for classroom activities, and easy access to technology.
+
+TeachXR tackles these challenges and introduces a novel use case for XR technology as a teacher storytelling tool. XR literature focuses on students’ learning needs and how technology can step aside teachers rather than empower them and make them protagonists in the classroom. This thesis project encourages researchers to continue XR research focusing on not only students but both students and teachers to build thoughtful tools for the future of education.

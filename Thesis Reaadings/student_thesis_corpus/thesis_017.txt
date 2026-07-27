@@ -1,0 +1,579 @@
+Introduction
+
+Large Language Models (LLMs) have demonstrated strong potential as partners in diffi­
+
+cult logical reasoning tasks, including decision-making [24, 45], programming [ 20, 25,
+
+30, 42], problem solving [22, 36] and mathematical theorem proving [20, 23, 26, 33].
+
+A long-term vision for human–AI collaborative reasoning is to develop an end-to-end
+
+reasoning system that maximizes accessibility by enabling free-form natural language
+
+interaction, supported by formally verified reasoning on the backend. Figure 1 shows the
+
+user interaction we envision for an end-to-end machine-checked reasoning system, with
+
+auto-formalization and auto-informalization used to translate natural language to formal
+
+language and vice versa. The autoformalized content is processed by a theorem prover to
+
+verify user inputs, but feedback is given in natural language. We consider this system in
+
+the case of an educational tutoring scenario for math proofs.
+
+However, we know that users often struggle to articulate their intended behavior in
+
+natural language in ways LLMs can reliably interpret. Prior works have documented such
+
+challenges in parallel fields such as assisted programming [20, 21, 25 , 30], and other
+
+task-oriented conversational agents [22, 44]. This means that a key step towards our
+
+vision requires building an accurate autoformalizer. Such an autoformalizer must also be
+
+faithful, i.e., it must follow the intent and logical path of a human user [29, 33].
+
+While theorem-proving tools and formal languages such as Lean [10], Rocq [18] and
+
+Isabelle [34] are gaining increasing adoption, their user base is largely expert users. This
+
+is because these languages are challenging and not necessarily aligned to how humans
+
+naturally think about proofs [37]. In this work, we focus on mathematical proofs in a
+
+tutoring context where the human-written natural language reasoning that is fully free-
+
+form without any compromise or deliberate articulation. Can we accurately and faithfully
+
+autoformalize such content into Lean?
+
+We focus on Lean in this paper because of its popularity and widespread adoption, much
+
+larger than the alternatives, but we believe similar results would hold for any of the lan­
+
+guages.
+
+Fig. 1. Our study focuses on one component (auto-formalization) of a verified AI-reasoning collab­ orator that interacts entirely in natural language. The formal-language backend reasoning is hidden from the user.
+
+Background 02
+
+Challenge in autoformalization
+
+The gulf of execution [31] for auto-formalization remains substantial. While some
+
+success has been achieved in auto-formalization [ 3, 23, 29, 33, 35, 39, 41 ], current
+
+models still struggle to fully understand real human input, since they often focus on proof
+
+completion, not faithfulness and are trained on polished benchmarks. Moreover, autofor­
+
+malizer outputs are often difficult for humans to parse and interpret.
+
+Theorem proving languages are “low-resource” languages [ 27]. This scarcity is reflected
+
+in existing auto-formalization benchmarks, which contain only polished, textbook-style
+
+natural language and provide a single natural language proof for each problem (e.g.,
+
+ProofNet [ 6 ], MiniF2F [46], Putnam-AXIOM [15], Lean-Workbook [43]) or are gener­
+
+ated through back-translation of formal statements, and thus lack human diversity [ 13,
+
+33, 40, 43]. On the other hand, student proofs in casual learning contexts can be frag­
+
+mented, nonlinear, implicit, and conveyed through loosely structured natural language
+
+[17]. In order to have truly accessible systems, used by both expert and novice users, we
+
+must broaden our perspective on auto-formalization to be able to handle input beyond the
+
+standard benchmarks, and this paper represents a first step in that direction.
+
+Challenges in Aligning Natural Language Input in Human-AI Col­
+
+laborative Programming Tasks
+
+The misalignment between human-friendly natural language and the kind that LLMs
+
+can interpret reliably extends beyond mathematical auto-formalization. In AI-assisted
+
+programming, multiple studies have highlighted the challenges novice programmers face
+
+in learning how to prompt effectively to communicate their intent [20–22 , 25, 30]. Prior
+
+work found that only a small portion of naturalistic utterances are effective in guiding
+
+code generation, and users often feel they must learn the model’s “syntax” [20, 22 , 25].
+
+User’s input are always underspecified thus LLM need to make assumptions in order to
+
+execute user’s logic [21]. Moreover, novice programmers must learn to articulate pro­
+
+gram behavior at an abstraction level that aligns with what the model can interpret [25,
+
+30].
+
+To address these issues, Liu and Sarkar [25] proposed grounded abstraction matching,
+
+where the user’s input is first mapped to a formal representation and then translated back
+
+into natural language for user confirmation — mitigating abstraction mismatches. Jiang
+
+[20] developed an inline AI-assisted programming tool and proposed several design
+
+strategies to address ambiguity in user input. Other studies [20, 42] have also found that
+
+users were open to more constrained syntax or design affordances that confirm word
+
+recognition, viewing these as more helpful for generating reliable outputs than allowing
+
+unrestricted natural language input.
+
+While prior work has largely focused on addressing the abstraction gap between natural
+
+language and formal representations as a unified challenge, our approach demonstrates
+
+that, within a narrower context, ambiguity can be decomposed into distinct types — and
+
+systematically resolved through targeted reformulations. Another key difference lies in
+
+the tolerance for ambiguity: in general AI-assisted programming, it is often acceptable to
+
+generate multiple interpretations and let users select the correct one. In contrast, certain
+
+contexts — including the educational setting of our research — require disambiguation to
+
+the extent that the model and the user are fully aligned, with only one plausible interpre­
+
+tation of the input remaining.
+
+If we aim to use LLMs to make machine-checked reasoning accessible to novices with
+
+no prior knowledge of theorem provers, we must better understand where and why the
+
+process breaks down when humans write proofs in the way they naturally intend. In par­
+
+ticular, what forms of reasoning can humans write, read, and understand, but that LLMs
+
+fail to translate into machine-checkable artifacts?
+
+In this work, we focus on the auto-formalization aspect of this system: we explore the
+
+unspoken logic’ in human reasoning, i.e. the misalignment between the natural language
+
+seen in pen- and paper- proofs and the rigorous natural language proofs required by AI
+
+models for accurate auto-formalization with an aim to design a pre-processing system to
+
+aid the LLM in understanding the human.
+
+We aim to (1) classify the misalignment that arises in this context and (2) explore how
+
+human-written natural language can be interpreted to enhance the success of auto-formal­
+
+ization. (3) design interface which facilitate verifiability of LLM interpretation, fostering
+
+transparent communication between the user and LeanTutor.
+
+Our main contributions are below:
+
+1. Our formative study analyzes auto-formalization of student-written natural language
+
+proofs to create a detailed taxonomy of the specific misalignment that can arise
+
+between human-written natural language proofs and the text required for successful
+
+auto-formalization. We discuss why these mismatches occur, how they affect LLM
+
+outputs, and what they reveal about the broader challenges in human-AI collabora­
+
+tive reasoning tasks.
+
+2. We develop a natural language pre-processor to reduce ambiguitiy based on the
+
+formative study.
+
+3. We evaluate the pre-processing system by comparing to a baseline autoformalizer
+
+and empirically characterizing the ambiguity types the pre-processor can and cannot
+
+mitigate.
+
+4. We design and evaluate the interaction paradigm for future human-AI interactive
+
+co-reasoning which supports transparency in what AI can and cannot understand.
+
+Formative Study Design: Characterizing Ambiguities in Natural
+
+Language Proofs
+
+To understand how and why human-written natural language mathematical proofs fail to
+
+autoformalize correctly, we conducted a formative study using 24 student-written proofs
+
+drawn from three undergraduate-level mathematics exams. We used a baseline auto­
+
+formalizer to formalize all student proofs into Lean, then compared the outputs against
+
+human-written Lean formalizations, to extract steps that were valid for human readers
+
+but led to auto-formalization errors (unable to compile or unfaithful). Using Reflexive
+
+Thematic Analysis [8], we grouped these failing natural-language steps by recurring
+
+ambiguity patterns, yielding a categorization of ambiguity types that drive human-model
+
+misalignment. The full analysis pipeline is shown in Figure 2.
+
+1. Data Collection and Preparation
+
+In our analysis, we consider three different exam problems from popular undergraduate
+
+engineering courses. The three selected exam questions QA, QB, QC spanned a variety
+
+of concepts: Basic Linear Algebra (QA, QB) and Discrete Mathematics and Probability
+
+(QC). They varied in proof strategy: direct (QA), contradiction (QB), and mixed (QC),
+
+and they varied in content type: QA was equation-focused, while QB and QC emphasized
+
+text-based reasoning. The questions also differed in difficulty, based on correct response
+
+rates across all submissions in the class (QA:64%, QB: 2%, QC: 52%). We randomly
+
+selected 24 natural language proofs from correct student answers (8 per question).
+
+2. Method
+
+All 24 student-written proofs (312 steps) were digitized using optical character recogni­
+
+tion (OCR) (GPT-4o [19 ]) with manual correction of recognition errors, segmented into
+
+steps based on visual layout and semantic cues to approximate the student’s reasoning
+
+flow, and passed to the baseline autoformalizer to produce Lean code (baseline auto-for­
+
+malization). The first author then manually constructed reference Lean formalizations
+
+that faithfully reflected each student’s intended reasoning and compared them against the
+
+baseline auto-formalization. We recorded two failure types in the baseline auto-formal­
+
+ization: (1) code that failed to compile (lack of correctness) and (2) code that misrepre­
+
+sented the student’s intent (lack of faithfulness), both reflecting misalignment between
+
+natural language and the model’s interpretation. Formalizing each standard solution took
+
+approximately four hours per question, and each student proof required about one addi­
+
+tional hour to formalize and compare. We then conducted a Reflexive Thematic Analysis
+
+[8 ] of the natural-language steps that produced auto-formalization errors. Following this
+
+method, the first author labeled ambiguities on a subset of steps, iteratively refined a set
+
+of ambiguity categories with clear definitions, and then labeled the remaining steps. This
+
+analysis revealed recurring ambiguity patterns in auto-formalization, which we detail in
+
+the following sections. The full analysis pipeline is shown in Figure 2.
+
+Fig. 2. This figure shows the process for the formative study. The handwritten student proof is transformed to LATEX using OCR (and is manually checked for accuracy). This LATEX input is then provided to an LLM-based autoformalizer that generates Lean-4 code. We manually compared this code with an accurate human-written formal version of the proof to identify auto-formalization errors, which leads to the misalignment categories we identified.
+
+Natural Language Pre-processing System
+
+The natural language pre-processing system transforms free-form input into a form more
+
+interpretable by LLMs by addressing the four ambiguity categories identified earlier. Its
+
+output is a natural language proof with minimal known ambiguity across these categories.
+
+The pipeline applies five layers of automated processing:
+
+Before auto-formalization:
+
+• Layer 1: Reference Resolution detects pronouns and vague phrases, replacing them
+
+with explicit referents.
+
+• Layer 2: Operation Classification labels each proof step as an assertion or declaration
+
+(and the specific type of declaration).
+
+• Layer 3: Antecedent/Consequent/Evidence Identification extracts the logical compo­
+
+nents of assertions.
+
+• Layer 4: Granularity Supplement applies predefined expansion functions to supple­
+
+ment skipped reasoning steps that commonly cause granularity-related failures.
+
+The fifth and last layer comes after auto-formalization:
+
+• Layer 5: Syntax Repair corrects minor formatting and syntactic issues.
+
+Fig. 3 The pre-processing pipeline for auto-formalization: We implement four pre-processing layers corresponding to each of the ambiguity categories. Errors from each layer are manually corrected to ensure fully correct input to the next layer for evaluation purposes. We include a fifth post-process­ ing layer for syntax correction after the Lean code is generated.
+
+Outcomes
+
+Ambiguities in Human-Written Natural Language That Make Aut­
+
+oformalization Unreliable
+
+Ambiguities are clustered into four ambiguity types:
+
+Operation ambiguity (24 cases out of 312 student steps): This ambiguity type captures
+
+the confusion around identifying whether a student statement is a declaration (declaring a
+
+new fact to be true in our context) or an assertion (a transformation that brings the current
+
+state closer to the goal). A human reader is able to infer this information from contextual
+
+knowledge, but our baseline system struggled to do so.
+
+Antecedent/Consequent/Evidence (ACE) ambiguity (33/312): ACE Ambiguity refers
+
+to the cases when a proof step lacks explicit markers for one of the three components in
+
+an assertion step. These components are: (1) the antecedent: the starting expression (un­
+
+solved goal, hypothesis, or known fact), (2) the consequent: the derived conclusion, and
+
+(3) the evidence: the justification linking them. An example can be found in D.3. Human
+
+readers rely on conventional formats (e.g., antecedent on the left, consequent on the right,
+
+joined by an equals sign) and contextual knowledge. However, the autoformalizer must
+
+infer all components based solely on the proof text as none are explicitly marked.
+
+Reference Ambiguity (11/312): Reference ambiguity captures cases where a proof step
+
+uses pronouns (e.g., it, they, them) or referential phrases (e.g.,similarly, as mentioned
+
+before). In cases where students used such expressions, instead of clearly stating the ref­
+
+erent, the autoformalizer failed to recover the original meaning (examples in D.1).
+
+Granularity Ambiguity (50/312): Granularity ambiguity describes cases where students
+
+omitted intermediate steps that are required in a formal proof, but not expected in an in­
+
+formal proof. Common cases included: omitting low-level knowledge or presuppositions
+
+or using referential phrases like “in a similar way” to point to one of the earlier steps in
+
+the proof.
+
+An additional Syntactic/Miscellaneous category captured 60 non-ambiguity errors. For
+
+example, rw [h1] at h2 rewrites h1 into h2, but Lean provide multiple substitution tactics
+
+which make the correct choice theorem dependent; these errors stem from syntax, not NL
+
+ambiguity.
+
+Fig. 4: Examples of each ambiguity types,
+
+Evaluation study
+
+We conducted two evaluation studies to assess the pre-processing system. First, we eval­
+
+uated whether the pre-processor improved autoformlization accuracy, by autoformalizing
+
+proofs with and without the pre-processing system (EV1) and we empirically charac­
+
+terized the failures of the pre-processing system to understand the ambiguity types our
+
+pre-processor failed to resolve (EV2).
+
+EV1: We compare auto-formalization accuracy for the 24 proofs from the pilot study
+
+under three conditions: (1) a baseline autoformalizer (2) the pre-processing pipeline
+
+followed by the same autoformalizer with minimal prompt changes to accept the pre-pro­
+
+cessed format; and (3) condition (2) plus a syntax-repair layer (Layer 5 in Section 4) that
+
+uses compiler error messages to correct failing steps. As we see in Table 1, the pre-pro­
+
+cessing greatly improves the auto-formalization.
+
+EV2: To assess which ambiguity types can and cannot be mitigated by pre-processing, the
+
+first author manually reviewed all outputs from the LLM-based Layers 1–3, yarding an
+
+accuracy of Layer 1: 84%, Layer 2: 94% and Layer 3: 61%. A detailed example of failed
+
+prediction cases are shown in Figure 4.
+
+Fig. 5. One example of the baseline autoformalization failure caused by pronoun ambiguity: the gen­ erated Lean code did not reference to the “similar reasoning”. No error when suing the pre-processed proof as input.
+
+Human-in-the-loop Interface
+
+While LLM technologies are increasingly capable of detecting ambiguity in natural
+
+language,
+
+ambiguities should not be silently resolved on the backend, users should be explicitly
+
+informed of (1) the term(s) the system identifies as ambiguous, and (2) any edits the sys­
+
+tem applies in order to produce a formalization. Thus, our interface allows students to (1)
+
+input natural language proof freely, (2) Perceive feedbacks for the proofs on the ambigu­
+
+ous prediction results and the correctness of the proof.
+
+Fig. 6. Features on the interface which help visualize the prediction of the ambiguous terms
+
+Discussion
+
+A long-term vision for human–AI collaborative reasoning envisions users interacting
+
+with AI systems in natural language, while formal verification occurs unobtrusively in
+
+the background. A crucial step toward realizing this vision is the analysis and resolution
+
+of ambiguity in the natural language channel. The ambiguity types we examined here
+
+are grounded in mathematical contexts, but any human–AI reasoning system is likely to
+
+engage in a similar process: identifying domain-specific ambiguities and addressing them
+
+through automation or design interventions—such as interface constraints, pre-process­
+
+ing, or reverse translation—that are tailored to the characteristic of the ambiguity.
+
+Implications for Pure Natural Language Human–AI Collaborative
+
+Reasoning Tools
+
+One persistent challenge in such systems is the opacity of what the AI “understands.”
+
+Prior studies in AI-assisted programming have shown that novice users often struggle to
+
+articulate their intent in a way the model can correctly interpret [ 31 ]. In contexts like
+
+AI-assisted programming where the AI’s output includes formal code, users—despite
+
+facing a steep learning curve—can still learn to refine their prompts by observing which
+
+inputs yield better outputs. This trial-and-error feedback loop, while imperfect, provides a
+
+pathway for users to gradually develop effective prompting strategies.
+
+Even when the AI’s outputted formal code is available, users may not necessarily be
+
+well-positioned to inspect it for correctness, as in “vibe coding” [39 ]. In these circum­
+
+stances, carefully flagging poorly-reconciled ambiguity is an overriding concern: worse
+
+than code that is obviously incorrect is code that appears at a surface level to be correct—
+
+or at least appears plausibly correct—but does not actually reflect user intent. Such code
+
+may lead to cryptic errors or even short-circuit users’ intuitions for where to debug sys­
+
+tems that do not work as desired, because they may have been inappropriately assumed
+
+by users to be correct.
+
+Further, when formal code is completely hidden from users (for usability reasons, or
+
+because the user may not be proficient in the formal language but wants to use verified
+
+reasoning)—as in a pure natural language reasoning tool—the stakes are much higher.
+
+Consider a scenario where a student interacts with an AI math tutor that uses autofor­
+
+malization to verify the student’s logic and responds with natural language feedback
+
+(such as LeanTutor [34 ]). In this setting, there are two paths that may lead to the system
+
+marking the response as incorrect. The system may mark a response as incorrect because
+
+the student’s logic is genuinely flawed, or simply because the model failed to interpret
+
+the intended meaning due to ambiguity. In such a case, having feedback for the user that
+
+allows the user to verify that the system “interpretation” is true to the user’s intent will be
+
+valuable.
+
+Our analysis shows that reducing ambiguity in student-written natural language signifi­
+
+cantly improves autoformalization accuracy when the underlying logic is correct. This
+
+finding suggests that it is indeed possible to distinguish between truly incorrect reasoning
+
+and valid reasoning that fails due to misinterpretation. Our system and the interface are
+
+proof-of-concept designs which we use to demonstrate such ideas.
+
+Conclusion
+
+Large language models make it increasingly plausible to build end-to-end reasoning
+
+systems where users work in natural language while formal verification happens on the
+
+backend. This paper takes a step toward that vision by examining where autoformaliza­
+
+tion breaks down on the kind of proof text students actually write: fragmented, implicit,
+
+and shaped by human conventions rather than machine requirements. Through a forma­
+
+tive study of 24 student-written proofs, we identified recurring sources of human–model
+
+misalignment and organized them into a taxonomy of four ambiguity types—operation,
+
+antecedent/consequent/evidence (ACE), reference, and granularity ambiguity—along
+
+with a separate set of syntactic and miscellaneous errors. Together, these categories clar­
+
+ify why a baseline autoformalizer can fail even when the underlying reasoning is correct
+
+and intelligible to human readers.
+
+Building on this analysis, we developed a natural language pre-processing system that
+
+systematically reduces known ambiguity before autoformalization. The pipeline applies
+
+layered transformations—reference resolution, operation classification, ACE identifica­
+
+tion, and granularity supplement—followed by optional syntax repair after compilation
+
+feedback. Our evaluation shows that this pre-processing substantially improves autofor­
+
+malization outcomes on the same student proofs, increasing both correctness (successful
+
+compilation) and faithfulness (alignment with student intent). At the same time, the
+
+evaluation reveals clear limits: some ambiguity persists because it depends on domain
+
+knowledge, long-range context, or non-local proof structure that cannot be reliably recov­
+
+ered from text alone.
+
+These findings motivate a shift from purely backend ambiguity resolution to interactive,
+
+user-facing support. Rather than silently “fixing” student language, LeanTutor’s interface
+
+surfaces what the system identifies as ambiguous and what edits it proposes, allowing
+
+users to verify the model’s interpretation and intervene when necessary. This interaction
+
+paradigm is especially important in educational contexts, where incorrect feedback may
+
+stem either from flawed reasoning or from misinterpretation of correct reasoning. By
+
+coupling ambiguity-aware pre-processing with transparency-oriented interface design, we
+
+demonstrate a practical path toward more accessible, trustworthy machine-checked rea­
+
+soning tools that respect how humans naturally write proofs while still meeting the strict
+
+requirements of formal verification.

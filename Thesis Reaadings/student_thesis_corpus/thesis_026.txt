@@ -1,0 +1,263 @@
+Introduction
+
+Contemporary consumers are increas­ ingly knowledgeable and discerning, expecting products to address not only functional performance but also expe­ riential and expressive qualities. This shift has contributed to the growing de­ mand for personalized product design, particularly in domains involving bodyworn artifacts [1, pp.1]. Soft products such as garments, wearable accessories, and footwear play a significant role in expressing individual identity, style, and preference, making them especially suited to customization and personaliza­ tion [2, pp.1-2].
+
+From Stan­ dardized Frames to Situated Fit
+
+Despite this trend, most commercially available products continue to be designed through standardized processes that insufficiently account for individual user preferences or bodily variation [3, pp.4-8]. One underlying challenge is the absence of effective design frameworks and communication systems that enable designers and users to artic­ ulate, negotiate, and translate personal requirements into manufactur­ able forms in a timely and accessible manner [4, pp.71-84]. This gap between individual needs and industrial design practices limits the potential of personalization at scale.
+
+Beyond Standard Frames — Custom-Fit Eyewear is concerned with the ways designers can create personalized eyewear systems in the context of facial diversity and emerging face-worn computing technologies. Al­ though eyeglasses are among the most widely worn personal products worldwide, with more than 4 billion people across the globe wearing glasses, they are typically designed as standardized consumer goods [5]. This approach overlooks the fact that the human face is one of the most geometrically complex and variable anatomical surfaces, with substantial differences in nose bridge height, facial width, and craniofa­ cial proportions across populations [6, pp.1-13].
+
+Addressing this misalignment requires moving beyond isolated product solutions toward a systemic reconsideration of how eyewear is de­ signed, adapted, and produced. Building on this understanding, this thesis first establishes the design and research context that informs the project, including perspectives from anthropometrics, personalization, additive manufacturing, and face-worn computing. It then develops the motivation for the work through observed patterns of eyewear use
+
+and personal experiences of long-term wear, which together reveal persistent misalignments between standardized frames and individual faces. From this motivation, the thesis advances a system-based design approach that leverages facial data, computational design, and 3D print­ ing to enable custom-fit eyewear.The work culminates in the presenta­ tion of the resulting system and its outcomes, followed by a reflection on the implications, limitations, and future possibilities of designing eyewear as a personalized, face-worn system.
+
+This thesis is situated at the intersection of three bodies of literature: anthropometric research and ergonomic fit, design approaches to per­ sonalization and mass customization, and emerging work on face-worn and wearable computing. Together, these perspectives provide the the­ oretical lenses through which this project frames eyewear not as a fixed consumer product, but as a personalized, body-integrated system. 02
+
+Background
+
+Anthropometrics, Fit, and Design Bias
+
+Anthropometric research has long demonstrated that human facial dimensions vary significantly across gender, ethnicity, and age groups [6, pp.1-13]. However, many industrial design standards and sizing systems are derived from limited datasets that disproportionately reflect Western and Caucasian populations [7][8]. In the context of eyewear, where small geometric mismatches can significantly affect comfort
+
+and performance, such biases become especially consequential. The reliance on averaged anthropometric data results in persistent problems of poor fit. Many users experience discomfort, instability, and pres­ sure points, and often adapt their wearing behaviors to compensate for frames that do not align with their facial geometry. Rather than reflect­ ing individual preference or misuse, these compensatory behaviors indicate a systemic misalignment between standardized eyewear design practices and the diversity of human faces. This limitation, in turn, presents an opportunity to rethink how eyewear is designed, produced, and customized.
+
+Figure. From Head and Face Anthropometry of Adult U.S. Citizens
+
+In response to this challenge, prior efforts in the context of eyewear have begun to explore computational and parametric approaches to customization. Research such as A Parametric Product Design Frame­ work for the Development of Mass Customized Head/Face (Eyewear) Products demonstrates how facial measurements can be translated into adaptable eyewear geometries, highlighting the potential of sys­ tem-based design methods for addressing fit-related variation [9].
+
+Additive Manufacturing and the Pro­ duction of Custom-Fit Wearables
+
+Within design research, personalization has been explored as a response to the limitations of mass production, challenging standardized sizing and one-size-fits-all product models. Additive manufacturing (AM) has been widely discussed as a key enabler of personalization in fashion and wearable design, due to its capacity to produce geometrically com­ plex forms without the tooling constraints of traditional manufacturing. A commonly cited moment marking AM’s entry into fashion occurred in 2010, when Iris van Herpen presented her first 3D-printed collection at Amsterdam Fashion Week, signaling a shift from industrial proto­ typing toward body-worn and expressive applications [10]. Since then, AM has been increasingly adopted across wearable domains, including footwear, apparel, and accessories
+
+A range of AM techniques—such as fused deposition modeling (FDM), stereolithography (SLA), selective laser sintering (SLS), and digital light processing (DLP)—offer different affordances in resolution, material behavior, and structural control, making them well suited for producing body-conforming forms [11]. Within both academic and industry discourse, these capabilities have been closely associated with the promise of mass customization, enabling greater personalization and participatory design models [12-18]. In the context of eyewear, companies including KiteONE [19] and Breezm [20] have introduced consumer-facing platforms that leverage digital workflows to offer configurable or semi-custom frames. Despite these advances, many such approaches remain constrained, highlighting the need for more integrated systems that directly connect facial data, design logic, and fabrication workflows.
+
+Face-Worn Artifacts and Wearable Computing
+
+Recent work in human–computer interaction and wearable computing increasingly frames eyewear as an active interface rather than a purely optical object. As face-worn technologies continue to emerge, consid
+
+erations of comfort, stability, and long-term wear become more salient, reinforcing the importance of physical fit in face-based artifacts. While this project does not directly investigate interaction performance or sensing technologies, this broader shift underscores the growing rele­ vance of fit as a foundational design concern.
+
+Positioning the Project
+
+However, existing approaches have yet to fully address how fit can be designed through participatory, end-to-end systems that meaningfully involve users while remaining directly manufacturable. Design research has long emphasized the value of participatory and co-creative prac­ tices in enabling users to contribute knowledge derived from their own lived experiences and embodied expertise [23]. Yet in the context of eyewear, user involvement is often limited to surface-level customiza­ tion or post hoc adjustments, rather than participation in shaping core geometric and fitting decisions. Although advances in computational design, AI-assisted form generation, and additive manufacturing make it technically possible to produce individualized eyewear geometries, these capabilities are often applied in isolation or constrained by predefined parameters. What remains underexplored is how users can actively participate in shaping eyewear designs based on their own facial dimensions, and how such input can be coherently translated into 3D-printable forms through integrated design and fabrication work­ flows. This gap points to the need for system-level design approaches that connect user participation, facial data, and additive manufacturing to address fit as a primary design challenge in custom eyewear.
+
+The motivation for this thesis origi­ nated not from existing literature or a predefined academic prompt, but from an everyday observation during a conversation with a classmate. One day, I noticed that my classmate, Favour, wore her glasses at an unusually steep angle, with the lower rim resting direct­ ly on her cheeks. When I asked why she wore her glasses this way, she explained that this was the only position in which she could see clearly; when worn in a conventional manner, the frames would slide down her nose.
+
+Personal En­ counters with Misfit and the Desire for Better Align­ ment
+
+This seemingly minor interaction revealed a deeper design tension. Favour’s adaptation was not a matter of preference or style, but a compensatory response to a frame that failed to align with her facial geometry. The moment immediately resonated with my own long-standing experience with eyewear. I began wearing glasses at the age of four and have worn more than ten pairs since then. Yet none fit comfortably or remained stable on my face. Frames slipped, required constant repositioning, and demanded continuous bodily adjustment throughout the day. For many years, I inter­ nalized these frustrations as personal inconveniences rather than design problems.
+
+The conversation with Favour prompted a critical shift in perspec­ tive. What I had previously perceived as individual shortcomings could instead be understood as symptoms of a broader mismatch between standardized eyewear design and the diversity of human faces. From a design research perspective, such everyday adapta­ tions can be read as meaningful expressions of user experience
+
+Figure. Favour Fri Fon wearing glasses, berkeley undergraduate student
+
+Figure. Mia Wu wearing glasses in 2016
+
+rather than as misuse or error, revealing underlying tensions between designed artifacts and lived practice [24].
+
+Motivated by this realization, I began to observe how people around me wore their glasses in everyday contexts—paying attention to how frequently they adjusted their frames, how glasses sat on different facial features, and how wearers adapted their behavior to compensate for discomfort or instability. These observations suggested that compen­ satory behaviors were widespread rather than exceptional, reinforcing the notion that poor fit is not an edge case but a common condition embedded in contemporary eyewear practices. Design research has emphasized that users’ lived experiences and embodied knowledge con­ stitute critical inputs to the design process when appropriately engaged through participatory and co-design approaches [23].
+
+This accumulation of lived experience and observation formed the foundation of the project’s motivation: to question why discomfort and adaptation are treated as inevitable aspects of wearing glasses, and to reconsider where responsibility for fit should reside. Rather than framing instability or adjustment as individual shortcomings, this perspective aligns with design research that challenges object-centered approaches and argues for shifting the focus of design toward users and their situated experiences [25]. From this standpoint, poor fit is not a failure of use but a signal of a system that has not adequately accounted for bodily diversity. This thesis is therefore motivated by the need to re­ frame eyewear design as a user-centered, system-level challenge—one that treats fit as a primary design concern embedded within the design process itself, rather than as a compromise managed by the wearer.
+
+04 Approach
+
+How might we design and manufacture the next generation of glasses that actually fit the diversity of human faces?
+
+This thesis adopts a de­ sign-led, mixed-methods approach that combines qualitative user research, participatory design practices, contextu­ al investigation, and iterative computational exploration. The overall process was guided by the following design question:
+
+User Interviews and Observational Research
+
+The project began with qualitative research aimed at understanding how people experience eyewear fit in everyday life. Semi-structured in­ terviews and informal conversations were conducted with more than 50 eyewear users from diverse backgrounds. This method was selected to capture participants’ subjective experiences, perceptions of discomfort, and embodied knowledge, which are well suited to qualitative inter­ viewing approaches [26]. Participants were asked to describe how their glasses feel on their faces, where discomfort occurs, how often they adjust their frames, and what compromises they have learned to tolerate over time [Figure.4].
+
+Across these interviews, more than 72% of participants reported persistent discomfort, instability, or pressure points during daily wear. Many described habitual adjustment behaviors—such as pushing frames up the nose, tilting glasses to improve vision, or accepting un­ even contact with the face—as routine aspects of wearing glasses.
+
+Figure. Participants engaged in interview & discussion
+
+Consistent with participatory design perspectives, these experiences were treated not as isolated complaints but as valuable design inputs that reflect users’ lived interactions with body-worn artifacts.
+
+The Six Parameters That Matter
+
+Insights from interviews and observational research revealed that discomfort and instability in eyewear are not diffuse or subjective issues, but are repeatedly associated with a small set of spatial and optical misalignments. These parameters represent the points at which standardized frames most often fail to accommodate individual facial geometry [Figure.5].
+
+Figure. The Six Parame­ ters That Matter
+
+To situate these findings within broader design and industry contexts, I engaged in workshop-based and experiential research activities, includ­ ing attending conferences and a teardown workshop focused on smart glasses design in San Francisco. Workshops have been recognized within design research as immersive research environments that enable collaborative exploration of artifacts and the surfacing of tacit knowl­ edge through shared engagement [27]. Participating in these settings provided insight into prevailing assumptions, technical constraints, and emerging directions within eyewear and wearable design, supplement­ ing user-centered findings with industry and design perspectives.
+
+Figure. teardown workshop focused on smart glasses design in San Francisco
+
+Figure. Conclusion board in Figma
+
+AI-Based Form Exploration
+
+As part of the design exploration, I investigated the potential role of AI-based generative tools in supporting eyewear form creation. Two parallel experiments were conducted. First, AI-based image generation using Google Gemini was used to produce 2D visual representations of eyewear concepts from textual prompts. These outputs were effective in exploring stylistic variation, frame silhouettes, and surface patterning, including speculative lattice-like structures. As such, they functioned as ideation and communication artifacts during early-stage exploration.
+
+Second, I explored AI-based 3D generation using the Sloyd API to assess whether generative systems could directly produce 3D-printable eyewear geometries. While the tool enabled rapid generation of print­ able forms, it lacked the geometric precision and parametric control required to respond meaningfully to individual facial dimensions. Similarly, 2D lattice structures generated through Gemini could not be coherently translated into structurally valid or manufacturable 3D models.
+
+Figure. 3D Generated glasses using sloyd API Figure. 2D Generated glasses using Gemini 3
+
+These experiments clarified a critical boundary between visual ideation and fit-driven fabrication. While AI-generated imagery can support early conceptual exploration, current generative systems remain limited when precise geometric control, dimensional accuracy, and fabrication constraints are required. This observation aligns with prior research on AI-supported generative design, which highlights the need for hu­ man-guided workflows when design outcomes must satisfy functional and manufacturing requirements. As a result, AI tools were positioned in this project as exploratory and supportive instruments rather than primary drivers of custom-fit eyewear design.
+
+Synthesis and Direction
+
+Insights from interviews, workshops, sketching, and AI exploration were synthesized through affinity mapping and thematic clustering. This process surfaced recurring patterns, including the normalization of discomfort, the lack of meaningful user participation in fitting deci­ sions, and the disconnect between facial diversity and standardized pro­ duction methods. These insights informed the subsequent development of a system-based design workflow that prioritizes user input, facial data, and manufacturability from the outset.
+
+The outcome of this thesis is a system-level design prototype that explores how custom-fit eyewear can be generated, evaluated, and man­ ufactured through an integrated digital workflow. Rather than present­ ing a single finalized product, the project culminates in an interactive application and a set of fabricated eyewear prototypes that together demonstrate a new approach to designing glasses around individual facial geometry. 05
+
+Outcome
+
+Interactive Application for Custom-Fit Eyewear
+
+At the core of the outcome is a speculative application designed as a text-to-3D generative tool for smart eyewear. The application guides users through a multi-step process that makes eyewear design accessi­ ble while foregrounding fit as a primary concern. A process bar at the top of the interface allows users to navigate between five stages: Text to 3D, Scan Face, Try On and Adjust, Choose Style, and 3D Print. Users can move sequentially through the workflow or jump between steps as needed.
+
+Step 1:  Text to 3D
+
+Step 2:  Scan Face
+
+Step 3:  Try On & Adjust
+
+Step 4:  Choose Style
+
+Step 5:  3D Print
+
+The first stage enables users to generate eyewear concepts through text input. A text box allows users to describe the smart glasses they envision, using typed input or voice. To support ideation and lower the barrier to entry, the interface also presents short prompt phrases and ref­ erence images of existing smart glasses designs. Users may select these prompts directly, modify them, or ignore them entirely in favor of their own descriptions. Once a design is generated, users can save the result and proceed to the next stage.
+
+In the second stage, users upload or generate a 3D scan of their face. Users are guided to begin scanning from the side of the face, ensuring that critical features such as the ears are included. During scanning, a visual overlay inspired by iOS facial recognition systems provides real-time feedback, reinforcing the perception of precision and data capture.
+
+Following the scan, users are able to preview how the generated glasses sit on their face and make minor adjustments. This adjustment interface foregrounds the six fitting parameters identified earlier in the research: frame wrap angle, pantoscopic tilt, vertex distance, pupil height, pupil­ lary distance, and temple-to-ear distance. Each parameter is controlled through adjustable sliders located on the right side of the interface, allowing users to fine-tune fit while immediately seeing the impact on the glasses’ alignment. The left side of the interface remains visually uncluttered to emphasize the relationship between the frame and the scanned face. In a subsequent step, users can select frame colors using the same right-side control panel before confirming their design.
+
+From AI-Generated Forms to Fabrica­ tion-Ready Models
+
+While the application demonstrates how users might participate in gen­ erating and adjusting eyewear designs, I identified a critical limitation: AI-generated 3D models are not inherently parametric or adaptable. As a result, they cannot directly support precise, fit-driven adjustments or fabrication requirements. To address this gap, I developed the final eye­ wear geometry using generative parametric modeling in Grasshopper.
+
+I created a custom Grasshopper workflow that translates facial scan data into adjustable eyewear geometry structured around the six fitting
+
+parameters identified through user research. This approach enables continuous control over frame geometry, ensuring that changes in facial dimensions or fit requirements are reflected directly in the model rather than applied as post hoc modifications. Using this system, I generated two distinct eyewear designs, each based on a different individual’s facial scan data. Although the two designs share the same underlying system logic, their resulting forms differ meaningfully in proportion, curvature, and fit, demonstrating the system’s capacity to accommodate facial diversity.
+
+Figure. Diagram showing workflow
+
+Grasshopper Glasses N.1
+
+Grasshopper Glasses N.2
+
+Fabricated Prototypes
+
+I conclude the project by fabricating two eyewear designs through 3D printing. These printed frames serve as physical evidence of the feasibility of the proposed system, demonstrating how user input, facial data, and parametric design can converge into manufacturable artifacts. Each pair was generated from a different facial scan using the same Grasshopper-based design logic, resulting in distinct geometries that reflect individual facial variation rather than stylistic preference alone.
+
+Rather than presenting a single “ideal” solution, I emphasize a repeat­ able and adaptable process through which eyewear can be customized at the level of individual faces. The fabricated prototypes are not posi­ tioned as final commercial products, but as proof-of-concept artifacts that validate the system’s ability to translate digital customization into physical form.
+
+Taken together, the interactive application and the fabricated frames constitute the outcome of this thesis. They reflect a shift in my design approach from treating glasses as fixed consumer products toward designing adaptable systems that allow users to actively participate in shaping eyewear that fits their bodies.
+
+Figure. 3D printing process using formlab 3 with clear resin
+
+To situate these findings within broader design and industry contexts, I engaged in workshop-based and experiential research activities, includ­ ing attending conferences and a teardown workshop focused on smart glasses design in San Francisco. Workshops have been recognized within design research as immersive research environments that enable collaborative exploration of artifacts and the surfacing of tacit knowl­ edge through shared engagement [27]. Participating in these settings provided insight into prevailing assumptions, technical constraints, and emerging directions within eyewear and wearable design, supplement­ ing user-centered findings with industry and design perspectives.
+
+Figure. Rendering
+
+User Feedback Summary
+
+Positive Feedback • The step-by-step workflow made the customization process clear and easy to follow, even for users without a design or technical background. • Users reported that better-fitting frames does reduced habitual ad­ justment behaviors, such as pushing glasses up the nose, indicating improved stability and overall fit. • One participant, who described having a pronounced asymmetry between the left and right sides of their face, noted that they had consistently struggled to find well-fitting frames through conven­ tional retail channels and expressed strong interest in seeing this product become commercially available. • This novel approach to purchasing eyewear increased users’ sense of control and agency, allowing them to feel actively involved rather than passively fitted. • Users responded positively to the ability to adjust fit-related pa­ rameters and immediately observe how these changes affected the glasses’ alignment on their face, supporting intuitive understanding of fit.
+
+Challenges and Limitations
+
+• While AI-generated designs were perceived as visually compelling, some users questioned the degree to which these conceptual forms corresponded to the final 3D-printed frames. Minor discrepancies in scale and fit were observed, attributable to material behavior and printing tolerances, though these differences were subtle. • The face scanning step introduced moments of uncertainty for cer­ tain users, particularly in terms of trust in the accuracy and fidelity of the captured facial data. • Several participants raised questions regarding the role of the de­ signer within the system, prompting reflection on how authorship, expertise, and responsibility are negotiated between users, design­ ers, and automated tools.
+
+Discussion
+
+This project led me to reconsider not only how eyewear is designed, but what “fit” fundamentally represents within design systems. Rather than understand­ ing fit as a set of isolated measurements or ergonomic optimizations, I came to see fit as an emergent property of rela­ tionships—between facial data, design logic, fabrication constraints, and user participation. This reframing shifts the problem of eyewear fit away from prod­ uct-level correction toward system-level design.
+
+Rethinking Eyewear Fit as a Co-De­ signed Pro­ cess
+
+Fit as a Systemic Relationship
+
+While prior research has established facial diversity through an­ thropometric measurement [6], my design process revealed that the critical challenge lies not in the absence of data, but in how that data is operationalized. Parametric modeling enabled facial measurements to remain active throughout the design process, rather than being reduced to static averages. This aligns with work on mass customization that emphasizes adaptability over variation alone [2], [4], but extends it by demonstrating how fit parameters can remain continuously adjustable up to fabrication.
+
+What emerged was not a “better-fitting frame” in isolation, but a system in which fit could be negotiated, tested, and revised. This suggests that comfort and stability are not attributes embedded in a finished object, but outcomes produced through ongoing alignment between body and artifact.
+
+My experiments with AI-based form generation further clarified the distinction between visual personalization and functional customiza­ tion. While AI-generated imagery successfully supported early ideation, these models lacked the geometric continuity, dimensional accuracy, and parametric structure required for fit-driven fabrication. This finding complicates optimistic narratives surrounding AI-driven customization in consumer products.
+
+Rather than viewing AI as a replacement for design systems, this project positions AI as an auxiliary tool—effective for inspiration and exploration, but insufficient for resolving embodied constraints on its own. True customization, particularly for body-worn artifacts, still requires human-guided systems that integrate interpretation, constraint management, and material awareness.
+
+User participation emerged as another critical dimension of system design. Consistent with participatory design literature [23], [24], users
+
+demonstrated valuable embodied knowledge about their own discom­ fort and adaptation behaviors. However, enabling users to adjust fit parameters also raised questions about authorship and responsibility. Who is accountable when users co-shape the geometry of a product?
+
+This tension reflects Redström’s observation that contemporary design increasingly shifts from designing objects to designing conditions for use [25]. In this project, my role was less about defining final form and more about structuring the space in which form could emerge responsi­ bly—balancing user agency with manufacturable limits.
+
+Figure. Exhibition
+
+Conclusion
+
+Envisioning Responsive and Indi­ vidualized Face-Com­ puting Sys­ tems
+
+This thesis began with a simple but persistent question:
+
+How might we design and manufacture eyewear that truly fits the diversity of human faces?
+
+What initially appeared as a personal frustration with ill-fitting glasses gradu­ ally revealed itself as a systemic design issue rooted in standardization, mass production, and the historical neglect of facial diversity.
+
+Through user interviews, observational research, and design explora­ tion, I came to understand that discomfort and instability in eyewear are not exceptional failures but normalized conditions of everyday use. Wearers routinely adapt their behavior to compensate for poor fit, shifting responsibility away from design systems and onto their own bodies. This insight reframed fit not as a secondary concern or person­ al preference, but as a foundational design parameter that should be addressed at the system level.
+
+The outcome of this thesis is not a single optimized pair of glasses, but a design framework and workflow that demonstrates how eyewear can be conceived as an adaptable, user-participatory system. By combining user input, facial scan data, parametric modeling, and additive manu­ facturing, the project shows how fit can be designed into the process rather than corrected afterward. Importantly, the exploration of AIbased generation clarified both its promise and its limits. While AI tools proved valuable for early-stage ideation and expression, they were in­ sufficient for resolving the precise geometric and fabrication constraints required for custom-fit eyewear. This finding reinforced the necessity of hybrid workflows that balance generative exploration with parametric control and manufacturing logic.
+
+Beyond conventional eyewear, this work points toward broader impli­ cations for the future of face-worn technologies. As smart glasses and facial computing devices become more prevalent, heavier, and worn for longer durations, existing fit-related issues are likely to intensify rather than disappear. In this context, customization should not be treated as a premium feature, but as a critical condition for usability, accessibility, and long-term adoption.
+
+Ultimately, this thesis contributes a design-oriented perspective on cus­ tomization—one that moves beyond standard frames by shifting focus from fixed products to adaptable systems. What remains open is how such systems might scale, how designers’ roles may evolve within par­ ticipatory pipelines, and how emerging AI tools can be more tightly in­ tegrated with fabrication-aware design. These questions point to fertile ground for future research, but they also reaffirm a central takeaway: when designing for the body, fit is not optional—it is fundamental.
+
+Reference IEEE
+
+[1] C.-H. Lo and C.-H. Chu, “An investigation of the social-affective effects resulting from appearance-related product models,” Human Factors and Ergonomics in Manufacturing & Service Industries, vol. 24, no. 1, pp. 71–85, 2014, doi: 10.1002/hfm.20352.
+
+[2] F. T. Piller, “Mass customization: Reflections on the state of the con­ cept,” International Journal of Flexible Manufacturing Systems, vol. 16, no. 4, pp. 313–334, 2004, doi: 10.1007/s10696-005-5170-x.
+
+[3]Sun, Qi. “Supply Chain and Logistics in Chinese Eyeglasses Indus­ try.” 2014. [Online] Available: https://www.theseus.fi/bitstream/han­ dle/10024/78002/Sun_Qi.pdf?sequence=1
+
+[4]Tseng, Mitchell & Piller, Frank, The Customer-Centric Enterprise: Advances in Mass Customization and Personalization. Berlin, Germany: Springer, 2003.
+
+[5]Gidon Sadovsky, “Eyewear industry statistics and facts [2025],” Over­ night Glasses, Feb. 18, 2025. [Online]. Available: https://www.overnight­ glasses.com/eyewear-industry-statistics/. [Accessed: Dec. 2025].
+
+[6]Farkas, L. G, Anthropometry of the Head and Face. New York, NY, USA: Raven Press, 1994. [Online]. Available: https://archive.org/details/ anthropometryofh0000unse
+
+[7]Edward Rosen, “The invention of eyeglasses,” Journal of the History of Medicine and Allied Sciences, vol. 11, no. 1, pp. 13–46, Jan. 1956, doi: 10.1093/jhmas/XI.1.13.
+
+[8]The British Optical Association Museum, “The history of spectacles,” The College of Optometrists. [Online]. Available: https://www.col­ lege-optometrists.org/the-british-optical-association-museum/the-his­ tory-of-spectacles. [Accessed: Dec. 18, 2025].
+
+[9]Bai, Xiaobo & Huerta, Omar & Unver, Ertu & Allen, James & Clayton, Jane.  “A parametric product design framework for the devel­ opment of mass customized head/face (eyewear) products,” Applied Sciences, vol. 11, no. 12, p. 5382, 2021, doi: 10.3390/app11125382.
+
+[10]Wang, Bing & Chen, Ying, “The effect of 3D printing technology on the future fashion design and manufacturing,” Applied Mechanics and Materials, vols. 496–500, pp. 2687–2691, 2014, doi: 10.4028/www. scientific.net/AMM.496-500.2687
+
+[11]N. Shahrubudin, T. C. Lee, and R. Ramlan, “An overview on 3D printing technology: Technological, materials, and applications,” Procedia Manufacturing, vol. 35, pp. 1286–1296, 2019, doi: 10.1016/j. promfg.2019.06.089.
+
+[12]Unionfab, “How Major Brands are Shaping 2024’s 3D Printed Shoes” Unionfab Blog, Jul. 2024. [Online]. Available: https://www. unionfab.com/blog/2024/07/3d-printed-shoes
+
+[13]Spahiu, Tatjana & Piperi, Erald & Ehrmann, Andrea & Almeida, Henrique & Ascenso, Rita & Vitorino, Liliana. (2020). 3D Printing: An Innovative Technology for Customised Shoe Manufacturing. 10.1007/978-3-030-29041-2_22.
+
+[14]Nadasbaş, Serdar & Cileroglu, Birsen. (2016). The use of 3D printers in fashion design for different models and sizes.
+
+[15]Cole Townsend, “On Running Wants to 3D-Print Your Shoes” Sole Retriever News, 2024. [Online]. Available: https://www.soleretriever. com/news/articles/on-just-3d-printed-your-next-running-shoe-light­ spray
+
+[16]Herzogenaurach, “3D printed CLIMACOOL,” Adidas Newsroom, 2024. [Online]. Available: https://news.adidas.com/innovations/3dprinted-climacool--a-shoe-that-pushes-boundaries-of-design-innova­ tion/s/10c1b774-a96e-4050-bff6-339ec3ef04b1
+
+[17]Nike, “Nike FlyWeb performance material,” Nike Newsroom, 2023. [Online]. Available: https://about.nike.com/en/stories/nike-new-perfor­ mance-material-flyweb
+
+[18]L. Strickfaden, A. Stafiniak, and M. Terzin, “The application of 3D printing technology in the fashion industry,” International Journal of Fashion Design, Technology and Education, vol. 9, no. 3, pp. 227–237, 2016.
+
+[19]“KiteONE,” LAYER Design. [Online]. Available: https://layerdesign.
+
+com/project/kiteone/. [Accessed: Dec. 16, 2025].
+
+[20]“Breezm Eyewear,” *BreezmEyewear.com*. [Online]. Available: https://breezmeyewear.com/. [Accessed: Dec. 16, 2025].
+
+[21]Due, Brian L. The future of smart glasses: An essay about challeng­ es and possibilities with smart glasses. Vol. 1. København, Denmark: Centre of Interaction Research and Communication Design, University of Copenhagen, 2014.
+
+[22]Sharma, Siddhesh, “The future of eyewear: Technological innova­ tions, user preferences, and design opportunities,” World, vol. 4, no. 5, 2023.
+
+[23]Sanders, E. B. N., & Stappers, P. J. (2008), “Co-creation and the new landscapes of design,” CoDesign, vol. 4, no. 1, pp. 5–18, 2008, doi: 10.1080/15710880701875068.
+
+[24]J. Forlizzi and K. Battarbee, “Understanding experience in interac­ tive systems,” Carnegie Mellon University, Pittsburgh, PA, USA, Jun. 29, 2018, doi: 10.1184/R1/6470606.v1
+
+[25] Redström, J., “Towards user design? On the shift from object to user as the subject of design,” Design Studies, vol. 27, no. 2, pp. 123–139, 2006.
+
+[26] S. Kvale and S. Brinkmann,InterViews: Learning the Craft of Qual­ itative Research Interviewing,2nd ed. Thousand Oaks, CA, USA: Sage Publications, 2009.
+
+[27] E. Brandt and J. Messeter,“Facilitating collaboration through design games,”in Proc. Participatory Design Conference (PDC),Toronto, Cana­ da, 2004, pp. 121–131.

@@ -1,0 +1,523 @@
+Abstract
+
+4 Lindahl Jared, Kaplan Christopher, Winget Evan, Britton Willoughby, A phenomenology of meditation-induced light experiences: traditional buddhist and neurobiological perspectives, Frontiers in Psychology, Volume 4, 2014.
+
+Secondary research
+
+In order to learn more about the user behavioral pattern and the expectations about
+
+meditation practice, secondary research is performed over contextual interviews and
+
+quantitative behavioral user research with deliberation. The secondary research mainly
+
+focused on investigating the motivations and the needs of meditation practitioners.
+
+Recent studies have shown that the experienced meditation practitioners and beginners
+
+have different inclinations in why they started meditating, but share a common top
+
+motivation “Out of curiosity”. Reading advertisements and recommendations by a doctor
+
+or therapist had no impact on meditators’ motivation. In terms of need and continuing
+
+reason, the top choices are claimed as “Calm down” and “Contentment and clarity”.5 This
+
+study suggests that meditation practitioners nowadays might possess a higher passion in
+
+the beginning stage and requires a behavioral strengthening process to persist.
+
+Existing adjacent products and experience
+
+The majority of the existing meditation experience could be categorized based on different
+
+taxonomy axes. This section mainly discusses the axis of the Interaction Interface and
+
+their user experience design patterns.
+
+Mobile interface
+
+Mobile meditation apps enjoy the most popular among meditation beginners with their
+
+engaging content, the convenience of use and ease of onboarding. The top meditation apps
+
+used by beginners are Headspace, Balance, and Calm.
+
+The apps are mostly structured in a form of a progressive learning repository with guided
+
+meditation recordings categorized into different themes, including sleep, getting rid of
+
+addiction, relaxation, focus and concentration, etc. The recordings are often accompanied
+
+by relaxing sounds sampled from nature for the users to customize to facilitate their
+
+meditation process.
+
+Another trend of the mobile meditation apps is visualizing the meditation progress over
+
+time to incentivize the users to persist and continue to a higher level of practice indicated
+
+by meditation duration time, frequency and data log such as subjective mood input.
+
+5 Sedlmeier, P., Theumer, J. Why Do People Begin to Meditate and Why Do They Continue?. Mindfulness 11, 1527–1545 (2020).
+
+Critiques about the mobile meditation apps argue that these experiences are homogenous
+
+in their instructional and didactic approach to teaching the beginners to follow a specific
+
+practice pattern and that the gamified add-ons fall short in matching the deeper needs of
+
+the users to persist.
+
+Wearable interface
+
+Applying physiological input and tactile stimuli to instruct users during the meditation
+
+process is one largest benefits of the wearable interface. Popular wearable meditation
+
+experiences are hosted on Apple Watch and Fitbit, which can provide vibration to guide
+
+the users to exhale and inhale, and collect physiological data like heart rate to provide
+
+analytic reports over time.
+
+Virtual reality headset interface
+
+Virtually reality has been a popular interface for meditation experience since the
+
+introduction of URP (Universal Rendering Pipeline) in Unity3D which serves as the basis
+
+of the high-solution dynamic graphic environment. The immersive nature of virtual reality
+
+provides an escape experience for the users to concentrate and focus on the meditation
+
+practice and visual cues to follow.
+
+The existing products leverage different approaches to market their differentiators. E.g.,
+
+Maloka, a character-based app, creates a gamified experience for the user to explore the
+
+virtual world with their meditation progress with plants and animal-like avatars. ZenVR, a
+
+simulated meditation room experience, applied vivid and figurative avatars of Zen masters
+
+to teach meditation and breathing techniques in a community-based environment.
+
+Researchers at Helsinki University explored a dyadic meditation experience in virtual
+
+reality between two participants, which visualizes progress bars between the two figurative
+
+meditator avatars encoded by different colors to represent the amount of empathy-related
+
+approach motivation measured with the EEG signals.6
+
+Nonetheless, there is also a challenge about whether virtual reality might enhance or
+
+depreciate social empathy and the positive mental health effects compared to a more
+
+conventional meditation approach.
+
+In conclusion, the existing studies and adjacent products span from the immersive audio
+
+and visual environment to purely instructional meditation handbooks that cater to different
+
+user personas. However, users of the existing products expressed that they still feel that
+
+6 Simo Järvelä, Benjamin Cowley, Mikko Salminen, Giulio Jacucci, Juho Hamari, and Niklas Ravaja. 2021. Augmented Virtual Reality Meditation: Shared Dyadic Biofeedback Increases Social Presence Via Respiratory Synchrony. 4, 2, Article 6 (June 2021), 19 pages.
+
+there is a misalignment between their meditation patterns and the feedback from the
+
+interfaces aforementioned.
+
+Constraints
+
+Technical Constraints
+
+Despite the lack of technical knowledge and curricular support, the designer had decided
+
+to take on the responsibility to research, design and develop the experience into an
+
+interactable prototype. A tradeoff between the technical realization and the fidelity of the
+
+overall experience was also taken into consideration throughout the whole process of this
+
+project.
+
+Resource Constraints
+
+Limited resources and inaccessibility to apparatus that can measure respiration with
+
+precision is also a great challenge to the completion of this project. The available
+
+apparatus and prototyping tools are constrained to Oculus Quest 2 headset, and Arduino
+
+Uno Board with necessary input sensors and output interfaces.
+
+Time Constraints
+
+The designer is well aware of the fact that this is a 15-week project that also requires
+
+extensive research on the cluster-wide tangential topics and had to work in an agile
+
+development style to ensure the delivery of the feature requirements.
+
+Defining Minimum Viable Product
+
+Considering the scope and constraints above, the project was defined to present an
+
+interactive prototype narrating the concept of visualizing the meditator’s breath in a
+
+calming form in the virtual reality environment.
+
+Process And Design Iterations
+
+Ideation
+
+By synthesizing the research insights and constraints aforementioned, a design problem
+
+emerged as follows: How might we create a simple and calming interaction for the user
+
+to take the initiative to visualize their breathing input in a non-intrusive way?
+
+Choice of input/physiological data
+
+The existing methods of measuring breath primarily include nasal airflow sensors,
+
+capnography monitors, abdominal movement detection, sound analysis and manual
+
+counting. To decide the optimal input of breathing measurements, intrusiveness, accuracy
+
+and measuring cost were the three main factors to consider according to the design
+
+problem above. The abdominal movement was finally chosen as the input measurement
+
+for its low intrusiveness, comparatively high accuracy with its lower cost in
+
+measurement.
+
+One of the largest challenges in this project is deciding on a channel to monitor human
+
+abdominal movement, which is the proxy for respiration. The designer brainstormed on
+
+the possible inputs generated from human abdominal movement as follows:
+
+Increased pressure on the covering fabric
+
+This input requires a stress sensor to detect the change of perpendicular force pointing
+
+outward the human body, but it might create discomfort for its lack of elasticity when tied
+
+to the human body.
+
+Enlarged tension in the abdominal skin area
+
+Similar to the first input, this requires a tension sensor embedded into the fabric wrapped
+
+around the human body in the abdominal area.
+
+Elongated circumference of the abdomen
+
+Resistance of conductive material could be regarded as a proxy for length, an alternative
+
+way to measure abdominal movement with this input is by constructing a laser length
+
+sensor within a reflector and a phototransistor bundled with an IRLed light.7 This
+
+7 https://create.arduino.cc/projecthub/marco-polo-sauza-aguirre/breathing-sensor-1-respirationsensor-1b18de
+
+method was discarded for its technical difficulty in programming the phototransistor
+
+interface.
+
+Material exploration
+
+The designer decided to take the second measurement as the optimal input channel and
+
+explored possible sensors on the market. The ideal sensor candidate was EeonTex
+
+Conductive Stretchable Fabric COM-141128 but was inaccessible due to the retirement
+
+of the product.
+
+An alternative way of fabricating the stretchable sensor was explored during the last
+
+week of the project, i.e. knitting entwined thread of conductive yarn and elastic yarn into
+
+a stretchable “belt” wrapped on the abdominal area of the meditator. This method
+
+incorporated the enlarged tension and elongated circumference mentioned above.
+
+According to the Resistivity and Conductivity formula: R∝ρL/A (ρ=Resistiviy,
+
+L=Length, A=Cross section area), the total resistance will increase in proportion to the
+
+increase in conductive length, which can be read in Arduino analog as input.
+
+Consider a meditator practicing diaphragmatic breathing, as they inhale, the elastic yarn
+
+will be stretched, while the resistance of the conductive yarn will increase as the
+
+conductive length is elongated as it slides through between the wire clips, and vice versa
+
+as they exhale.
+
+Arduino-unity interface
+
+Another huge challenge to realizing the interaction in virtual reality is building a
+
+communication channel between the input read from Arduino and the game engine Unity.
+
+The tool to tackle this challenge is Uduino9, a Unity plugin that connects Arduino boards
+
+and Unity in real-time. One limitation of applying this plugin is the requirement to keep
+
+the Arduino board and the Oculus headset connected during the signal communication
+
+process, such that the user had to experience the interaction with the headset connected to
+
+the developing desktop with limited freedom to move around.
+
+8 https://www.sparkfun.com/products/retired/14112
+
+9 https://marcteyssier.com/uduino/
+
+Choice of output/visualization
+
+In the preliminary stage of this project, the design invested a great amount of time to
+
+explore the visualization output to provide an immersive and calming environment. Three
+
+visualization concepts of the respiratory movement were explored as follows.
+
+Flowing bowl among the two players
+
+Referring to a Chinese ancient prose, Preface of the Orchid Pavilion (蘭亭集序), written
+
+by Xizhi Wang (王羲之), one of the greatest calligraphers in Chinese history, “floating
+
+the wine glasses on a winding brook engirdled” (流觴曲水) is an elegant and metaphoric
+
+behavior to exemplify the serenity and calm in one’s mind. The scene is set to be an
+
+exterior pond where the two players will sit across from each other with a tree of flowers
+
+resting beside them. As they take turns breathing, a bowl will be spun around between
+
+them to collect the falling flower petals. The goal of this game is to exchange the flower
+
+petals until all the petals are exchanged and replaced on their trees. This concept was
+
+discarded for the difficulty in comprehending the literal metaphor from the perspective of
+
+a different cultural population and technical feasibility.
+
+Geometry transformation
+
+Applying the change of the sensor analog to morph a simple geometric component form
+
+from a “decomposed” state (breathing out) to a “solid” state (breathing in). This concept
+
+was discarded for the lack of immersion in the scene and the difficulty in mapping the
+
+animation to the sensor analog.
+
+Breathe to move on
+
+Mapping the change of the sensor analog as the speed of the user avatar in the virtual
+
+reality environment to move the user along a specific path. This concept was eventually
+
+adopted into the prototype for its simplicity and the potential to customize the scene with
+
+comparatively lower efforts.
+
+Design Prototype
+
+Design is an endless, iterative process, therefore, terms like “outcome” or “final design”
+
+could be construed as false statements by some designers. “Design Prototype” is applied
+
+here instead of “Final Design” to avoid the perception that this thesis will be the end of
+
+this project.
+
+Adjustable strap as the wearable interface
+
+The knitted stretch sensor was attached to an adjustable strap belt with Velcro strips to
+
+build the initial wearable prototype, which is connected to Arduino with two alligator
+
+clips for analog input.
+
+River scene
+
+The virtual environment was built as a calming river scene with relaxing natural sounds
+
+where the user will experience the flowing movement in the space with their breath.
+
+Eventually, the user will reach a destination marked by a rotating geometry as a symbol
+
+of a completed session.
+
+Exhale/Inhale threshold
+
+To distinguish whether the user is resting, inhaling, holding their breath, or exhaling, two
+
+thresholds were defined (hereinafter referred to as thres1, thres2 (thres1 < thres2)). A
+
+simple snippet of the pseudocode to realize the avatar moving feature is attached as follows.
+
+The complete Unity project can be accessed through the link:
+
+XingtaiHuang/VRbreathing · GitHub.
+
+float r = analog.read;
+
+string state;
+
+If (r < threshold1) :
+
+state = “rest”;
+
+Else if (thres1<=r < thres2):
+
+If (f’(r)>0):
+
+state = “inhale”;
+
+avatar.accelerate;
+
+Else if (f’(r)<0 ):
+
+state = “exhale”;
+
+avatar.decelerate;
+
+Discussion
+
+During the final presentation, the designer harvested an ample amount of valuable
+
+feedback, this section will discuss how the feedback relates to this project and possible
+
+directions to move forward.
+
+Why virtual reality
+
+As discussed in the secondary research section, virtual reality differentiates itself from
+
+other interfaces with immersion and the deprivation of the visual sense of the users.
+
+Although other interaction modalities e.g. desktop screen-based interaction, mobile
+
+screen-based interaction, tactile interaction, etc. are also possible options. Applying
+
+virtual reality provides an opportunity for the user to walk around the scene while moving
+
+themselves forward using their breath as a pushing force.
+
+While this might elicit some concerns about VR motion sickness, a stricter examination
+
+of the potential users’ physical and mental status should be performed before
+
+experiencing this interaction, which is out of the scope of this project, but still crucial to
+
+the completion of the concept.
+
+Endless scene
+
+Since breathing is not defined as an activity with a start and an end, critiques also
+
+questioned the rationale for choosing a scene with a specific destination. This opens more
+
+space for exploration in the form of the breathing visualization, e.g. modifying the scene
+
+into an endless loop or leveraging the breathing input to change the virtual environment
+
+at the same time, etc.
+
+Future Work and Envisions
+
+Completion of the game mechanism
+
+As this project is limited in time and resources, the realization of interaction only serves
+
+as a preliminary prototype for testing and iteration. Further exploration into the complete
+
+game mechanism or user experience is necessary, e.g. how the user starts and ends the
+
+session, whether the “leveling up” mechanism will be implemented, etc.
+
+Incorporating social connections
+
+The initial concept of Sh’Air was to “Share the Air” between two meditators, but due to
+
+the technical constraints, this part of the interaction is not illustrated in the design prototype.
+
+Some possible concepts of social connections within this prototype might be meeting over
+
+the water as the pair synchronize in their breathing patterns or towards the completion of
+
+one breathing exercise.
+
+Considering other visualization output alternatives
+
+The design prototype was criticized as “dry” for some users as expected, incorporating
+
+other interactive components will be ideal to engage the user during the practice process.
+
+Enhancing user motivations and building an ecosystem
+
+Learning from the adjacent existing mobile products, the habit-forming behavior is an
+
+important aspect of user retention. How to incorporate the VR headset experience and the
+
+meditation data history into the quotidian interfaces on mobile devices and desktop
+
+computers is another possible direction of this project.
+
+Conclusion
+
+In a summary, the designer assumed the responsibility to explore an end-to-end novel
+
+approach to visualize respiratory activity in virtual reality environments with abdominal
+
+movement as an input measured by a knitted stretch sensor. While there are also other
+
+alternatives to solve this problem, the method explored in the Sh’Air project opens new
+
+ground for discussion on the measurement and visualization of breath in virtual 3D
+
+environments.
+
+Acknowledgments
+
+Although the designer is not graduating, this project serves as the culmination of their
+
+achievements in the Master of Design program.
+
+He would like to take this opportunity to give special acknowledgments to the instructors,
+
+Kyle Steinfeld and Eric Paulos who strived to explore the pedagogy of the Design Studio
+
+class in the infant stage of the MDes program, even though there is a misalignment between
+
+the students’ goals and the class structure.
+
+Acknowledgment also goes to Sabin Ciocan, the graduate student instructor of this class,
+
+who helped the students to push forward their projects with an excessive dedication to his
+
+work.
+
+He would also like to appreciate the help from his cluster mates, Elijah Lee, Xiaobai Ji,
+
+and Zhiyue (Luna) Wang, who provided invaluable technical support and shared their
+
+insights that are crucial to the completion of this project.
+
+Last but not least, he would also like to express gratitude to his mother, Cuixia Xu, who
+
+taught him how to knit and purl stitches with her own hands when he was still an
+
+elementary school kid, which is the primary motivation and the crucial technical skills for
+
+the completion of this very knitted stretch sensor.

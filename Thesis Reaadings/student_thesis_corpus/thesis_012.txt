@@ -1,0 +1,229 @@
+Abstract
+
+2. History/Prior Art • Home-Based Progress Monitoring Applications • Real-Time Sensing and Measuring with Tangible Interfaces • Data Collection Tools for Therapists • Behavior Tracking in Child-Therapist Interactions
+
+3. Motivation
+
+4. Method/Approach • Qualitative User Research • Ideation and Concept Testing • Rapid Prototyping • Usability Testing
+
+5. Final Design • Streamlining the Flow for Intervention • Enhancing Therapeutic Engagement with AR Technology • Empowering Therapist Supervision and Feedback
+
+6. Discussion
+
+7. Future Work
+
+8. Conclusion
+
+9. References
+
+1.	 INTRODUCTION
+
+Children on the autism spectrum are rec­ ommended to take ABA therapy sessions for 10-40 hours per week [31], to enhance basic abilities, refine motor skills, promote social interactions and mitigate challenging behaviors including hurting themselves. Therapists utilize Naturalistic Environment Training (NET) to teach skills in settings and manners that mirror the everyday ac­ tivities young children may actually expe­ rience [14], supporting the autistic children in home or school environments. The inter­ ventions during ABA therapy usually occur through the child-therapist interplay, where the therapist uses prompting to engage the autistic child in daily playing and learning activities, fostering frequent interactions. In each session, the therapist needs to record data within 3-5 seconds following any meaningful behavior (completing or failing a certain step of the task, showing hesitation, saying the expected words, having a tantrum lasting 3 minutes, etc.), using either paper or electronic datasheets on a tablet. These data (including frequen­ cy, rate, events, duration, latency, and other observations), are a part of the discharge summary to measure the change of the child over time, also used for insurance purposes. The therapist has to record data almost upon observation to guarantee accu­ rate documentation before the emergence of the next data point or before the details of the current one fade from memory.
+
+The recurring need to pay attention to datasheets and note down information in time can be taxing for therapists [21], frequently pulling them away from the im­ mersive communication environment they have established with the autistic children, and disrupting the flow of child-therapist interactions. As the CDC statistics indicat­ ed that 1 out of every 36 eight-year-olds
+
+in the US were diagnosed with autism in 2020 [18], therapists require support for a more streamlined and less distracting data collection process during their intensive therapy sessions with children on the au­ tism spectrum.
+
+This project represents a joint endeavor by Ziyi Zhou and myself. In our close col­ laboration, I concentrate on user research and user experience design, while Ziyi leads in ensuring visual consistency and conducting prototype testing. Our inves­ tigation into previous research and design efforts revealed a notable gap in creating solutions specifically aligned with the day-to-day practices and methodologies of therapists, particularly in integrating technology into the naturalistic teaching environment. While many past projects have developed tools focusing on children with autism as the primary users, there is a notable lack of exploration in designing tools from the therapist’s perspective.
+
+Through qualitative research with ther­ apists, we identified a key issue: the need for automating data collection in autism therapy sessions, enabling therapists to maintain their focus on the child without disrupting the flow of the session, and simultaneously facilitating their self-reflec­ tion and performance evaluation.
+
+In response to this need, we developed APO AR, a concept design for an integrat­ ed data tracking tool specifically fashioned for therapists engaged in ABA therapy ses­ sions with children on the autism spectrum. This tool is designed to support therapists as they navigate through the learning tree in a naturalistic setting, automating data tracking to heighten the therapist’s focus on the child. APO AR not only stream­ lines data management but also empowers therapists to evaluate and reflect on their performance, as overseen by BCBA, there­ by enhancing the overall effectiveness of
+
+the therapy sessions.
+
+2.	 HISTORY/PRIOR ART
+
+To enhance child-therapist interactions and support the data-recording tasks for thera­ pists, various research, design initiatives, and product implementations have sought to integrate innovative designs and tech­ nologies into home-based interventions, therapy, or special education supported by ABA therapists. These efforts aim to reduce the workload for therapists and foster improved communication, leading to more effective therapeutic outcomes. Existing solutions have covered progress monitoring applications in home-based interventions, data collection tools used by therapists during ABA therapy sessions, real-time feedback empowered by tangible interfaces and interactive devices, as well as behavior tracking and data coding in child-therapist interactions.
+
+2.1  Home-Based Progress Monitoring Applications
+
+Telehealth and self-guided applications broaden the reach of remote autism interventions and self-training to support autistic children at home throughout their everyday routines [28]. These applications use gamification design to motivate the children in skill acquisition and to enhance communication with parents. Certain apps also target educating parents or caregivers on home-based interventions [11], enabling convenient practices without the direct involvement of ABA therapists.
+
+Data collection features supported by these apps tracks basic information includ­ ing time and frequency, or allows caregiv­ ers to manually record behavioral data. The mobile app “Autism Assistant” provides autistic children with home-based interven­
+
+tions on learning daily skills like brushing teeth in games [8]. It tracks the learning progress of skill acquisition when the child clicks on different buttons, sending the data of the child to ABA therapists to facilitate appropriate adjustments to therapy plans. Another mobile app “Footsteps”, aims to tackle the challenges faced by behavior­ al support staff in consistently gathering quantitative data or documenting observa­ tions for children with autism [23]. Other telehealth applications for autistic children may incorporate Virtual Reality and Aug­ mented Reality technologies [7], to help improve specific skills and social abilities. These tools document data through the interactions in tasks in the virtual environ­ ment.
+
+Recording data and progress at home offers the advantage of keeping children in a comfortable setting and reducing therapy costs. Yet, these apps primarily teach au­ tistic children skills through digital means, rather than fostering genuine interactions with family members or therapists, where richer data could be gathered. The infor­ mation provided by parents or captured during game tasks might not offer thera­ pists enough depth or details to accurately assess the actual progress of the children.
+
+2.2  Real-Time Sensing and Measuring with Tangible Interfaces
+
+Interactive devices, projection-based Aug­ mented Reality, Virtual Reality, wearables, and robots have been tested as potential aids for therapists during teaching sessions. The problem areas of these technologies encompass recognizing emotions, improv­ ing social skills, addressing stereotypical/ challenging behavior, life/daily skill acquisition and motor skill enhancement. Incorporating these devices and interfaces into therapy sessions can also yield crucial data to guide immediate or future clinical
+
+decisions [22].
+
+The design project “BeBlocks” can be used by therapists to help autistic children develop fine motor and cognitive skills using modular blocks that deliver immedi­ ate haptic feedback, and it can be comple­ mented by a game app [16]. It employs high-resolution sensors to gather metrics for educators related to task analysis for practicing pushing, tapping and grip­ ping, enabling educators and therapists to document and assess student progress via the recorded force data. Internet of Things (IoT) technologies are also applied to special education classrooms to record data in the learning environment and recognize emotions [29]. Apart from sensor-based data tracking, Mixed Reality technologies can be utilized to tailor the scenes for individuals with autism and record data in the virtual environments, allowing them to practice social skills through full-body interactions in therapy [9]. With Virtual Reality technologies, autistic children are engaged with music therapy and music education [25]. The projection-based interactive device, “Tidd”, holds the potential to assist therapists in teaching daily skills (bed-making, dressing, etc.) to children with autism and track their train­ ing progress [30]. Robot-assisted therapy has shown promise in enhancing various skills and capturing data during child-robot interactions. [2].
+
+Extensive studies have investigated how tangible interfaces and multimodal interactions can enhance therapy sessions when therapists are present. While inter­ active technologies offer potential benefits in supporting therapists, the learning curve and limited adaptability can impede their integration into regular therapy sessions where scalability matters. Additional apprehensions regarding these technolo­ gies include the risk of children becoming
+
+reliant on the devices, and doubts about the generalization of skills [12].
+
+2.3  Data Collection Tools for Therapists
+
+Electronic Health Record (EHR) tools tailored for ABA therapists, or the Board Certified Behavior Analysts (BCBAs), can cater to fundamental requirements in their daily operations, encompassing schedule management, digital data collection for a number of clients, ABA programming, and other specialized tasks. These tools usually come with complicated user interfaces, and therapists are trained to use them efficient­ ly.
+
+One of the commonly used applications among ABA therapists is CentralReach [10], an all-in-one enterprise ABA soft­ ware. Therapists who use CentralReach for standardized data collection first set goals for each session and segment them into more detailed tasks. During therapy sessions, they then use a tablet to either press multiple buttons or make notes upon observing a meaningful behavior. The ap­ plication automatically processes the data points and generates a graph displaying the most recent three data points in real-time.
+
+These professional applications offer a higher level of flexibility in data gather­ ing and a more standardized approach for capturing data points. However, therapists often have to divert their attention from the engagement with the children to perform data tasks on tablets, interrupting the conti­ nuity of interactions. The process is further complicated if the therapist needs to type out detailed notes.
+
+2.4  Behavior Tracking in Child-Thera­ pist Interactions
+
+Algorithm-driven solutions for data capture are driving precision therapy for children with autism, which include Computer Vision-based evaluations, AI/
+
+Machine Learning-based customization, gaze/posture detection, and observational coding systems.
+
+Computer vision applications are able to extract key behaviors and emotions from extended session videos, producing time-based charts, which equips clinicians with crucial data for diagnosing, assessing, and monitoring children with autism with minimal oversight [24]. Detecting eye-con­ tact or analyzing notes from child-thera­ pist interactions indicates the potential of Artificial Intelligence to classify certain behaviors, offering beneficial solutions for therapy practices [3, 4]. During therapy, automated mutual gaze detection can help reduce the burden of hand-coded data collection [15]. AI technologies that priori­ tizes privacy can enhance ABA therapy for autism, aiding in understanding the causes and consequences of behaviors, as well as supporting special education for autistic children [19]. The child-therapist interac­ tions can be automatically measured using the observational coding system, offering opportunities for automated data monitor­ ing and analysis [5, 6].
+
+Although these solutions for data collec­ tion show possible benefits in reducing the workload for therapists, they also require time to establish trust in these advanced yet opaque analysis methods. Numer­ ous reservations about AI usage remain, including concerns about privacy and the unclear correlation between the training dataset and the quality of the outcomes [17]. As technology in this area advances, there is a noticeable lack of exploration in utilizing these advancements to improve user experience and meet the needs in vari­ ous use cases. There is significant potential to bridge the gap between these emerging technologies and their thoughtful and de­ lightful application, to provide meaningful benefits for therapists.
+
+3.	 MOTIVATION
+
+Existing literature and design projects provide valuable insights into enhancing child-therapist interactions and aiding therapists with data-related tasks. How­ ever, there remains a discernible area of opportunities in design explorations spe­ cifically tailored to the everyday workflow and methodologies of therapists, and in integrating technologies seamlessly into the naturalistic teaching environment [20, 26]. Numerous past design initiatives, as outlined in sections 2.1 and 2.2, have concentrated on creating technology-based tools with children with autism as the primary users. On the contrary, as indicat­ ed in sections 2.3 and 2.4, there has been insufficient exploration into designing the user experience that incorporates the perspective of therapists.
+
+The current process of a therapy session for skill acquisition typically unfolds in three stages. First, the BCBA prepares a detailed learning tree for the specific child, defining teaching instructions, prompting methods, and other necessary materials. This is based on the learning progress observed in previous sessions. The BCBA then assigns the intervention tasks to a spe­ cific therapist, either in person, on paper, or through apps like CentralReach. During the second stage, the skill acquisition (intervention) session, the therapist works with the autistic child through each step of the learning tree. Each goal has been broken down into smaller, manageable steps. The therapist is responsible for doc­ umenting the results of each of the child’s attempts, either on paper forms or tablets, in various data formats as predefined by the BCBA. Finally, in the 15 minutes following the session, the therapist reviews the data and prepares a report on the session, either manually or with the aid of
+
+CentralReach. This report, which outlines the child’s skill acquisition progress, is vi­ tal for both parents and insurance providers to track progress and process insurance claims. Generally, the more accurate data a therapist can gather, the more useful the resulting report is for the BCBA in setting up learning plans for future sessions.
+
+Our design is centered on improving the experience in the skill acquisition stage in the current workflow of therapists. We hope to craft an innovative solution to tackle three primary challenges ther­ apists face during intervention sessions: the distraction from frequent breaks to manually record data, interruptions in the flow of child-therapist interactions, and the complexities for Board Certified Behavior Analysts (BCBAs) in assessing therapist performance to supervise the session. Our design concept also looks to go be­ yond addressing common challenges for therapists, offering improvements to their current workflow. We envision a system that equips therapists with comprehensive tracking tools, facilitating self-assessment using various metrics including attention span, mutual eye contact, emotional trends, and response times. Our goal is to propose a design concept that connects BCBAs and therapists, enhancing the way data is tracked and managed in therapy sessions with children on the autism spectrum.
+
+4.	 METHOD/APPROACH
+
+Our approach follows the general design process of “discover, define, develop and deliver”[27]. Initially, we conducted interviews and observations with users and stakeholders to uncover pain points in their current user journey. This led to the identi­ fication of specific issues we aimed to tack­ le using design methodologies, culminating
+
+in a clearly defined problem statement. During the ideation phase, we generated a range of ideas and engaged in concept testing to elicit feedback from our target audience. Once we settled on a concept to develop further, we created prototypes using design tools and Augmented Reality devices to demonstrate the proposed user experience. Subsequently, we carried out usability testing to collect feedback and assess our solutions, setting the stage for iterative improvements.
+
+4.1  Qualitative User Research
+
+Our first step involved interviewing fami­ lies with autistic children to gain insights into their experiences with therapy ses­ sions. Through participatory observation, we explored their challenges and concerns. Subsequently, we engaged with therapists overseen by BCBAs to delve into the spe­ cifics of their workflows and understand the challenges they encounter in different stages of their user journey. This process allowed us to pinpoint common challeng­ es across different individuals and gather detailed insights from the therapist.
+
+Our research revealed that in their current workflow, the therapist needs to record data frequently and swiftly, within 3-5 seconds following each child’s attempt during the intervention. In a typical skill acquisition session, the types of data collected include baseline measurements, task analysis, frequency of trials, prompt­ ing and reinforcement, incidental data, and additional notes. Further analysis of this raw data collected by the therapist yields insights into the child’s percent correct, percent independence, duration, rate, score, among other metrics. The number of goals set in the learning tree for each session varies based on the child’s specific needs. However, in a single intervention session, the therapist may need to pause for data
+
+entry hundreds of times with the tablet, each pause potentially disrupting the natu­ ral flow of interaction with the child during the teaching process.
+
+An additional insight that stood out to us was the frequency of therapist reports to the BCBA, typically occurring only once every two weeks or less. This infrequent communication makes it challenging for the BCBA to closely supervise specific ses­ sions or effectively evaluate the therapist’s performance. Concurrently, this schedule also poses difficulties for therapists in conducting self-reflection and assessment of their own sessions.
+
+Drawing from our research findings, we formulated the following problem statement: How might we streamline task flow and data collection in autism therapy sessions, enabling therapists to focus on interacting with the child and also reflecting in action?
+
+4.2  Ideation and Concept Testing
+
+Building on our research findings, we brainstormed both physical and digital solutions and categorized them into three types to address our problem statement. The first is screen-based applications designed for a simplified workflow, enhancing data recording efficiency and minimizing the therapist’s need to divert attention from the interventions. The sec­ ond approach involves creating wearables or tangible interfaces that enable therapists to control data tracking semi-automatically. The third type of solution is a device that integrates fully automatic data tracking and analysis.
+
+We presented these ideas in a low-fidel­ ity format to two therapists, seeking their feedback on each concept. They found the first type, screen-based apps, to be immedi­ ately practical and useful, albeit less novel or exciting. The second category, involving
+
+tangible interfaces for semi-automatic data recording, was seen as potentially offering time savings and detailed data capture but raised concerns about a possible steep learning curve for therapists. For the fully automatic data tracking devices, the therapists expressed strong interest due to their hands-off nature, but they also shared some reservations. They inquired whether such a device could provide visual cues to guide them through session progress and next steps during the intervention time. Additionally, they highlighted the need for reviewing data in real time in line with different therapists’ styles, even with automatic recording. Lastly, they expressed concern about the potential overstimulation and distraction for autistic children if the device requires manual camera adjust­ ments or responsive movements.
+
+Based on the feedback and concerns raised, we concluded that therapists antic­ ipate a solution that not only aligns with their established workflow and records data automatically but also offers visual feedback and real-time cues. To meet these needs, we developed a new solution through further brainstorming, envisioning augmented reality glasses equipped with a camera and linked to an application loaded with comprehensive information of the therapy session.
+
+4.3  Rapid Prototyping
+
+We rapidly developed a low-fidelity pro­ totype of our app using Figma and utilized XReal Air 2 [1] for crafting a preliminary AR feature prototype, showcasing the user flows. This allowed us to test the overall user experience with therapists, gather­ ing their feedback on which features to prioritize.
+
+Our prototype iterations focused on three key areas. First, acknowledging the impor­ tance of the therapy intervention stage, we
+
+incorporated elements showing the BC­ BA’s preparation phase, particularly how they set up the learning tree and its integra­ tion into the AR interactions. Second, we aimed to strike a balance between fully re­ lying on automated data tracking, the abili­ ty to check or edit data in real time, and the option to review or analyze post-session. We introduced adjustable manual settings for the AR data tracking to accommodate therapists who prefer to amend data stepby-step when discrepancies are noticed. Additionally, our revised design flags certain data as “unsure”, automatically capturing video clips for therapists to verify during the post-session 15-minute review. Lastly, we enhanced features to aid BCBAs in evaluating therapist (Registered Behavior Technician, RBT) performance.
+
+Per therapist suggestions, our AR appli­ cation could simplify BCBA supervision by focusing on the learning progress of the child, adherence to treatment plans, intervention effectiveness, communication skills, crisis management, and facilitating virtual supervisory sessions.
+
+Initially, we crafted a prototype that showcased a full user experience, encom­ passing the stages before, during, and after an intervention session for skill acquisition with our solution, which focused on the overarching user journey before jumping to intricate details. We then progressed to refine the layout and visual components, creating mid-fidelity prototypes. Subse­ quently, we focused on enhancing the in­ terface details and constructed animations for our high-fidelity prototypes, aiming to
+
+facilitate smoother interactions and empha­ size critical moments.
+
+4.4  Usability Testing
+
+We conducted qualitative user testing with two therapists, employing our high-fidelity prototypes to evaluate learnability, efficien­ cy, error rate, and subjective satisfaction. The therapists expressed high satisfaction with the design concept, noting its ease of use and potential to enhance their interac­ tion flow with children with autism during therapy sessions. They also highlighted the design’s long-term benefits for self-reflec­ tion on their therapy practice. The thera­ pists are enthusiastic about the prospect of seeing the design implemented in the future, coupled with advanced algorithms and more advanced devices.
+
+5.	 FINAL DESIGN
+
+Our concept design, APO AR, is an integrated data tracking tool tailored for therapists in ABA therapy sessions with children on the autism spectrum. It assists therapists in teaching through the learning tree within a naturalistic environment, by taking care of automatic data tracking to amplify therapists’ attention on the child, and to empower them in performance eval­ uation and self-reflection.
+
+APO AR features a software system integrated with AR glasses equipped with cameras. The AR interface provides essential information for each step of the learning tree predefined by BCBAs, guiding therapists through skill acquisition interventions. The connected software automatically records visual and auditory data from the autistic child, using computer vision and speech recognition algorithms to analyze points of interest and translate them into meaningful data that forms a
+
+comprehensive report for the client. Addi­ tionally, APO AR enables BCBAs to con­ duct virtual supervisory sessions, offering a platform for supervising and assessing therapists’ performance.
+
+The name “APO” is derived from Apol­ lo, symbolizing the god of art and healing [13], reflecting the fusion of creative and therapeutic elements in our approach.
+
+5.1  Streamlining the Flow for Interven­ tion
+
+APO streamlines the intervention process for therapists by integrating essential infor­ mation from the preparation stage into the session, displayed in a manner that doesn’t disrupt interaction flow. Here’s an example to demonstrate how therapists can utilize APO to optimize their tasks in a skill ac­ quisition session.
+
+Before beginning today’s session with Mia, a 7-year-old with autism, the BCBA has already prepared the learning tree for the session in the app, based on Mia’s pre­ vious progress. Each step or goal, carefully segmented into smaller, manageable tasks, is sequentially indicated on the AR device linked to the app. The therapist, using the AR interface, sees that the first skill to focus on is handwashing – a complex task for Mia, broken down into eight smaller steps by the BCBA.
+
+The therapist says, “Today, we’re going to practice washing our hands, Mia. It’s fun and keeps us clean!” As they start with the initial step - approaching the sink - the therapist no longer needs to manually time each step on a tablet. With APO, the device automatically marks the start of this step, triggered by the therapist’s keyword “Let’s go to the sink, Mia.” The therapist gently guides Mia, providing verbal and gestural prompts. As Mia moves towards the sink, the therapist’s words of encouragement, including “That’s the way!” are captured
+
+by APO’s algorithm. This verbal cue, along with other potential indicators recognized through computer vision, marks the com­ pletion of Mia’s first attempt with verbal prompting.
+
+Throughout the intervention, the learning tree and instructions, as designed by the BCBA, are intuitively displayed through APO. This integration eases the therapist’s tasks to effectively implement the interven­ tion plan, ensuring a smooth, uninterrupted session focused on Mia’s skill develop­ ment.
+
+5.2  Enhancing Therapeutic Engagement with AR Technology
+
+APO AR streamlines data management during intervention sessions by automating data recording, enabling therapists to main­
+
+tain uninterrupted interactions with the child. This ensures therapists can devote their full attention to the child’s needs.
+
+For instance, in the past, during each of Mia’s attempts at a task, the therapist would manually record task analysis data, leading to moments of silence. Now, with APO AR, when the therapist demonstrates how to turn on the water during the second step of handwashing and Mia shows no response, APO AR automatically logs “no response after model prompt” for this attempt. Throughout the therapy session, across all steps and goals, APO AR contin­ uously and seamlessly captures data.
+
+APO AR offers two distinct modes for data recording. In the fully automat­ ic mode, APO autonomously logs data without therapist input, merely providing
+
+necessary visual cues (mainly task analysis name and prompt level information) about the data being recorded. Therapists have
+
+the option to turn these visual hints on or off via the AR interface, to further reduce distractions. Post-session, certain data
+
+might be flagged for verification, prompt­ ing therapists to review these specific in­ stances and refer to the related video clips to confirm or modify the automatically in­ terpreted data. In the semi-automatic mode, therapists have the flexibility to manually modify or add to the data if they notice dis­ crepancies or delays in the automated rec­ ognition. They can navigate through data options by sliding a finger along the frame of the AR glasses and tap to select their choices. This mode is particularly designed for more experienced therapists who prefer to streamline their post-session workload, offering them an opportunity to fine-tune data in real-time during interventions.
+
+In addition to conventional data in inter­ ventions, APO AR is capable of capturing
+
+more detailed metrics, including the du­ ration of mutual eye contact and response time. These granular data points can be compared with those from previous thera­ py sessions, providing additional measures to assess the progress of the child with autism. This feature enhances the thera­ pist’s ability to track subtle but significant developments over time.
+
+5.3  Empowering Therapist Supervision and Feedback
+
+Another practical application of APO AR is its ability to assist BCBAs in assessing therapist performance. This is achieved by analyzing metrics such as session engage­ ment, which APO tracks. For instance, a BCBA can effectively observe a session
+
+from a first-person perspective through the device, akin to being behind a oneway mirror. This enables them to listen to the therapist’s dialogue and closely watch their interaction techniques, including the nuances of their prompting and fading strategies.
+
+Should a BCBA notice that a therapist occasionally misses reinforcement op­ portunities, they can make note of these instances through the app. APO AR allows the collection of relevant video clip sam­ ples, which can be used later to show the therapist specific areas for improvement. These clips become a vital part of subse­ quent discussions and check-ins, where the BCBA offers supportive feedback and guidance. Using insights gained from virtual supervisory sessions, the BCBA can then tailor their next supervision to address observed areas for development. This dual
+
+functionality of APO AR not only enhanc­ es the assessment of therapy sessions but also significantly contributes to the profes­ sional growth of therapists.
+
+Additionally, APO AR recognizes the importance of balancing critique with positive reinforcement. It keeps track of the therapist’s skill progression, moving the progress bar forward in the app as an indication of improvement. It also high­ lights the therapist’s strong points, noting exemplary performances like skillfully managing challenging scenarios, which aids in collective learning. This feature helps maintain a positive and constructive atmosphere, crucial for ongoing profes­ sional development and motivation.
+
+6.	 DISCUSSION
+
+In this project, we discovered the potential for our solution, APO AR, to be applicable and scalable across various therapy meth­ ods for children with autism, extending be­ yond just NET. Additionally, we found that the concept design of APO AR is not only thoughtful and meaningful but also highly appreciated by therapists, indicating a strong potential for its future implementa­ tion using current technologies. Moreover, while privacy concerns surrounding APO AR were identified, we also recognized that there are several feasible solutions and strategies that can effectively mitigate these concerns, ensuring responsible use and management of sensitive information.
+
+Extending Beyond Current Use Cases. Incorporating feedback from user testing with therapists, we discovered that APO AR is beneficial for naturalistic teaching and potentially even more advantageous in Discrete Trial Training (DTT) sessions. DTT, characterized by its high data density, poses a significant challenge for therapists who need to accurately record data while simultaneously engaging with the autistic child through repetitive questioning. The precision and timeliness required in these sessions make APO AR’s automated data tracking features particularly valuable.
+
+To effectively integrate APO AR into DTT sessions, a significant challenge lies in refining the algorithms to accurately and promptly detect the therapist’s questions and the child’s responses. Considering the rapid pace characteristic of DTT compared to NET, this adaptation is crucial. If the technology can be advanced to meet these demands, APO AR holds the potential to significantly enhance the efficiency and effectiveness of DTT sessions. The ability of APO AR to keep up with the fast-paced nature of DTT would not only streamline
+
+data tracking but also potentially trans­ form the therapeutic experience, making it a highly impactful tool in the realm of autism therapy.
+
+From Concept to Practice. In light of our project’s time and resource constraints, our focus was on developing concept designs specific to skill acquisition inter­ ventions, aiming to closely emulate the user experience of ABA therapists. Based on therapists’ insights, our efforts were directed towards designing an experience anchored in currently feasible technolo­ gies. However, it’s important to note that the project did not culminate in a fully functional version of APO AR. The inten­ tion behind our design was to inspire fur­ ther exploration into enhancing therapists’ experiences and to prepare design concepts for potential future implementations that leverage the viable technologies discussed in section 2.4.
+
+Data Ethics in Focus. A consideration in our design process was the ethical handling of sensitive personal data, espe­ cially considering the privacy concerns associated with collecting and analyzing extensive data from children with autism. The therapists we consulted suggested that stringent non-disclosure agreements could mitigate privacy concerns. Additionally, they proposed that retaining only interpret­ ed data for client reports and intervention planning, while deleting raw visual and auditory data after 30 days, could strike a balance between utility and confidentiality.
+
+Despite these limitations and privacy considerations, the feedback indicated that APO AR’s potential benefits in various therapeutic contexts would likely outweigh its drawbacks. The system’s ability to reduce the manual burden on therapists, thereby allowing them to focus more on direct interaction and therapy quality, pres­ ents a significant advancement in the field.
+
+7.	 FUTURE WORK
+
+To build on our project, our next step involves developing functional prototypes to facilitate more realistic user experience testing. We aim to initiate collaboration with engineers to create solutions tailored to specific therapy sessions. Starting with targeted applications, we plan to gradu­ ally expand the solution to accommodate a broader range of needs across different therapeutic interventions.
+
+Additionally, we recognize the impor­ tance of gathering diverse perspectives in our development process. To achieve this, we intend to conduct qualitative user research and testing with a wider array of therapists, encompassing varying levels of experience. This approach will provide a richer set of insights into our design, en­ abling us to iterate and refine our solutions with further expert feedback in mind.
+
+Another possible area of focus is the im­ plementation of APO AR with a well-de­ fined technical strategy. This includes se­ lecting the most cost-effective device that optimizes user experience without com­
+
+promising on functionality. We also plan to establish a framework for prioritizing new features, using a cost-impact metric to ensure that each addition to the system is both economically viable and significantly beneficial to the therapy process. These steps are crucial in transforming APO AR from a conceptual design into a practical tool.
+
+Looking ahead, the possibilities for APO AR and similar technologies in the realm of ABA therapy are vast. With advance­ ments in AR, AI, and data analytics, there is a promising pathway to creating tools that are not only technologically sophisti­ cated but also deeply attuned to the needs of therapists and the children they support. Our hope is that our conceptual design serves as a catalyst for this evolution, paving the way for more intuitive, efficient, and impactful therapeutic tools in the field of autism support and beyond.
+
+8.	 CONCLUSION
+
+This project introduces APO AR, a concep­
+
+tual tool specifically designed for therapists conducting Applied Behavior Analysis (ABA) sessions with children on the au­ tism spectrum. APO AR aids therapists in navigating the learning tree within natural­ istic settings, streamlining data collection to allow uninterrupted focus on the child and facilitating performance evaluation.
+
+Our development journey began with an in-depth analysis of existing designs and technical capabilities, leading to the identification of a significant research gap. This was followed by comprehensive qualitative research with ABA therapists, which informed our ideation process. APO AR addresses three primary challenges identified during our research: disruptions caused by manual data recording, interrup­ tion in child-therapist interaction flow, and the complexity of performance evaluation by Board Certified Behavior Analysts (BCBAs).
+
+User testing with APO AR prototypes garnered positive reactions from therapists, who appreciated its user-friendly design and its potential to improve interaction dynamics in autism therapy sessions. No­ tably, therapists also recognized the value of APO AR for enhancing self-reflection in their practices and expressed eagerness to see the concept realized with more advanced algorithms and devices. They en­ couraged expanding APO AR’s application to a wider range of therapy scenarios.
+
+Despite facing limitations and privacy concerns, the feedback suggests that the benefits of APO AR in diverse therapeutic contexts could significantly outweigh its challenges. Its ability to lighten the manual workload of therapists, enabling greater focus on direct interaction and therapy quality, marks a substantial progression in design explorations for therapists in autism therapy. The aim of our design exploration is to spur further research into improving
+
+therapists’ experiences and to develop assets for potential future implementations using feasible technologies.

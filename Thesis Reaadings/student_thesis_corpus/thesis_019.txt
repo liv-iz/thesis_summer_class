@@ -1,0 +1,235 @@
+Introduction
+
+Outcome Discussion Conclusion
+
+References Appendices
+
+Introduction
+
+Displacement exists all around us, it threatens most of us, and yet as a society we are oblivious to the layers of trauma experienced by people who forcibly lose their home. These individuals tend to be some of the most marginalized in society, often lacking access to adequate resources and support, while current policy trends are reducing what few resources are available both domestically and internationally.
+
+As of the end of 2024, there were 123 million people worldwide who were forcibly displaced from their homes, continuing a 30 year upward
+
+trend [2], exacerbated by wars, financial crises, and the recent dissolution of international aid programs [3]. Beyond a loss of shelter and safety, displacement is a loss of home. Home extends beyond walls and belongings, it is the sensory and emotional architecture of memory, ritual, and belonging. When ‘home’ is destroyed or left behind, the rupture unsettles identity and continuity. Survival often means more than resettling, it requires reconstructing fragments of home through objects, sensory familiarity, and rituals of care.
+
+Research on nostalgia
+
+underscores this dynamic, showing how memory can help individuals reinhabit what has been lost in ways that support emotional continuity rather than replicate the past [4]. Similarly, longstanding studies on family rituals emphasize their role as anchors of stability and identity, offering grounding in moments when life becomes fractured or unpredictable [5], [6]. This suggests an opening for design to support not only functional needs, but also the subtle emotional processes that help people feel grounded again.
+
+While designers may not be able to address the causes of or policies pertaining to displacement, we can try to help in the ways we know how: through connecting people, and giving them power and agency in shaping the solutions to their everyday problems.
+
+This thesis explores how
+
+displacement and war trauma reshape individuals’ relationships with their spaces and objects, and how design might respond to that transformation. Through trauma-informed, participatory, and culturally contextualized design practices, it asks:
+
+How might ecosystems of everyday objects use effortless, ambient communication rooted in daily rituals to help counter emotional distance caused by displacement and loss of home?
+
+Drawing on nostalgia, ritual, and sensory continuity, this work reframes ambient communication as quiet care, and through co-design across displaced communities, explores how design can help reweave a sense of home.
+
+Displacement is often conceived in terms of rupture and dislocation, but its emotional and psychological aftershocks can persist long after the physical journey ends [7], [8], [9] . Even when former refugees or displaced persons attain stable housing, the sense of loss of home lingers in memory, identity, and their relationships to everyday spaces [10]. Rebuilding a sense of home is not merely about shelter, but about reweaving connections between people, objects, ritual, and personal narrative [8], [11].
+
+that war-related and displacement experiences often leave enduring mental health burdens. Refugees and asylum seekers frequently exhibit elevated rates of posttraumatic stress, depression, and anxiety, conditions that are compounded by post-migration stressors such as social isolation, economic precarity, and identity fragmentation [9], [12], [13]. The Refugee Post-Migration Stress Scale (RPMS) [14] underscores how “loss of home country” [7, pp. 1] is itself a distinct domain of distress, with postresettlement experiences often influencing mental
+
+Stress of Displacement
+
+Trauma literature confirms
+
+health outcomes as much as, or more than, premigration trauma [7]. Recent analyses highlight that these emotional burdens often manifest somatically through disrupted rhythms of daily life, making the loss of ritual continuity a significant component of post-migration stress [6], [9].
+
+Memory, Nostalgia, and Rituals
+
+Memory research offers a lens for understanding how people reconstruct the past and self after trauma. In displaced populations, studies find that the interplay of memory and physical place is especially significant where spatial dislocation and the absence of familiar cues are shown to disrupt identity continuity. This underscores the importance of rituals related to home. Similarly, literature on nostalgia shows that reinhabiting memories can offer emotional continuity in the face of dislocation [4]. Scholars of ritual and family routines further argue that repeated practices serve as mnemonic anchors that reinforce stability and
+
+identity, suggesting that the erosion of these rituals intensifies the instability felt after displacement [5], [6].
+
+Similarly, material culture becomes a powerful medium in this process. Recent work on biographic objects argues that objects carried across displacement acquire new meaning, mediating social action and facilitating agency in rebuilding identity [15]. Even modest artifacts of memory may stand as tangible bridges between ‘before’ and ‘after’. Miller’s work on home possessions emphasizes how everyday objects scaffold identity and belonging [16], where sensory and material cues function as quiet, yet potent agents of emotional reconstruction for those navigating posttraumatic environments.
+
+Thus, for people now living in stable housing, but contending with the emotional legacy of displacement, design interventions must engage on three interconnected levels: material (objects, sensory cues, spatial affordances), narrative/memory (storytelling, mnemonic anchoring, ritual), and
+
+agency (participant control, adaptability, self-direction). Rather than designing for crisis or for the temporary, this work asks how we might design toward relational recovery—how people may regenerate home, identity, and belonging when home has been lost. In this context, design becomes not only a means of meeting practical needs, but a way of restoring the rituals, memories, and sensory textures through which people rebuild their sense of self.
+
+be perceived without overburdening users and supporting a sense of control and ease. This vision aligns with Weiser’s broader concept of “ubiquitous computing” [17, p. 3], in which technologies disappear into everyday life and enhance embodied interaction. Building on this, Ishii and colleagues introduced ambientROOM [19] and Tangible User Interfaces [20], integrating subtle information displays and physical objects into architectural space. Later works such as Gaver’s Drift Table [21] emphasize reflective, ludic engagement within the home, expanding ambient displays beyond utility toward meaning and experience. As such, this project will base the design interventions  on these technologies.
+
+Ambient Displays and Calm Technologies
+
+Ambient displays and calm technologies [17] have been widely explored as alternatives to attentiondemanding digital interfaces. Weiser and Brown [17] describe calm technology as engaging both the center and periphery of attention, allowing information to
+
+Shortcomings of Technology Mediation
+
+Technological innovation is advancing faster than ever. At a word or a touch, we can automate our routines, restock our homes, and optimize our environments. Yet while convenience and efficiency flourish, some of the most profound human needs remain unaddressed: the need for belonging, continuity, and emotional safety. In a world increasingly mediated by technology, the capacity to feel at home within one’s body, one’s space, and one’s memories has become an overlooked form of well-
+
+being. Many of the tools that promise connection instead add layers of mediation, distancing people from the quiet forms of closeness that shape emotional stability.
+
+Unmet Needs
+
+Among those most deeply affected by this absence are people who have experienced displacement. Even after resettlement, the trauma of losing home continues to shape how they navigate the world. The spaces they inhabit may be stable, yet the sense of home remains fractured, suspended between past and present. While much attention has been placed on emergency
+
+housing and refugee shelter design, little has been done to understand what happens after survival, how individuals heal, reconnect, and reconstruct meaning once they are safe but still untethered. The period after resettlement is often described as a liminal state, where people live in physical safety but remain emotionally unanchored, searching for ways to rebuild the routines, sensory cues, and relationships that once defined home.
+
+Design Through Empathy
+
+This project emerges from that gap. It begins with the belief that home is not only a physical structure but an emotional ecosystem built through memory, ritual, and sensory familiarity. When these anchors are disrupted, design can play a role in helping people reassemble the fragments of continuity and identity that make life feel whole again. The challenge lies not in technological sophistication, but in empathy, in designing with, not for, those who carry memories of loss
+
+and displacement. This perspective reframes design not as a means of providing solutions, but as a practice of listening, witnessing, and translating lived experience into forms that support emotional steadiness. Design, in this context, becomes a space for rebuilding trust with one’s surroundings, allowing individuals to shape the objects and environments that shape them in return.
+
+Healing Through Design
+
+This thesis is motivated by both personal and collective experience. For those who have witnessed the erasure of homes, communities, and histories through conflict, the loss of home extends beyond walls; it marks a rupture in memory and belonging. My work is driven by the question of how design might contribute to the process of healing that follows such rupture: How can we create spaces, objects, and experiences that help people remember safely, reconnect meaningfully, and rebuild emotionally? It is also motivated by a belief that healing is not linear, and that small, ambient forms of connection can
+
+have profound cumulative effects on a person’s sense of grounding and identity.
+
+By engaging traumainformed, participatory, and culturally grounded design methods, this research seeks to move design beyond
+
+Design Framework
+
+This thesis seeks to understand how ritual familiarity, specifically within the context of the household, can be used to promote emotional, mental, and psychological healing from the trauma of displacement. Participatory and human-centered design methodologies, like cultural probes, are used to identify and recreate the shared rituals that were done with loved ones [22]. It attempts to do so by designing an ecosystem of everyday objects using effortless and ambient communications, informed by the works of
+
+charity or function toward care, memory, and resilience. Its motivation is simple but urgent: to explore how design might help those who have lost home find home again within themselves, their spaces, and their stories.
+
+Weiser and Brown [17], [18], Ishii and Ullmer [19], [20], and Gaver [21].
+
+Research and Data Collection
+
+This research began with an investigation of the home, how an individual’s perception of home may, or will, shift post experiencing forced displacement and loss of a previous home, and their attempts to reestablish the feeling of home into their new residences. User research and interviews were conducted focusing on experience(s) with forcible displacement1, and attempts
+
+1 Full list of initial interview questions in Appendix A
+
+at recovering a sense of comfort and familiarity in one’s new home. Followup interviews used virtual cultural probes [22] with purposefully vague questions to identify and photograph objects that users found to be an inherently valuable part of their home. In total, 9 full interviews were conducted and another 6 informal ones to validate the findings.
+
+Insights From User Research
+
+The user research revealed three distinct forms of familiarity that people identify with a home: Sensory, Material, and Ritual. For sensory familiarity, interviewees commonly alluded to either recreating or sourcing
+
+recipes and meals. Material familiarity had two subsections: maintaining heirlooms, and holding on to objects of comfort. Finally, ritual familiarity manifested itself as individuals maintaining habits and practices from prior to their displacement as a form of regaining normalcy and emotional grounding [6].
+
+Another insight that shaped my approach was from  one of my first interviewees where a young woman repeatedly mentioned the importance of community and her desire and effort to reconnect with those left behind. It led me to the conclusion that  ‘community does not necessarily need to exist outside of the home setting’.
+
+Insights from Interviews
+
+Ecosystem design
+
+The challenge in this project was how to apply design principles to recreate familiarity based on the findings of the user research, especially where it pertains to sensory and material aspects. After attempting to approach each form of familiarity separately, I switched to addressing them together, with  ritual being the prevailing form of familiarity that would dictate my work. Reinforced by my interpretation of community, the idea of  ‘sharing a meal across distance’ started to emerge.
+
+From this sharing a meal idea came the idea for a placemat that would allow individuals to connect with family members living some distance away over
+
+shared meals, in a way that was tangible and screenless. While this addressed the ritual familiarity, it became clear that a singular product would be inadequate in addressing the user painpoints, lacking breadth of interaction and restricted to a singular activity and location within a home. A system solution presented a better approach,whereby I expanded my design to a system of 4 artifacts, each representing a domestic zone of the household,  though varying in their output abstraction. This provided the opportunity to test and validate how abstract and ambient a signal could be while still being understood, and how direct a message could be without being distracting or imposing.
+
+Coaster in use, Image by Hanna Khoury
+
+Outcome
+
+The primary outcome of this project is the Dār ecosystem, a system of everyday household domestic objects including a placemat, lamp, key hook, and coaster, each situated within a distinct zone of the home. With a similar system installed in another home, these objects form a distributed communication system that supports shared rituals such as eating together, greeting upon entering and leaving the home, having coffee, and saying good night. By embedding communication within familiar domestic practices, the ecosystem
+
+Placemat in Use, Image by Hanna Khoury
+
+enables moments of closeness that feel ambient and non-intrusive, reflecting the subtle, wordless acknowledgements that often characterize connection in cohabited homes.
+
+Placemat
+
+One artifact, the placemat, was fully prototyped1 to demonstrate the technical and experiential feasibility of the system. Through an iterative making process, the placemat evolved from an initial 3D-printed form to a vacuum-formed object with a refined and uniform surface. Internally, it integrates NFC, microcontrollers,
+
+1 Appendix B for process
+
+and programmable lighting to support ambient communication between paired homes. In essence, the interactive placemat would emit a soft light when someone places a plate or utensil on it, allowing people in different homes to sense when the other sits down to eat, thus signaling with subtle sensory cues an opportunity to share a meal across a distance and creating the feeling of a shared routine without needing to speak or schedule a call.
+
+Proof of Concept
+
+This prototype served both as a functional proof of concept and as a means of exploring how abstract lightbased feedback could convey presence and recognition without relying on screens or explicit messages. The
+
+remaining artifacts were developed as high-fidelity looks-like models due to time constraints, but still allowing the system to be evaluated holistically across multiple domestic zones. Once developed, the key hook would gently signal when someone has arrived home or stepped out; the coaster would turn on a nearby candle warmer emitting the smell of coffee; while the lamp allows users to say goodnight and receive a recorded goodnight from their loved one. Each object mirrors a small moment of daily life that once communicated safety or closeness and now becomes a quiet bridge between homes.
+
+Visual and Form Study
+
+The design aspired
+
+Key hooks in Use, Image by Hanna Khoury
+
+for calm aesthetics that easily blend into most households, prompting the use of warmer tones and organic clean shapes that had a little bit of playfulness to them [17], [23], [24].
+
+Design Insights
+
+Beyond the physical artifacts, the project’s outcomes include a set of broader design insights related to comfort, community, and ambient communication. The work demonstrates how systems of objects can collectively hold emotional meaning
+
+Lamp, Image by Hanna Khoury
+
+that exceeds the impact of any single artifact, and how abstraction can create space for interpretation while protecting intimacy. It also surfaces critical questions around expectation, availability, and the potential for unintended surveillance, framing these as essential considerations for future development. Ultimately, Dār positions systems of everyday objects as a way to design for belonging, emphasizing presence over constant interaction and connection over communication efficiency.
+
+Discussion
+
+Emotional Resonance
+
+Looking back and reflecting on the iterations of user testing conducted on the product that was developed, I am reminded of the importance of human-tohuman connection. While we as designers can innovate and develop technological solutions to alleviate pain points, at the end of the day, technology cannot replace community; it can only support and foster its connection. Through this process, I was reminded that the emotional resonance of a design often lies not in its function, but in how it enables people to feel seen,
+
+remembered, and connected to one another.
+
+Value of Effortless Interactions
+
+The psychological implications and impact of displacement and loss of home extend beyond the feeling of loss for a physical place or the material objects one once owned. They reflect the loss of spaces shared with loved ones, the loss of opportunities to connect effortlessly, and the loss of ambient connection that shapes one’s sense of belonging. One’s community is not just composed of those with whom they
+
+make purposeful effort to interact, but also of passing and mindless moments that create depth and continuity in daily life. It is often only in the absence of these effortless interactions that we recognize their emotional weight.
+
+Throughout this project, I sought to explore how design could help recover this sense of effortless connection. In particular, I aimed to harness the power of nostalgia [1] alongside the sustaining nature of shared rituals [2] to foster moments of ambient communication that once occurred naturally before separation or displacement. Nostalgia, as Jacobsen [4] explains, offers a way to reinhabit memory, to feel close to what has been lost without needing to recreate it. Similarly, Fiese et al. [5] describe rituals as anchors of continuity that reinforce identity and connection within families. These ideas resonated deeply with my findings, where participants reflected on the comfort
+
+found in subtle reminders of loved ones, rather than overt or direct communication.
+
+Sensory Cues
+
+Continuing rituals and practices after a traumatic event has been shown to support emotional regulation [6], and this work extends that understanding into a design context. The project demonstrated that continuity can be felt through small, sensory cues that remind us of the presence of others, even when we are apart. These forms of indirect connection can hold as much emotional value as spoken exchanges, allowing for comfort that is quiet yet deeply grounding.
+
+In reflecting on these outcomes, I have come to understand design’s potential not as a solution to loss, but as a facilitator of continuity. When thoughtfully designed, technology can help sustain the subtle, ambient layers of human connection that make people feel at home again, even across distance.
+
+Conclusion
+
+This thesis investigated how experiences of forced displacement reshape individuals’ sense of identity and their relationships with domestic space and everyday objects. Nostalgia for the quiet, comforting moments that once happened naturally between people who lived together  reveal how small rituals become some of the most painful absences. Design can be a powerful tool to fill the vacuum and contribute to the process of healing and growth for displaced individuals.
+
+Through traumainformed, participatory research and the design
+
+of the Dār ecosystem, this work demonstrates that systems of everyday objects employing effortless, ambient communication can support emotional continuity for individuals after the loss of home. Informed by foundational work in calm technology [17], tangible user interfaces [20], and ludic design [21], this project situates ambient communication as a means of supporting presence and relational awareness in a non-intrusive way..
+
+Findings from user engagement suggest that indirect, peripheral forms of interaction may
+
+be appropriate in postdisplacement contexts. Participants consistently interpreted the system not as a technological interface, but as part of the domestic environment, supporting existing routines and rituals. By embedding communication within familiar practices such as shared meals, arrivals and departures, and nightly routines, the ecosystem facilitated moments of awareness that mirrored the ambient forms of connection commonly present in cohabited homes. These interactions operated through abstraction and sensory cues, allowing meaning to be inferred rather than explicitly conveyed.
+
+However, this work also highlights key limitations. While the ecosystem approach was received positively, questions remain regarding the appropriate number and type of artifacts, their distribution across domestic zones, and the degree of output abstraction required to balance clarity with subtlety. These parameters appear
+
+highly context-dependent and shaped by cultural background, lived experience, and personal expectations. As such, further validation requires extended testing in the home.
+
+Future work should prioritize the development of works-like prototypes for the remaining artifacts and conduct in-home studies with paired households to assess sustained use, interpretation, and emotional impact over time. Additionally, interdisciplinary collaboration with mental health professionals is necessary to responsibly integrate psychological assessment frameworks. Critical questions around expectation, availability, and the potential for unintended surveillance should also be addressed. Overall, this thesis positions ambient, object-based systems as a promising direction for supporting relational continuity in contexts of displacement, emphasizing presence and ritual over explicit communication or interaction.
+
+Appendix A
+
+1. Background and Movement History • Can you tell me about the places you have lived over time? • Approximately how many times have you moved? • How long did you live in each place? • What were the circumstances or reasons for each move? Optional probes: • Which moves felt most significant to you, and why? • Were any of these moves particularly difficult or meaningful? 2. Objects Carried Across Moves • Are there any objects that you have brought with you through multiple moves? • If so, can you show me one or more of these objects? Optional probes: • How long have you had this object or these objects? • When did you first acquire it or them? 3. Meaning and Motivation • What made you decide to bring this object with you when you moved? • Would you describe your connection to this object as primarily functional, emotional, or a combination of both? • Has the meaning of this object changed over time or across different homes? 4. Origin of the Object • Was this object a gift, inherited, or something you purchased or acquired yourself? • If it was a gift, who gave it to you, and does that relationship influence its importance to you? Optional probes: • Does this object remind you of a specific person, place, or period of time? • How do you feel when this object is nearby in your current space?
+
+Appendix B
+
+Sensor Interaction; User Interface Design
+
+Multiple iterations of the placemat prototype were made, each with an aim to test an aspect of the design. The starting point was to visualize how the interactions could occur, and in the process  tested the use of force sensing resistors (FSR), light dependant resistors (LDR), proximity sensors, and capacitive touch sensors to see how users would react to different types of interactions, and which ones would be most effective. Using these sensors, a works-like prototype was created, where noise would be outputted from a  laptop as testers interacted with the placemat.
+
+After observing testers interact with the first prototype, mostly picking up and putting down objects, the exposed wiring and the obvious nature of the FSRs, proximity sensors, and capacitive touch sensors appeared to take away from the immersion of the testers.  This prompted a pivot towards using NFC chips and readers, as they better fit the requirements of being discreet, and easily integrating into the interaction of lifting objects off and placing them on the placemat.
+
+The final product used ESP32-S3 Feather Arduino
+
+Internal Circuitry of Placemat, Image by Hanna Khoury
+
+microcontrollers, chosen for their ability to communicate via wifi or ESP-NOW1, Elechouse NFC modules, and a variety of Neopixel LEDs2.
+
+Physical Fabrication
+
+For the first iteration of the placemat, a CAD model was created using Fusion 360, and 3D printed using a Prusa M4S 3D printer and PLA filament. This first iteration validated the formfactor, and do to brief interaction testing.
+
+The second interaction aimed at making the form factor appear purposeful and have a clean and calm aesthetic. Using a custom fabricated wooden master buck, the placemat was vacuum formed of PETG, , with the internal side spray painted with frosted glass spray and a thin translucent layer of white spraypaint, to both make it more opaque, and give it the stone dappled look.
+
+1 a wireless communication protocol that is direct device-to-de­ vice 2 1x 12 LED Neopixel Ring; 1x 8x8 LED Neopixel Matrix; 4x 5 LED Neopixel strips per board
+
+First Iteration of Placemat (3D printed), Image by Hanna Khoury
+
+Wooden Master Buck, Image by Hanna Khoury
+
+Process of Vacuum Forming, Image by Hanna Khoury
+
+Documentation of Failure, Image by Hanna Khoury
+
+Placemat Vacuum Formed Molds, Image by Hanna Khoury
+
+Dār

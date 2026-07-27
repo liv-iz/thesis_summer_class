@@ -1,0 +1,363 @@
+Abstract
+
+The idea of not limiting the interaction to computers, digital bits, windows, icons, menus, and pointers (WIMP) [30] but bridging them to tangible environments results in forming a new domain in Human-Computer Interaction (HCI) [1] named Tangible User Interfaces (TUIs) introduced by Pro­ fessor Hiroshi Ishii’s tangible bits research group in 1997 [4]. In the last two decades, the researchers have investigated new types of interaction intending to interlink the digital and physical worlds [41]. The interaction and projects explored in the domain highly benefit from tangibility and haptic senses [42]. However, early TUIs were missing the potential use of more senses and body parts in a way close to multisensory experiences that we run into daily with our human-to-hu­ man or human-to-environment interaction [31]. In addition, interactions built-in these early designs were not entirely
+
+natural and required heavy cognitive learning in case of how to use it [43]. These needs are fulfilled by the domain called Natural User Interfaces (NUIs) [28], where the interface fits the skills and context of the user to make the interaction feel natural, lower the cognitive load, and enlarge the area of interaction by freeing the interaction from being limited by haptics. Even though the interaction turned more natural, cohesive, and inclusive over time, most of the technological devices developed in the domain were not embraced by their target user group, resulting in not being embedded into our daily life. The thesis states that the main reason for this issue is the lack of characteristics and expressive level of the technology. Most of the projects involved in the domain do not focus on emotional design [12][13][38]; in other words, the devices lack characteristics resulting in not establishing a deeper attachment with their users [44], or the user does not feel like the interaction between the machine and themselves is natural falled into Uncanny Valley [36]. Although some do­ mains and projects implicitly or explicitly talked about natural interactions and expressiveness, the combination of both has yet to be directly explored. With this thesis, I am inviting designers to explicitly contribute to interactions that cap­ ture the essence of expressiveness through form and built-in technology, and the interaction between the device and its user is operated through intuitive actions.  With this in mind, this thesis proposes the definition of a new domain name as Expressive Natural Tangible User Interfaces (ENTUIs) across existing practices and interactions.
+
+This thesis serves as a ground for the domain vocabulary and its requirements. It aims to make researchers rethink how to invest in designing interactions to be more natural and technologies that are more expressive overall by benefitting from materiality, form, and electronics. Within this thesis, we operationalize this new framework through an exemplary technology called Pebbles. Pebbles are tangible companions designed to create a playful environment for their users and subtly assist them with an activity that will help them handle some emotional struggles caused by feelings of loneliness. In other words, the case study serves as a preventative tool for loneliness to become a chronic one by simply disturbing the negative emotional state of its user, serving as an outlet device for emotions, and promoting social interactions with peers. Each Pebbles has a different personality and ways to express itself that is supported and enhanced by its form
+
+and technology builtin in order to show that the interaction between the user and the machine can result in emotional connection. History/Prior Art
+
+In the History and Prior Art of the thesis, it has been tried to accom­ plish background information about domains that are already existed and have a connection with the new domain defined. This portion serves well to show how the existing domains diverged and triggered new ones to be born.
+
+Human-Computer Interaction (HCI) aims the design and implementation of interactive technology between the users and the machine to design a communication interface that satisfies users’ needs located in the digital and/or tangible world [1].
+
+Ubiquitous Computing (as know as Ubicomp) Ubicomp aims to give digital life a more profound human sense using physicality, senses, and material. It sits in the HCI domain, used by the following domains Tangible User Interfaces (TUIs) [4], Natural User Interfaces (NUIs) [28] , and Organic User Interfaces (OUIs) [5] . The term Ubicomp initially was used by Mark Weiser around 1988 as defined as “a concept where computing is made to appear anytime and everywhere” [2]. In oppose to desktop computing, where the interaction and the computing itself are limited to a tradition­ al desktop computer, “ubiquitous computing can occur using any device in any location” [2]. In the essay “As We May Think,” which appeared in The Atlantic in July 1945, Vanne­ var Bush advocated the concept of a smart desktop where a person could access and analyze data organically and instant­ ly. The concept is one of the first great examples of design­ ing a surface that is beyond traditional computer screens.
+
+Domains Rooted in Ubiquitous Computing The idea of not limiting the interaction to traditional-looking personal computers results in forming new domains in HCI. It ended up redefining human-computer interaction and freed the interfaces beyond the windows, icons, menus, and point­ ers (WIMP) [30]. Over time these elements are used in digital Graphical User Interfaces (GUIs) to display data, which results in the output being highly limited by screens and pixels. The limitations of GUIs pushed frontiers to do more research to exceed the interactivity level beyond the frames.
+
+The research in the area started in 1995 by Fitzmaurice et al. [3], who introduced the concept of a Graspable Interface (GI), using wooden blocks as graspable handles to manipulate digital objects. Hiroshi Ishii and his students coined the term “Tangible Bits” [31] a few years later, which soon concluded by forming the domain of Tangible User Interfaces (TUIs). “The change of term from graspable to tangible seems deliberate. Whereas “graspable” emphasizes the ability to manipulate objects manually, the meaning of “tangible” encompasses “realness/sureness,” being able to be touched as well as the action of touching, which includes multisensory perception” [31]. TUIs are physical user interfaces or objects that can translate user actions into input events or digital output into a physical representation. They interlink the digital and physical worlds by converting digital into tangible or vice versa. In that sense, TUIs can enhance how people engage with and exploit digital information. However, “the part(s) of our body we use for interaction with technology is not limited to fingers; the palm, arm,” [5] face, and even the full body can be potentially used. In addition, how we interact with objects is not limited by haptic senses and visual changes. Early TUIs were missing the potential use of a combination of more senses and body parts in a way close to multisensory human-to-human or human-to-environment interaction. That deep connection with the environment and living organisms brought the need for the use of the terms “organic” and “organic interaction” for such interfaces to have arrived, which closer to natural human to physical and human to human interaction [5].
+
+Meanwhile, in the early 1990s by Steve Mann, as an alter­ native to Graphical User Interfaces (GUIs), Natural User Interfaces (NUIs) were developed to provide natural inter­ action with the surrounding world and tangible objects. Mann referred to this work as “Natural User Interfaces” and “Direct User Interfaces” as it refers to the interaction rather than the technology being natural. In the domain, the user interface is not something purely visible like graphics-based user interfaces but embedded in a body, which is interacted with using modalities such as touch, gestures, or voice [6] instead of clicking. The interface still demands learning for user; however that learning is facilitated and guided through its design which guides the user on how to interact with it implicitly. Early examples of the domain include Multitouch, Perceptive Pixel, and Microsoft PixelSense, where
+
+the interaction is enhanced by intuitive gestures. How­ ever, the domain is quite limited with the interaction types, which are grounded upon gestures, haptics, and voice by putting the visual communication perspective into a second placement. In most applications, the inputs collected still resembled on a digital screen. The early examples of the domain use the technology in a directly informative way (showing numbers and representa­ tions of data), distancing the interaction from becoming fully natural since natural interactions have a more exploratory side than being informative.
+
+The need to prioritize the vi­ sual representation of digital information and merge the places where input is collect­ ed, and output displayed ends up with a new area in the TUIs named Organic User Interfaces (OUIs) [5], a type of user interfaces involving non-flat displays, where users can control an object by manipulating or taking full advantage of the physical shape. OUIs are not flat interfaces like commonly used devices in our daily lives, such as computers and mobile devices, which are controlled by gestures on a two-dimensional plane. By contrast, an OUI has the ability to move or control an
+
+Microsoft PixelSense
+
+object in three-dimensional space. The term was initially used in a special issue of the Communications of the ACM in 2008 [7]. Some of the early examples of OUIs are Gummi, “a rigid proto­ type of a flexible credit card display” [8]; PaperWindows [9], “featuring active pro­ jection-mapped pieces of paper; the Microsoft Sphere, one of the first spherical multitouch computers” [10]; and DisplayObjects “rigid objects with displays wrapped around them” [9]. Kinetic Organic Interfaces (KOIs) [29], which are organ­ ic user interfaces that use kinetic motion to collect and pass information to people, are one sub-domain in the subject. With KOIs, the big­ ger area, rather than a small computer screen, becomes the interaction surface since motion is delineated by physical components that are operated in a way that allows the user to notice and respond to it. The “motion of elements in a KOI can
+
+embody representations of data or changes in data” [29], so the domain implicitly turns the digital information into tangible. However, in contrast with OUIs, KOIs keep the interaction points and output display surface separate and preserve the behavior of being informa­ tive. In addition, most of the interaction happens in a way that does not benefit tangibility and haptic sens­ es; therefore, the projects demand technology and do not benefit materiality.
+
+Another domain quite relat­ ed to TUIs is Smart Material Interfaces (SMIs) [27] which purely take advantage of smart materials that have recently arisen [27]. SMIs transform the traditional interaction into a more “natural” one, a rich sensory delight for their users. Partly introduced “to provide an answer to the limitations present in other domains”, SMIs try to challenge tradi­ tional patterns of interac­
+
+tion and leave behind the “digital feeling” through a more analogical, tangible, and continuous interaction space, tightly coupling the digital and physical world using the materials’ properties” [27] and finally benefiting from its materiality over its technology [27]. There are a variety of different facil­ ities that are invested in the area of SMIs. Some confidential and publicly available work done by the Defense Advanced Research Projects Agency (DARPA), program monitor Dr. R. L. Rosenfield; the US Army Research Office (ARO), program monitor Dr. G.L. Anderson; the Mechanical Systems Program of the National Science Foundation (NSF), program moni­ tor Dr. E.L. Marsh and the Manufacturing Systems Program of National Science Foundations (NSF), program Dr. M.E, DeVries are highly focused on aerospace, manufacturing, automotive, medicine and engineering. However, the SMI domain, quite limited to research and application of the area, has yet to reach consumer products or daily use.
+
+All these domains above fed the TUIs, resulting in the alter­ native approaches for the traditional interactions and going beyond the flat digital screens or input devices by turning the interaction more embodied.
+
+Emerging Issues in User Experience Design In the User Experience (UX) Design domain, there is an emerging use of Anthropomorphism. Festerling and Siraj [18], drawing on Epley [11] describe the term, anthropomor­ phism as: “...refers to the psychological phenomenon that humans tend to engage socially with non-human entities (e.g., technology, animals, plants, supranational entities, natural or social phenomena) as if these entities were human. These humanlike engagements include their behaviors (i.e., how humans interact with non-human entities), their feelings (i.e., how humans feel about non-human entities), and their perceptions (i.e., how humans see and think about non-hu­ man entities)”. Don Norman articulates more and divides the definition into three levels with making a connection with Emotional Design:
+
+1) Instinct (Visceral) Level: a subconscious level of reaction to certain experiences. The initial sensory scan of the en­ counter sets off the visceral reaction. It comes quickly and is frequently out of our control.
+
+2) Behavior Level: a set of product characteristics that influ­ ences how we feel, define and perceive it when we engage with it.
+
+3) Reflective Level: the feeling does not only stick with us during the interaction; they live with us, so there is an experi­ ence beyond using a product.
+
+The technique enhances the interaction between humans and machines by potentially creating an emotional attachment. Despite this opportunity, little attention has been paid to the technique in HCI. However, it is highly used in digital experi­ ence design (such as voice assistive technologies like Alexa) or product design areas. A good amount of research projects focused on companionship by creating an assistive technol­ ogy that gives a life-like personality complete with emotions such as Tega [12], Picoh, Cozmo [13], Vector [39], Emo [40], Eilik, and Moxie. They all have affectionate personalities and abundant facial expressions (most of them through just eyes), and they can communicate with the user or respond to the context of their environment. They have built-in voice and speech recognition, enabling users to comment and instruct the technology.
+
+First row: Tega, Picoh, and Vector / Second row: Emo, Eilik, and Moxie
+
+Considering all the existing domains and the projects, there is an opportunity to describe a new attended area, as it is proposed in this thesis, named ENTUIs (Expres­ sive Natural Tangible User Interfaces), which sits in the domain of HCI and possibly collaborates with NUIs [31], OUIs [7], KOIs [29], TUIs [4], and SMIs [27] (see the chart below) where making the technology as an expressive artifact with given characteristics, enhancing its form, and attributing some characteristic behaviors.
+
+Chart for showing where the new domain fits in HCI.
+
+An Exemplary Project for Loneliness This portion focuses on a case study for Loneliness and provides a History/Prior Art for the issue.
+
+As human beings, we are guided by our emotions. Most of the time, our experiences are highly affected by our emotional state. Emotions play a core role in our decisions, experiences, and interaction with others in a way that emotions are both cel­ ebratory/adversarial and problematic but crucial for us. Some of these emotions, when they are unchecked, can cause bigger problems. If we cannot find an outlet for such emotions, that may lead to negative thoughts and feelings that may end up damaging our well-being and create anxiety, ultimately, depres­ sion [46]. One of the most common negative feelings is loneli­ ness, with 36 percent of the general population [47] and GenZ being the most affected generation [48].
+
+“Loneliness is the state of distress or discomfort that results when one perceives a gap between one’s desires for social connection and actual experiences” [14]. When feelings of loneliness go on for a long period of time, it turns into Chronic loneliness, as mentioned by Cigna [15]. It is characterized by a constant and unrelenting “feeling of being alone, separated or divided from others, and an inability to connect on a deeper level. It can also be accompanied by deeply rooted feelings of self-doubt, low self-esteem, or social anxiety” [15]. If the feeling is not taken care of, the person can suffer mentally and physi­ cally [49].
+
+Psychology and other fields have developed tools to help people cope with feelings of loneliness. The techniques, named body awareness, music therapy, and therapeutic haptics, are found to be related and promising due to their potential to re­ duce stress levels and ease of application. The body awareness techniques bring the person into the here-and-now by direct­ ing the focus to sensations in the body [16]; the techniques are associated with improved awareness of both physical and emotional states [17]. Breathing exercises and having a walk are some of the body awareness techniques. In music therapy, the person feels “less lonely after listening to personal music, irrespective of their prevailing mood state (sad or neutral) or the applied mood repair strategy (distraction or comfort),” as Schäfer et al. mentioned [18] due to the reduced cortisol level as a result of the action [19]. Sense of touch, being touched,
+
+and haptic feedback has also proven to be a technique that reduces perceptions of loneliness by providing an outlet and stimulating the brain [20]. Anthropomorphism also proved as one of the effective methods for dealing with loneliness [45]. A couple of products are already available in the market, such as Purrble, Aibo, and Jibo, which benefit from Anthropomorphism and some of the methods mentioned above. The projects named are mainly designed to calm its user; however, they do not support outdoor physical activities or peer-to-peer commu­ nication.
+
+Nowadays, most of our interactions are limited by digital devices and determined by bits; as users, we lack tangibility and natural interactions. The way we interact with digital technology does not match with the physical world, which cognitively creates a burden and results in some of the inter­ actions being unnatural and users to be not being motivated to interact. This cognitive mismatching can be easily notice­ able with the technologies that are designed for teaching new skills or habit shaping, which require constant practice and consistent motivation. If one of these is lacking during (Behavior Level) or beyond the interaction (Reflective Level), the user tends to quit or give up [38]. Therefore, there is a need to grab the users’ attention to initiate the interaction, hold their attention during the interaction, and provide the impact that will result in retention. Most of the areas of HCI are based on these three key points with different perspec­ tives. Giving characteristics to the technology in case of their behavior, their look, and how they function has a great op­ portunity to enhance the interaction between the technology and the user and fulfill the key points.
+
+The interaction between the characterized technology and the user should be operated by intuitive actions, which will turn the interaction into a more natural one by mimicking human-real surroundings and human-human interaction. To further enhance the interaction by considering the points made, there is a need to frame the requirements. Even though some domains implicitly talked about natural and ex­ pressive interactions, the combination of both has not been explicitly explored. Therefore, a new domain called Expres­ sive Natural Tangible User Interfaces (ENTUI) is proposed. The thesis holds the potential to be resourceful for the future and provide a ground for multidisciplinary research. It is necessary to build a vocabulary, a definition and establish a structure for the domain. In addition, the thesis explores some possible material use for establishing such user inter­ faces. A new generation of smart materials can go further since they can change their characteristics in response to various circumstances. With shape memory materials, novel ways of movement, haptic feedback, and structural changes can be achieved. Self-reconfiguring and responsive surfac­ es are rapidly moving from the world of science fiction into
+
+reality, where they will fundamentally alter design methodol­ ogies and how we live. A lack of accessibility and availability has hampered the widespread replacement of conventional materials with smart materials. Even if designers can access these resources, it is still being determined what they are designed for. In other words, smart materials are promising technologies primarily stuck in the research area and have yet to be used widely in product design. With this in mind, there are opportunities in the Smart Material Interfaces (SMIs) domain for developing an interactive product enhanced with materiality. Specifically, shape memory (SM) materials are auspicious in the area of motion. One of the SM materials, Nitinol, is highly accessible, and due to its super elasticity and kinetic structure, the shape-changing effect is so much more dynamic and natural than the ones that are powered by traditional actuators.
+
+Pebble is the exemplary project  that sits in the new do­ main, uses the terminology of the ENTUIs, and benefits the materiality. In that sense, the topic of loneliness is chosen since most techniques and tools require reputation and high interaction levels, and repetition, so expressiveness and emo­ tional design can play a big role in the interaction. In addition to the requirement, we live in a moment of disruptive change and uncertainty brought about by a global pandemic, wars, the climate crisis, and many other issues. These changes are happening at an incredible speed, and their impact is redesigning society’s landscape and changing how we think, behave and view the world. As a result, the future is unclear and full of uncertainties for many people. Uncertainties cause anxiety and unsettled feelings in many; thus, a large section of the population is affected by stress and loneliness. Data says that 79% of Gen Z [50] feel lonely because of a lack of social support, an infrequency of meaningful social interac­ tion, poor physical health, and an unbalanced daily activity [21]. As I am part of the target audience, I felt compelled to use design to help those struggling, including myself, to overcome feelings of loneliness. The project provides the ground for me to embody some of the definitions made in the ENTUI domain and has a possible use case for a global issue named loneliness with minimizing the negative impacts of the feeling. In that sense, I found the idea of designing a set of interactive products for minimizing stress and leading the user into a good mood quite appealing and well fit the domain.
+
+Methods
+
+The thesis includes a description of some of the vocabularies that can be used in the domain, builds the framework and requirements for a project to be counted in the domain, and finally explains how the new domain can collaborate with other existing domains in the HCI. As a part of the thesis, a case study named Pebbles which sits in the ENTUIs is designed to attain the requirements of the new domain by using the existing vocabulary defined and testing the hypoth­ eses made. Domain Requirements For a project to be considered in the domain, the technolo­ gy, form, and interactions should follow these four principles:
+
+1) The form of the object reacts to the environment and the user; it can be as a result of an interaction, stimuli, or object/ subject detection (Reactive Form)
+
+2) The reactions of the object and the triggers for the inter­ actions do not have separate interaction points (Interface Unity)
+
+3) The form guides the physical interaction, and the physical interaction determines the shape/form (Reflective Form)
+
+4) The object has a personality, a character, and distinguished behavior (Characterized Behavior)
+
+Reactive Form The object’s form responds to its surroundings and the con­ text possible to its user, whether through stimuli, interaction, or object/subject detection. In other words, the shape, color, or texture of the surface changes according to the environ­ ment, user, or action/context.
+
+In order to provide a form change in a natural way, smart materials can be used. Nitinol -a shape memory alloy with shape-changing properties- is used to replace the actuators to be a force source in order to provide a shape-changing surface by combining it with an auxetic structure. There are a couple of advantages to using Nitinol instead of classic ac­
+
+tuators (motors or pumps), such as Nitinol can provide more power with less energy. It can be bent and formed so that it is not shape-wise limited as motors with highly solid casing. Also, Nitinol can be used in different forms and shapes, such as wire and spring, which enhances its application areas and enables the form to be more reactive. Also, compared with other shape memory alloys such as copper-aluminum-nickel, Nitinol is more accessible in case of cost, and its slowness of movement matches the desirable characteristics to capture the sense of naturality.
+
+Interface Unity There are no separate interaction points as input or output devices like in the traditional computer, such as the keyboard (input) and speaker (output). They are embedded into same body and function together. In other words, an object can be where the input is read, and the reaction to the input hap­ pens.
+
+Reflective Form The form of the object guides the user for the physical in­ teraction and vice versa; the physical interaction defines the shape/form.
+
+The form of the object guides its user to hold and interact with a specific orientation or part. In order to guide the user, some visual clues and textures can be used. In addition to interaction guidance, as a result of an interaction, the form should provide some feedback by changing its shape or color to demonstrate its reflectiveness.
+
+Characterized Behavior The object, product, or surface has a distinct personality, character, and behavior. The characterization of the behavior purely depends on software and hardware, where the timing, motion, and visual changes are the cores of its characteris­ tics. The thesis has example projects for each of the require­ ments and their cross-pollinations, plus the case study is built to demonstrate an object that fulfills all requirements and can be counted as an example for the ENTUIs domain.
+
+Viable Domain Pillars Here are listed some possible techniques and interaction types that can support and enhance the interaction between a user and an expressive natural user interface.
+
+Anthropomorphization Anthropomorphization is quite popular [51][52] for product designs and is used as a supreme technique for emotional design. The way an object looks can help people to make a connection with a character with whom they already have positive emotions. Anthropomorphization [22][32][33][34][35] is not only limited to the visual appearance of the objects, where the sound and haptic feeling can also be tailored in a way that it reminds the attribute of the subject. In that sense, it is challenging to convenience the user and build a persua­ sive attachment to the object.
+
+The level of Anthropomorphization varies between products; some technologies are located in the quiet extreme ends of the spectrum, whereas some fall in between. The two ends can be named Humanized and Mechanical Technologies, where Humanized Technologies include highly anthropo­ morphized technologies; -on the other side- Mechanical Technologies have none of the efforts or attributes. So going through extreme ends of the spectrum harms the interaction
+
+Chart of Amount of Anthropomorphization
+
+to be considered a natural one. For example, Mechanical Technologies lack any characteristics that may lead the user to have an emotional connection where the Humanized Tech­ nologies look super like a human or living entity which would result in the phenomenon called Uncanny Valley [36]. As the phenomenon states, mimicking human appearance or behav­ ior can make an object seem more familiar to its users but only up to a point [22]. The sense of familiarity drops sharply once the object tries to mimic an actual human but fails [22]. In order for a product or technology to be considered as in the ENTUIs domain, they  need to have characteristics and unique ways to express themselves, which could be provided by a certain level of Anthropomorphization (defined as Opti­ mal Expressiveness Level) while keeping some of the mechan­ ical properties and preventing the user from approaching too closely to the Uncanny Valley.
+
+In order to create an emotional attachment with an object, there is a need to communicate some feelings. This commu­ nication can be done verbally; however, the interpretation of words and language limits verbal communication. The designers can free the communication between the object and the user from the words by turning the communication into something more universal. In other words, visual lan­ guage and gestures of the object can be used to communi­ cate some information with the user instead of verbal com­ munication. In that sense, displaying eyes can be used as the communication channel and applied to the design. Since the eyes are one of the most expressive parts of the human face and there is a general understanding of what eyes say, many of these meanings are shared between people [53].
+
+Interaction Types There are four types of interaction with digital interfaces defined as Instructing, Conversing, Manipulating, and Explor­ ing in the book Interaction Design [23]. Even though these interaction types are defined for digital interfaces, they can still be relevant for tangible interfaces if they are defined as follows:
+
+1) Instructing: The user can instruct the object by leading the interaction, or the object can instruct the user by instruct­ ing how to behave.
+
+2) Conversing: The user and the object has the ability to have a dialog in the form of speech or through haptics.
+
+3) Manipulating: The user has the capability to manipulate the interaction with virtual or physical shape changes such as holding/twisting/bending etc.
+
+4) Exploring: Users and the object freely interact with each other, where the interaction is more based upon ambiguity.
+
+In the domain of ENTUIs, the object can benefit from mul­ tiple interaction types with different combinations or purely focused on one; however, regardless of the interaction types, the domain requirements should be satisfied.
+
+Eyes of Pebbles is designed to communicate emotions and characteristics
+
+Process/Iterative Work
+
+The Process / Iterative Work will be investigated separately for the Material Exploration and Case Study part.
+
+Materiality Exploration In order to understand the working principles of Smart Ma­ terial Alloys (SMAs), a variety of smart SMAs and actuation technologies were tested in the scope of the thesis. Nitinol was selected specifically for its ease of use and design inte­ gration, as well as its low cost and slowness of interaction, which were desirable characteristics to capture the sense of naturality. Material Exploration of the thesis serves as a ground for understanding how Nitinol works and can be used for designing a dynamic structure [37]  that will enable us to change the shape and structure of the design, which ulti­ mately provides a more natural movement than a traditional actuator. Different samples with various activation tempera­ tures and thicknesses were ordered to test their capabili­ ties. After a couple of explorations and experimentation, the one (0.7 mm diameter with 50°C activation threshold) that is more elastic, easy to shape, and has a low activation threshold is chosen. Then, it experimented with one-way and two-way options. After deciding to use a two-way linear wire because it remembers its martensite (cold) shape, the wire bent into spring and pre-programmed. The spring is
+
+Left Image: Resting State / Right Image: Active State
+
+combined with the 2D ​structure that mimics Auxetics behav­ ior built by the thesis partner, O’Neill, in order to test the spring’s pushing and pulling capabilities in order to create Reactive and Reflective Forms.
+
+Pebbles: An Exemplary Project for Loneliness Pebbles are tabletop technological companions with unique­ ly characterized behaviors and functionalities; they interact with their environment, their users, and each other to lead the user to a better mindset. They look like pebbles and can be stacked together. Each of them has a different looking and characteristics that match their functionalities. Pebbles benefit from their ability to interact continuously, character­ ized behavior, and high potential to grab the user’s attention. The project was designed so that the tangible artifacts could be counted in the ENTUIs domain.
+
+The topic of loneliness is chosen since most techniques and tools can benefit from reputation in the interaction and emo­ tional connection with its user. After in-depth research about loneliness, the design opportunities in the areas are deter­ mined. During the iterative work, three tools/techniques that have been proven effective in coping with unsettled emo­ tions caused by loneliness were chosen as a starting point. The selected tools/techniques are Body Awareness Technique (specifically focused on breathing exercises), Music-Audio Therapy, and Haptic Stimulation. As the first phase of the thesis, Anthropomorphism is chosen as the leading element for the form of the Pebbles. In that sense, all the interac­ tions, forms, and techniques were designed according to the potential of having characteristics that may lead the user to have an emotional attachment (Characterized Behavior). Product semantics is also considered while designing the products.
+
+Two mockups were built to test how these techniques can turn into prototypes with Anthropomorphism techniques, named Chillpill and Fanfan. The Anthropo­ morphism aspect is support­ ed by how these mockups look, and the technology inserted is used to support and give some characteris­ tics, such as eyes and sound. Both modules are laser cut and equipped with the elec­ tronics needed.
+
+for breathing technique. The early prototypes helped us to understand how we can create an object that is re­ active to its environment or human stimuli and respond by shape changes and providing visual cues for the interaction (Reflective Form).
+
+After testing with mock­ ups, a new iteration was designed and 3D printed with Ultimaker PLA. The new iteration was equipped with an OLED screen, Adafruit M0, and microphone.
+
+The third prototype was equipped with a silicone skin to test how changes in the surface can enhance the interaction and can be used
+
+Two initial mockups: Chillpill and FanFan
+
+Third prototype:Reactive Surface
+
+3D model of the next iteration printed with Ultimaker using PLA
+
+Left Image: Technology that is inside of the next iterations Right Image: Assembling the electronics
+
+3D printed (Ultimaker - PLA) models
+
+Pebbles: An Exemplary Project for Loneliness Pebbles are companions designed to assist and create a playful environment for their users by inviting them to inter­ act (Reflective Form), keeping their attention during the inter­ action, and subtly coaching with an activity that will help the user to handle some emotional struggles caused by loneli­ ness. In that sense, they serve as a preventive tool as they are outlets for the user to minimize unpleasant feelings and serve as an entertainment tool by creating a fun environment. Each of them has their unique personality as defined early as Characterized Behavior which serves towards establishing an emotional attachment with the technology. Each Pebbles has unique functionality and mimicked techniques that have already proven successful for dealing with loneliness, such as promoting social interaction, leading to walking, or haptic sense stimulation. For the design of each Pebbles, extra at­ tention is paid to the anthropomorphization level to fall into the Optimal Expressiveness Level, which prevents them from falling into the Uncanny Valley.
+
+Language and meaning of words are constantly changing, and people are often influenced by mass media and movies. Pebbles found inspiration from the movies Minions, Eve, and Wall-e. Like the characters in the movie, Pebbles do not verbally communicate but use their eyes, lights, or haptic senses to transfer information to each other and their user. Since their communication style can be counted as a Uni­ versal Language [54], the interaction between the user and the Pebbles are more natural. They do not provide direct information; instead, they display their moods or give feed­ back to users by potentially modifying their shapes (Reactive Form) and through their eyes. Users can interact with them through physical interaction, such as holding, shaking, etc., or environmental manipulation, such as making noise, putting an object next to them, etc. They also react to each other, creating a sense of community, and can be co-played with peers who have Pebbles to enable users to socialize. The main interactions fall into three categories:
+
+1) Physical Interaction: Users can interact with each single Pebbles by simply squeezing, shaking, or touching them.
+
+Exhibition Poster
+
+Some of the pebbles react to these physical interactions according to their characteristics.
+
+2) Environmental Manipulation: Some of the Pebbles reacts to the things around them; making a sound or putting them into a different environment or together makes them act in a certain way.
+
+3) Shareable Interaction: They can interact with each other, and interacting with one of them might result in others re­ acting. More than two Pebbles can also be played together; in that sense, they enable its users to get together and play collaboratively.
+
+Pebbles has two different states named idle and active. Pebbles in an idle state might be sleeping or observing the environment and listening for stimuli; most Pebbles indicate with their eyes that they are in an idle. After a stimulus is pro­ vided, according to the action, they react, which corresponds to the active state.
+
+The interactions are highly dependent on the user mindset; some possible use case scenarios can be either of the follow­ ings:
+
+1) The user approaches the Pebbles (idle) and starts interact­ ing with them (Internal Motivation)
+
+2) One of the Pebbles will initiate the interaction with the user by making noises and shape-changing (active) (External Motivation - Single Invitation)
+
+3) Pebbles start interacting (active) with each other will catch the attention of the user and will invite them to be part of the interaction (External Motivation - Multiple Invitation)
+
+Internal motivation is looking for an outlet for emotional pres­ sure where the user intentionally goes after the interaction; on the other hand, External Motivation is all about grabbing the user’s attention. All these processes are supported by the electronics and code embedded in the artifact. The sensors placed in each Pebbles enable them to understand the context, and react accordingly. They are electronically equipped with OLED screens, where eyes are displayed, and
+
+communication happens through them, batteries plus either an ESP32 module or Bluefruit M0 to enable them to communicate with each other or with a mobile device.
+
+enhanced the overall tactil­ ity, invited them to touch, and helped us to guide the user where to interact.
+
+For the fabrication of the hard casing of each Pebbles, we used Formlabs 3+ SLA Printer with White Resin (first two components in the image), whereas the soft skin 3D printed with Flexible Clear Resin (the one at the very right in the image). The flexible part has textures and patterns that stimulate the hand when the user engages with the Pepples. Mixing these two materials
+
+Four Pebbles with different looks and functionality were built for the final design.
+
+1) Lovy: Lovy loves being with other Pebbles, so Lovy pro­ motes the idea of being a part of a community and social­ izing. In order to trigger the interaction, you need to put all Pebbles together, and then Lovy will react to the situation by changing its color and eyes expression. With Lovy, it is investi­ gating the question of what we can learn from technology by simply observing its behavior. In this case, can we learn from Lovy to feel happy and appreciate being in social settings? Lovy detects the ESP32s nearby, and if all of them are togeth­ er, it triggers the LEDs embedded in the ears.
+
+2) Peep: Peep reacts to any sounds created nearby him. In that sense, you can wake him up by tapping and keep him awake by talking. Peep is a good listener, so it will listen to every single word you are telling him and keep as a secret. Peep serves as an outlet for its user to share some thoughts and feelings for emotional relief. Peep is equipped with a multi-directional microphone which enables it to detect any sound created close by.
+
+3) Fris: Fris does not like to be in a room, and it will remind you to take him out by vibrating. In that sense, Fris encour­ ages you to walk and potentially socialize. The whole body is designed with a flexible material and textures embedded to enhance its tactility. It can also detect if it is in the room by basically the same principle Lovy uses through sensing other ESP 32s signals and triggers the vibration motor embedded in the outer skin to stimulate and notify its user.
+
+4) Olaf: Olaf is a messenger Pebble that displays messages from your loved ones on the screen embedded in its body. The users’ friends, family members or other Pebbles own­ ers can send messages using the mobile application. Olaf is designed with the intention of reminding people that they are not alone, even if they are far from loved ones.
+
+Number One: Lovy Number Two: Peep
+
+Number Three: Fris Number Four: Olaf
+
+Discussion
+
+The process of defining a new domain and researching existing domains enlarged my knowledge about TUIs and Human-Computer Interaction. I realized that most of the domains in the HCI are defined as a result of the need for taxonomy and with the intent of leading new research about the new era. During the research, I realized a great opportu­ nity to define a new domain where its pure focus is expres­ sive technologies with natural interactions. Although some domains in HCI implicitly talked about expressive technol­ ogies and natural interactions, the combination of both has not been explicitly explored. With this thesis, I am inviting designers to explicitly contribute to interactions that cap­ ture the essence of expressiveness through form and built-in technology.
+
+Looking for Natural Interactions As human beings, we always look for cognitive and emo­ tional cues in our daily life interactions with technology. We map the natural and intuitive interactions and have certain expectations about objects’ behaviors. While designing an interaction, it is crucial to mimic natural and already learned interactions into new technologies in order to fulfill these expectations and ease the cognitive load. It is also criti­ cal to eliminate negative aspects in a user journey, such as frustration and/or annoyance, while enhancing the positive experience, such as enjoyment and engagement. Most of the domains were born in this frame with the goal of turning the interaction into easy, effective, and pleasurable to use [23]. We already know some of the gestures and have expecta­ tions matched with them, so learning is not required, which enhances the interaction in a way that requires less effort.
+
+Change in the Definition of Natural Interactions Electronic devices such as computers and cell phones are the ones we interact most regularly with [24]. In that sense, most of our perception about interaction with technology is highly influenced by our interactions with such devices that we interact with on a daily basis. The definition of natural in­ teraction expanded in the last century and implicated being more intuitive and requiring less effort to learn. Examples of interactions with these technologies include tapping a
+
+device to make it awake or flipping it to make it silent. All these actions are not naturally expected but learned through our inter­ action with technological devices. However, even these learned actions have roots in our human-to-hu­ man interaction. Taping action in human-to-human communication is used to get someone’s attention or turn your back to show that you are not interested in being in the conversation. Through the case study de­ sign, I question some of the learned interaction models and try to understand how they have connections with natural interactions to come up with our interactions. In that sense, the interactions designed highly serve as behaviors that the surface or device mimics and are a part of their characteristics.
+
+This causes a heavy cogni­ tive burden that can hinder users’ overall performance [26]. Since attention plays a high role in activities that require cognitive learning, keeping attention during the interaction or directing attention to an object is one of the cores, as these are defined as Attention Man­ agement.
+
+We are highly surrounded by notifications; the way computers or any digital device communicates with us rely on changes in their flat screen, audio, or haptic feedback. Since the concen­ tration of these notifications is high, our recognition threshold increases over time, meaning that we start to ignore these stimuli. Our initial hypothesis was how we could grab the attention of users without limiting ourselves to traditional techniques. One can say that ambient interaction can provide this subtleness; however, most of the time, it is hard to manipulate the environment. Also, as stated by the project part­ ner, O’Neill, randomness, and unpredictability play a significant role in keeping the users engaged since the user tends to quit if the behavior or the interaction is monotone. During the design exploration, we figured out that designing
+
+Attention Management An average attention span of a person is about eight seconds by the year 2022, which is decreasing every year [25], meaning that focused interactions are no longer a norm. Users fre­ quently experience interrup­ tions, switch between the contexts of many devices and jobs, remain aware of the activity of remote collaborators, and manage enormous amounts of infor­ mation simultaneously [26].
+
+a form that initially looks static and can dramatically change its form by external stimuli can grab the user’s attention and extend the attention span since the form changes will look natural and will have randomness embedded. The character­ istic behaviors embedded in each Pebbles make them behave differently, which also supports the point of unpredictability.
+
+Benefiting from the Materiality The interactions designed for the Pebbles benefit from the materiality and tactility. Mixing both flexible and solid ma­ terials gave us some advantages in the areas of interaction guidance and haptic sense stimulation. We benefit from the softness of the flexible material to eager the sense of touch. In addition to different material usage, I realized Smart Ma­ terials could also be included in future iterations. Traditional actuators such as DC/servo Motors or air pumps lack elastici­ ty because of their hard prepacked forms and produce sound while operating, which results in the interaction and product going towards Mechanical Technologies. By experiment­ ing with a Smart Material -Nitinol-, I realized that the smart material can be used instead of traditional actuators since its elasticity and the movement produced by the material is organic looking and silent.
+
+Future Work and Envisionments
+
+Expressive Natural Tangible User Interfaces This thesis aims to guide researchers to invest more in making the interaction more natural and technology more expressive by benefitting from materiality, form, and elec­ tronics. The new domain described as ENTUIs serves as a ground for the vocabulary and requirements for enhancing the interaction between humans and machines. There are many possibilities in case of collaboration between already existing domains in the HCI and ENTUIs. Right now, the domain delivers basics for the interaction and product design described with principles mentioned in the Methods part. The future work includes how these collaborations with other HCI domains can be investigated further.
+
+The domain can also be specialized more by defining sub-do­ mains with a narrower scope. In that sense, ENTUIs can be divided into pieces like Kinetic ENTUIs (KENTUIs), where the shape-changing mechanism and responsiveness of the sur­ face are the key points. Alternatively, a domain called Smart Materialized ENTUIs (SM-ENTUIs) can be defined, which requires smart materials to be used in the interface itself. The domain’s definition and its requirements can be modified, de­ tailed, or simplified in the future according to the bodywork done under it. In that sense, the requirements may change or may not be valid in the future. To finalize the conditions, more research and taxonomy work should be done.
+
+Material Exploration and Pebbles The shape-changing structure designed as part of the Mate­ rial Exploration is tested on a bigger scale than its planned application. In the future, more cells can be populated, and the scale can be decreased more. The structure is a section cut of the planned design where the mechanical parts are reachable from the inner part (not in an enclosure).
+
+The structure designed with Nitinol is not used in the actual Pebbles in the next iteration; the form and shape-changing properties can be explored more by populating the existing bistable 2D auxetic and Nitinol structure mentioned in the
+
+Process/Iterative Work section. Also, the next iteration can contain material manufacturing, such as the fabrication of more small scaled Nitinol springs and investigating how they can be embedded into a kinetic structure.
+
+The functionality of the Pebbles is also quite limited to indi­ vidual play and partially supports collaborative play where two or more Pebbles can interact with each other. In the future, more work can be done for collaborative play and its sharable interaction., Lastly, their behaviors and decision mechanisms can be supported by a Natural Neural Network (NNN) and Artificial Intelligence (AI), where they learn and personalize the interaction.
+
+Conclusion
+
+The thesis is built by analyzing existing projects in the HCI domain and a critical approach to what is missing. For defin­ ing a new domain -ENTUIs (Expressive Natural Tangible User Interfaces)- the opportunities in the HCI domain were iden­ tified and led me to learn more about Interaction Design, Emotional Design, and Product Semantics. By experimenting with different electronics and smart materials, a more holistic understanding of their combination and separate use cases was gained. The process has enabled me to find alterna­ tive structures that benefit from smart materials, specifically SMAs, that can be used instead of traditional actuators.
+
+The goal of the thesis is providing a ground for future work by describing a new domain named ENTUIs (Expressive Nat­ ural Tangible User Interfaces), which sits in the domain of HCI and possibly collaborates with NUIs (Natural User Interfaces), OUIs (Organic User Interfaces), KOUIs (Kinetic Organic User Interfaces), TUIs (Tangible User Interfaces) and SMIs (Smart Material Interfaces) where making the technology as an ex­ pressive artifact with communicating through natural interac­ tions is the core. The thesis includes a description of some of the vocabularies that can be used in the domain and frames the requirements for a project to be counted in the domain. The case study, Pebbles, is the first project that attains these requirements and uses the vocabulary defined. They are a set of technological companions designed with different charac­ terized behaviors and functionalities; they interact with their environment, their users, and each other to lead the user to a better mindset. They serve as a preventative tool for loneliness to become a chronic one by simply disturbing the negative emotional state, serving as an outlet, and promot­ ing social interactions by mimicking the techniques already proven effective for the issue.
+
+Sources
+
+[1] What Is HCI (Human-Computer Interaction)? Meaning, Importance, Examples, and Goals |. https://www.spiceworks. com/tech/artificial-intelligence/articles/what-is-hci/. Accessed 20 Nov. 2022.
+
+[2] Dixit, Sudhir. Human Bond Communication: The Holy Grail of Holistic Communication and Immersive Experience. John Wiley, 2016.
+
+[3]  G. W. Fitzmaurice, H. Ishii, and W. Buxton, “Bricks: Laying the foundations for graspable user interfaces,” in Proceed­ ings of CHI95, pp. 442–449, NY: ACM, 1995.
+
+[4] H. Ishii and B. Ullmer, “Tangible bits: Towards seamless interfaces between people, bits and atoms,” in Proceedings of CHI97, pp. 234–241, NY: ACM, 1997.
+
+[5] Rekimoto, J. (2008). Organic Interaction Technologies. Communications of the ACM, 51(6), 38–44. https://doi. org/10.1145/1349026.1349035
+
+[6] Closing Keynote Speech: Reconfigured Self as Basis for Humanistic Intelligence 1. http://wearcam.org/usenix98/use­ nix98_closing_keynote.html. Accessed 20 Nov. 2022.
+
+[7] Roel Vertegaal and Ivan Poupyrev, Organic User Interfac­ es: Introduction, Communications of the ACM 51(6), 26–30, June 2008.
+
+[8] Sony Squeezes a “Gummi” Computer | ZDNET. https:// www.zdnet.com/article/sony-squeezes-a-gummi-computer/. Accessed 20 Nov. 2022.
+
+[9] David Holman and Roel Vertegaal, Organic user interfac­ es: designing computers in any way, shape, or form, Commu­ nications of the ACM 51(6), 26–30, June 2008.
+
+[10] Here Comes Sphere: Microsoft Debuts Comput­ ing in Round. https://www.seattlepi.com/business/ article/Here-comes-Sphere-Microsoft-debuts-comput­ ing-in-1280551.php. Accessed 21 Nov. 2022.
+
+[11] Epley, Nicholas, et al. “When We Need A Human: Moti­ vational Determinants of Anthropomorphism.” Social Cogni­ tion, vol. 26, no. 2, Apr. 2008, pp. 143–55. guilfordjournals. com (Atypon), https://doi.org/10.1521/soco.2008.26.2.143.
+
+[12] Tega: A Social Robot | IEEE Conference Publication | IEEE Xplore. https://ieeexplore.ieee.org/document/7451856. Accessed 20 Nov. 2022.
+
+[13]“Anki’s Cozmo: The Intelligent Robotic Toy You’ve Always Wanted, Maybe.” IEEE Spectrum, 27 June 2016, https:// spectrum.ieee.org/anki-cozmo-robotic-toy.
+
+[14] Loneliness | Psychology Today. https://www.psychology­ today.com/us/basics/loneliness. Accessed 20 Nov. 2022.
+
+[15] Signs and Symptoms of Chronic Loneliness | Cigna. https://www.cigna.com/knowledge-center/chronic-loneliness. Accessed 20 Nov. 2022.
+
+[16] Mehling, Wolf E., et al. “Body Awareness: A Phenom­ enological Inquiry into the Common Ground of Mind-Body Therapies.” Philosophy, Ethics, and Humanities in Medicine, vol. 6, no. 1, Apr. 2011, p. 6. BioMed Central, https://doi. org/10.1186/1747-5341-6-6.
+
+[17] Sze, Jocelyn A., et al. “Coherence between Emotional Experience and Physiology: Does Body Awareness Training Have an Impact?” Emotion, vol. 10, no. 6, 2010, pp. 803–14. DOI.org (Crossref), https://doi.org/10.1037/a0020146.
+
+[18] Schäfer, Katharina, et al. “Music May Reduce Loneliness and Act as Social Surrogate for a Friend: Evidence from an Experimental Listening Study.” Music & Science, vol. 3, Jan. 2020, p. 2059204320935709. SAGE Journals, https://doi. org/10.1177/2059204320935709.
+
+[19] Can Listening to Music Reduce Stress? Research, Bene­ fits, and Genres. https://psychcentral.com/stress/the-powerof-music-to-reduce-stress#research. Accessed 16 Oct. 2022.
+
+[20] Heatley Tejada, A., et al. “Physical Contact and Lone­ liness: Being Touched Reduces Perceptions of Loneliness.” Adaptive Human Behavior and Physiology, vol. 6, no. 3, 2020,
+
+pp. 292–306. PubMed Central, https://doi.org/10.1007/ s40750-020-00138-0.
+
+[21] Chart: Gen Z Is Lonely | Statista. https://www.statista. com/chart/20713/lonlieness-america/. Accessed 16 Oct. 2022.
+
+[22] Noriega, Maria. “The Application of Artificial Intelligence in Police Interrogations: An Analysis Addressing the Proposed Effect AI Has on Racial and Gender Bias, Cooperation, and False Confessions.” Futures, vol. 117, Mar. 2020, p. 102510. ScienceDirect, https://doi.org/10.1016/j.futures.2019.102510.
+
+[23] Sharp, H., Preece, J., & Rogers, Y. (2019). Interaction design: Beyond human-computer interaction. Wiley. [24] Mobile phone ranked most used electronic device: For­ rester. Marketing Dive. (n.d.). Retrieved November 19, 2022, from https://www.marketingdive.com/ex/mobilemarketer/ cms/news/research/7473.html
+
+[25] Team DevriX Blog Writing & Content Creation Our mar­ keting team is responsible for the creation of the content on the DevriX website and social media profiles. We can provide content production & marketing services for you. (n.d.). User attention span: The biggest challenge for marketers [2022]. DevriX. Retrieved November 19, 2022, from https://devrix. com/tutorial/user-attention-span-2022/
+
+[26] Roda, C. (2011). Human attention and its implica­ tions for Human–Computer Interaction. Human Attention in Digital Environments, 11–62. https://doi.org/10.1017/ cbo9780511974519.002
+
+[27] Nijholt, Anton, et al. “Smart Material Interfaces: ‘A Ma­ terial Step to the Future.’” Proceedings of the 1st Workshop on Smart Material Interfaces: A Material Step to the Future, Association for Computing Machinery, 2012, pp. 1–3. ACM Digital Library, https://doi.org/10.1145/2459056.2459057.
+
+[28] Buxton, W. (1988). The Natural Language of Interaction: A Perspective on Non-Verbal Dialogues, INFOR: Canadian Journal of Operations Research and Information Processing, 26(4), 428-438.
+
+[29] Parkes, Amanda, et al. “Designing Kinetic Interactions for Organic User Interfaces.” Communications of the ACM, vol. 51, no. 6, June 2008, pp. 58–65. DOI.org (Crossref), https://doi.org/10.1145/1349026.1349039.
+
+[30] Wang, Feng, et al. PWIG - Interactive Paradigm of Direct Touch Interaction. Atlantis Press, 2013, pp. 985–88. www. atlantis-press.com, https://doi.org/10.2991/icsem.2013.207.
+
+[31] Shaer, Orit & Hornecker, Eva. (2009). Tangible User Interfaces: Past, Present, and Future Directions. Founda­ tions and Trends in Human-Computer Interaction. 3. 1-137. 10.1561/1100000026.
+
+[32] Lee, Jung Min, et al. “Anthropomorphic Design: Emo­ tional Perception for Deformable Object.” Frontiers in Psy­ chology, vol. 9, Oct. 2018, p. 1829. PubMed Central, https:// doi.org/10.3389/fpsyg.2018.01829.
+
+[33] Seeger, Anna-Maria, et al. “When Do We Need a Hu­ man? Anthropomorphic Design and Trustworthiness of Con­ versational Agents.” SIGHCI 2017 Proceedings, Dec. 2017, https://aisel.aisnet.org/sighci2017/15.
+
+[34] Pfeuffer, Nicolas, et al. “Anthropomorphic Information Systems.” Business & Information Systems Engineering, vol. 61, no. 4, Aug. 2019, pp. 523–33. Springer Link, https://doi. org/10.1007/s12599-019-00599-y.
+
+[35] Towards an Anthropomorphic Lamp for Affective Inter­ action | Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction. https:// dl.acm.org/doi/10.1145/2677199.2687914. Accessed 4 Dec. 2022.
+
+[36] Mori, Masahiro and Karl F. Macdorman. “The Uncanny Valley: The Original Essay by Masahiro Mori-IEEE Spectrum.” (2017).
+
+[37] HCI Meets Material Science | Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. https://dl.acm.org/doi/10.1145/3173574.3173948. Accessed 4 Dec. 2022.
+
+[38] Norman, Donald A. Emotional Design: Why We Love (or Hate) Everyday Things. BasicBooks, 2005.
+
+[39] Vector - ROBOTS: Your Guide to the World of Robotics. https://robots.ieee.org/robots/vector/. Accessed 5 Dec. 2022.
+
+[40] Meet EMO – An AI Enabled Desktop Pet Robot Who Is Smart & Does What You Say! - The Inner Detail. https://thein­ nerdetail.com/meet-emo-an-ai-enabled-desktop-pet-who-issmart-does-what-you-say/. Accessed 5 Dec. 2022.
+
+[41] Nakagaki, Ken, et al. “(Dis)Appearables: A Concept and Method for Actuated Tangible UIs to Appear and Disappear Based on Stages.” Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems, Association for Computing Machinery, 2022, pp. 1–13. ACM Digital Library, https://doi.org/10.1145/3491102.3501906.
+
+[42] Choi, Kyung Yun, et al. “Design and Evaluation of a Clippable and Personalizable Pneumatic-Haptic Feedback Device for Breathing Guidance.” Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol. 6, no. 1, Mar. 2022, p. 6:1-6:36. March 2022, https://doi. org/10.1145/3517234.
+
+[43] Potidis, Spyridon, and Thomas Spyrou. “Spyractable: A Tangible User Interface Modular Synthesizer.” Human-Com­ puter Interaction. Advanced Interaction Modalities and Techniques, edited by Masaaki Kurosu, Springer International Publishing, 2014. Springer Link, https://doi.org/10.1007/9783-319-07230-2_57.
+
+[44] Chuah, Stephanie Hui-Wen, and Joanne Yu. “The Fu­ ture of Service: The Power of Emotion in Human-Robot Interaction.” Journal of Retailing and Consumer Services, vol. 61, July 2021, p. 102551. ScienceDirect, https://doi. org/10.1016/j.jretconser.2021.102551.
+
+[45] Elsherif, Mahmoud, et al. Revisiting the Link between Anthropomorphism and Loneliness with an Extension to Free Will Belief: Replication and Extension of Epley et al. (2008) [Registered Report Stage 1]. 2022. ResearchGate, https://doi. org/10.17605/OSF.IO/2SB7X.
+
+[46] Compare, Angelo, et al. “Emotional Regulation and Depression: A Potential Mediator between Heart and Mind.” Cardiovascular Psychiatry and Neurology, vol. 2014, 2014, p. 324374. PubMed Central, https://doi. org/10.1155/2014/324374.
+
+[47] “Loneliness in America: How the Pandemic Has Deep­ ened an Epidemic of Loneliness.” Making Caring Common, https://mcc.gse.harvard.edu/reports/loneliness-in-america. Accessed 14 Dec. 2022.
+
+[48] “Growing Up Lonely: Generation Z.” Institute for Family Studies, https://ifstudies.org/blog/growing-up-lonely-genera­ tion-z. Accessed 14 Dec. 2022.
+
+[49] Loneliness and Social Isolation Linked to Serious Health Conditions. 8 Dec. 2022, https://www.cdc.gov/aging/publica­ tions/features/lonely-older-adults.html . [50] Generation Z: Latest Gen Z News, Research, Facts. https://www.insiderintelligence.com/insights/genera­ tion-z-facts/. Accessed 14 Dec. 2022.
+
+[51] Bahlenberg, Robin, and Xing Yan. ANTHROPOMOR­ PHIC DESIGN AND ANTICIPATED USER EXPERIENCE. 2019. Semantic Scholar, https://www.semanticscholar.org/paper/ ANTHROPOMORPHIC-DESIGN-AND-ANTICIPATED-US­ ER-Bahlenberg-Yan/3ef3f0368b19caefa88d10763652238cf­ c76d97f.
+
+[52] “Product Anthropomorphism: The Personification of De­ sign.” Digital Doughtnut, https://www.digitaldoughnut.com/ articles/2015/december/product-anthropomorphism-the-per­ sonification-of-d. Accessed 14 Dec. 2022.
+
+[53] Ho, Simon, et al. “Speaking and Listening with the Eyes: Gaze Signaling during Dyadic Interactions.” PLoS ONE, vol. 10, no. 8, Aug. 2015, p. e0136905. PubMed Central, https:// doi.org/10.1371/journal.pone.0136905.
+
+[54] Gullberg, Marianne, and Sotaro Kita. “Attention to Speech-Accompanying Gestures: Eye Movements and Information Uptake.” Journal of Nonverbal Behavior, vol. 33, no. 4, 2009, pp. 251–77. PubMed Central, https://doi. org/10.1007/s10919-009-0073-2.
+
+Thank you
+
+First of all, I want to personally thank you, dear reader, for reading all the content in my thesis.
+
+Words cannot express my gratitude to my professors for their invaluable patience and feedback.
+
+Lastly, I am also grateful to my classmates and other cohort members for their help, late-night working sessions, and moral support.
+
+En değer verdiğim insanlara ithafen:
+
+Canım annem Songül
+
+Canım babam Atila ve biricik ablam Sinem...

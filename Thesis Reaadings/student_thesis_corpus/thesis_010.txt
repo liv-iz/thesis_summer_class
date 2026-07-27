@@ -1,0 +1,155 @@
+Introduction
+
+Understanding foundational visual design principles often requires mas­ tering tacit knowledge, an intuitive and experience-based understanding that is challenging to articulate or teach explicitly. This challenge is mag­ nified in studio-based educational settings, where critique sessions rely heavily on abstract and subjective terminology like “balance” or “visual harmony.” Such language, while essential for professional discourse, often poses barriers for novice learners who struggle to translate these terms into actionable design improvements [10].
+
+Existing methods for teaching tacit knowledge in design rely primarily on expert critique and hands-on iteration. While effective for some, these approaches lack scalability and accessibility, especially for beginners with­ out prior exposure to professional discourse. Furthermore, the inherent subjectivity of design critique can lead to inconsistent feedback, limiting its pedagogical effectiveness.
+
+Recognizing these gaps, this research explores how technology can support the learning of tacit knowledge in visual design. Specifically, it introduces EKPHRASIS, a web-based interactive system that leverages machine learning and large language models to address the challenges of teaching abstract concepts. By providing structured multimodal feed­ back—visual references illustrating “less harmonious” and “more harmo­ nious” compositions, as well as written critiques—EKPHRASIS bridges the gap between abstract terminology and practical application [7,9,11].
+
+This study situates EKPHRASIS at the intersection of design education, cognitive science, and artificial intelligence. Formative interviews with ed­ ucators and empirical studies with participants of varying experience lev­ els demonstrate its potential to enhance learning. Beginners benefit from clear visual examples that make abstract concepts tangible, while more experienced users use written critiques to refine their decision-making pro­ cesses [13]. However, the system also highlights limitations, including the subjectivity of feedback and potential biases in training datasets [6,15].
+
+By offering a structured yet flexible approach to learning abstract con­ cepts, EKPHRASIS addresses critical shortcomings in current design ed­ ucation methods. Its integration of human-AI collaboration paves the way for more inclusive and effective teaching strategies, fostering a deeper
+
+understanding of tacit knowledge in design disciplines.
+
+Background
+
+The foundation of visual design education often involves tacit knowl­ edge—understanding concepts like “visual harmony” that cannot be explicitly defined but are acquired through iterative practice and critique. This research builds on established theories in visual design, cognitive sci­ ence, and machine learning to address the challenges beginners face when learning abstract design principles. The interactive system EKPHRASIS aims to address these challenges by combining machine learning and large language models to provide tailored, multimodal feedback.
+
+Visual Harmony and Tacit Knowledge in Design
+
+Visual harmony is a critical aspect of design, rooted in classical principles like balance and symmetry. Gestalt theory offers a well-established frame­ work for understanding how humans perceive these elements, emphasizing the role of organization and grouping in visual cognition [8, 11]. Studies have shown that balance acts as a key organizing principle for visual com­ position [14, 2]. Additionally, visual harmony involves subtle relationships among elements, such as proportion, contrast, and rhythm, which require contextual sensitivity and nuanced interpretation to achieve effective com­ position. However, abstract design terms like “harmony” or “dynamic” are challenging for beginners to comprehend, as their semantic richness and ambiguity often result in misinterpretations during critique sessions [12]. The process of learning such tacit knowledge relies heavily on profes­ sional vision, where learners progressively internalize expert perspectives through feedback and practice [10].
+
+The Role of AI in Supporting Design Education
+
+AI technologies have emerged as powerful tools for enhancing visual design education by providing automated feedback and fostering iterative learning. Predictive models for visual importance and harmony offer the potential to quantify and analyze design principles [9, 1]. EKPHRASIS incorporates a machine learning model trained on datasets labeled by pro­ fessional designers, aligning with efforts to quantify Gestalt principles and automate compositional guidance [11, 2]. Similarly, LLMs play a vital role
+
+in generating written feedback, drawing from professional discourse to guide users in refining their designs [7, 13]. By combining these technol­ ogies, EKPHRASIS not only facilitates the articulation of abstract princi­ ples but also translates subjective concepts like “harmony” into actionable insights through context-aware recommendations.
+
+Addressing Subjectivity and Bias
+
+One of the key challenges in integrating AI into design education is managing the inherent subjectivity of design evaluation. Research on AI feedback highlights the importance of aligning automated suggestions with human preferences, ensuring that feedback is both actionable and interpretable [15]. Additionally, the politics of dataset creation emphasize the need for diverse and representative training data to minimize bias in AI systems [6]. EKPHRASIS addresses these issues by incorporating iterative feedback loops and leveraging diverse datasets that reflect multiple design philosophies, aiming to reduce cultural or stylistic biases.
+
+Advances in Interaction Design for Learning
+
+Interactive systems like EKPHRASIS not only analyze user compositions but also encourage reflective practice. Inspired by works on gamifica­ tion and real-time feedback, EKPHRASIS offers users the opportunity to explore visual harmony through iterative adjustments [5, 1]. Studies on educational tools have shown that combining visual and textual feed­ back can significantly enhance the learning experience, fostering a deeper understanding of abstract concepts [7, 4]. EKPHRASIS integrates these principles into its design, ensuring that the interplay between visual and written feedback supports both immediate corrections and long-term con­ ceptual growth.
+
+This research situates EKPHRASIS at the intersection of design education, cognitive science, and AI, drawing from diverse fields to address the chal­ lenges of learning tacit design knowledge. By leveraging machine learning and interactive feedback, EKPHRASIS provides a structured yet flexible approach to cultivating professional vision and fostering iterative learning in visual design.
+
+The complexity of visual design critique presents unique challenges, par­ ticularly for beginner students. In professional discourse, designers often rely on abstract terms such as “harmonious” or “dynamic” to articulate design principles. While this specialized lexicon facilitates nuanced com­ munication among experienced designers, it imposes significant cognitive demands on novices. Research shows that recognizing and processing ab­ stract words requires more extensive semantic processing, which can slow comprehension and increase the likelihood of miscommunication [12]. Be­ ginners often struggle to connect these abstract terms with concrete visual adjustments, leaving them unsure of how to implement the feedback they receive. These difficulties are especially pronounced in critique sessions, where feedback is dense, rapid, and layered, often leading to information overload [13].
+
+The critique process itself is inherently complex, requiring designers to perform multiple cognitive and communicative tasks in quick succession. Giving feedback involves analyzing designs based on principles, formulat­ ing thoughts, selecting appropriate vocabulary, and articulating those ideas clearly. Conversely, receiving feedback demands translating abstract terms into actionable visual adjustments while reflecting on foundational design principles. For students, this dual process is further complicated by limited experience in managing layered feedback, which often results in cognitive overload and inhibits effective learning. This intricate process places a heavy cognitive burden on beginners, who often lack the tacit knowledge required to navigate professional discourse effectively [10, 8].
+
+For novice designers, the abstract nature of critique vocabulary poses a significant barrier to learning. Phrases such as “make it more dynamic” or “this feels too safe” may seem vague and unhelpful without prior experi­ ence or contextual understanding. The absence of a universal lexicon for design feedback exacerbates this challenge, often hindering students’ abili­ ty to reflect meaningfully on feedback and apply it to their iterative design process [7, 15]. Furthermore, students may misinterpret such phrases due to the lack of standardized definitions, leading to design adjustments that deviate from the intended critique. This can stall their development, diminish the effectiveness of studio-based learning, and impede the exter­ nalization of tacit knowledge [10].
+
+The implications of this challenge extend beyond education. Even profes­ sional designers encounter difficulties translating their specialized vocab­ ulary when communicating with clients, marketing teams, or engineers. Each of these groups operates within its own professional discourse, cre­ ating intertextual relationships that further complicate communication [6]. This disconnect underscores the broader need for tools that can support understanding and facilitate seamless collaboration across disciplines [13].
+
+Emerging technologies, particularly machine learning, offer promising solutions to these issues. By leveraging AI’s ability to process and analyze large datasets, interactive systems can provide actionable, context-aware feedback tailored to individual learners. Research has demonstrated that AI-powered systems can support reflective practice and enhance learning outcomes by reducing cognitive overload [1, 7]. Such tools can break down complex critique into smaller, more comprehensible components, enabling students to focus on specific areas of improvement without be­ coming overwhelmed. This project harnesses these capabilities to create an educational tool that simplifies the semantics-to-visual translation pro­ cess, empowering students to engage more effectively with abstract design principles.
+
+The proposed system introduces a novel approach to teaching visual de­ sign, blending traditional studio-based learning with cutting-edge tech­ nology. By addressing the linguistic and cognitive challenges inherent in critique, it seeks to equip students with a deeper understanding of design principles and foster more effective communication within and beyond the design community [3, 5].
+
+This research employs formative studies, machine learning, and interface design to develop EKPHRASIS, an interactive educational system that supports students in translating abstract design concepts into actionable vi­ sual compositions. EKPHRASIS is designed to cultivate an understanding of “visual harmony” through iterative practice and feedback, addressing the challenges of semantics-to-visual translation in design education.
+
+Formative Studies
+
+Designing and Developing EKPHRASIS
+
+EKPHRASIS was designed to provide a seamless and supportive learning environment. The system introduces participants to the concept of “visual harmony” through a brief tutorial featuring historical and modern design examples, including Bauhaus-inspired methodologies[8]. The interface employs a minimalistic HTML design to reduce cognitive load, ensuring focus and usability. User feedback during pilot testing suggested improve­ ments to button placement and visual clarity, which informed iterative adjustments to the interface. Participants interact with EKPHRASIS by receiving a prompt such as, “Create a composition using the provided shapes to achieve visual harmo­ ny.” They compose designs using simple geometric blocks inspired
+
+by Bauhaus traditions, arranging these shapes on a digital canvas. After completing a composition, participants click the “analyze” button, which activates a backend evaluation powered by machine learning. The machine learning model was built on the VGG16 architecture, retain­ ing its feature extraction layers while adding new layers for binary classi­ fication. The dataset, labeled by professional designers, was split 80-20 for training and validation. The model was trained for ten epochs, achieving high accuracy in distinguishing “less harmonious” and “more harmonious” compositions based on expert feedback​. EKPHRASIS generates feedback in two forms: visual suggestions (“less harmonious” and “more harmo­ nious”) and written feedback provided by a large language model. This feedback encourages reflection and supports iterative improvement. Partic­ ipants can then revise their designs, save their progress, or exit the system.
+
+Machine Learning Framework
+
+The foundation of EKPHRASIS lies in a custom-trained machine learning model based on the VGG16 architecture. Retaining pre-trained feature extraction layers, the model incorporates new classification layers to eval­ uate compositions as “harmonious” or “disjointed” [11]. A dataset of 164 auto-generated images, labeled by two professional designers, was divid­ ed into 80% training and 20% testing data. Iterative training optimized performance, and evaluation by labelers confirmed alignment with human perceptions of visual harmony. This rigorous process ensures the model delivers reliable and meaningful feedback [7].
+
+Feedback Mechanism
+
+Rather than relying on numerical scores, EKPHRASIS employs a combi­ nation of written feedback generated by a large language model and visual suggestions. This approach addresses the subjective nature of design and avoids the demotivating effects of rigid scoring systems [6, 15]. Feedback is actionable and constructive, enabling students to experiment and refine their compositions iteratively. By fostering a positive and engaging learn­ ing environment, EKPHRASIS encourages exploration and growth.
+
+Qualitative experiments were conducted to evaluate EKPHRASIS’s im­ pact on novice design students. Participants first learned about visual har-
+
+mony through introductory examples and were then tasked with creating compositions on the platform. Through multiple rounds of feedback and revision, participants reflected on their understanding of visual harmony and its application. Data collection included verbal feedback, participants’ recognition of harmonious designs, and their ability to translate abstract terms into effective visual compositions [10, 13].
+
+Future iterations of EKPHRASIS aim to enhance interactivity through gamification. For instance, a chess-like collaborative composition process, where users and the system alternately refine designs, could deepen en­ gagement. Additionally, integrating a chatbot to facilitate reflective dis­ cussions may further enhance students’ understanding of design principles and their practical application [5].
+
+Outcome
+
+EKPHRASIS is a web-based interactive educational tool designed to help students practice and understand the concept of “visual harmony” in composition. The system combines a custom-trained machine learning model and a large language model to provide actionable feedback. The interface features a canvas where users can arrange blocks of varying col­ ors to create compositions. Basic functions like selecting colors, moving blocks, undoing actions, and clearing the canvas are included to support user experimentation. Upon completing a composition, users can request feedback in two forms: written feedback generated by the LLM and visual references generated by the ML model, offering “less harmonious” and “more harmonious” examples. This dual-feedback mechanism encourages iterative learning and helps students translate abstract visual design con­ cepts into practical applications.
+
+To evaluate EKPHRASIS, we conducted two empirical studies with par­ ticipants of different design backgrounds: P1, a complete beginner, and P2, an art enthusiast with basic knowledge of visual design. These studies used qualitative methods to observe how participants interacted with the system, focusing on their behavior, verbal feedback, and reflections on the learning experience.
+
+P1: Beginner Participant
+
+P1, a complete novice in visual design, provided valuable insights into how EKPHRASIS supports learning through interactive feedback. During the study, P1 demonstrated a clear progression in understanding the con­ cept of visual harmony, though their initial attempts reflected uncertainty. For example, P1 remarked, “I’m not sure what harmony should look like, but I think this feels better than my first attempt.” This highlights the challenge beginners face in translating abstract terminology into visual outcomes.
+
+As P1 engaged with the system, they frequently compared their composi­ tion to the feedback provided by EKPHRASIS. They found the visual sug­ gestions particularly helpful, stating, “The comparison between less and more harmonious gives me a clearer idea of what I can adjust.” P1 began iteratively modifying their design, focusing on aspects like balance and spacing. They explained their thought process, saying, “I moved the darker block to this corner because it felt like it was too heavy on the left side.”
+
+However, P1 occasionally expressed difficulty interpreting the written feedback generated by the LLM, noting that some of the terminology felt “technical” and less accessible to their beginner level. Despite this, they appreciated the dual-feedback mechanism, emphasizing the importance of visual examples: “Seeing what ‘less harmonious’ and ‘more harmonious’ looks like really helped me understand the concept better than just reading about it.”
+
+In terms of behavior, P1 showed a tendency to experiment cautiously, often testing small adjustments to block size, color, and positioning. They reflected, “It’s easier to see the impact of one change at a time, like mov­ ing a block or making it smaller.” This iterative approach demonstrated
+
+Fig. 3. First composition exercise and final composition exercise for P1.
+
+how EKPHRASIS fosters active experimentation and learning.
+
+At the end of the session, P1 noted significant improvement in their un­ derstanding of visual harmony. When asked to rate their learning progress, P1 responded, “I’d say it’s gone up by at least eight out of ten. I feel like I have a much better sense of what makes a composition harmonious now.” This self-assessment underscores the system’s potential to enhance con­ ceptual understanding for beginners.
+
+Overall, P1’s interaction with EKPHRASIS highlighted its effectiveness in bridging the gap between abstract design vocabulary and practical applica­ tion, while also pointing to opportunities for further refinement to enhance user accessibility.
+
+Fig. 4. Composition exercise and modification results for P2.
+
+P2: Intermediate Participant
+
+P2, an art enthusiast with a foundational understanding of visual design, provided unique perspectives on how EKPHRASIS supports deeper en­ gagement with visual harmony. Throughout the study, P2 approached the system with confidence, often drawing from prior knowledge and personal interpretations of design principles.
+
+P2 frequently referenced concepts introduced during the study’s examples, such as Mondrian’s compositions and Kandinsky’s balance of chaos and order. They noted, “I started by thinking about how Mondrian used colors and spacing, balancing large and small elements to create harmony. I tried to replicate a similar logic in my composition.” This demonstrated P2’s ability to internalize and apply the examples shown in the introduction.
+
+During the iterative design process, P2 made deliberate adjustments, often verbalizing their thought process. For instance, P2 explained, “I want this darker block to be smaller because it feels too heavy. Placing it here gives the overall composition more balance.” They also highlighted the interplay between shapes and their placement, remarking, “I see how larger ele­ ments on one side can be balanced by smaller details on the opposite side. It’s about finding a rhythm.”
+
+P2 found the written feedback helpful but relied more heavily on visual
+
+suggestions to refine their designs. They stated, “The comparison between less and more harmonious examples helps me visualize what I need to change. The written feedback adds clarity, but the visuals are what guide my adjustments.” This indicated that P2’s learning style was more visually oriented, emphasizing the importance of multimodal feedback.
+
+P2 also explored more abstract interpretations of visual harmony, often lik­ ening design principles to musical concepts. They explained, “This layout feels like a major chord—everything is evenly spaced and harmonious. Adding an element of contrast, like a dissonant note, could create more tension while still feeling balanced overall.” This metaphorical thinking highlighted the depth of P2’s engagement and the potential for EKPHRA­ SIS to inspire creative connections between disciplines.
+
+At the end of the session, P2 reflected on their learning experience, stating, “I’ve gained a much clearer understanding of how visual harmony works. Seeing the examples and experimenting with my own designs has helped solidify the concept.” They rated their learning improvement as “9 out of 10,” demonstrating the system’s ability to enhance both foundational and nuanced understanding.
+
+Overall, P2’s interaction with EKPHRASIS illustrated the system’s ability to cater to users with foundational knowledge, while also inspiring cre­ ative exploration and deeper reflection on design principles. The development and testing of EKPHRASIS revealed significant insights into the challenges and opportunities of teaching abstract design concepts such as visual harmony. This section examines the implications of these findings, addresses limitations, and outlines future research directions.
+
+Key Learnings and Implications
+
+Participants in empirical studies demonstrated measurable progress in understanding visual harmony, validating EKPHRASIS as a valuable educational tool. P1, a novice, noted, “Seeing what ‘less harmonious’ and ‘more harmonious’ looks like really helped me understand the concept better than just reading about it.” Similarly, P2, with moderate design ex­ perience, remarked, “The visual feedback aligns with what I was thinking, which helps confirm I’m on the right track.”
+
+These responses highlight the effectiveness of multimodal feedback in
+
+enhancing comprehension. The combination of machine learning-generat­ ed visual suggestions and large language model (LLM)-provided written feedback catered to different learning preferences, allowing participants to iteratively refine their designs. This aligns with prior research emphasiz­ ing the role of tailored feedback in fostering professional vision and tacit knowledge acquisition [10]. However, the subjectivity inherent in design evaluation emerged as both a strength and a challenge. While it fosters creative exploration, it also complicates the standardization of AI-gener­ ated feedback, raising questions about how best to balance flexibility with consistency [6, 15].
+
+Discussion
+
+Limitations
+
+AI Bias: Despite being trained on labeled datasets by professional design­ ers, the machine learning model inherently reflects biases in its training data. Some participants questioned the system’s feedback, asking whether suggestions were grounded in objective principles or subjective prefer­ ences. This concern echoes broader discussions on the influence of dataset politics in AI systems [6]. For example, certain aesthetic styles prevalent in the dataset may unintentionally dominate the feedback, limiting the sys­ tem’s adaptability to unconventional or culturally diverse design approach­ es.
+
+Feedback Accessibility: While visual feedback was universally appreci­ ated, written feedback occasionally posed challenges for beginners. P1 commented, “Some of the terms are too technical for me,” highlighting the need for more accessible language tailored to novice users [7]. Adopt­ ing simpler language or providing definitions for technical terms could improve accessibility and help bridge the gap for learners new to design discourse.
+
+Simplified Interaction Model: The current version of EKPHRASIS re­ stricts users to basic composition adjustments. P2 noted, “If I change multiple elements, it’s hard to know which adjustment had the biggest impact.” This limitation suggests a need for real-time, parameter-specific feedback to improve usability and support deeper learning. Additionally, the system lacks a mechanism to visualize the cumulative impact of mul-
+
+tiple adjustments, which could aid in fostering a holistic understanding of design changes.
+
+Gamification and Interaction Design: Introducing a chess-like interaction model, where users and the system alternately refine compositions, could enhance engagement and encourage reflective thinking. This approach, akin to scaffolded learning in cognitive science, would create a dynamic dialogue between human creativity and AI guidance [10]. For instance, the system could propose challenges or scenarios, such as “optimize harmony under a constraint,” prompting users to experiment with diverse strategies.
+
+Enhanced Feedback Mechanisms: Incorporating a chatbot feature could enable users to articulate their reasoning and receive targeted guidance, fostering metacognitive reflection. This conversational interface would address the limitations of static feedback and promote active learning [15]. The chatbot could also adapt its responses based on the user’s skill level, ensuring feedback remains relevant and appropriately challenging.
+
+Dynamic Feedback: Providing real-time feedback on single-parameter adjustments—such as color, size, or position—could give users immedi­ ate insights into the impact of their changes. This would reduce cognitive load and improve learning efficiency, aligning with principles of interac­ tive design education [5]. For example, a real-time heatmap overlay could highlight areas where adjustments have the most significant impact on achieving visual harmony.
+
+Expanded Dataset and Diverse Perspectives: Future iterations of EKPH­ RASIS should include more diverse datasets and perspectives to mitigate AI bias and ensure feedback is inclusive. This approach aligns with rec­ ommendations for incorporating diverse disciplinary values into dataset development [6]. Expanding the dataset to include contributions from non-Western design traditions or underrepresented communities could broaden the system’s applicability and cultural relevance.
+
+Conclusion
+
+The EKPHRASIS project demonstrates the potential of AI-powered tools to support the acquisition of tacit knowledge in foundational visual design. By bridging the gap between abstract terminology and practical appli­ cation, EKPHRASIS provides a platform where students can iteratively refine their understanding of visual harmony. Empirical studies confirmed its effectiveness, with participants reporting increased clarity and confi­ dence in their ability to compose harmonious designs. The dual-feedback mechanism, which combines AI-generated visual suggestions with written critiques, exemplifies a novel approach to design education.
+
+However, the project also uncovered limitations that warrant further explo­ ration. AI bias, stemming from the training dataset, was a notable concern, as it may influence the objectivity of feedback. Feedback rooted in dom­ inant aesthetic trends within the dataset may unintentionally marginalize alternative design philosophies. The subjectivity inherent in design eval­ uation remains a challenge, as individual interpretations can vary widely. Additionally, the system’s current interaction model limits users to basic compositional adjustments, leaving room for enhanced features such as real-time, parameter-specific feedback.
+
+Future directions for EKPHRASIS include integrating gamification ele­ ments, such as a chess-like interaction model, to foster engagement and reflective thinking. A chatbot feature could further support metacognitive learning by encouraging users to articulate their design rationale. Expand­ ing the training dataset to include more diverse perspectives would also help address AI bias and improve the system’s applicability across varying design philosophies. EKPHRASIS further highlights the potential of AI to teach abstract concepts in other disciplines, such as music and architec­ ture, by translating principles into actionable insights.
+
+In conclusion, EKPHRASIS represents a significant step forward in lever­ aging AI to address challenges in design education. Its contributions lie in promoting a deeper understanding of visual harmony, fostering iterative learning, and advancing the integration of AI in creative practices. As similar systems evolve, EKPHRASIS sets a precedent for transcending disciplinary boundaries, paving the way for more inclusive and effective educational methodologies.
