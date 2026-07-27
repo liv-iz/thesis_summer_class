@@ -1,5 +1,9 @@
 ### Designer Date: Software Stacks, Spreadsheets, and Scaling Communities
 
+Date: July 4, 2026
+Location: Online call
+Company: Second-degree connection (stranger) from non-profit
+
 ![alt text](./images/DATE3.jpeg)
 
 

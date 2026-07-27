@@ -1,5 +1,8 @@
 The Encyclopedia of Philosophy and the PR Problem of Modern Thought
 
+Date: June 26. 2026
+Location: Sao Paulo, Brazil
+Company: Shared (with my dad and a friend studying philosophy)
 
 ![alt text](./images/DATE-2-page.png)
 
